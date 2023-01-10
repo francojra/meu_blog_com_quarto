@@ -1,0 +1,34 @@
+---
+title: "Sobre mi"
+image: profile.jpg
+about:
+  template: jolla
+  links:
+      - icon: github
+        href: https://github.com/francojra
+      - icon: twitter
+        href: https://twitter.com/JeanneF06042346
+      - icon: envelope
+        href: mailto:jeanne.raquel02@hotmail.com
+      - icon: linkedin
+        href: https://www.linkedin.com/in/francojra/
+      - icon: instagram
+        href: https://www.instagram.com/jeanneefranco/
+      - icon: youtube
+        href: https://www.youtube.com/channel/UCValiiCyO82tJmG0BXnQuow
+---
+
+<center>
+
+::: {.btn-group role="group" aria-label="About"}
+<a href="about-pt.html"> <button type="button" class="btn btn-primary me-md-2 btn-sm">Português</button></a> <a href="about-en.html"> <button type="button" class="btn btn-primary me-md-2 btn-sm">English</button></a>   <a href="about-es.html"><button type="button" class="btn btn-primary me-md-2 btn-sm">Español</button></a>
+:::
+
+</center>
+
+Hola, me llamo Jeanne Franco! Soy licenciado en Ecología, máster en Ciencias Forestales y doctor en Ecología. por la [Universidade Federal do Rio Grande do Norte](https://www.ufrn.br/). Durante la licenciatura y el doctorado adquirí experiencia evaluando el efecto de la diversidad de especies arbóreas y herbáceas autóctonas en la restauración ecológica de entornos degradados semiáridos. Durante el máster realicé investigaciones de campo para evaluar la regeneración natural de especies arbóreas en una zona de manglares.
+
+Soy colaborador de [Beta Analítica](https://betaanalitica.com.br/), empresa que cuenta con especialistas en tratamiento de datos, análisis estadístico y programación en R, atendiendo a estudiantes universitarios, particulares y público empresarial. También soy coorganizadora de [R-Ladies de Natal](https://rladies.org/), una organización cuya misión es promover la diversidad de género a través de reuniones para difundir el conocimiento del lenguaje R.
+
+Me interesa la ecología de la restauración, la ecología vegetal, la invasión de especies exóticas, la recuperación de áreas degradadas, la ciencia de datos con software R y la divulgación científica.
+
