@@ -6,28 +6,27 @@ about:
   links:
       - icon: github
         href: https://github.com/francojra
-      - icon: twitter
-        href: https://twitter.com/JeanneF06042346
-      - icon: envelope
-        href: mailto:jeanne.raquel02@hotmail.com
-      - icon: linkedin
-        href: https://www.linkedin.com/in/francojra/
       - icon: instagram
         href: https://www.instagram.com/jeanneefranco/
+      - icon: twitter
+        href: https://twitter.com/JeanneF06042346
       - icon: youtube
         href: https://www.youtube.com/channel/UCValiiCyO82tJmG0BXnQuow
+      - icon: linkedin
+        href: https://www.linkedin.com/in/francojra/
+      - icon: envelope
+        href: mailto:jeanne.raquel02@hotmail.com
 ---
 
 <center>
 
 ::: {.btn-group role="group" aria-label="About"}
-<a href="about-pt.html"> <button type="button" class="btn btn-primary me-md-2 btn-sm">Português</button></a> <a href="about-en.html"> <button type="button" class="btn btn-primary me-md-2 btn-sm">English</button></a>   <a href="about-es.html"><button type="button" class="btn btn-primary me-md-2 btn-sm">Español</button></a>
+<a href="about-pt.html"> <button type="button" class="btn btn-primary me-md-2 btn-sm">Português</button></a> <a href="about-en.html"> <button type="button" class="btn btn-primary me-md-2 btn-sm">English</button></a> <a href="about-es.html"><button type="button" class="btn btn-primary me-md-2 btn-sm">Español</button></a>
 :::
 
 </center>
 
-Hello, my name is Jeanne Franco! I have a bachelor's degree in Ecology, a master's degree in Forest Science and a PhD in Ecology from the
-[Universidade Federal do Rio Grande do Norte](https://www.ufrn.br/). During my graduate and doctoral studies I gained experience evaluating the effect of native tree and herbaceous species diversity on the ecological restoration of degraded semi-arid environments. During my master's degree I conducted field investigations to evaluate the natural regeneration of tree species in a mangrove area.
+Hello, my name is Jeanne Franco! I have a bachelor's degree in Ecology, a master's degree in Forest Science and a PhD in Ecology from the [Universidade Federal do Rio Grande do Norte](https://www.ufrn.br/). During my graduate and doctoral studies I gained experience evaluating the effect of native tree and herbaceous species diversity on the ecological restoration of degraded semi-arid environments. During my master's degree I conducted field investigations to evaluate the natural regeneration of tree species in a mangrove area.
 
 I am a contributor to [Beta Analítica](https://betaanalitica.com.br/), a company with experts in data processing, statistical analysis and R programming, helping university students, individuals and the business public. I am also a co-organizer of [R-Ladies de Natal](https://rladies.org/), an organization with a mission to promote gender diversity through meetings to disseminate knowledge of the R language.
 
