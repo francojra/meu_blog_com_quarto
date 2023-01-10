@@ -18,7 +18,13 @@ about:
         href: https://www.youtube.com/channel/UCValiiCyO82tJmG0BXnQuow
 ---
 
-## Ecologia
+<div style="display: inline_block"><br> <img align="center" alt="Jeanne-HTML" height="60" width="50" src="https://img.icons8.com/ios/512/student-female.png">
+</div>
+
+## Ecologia/Ecology 
+
+<div style="display: inline_block"><br> <img align="center" alt="Jeanne-HTML" height="30" width="40" src="https://img.icons8.com/parakeet/512/forest.png">
+</div>
 
 [Currículo lattes](curriculo_lattes_Jeanne_Franco.pdf)
 
@@ -26,4 +32,11 @@ about:
 
 [Resume](curriculum_vitae_jeanne_franco_en.pdf)
 
-## Programação
+## Programação/Programmation 
+
+<div style="display: inline_block"><br> <img align="center" alt="Jeanne-HTML" height="30" width="40" src="https://img.icons8.com/fluency/512/programming.png">
+</div>
+
+[Currículo vitae](resume_jeanne_franco_pt.pdf)
+
+[Resume](resume_jeanne_franco_en.pdf)
