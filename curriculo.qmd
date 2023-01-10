@@ -1,6 +1,5 @@
 ---
-title: "Currículo/Resume"
-image: profile.jpg
+title: "Resume"
 about:
   template: jolla
   links:
@@ -18,7 +17,7 @@ about:
         href: https://www.youtube.com/channel/UCValiiCyO82tJmG0BXnQuow
 ---
 
-<div style="display: inline_block"><br> <img align="center" alt="Jeanne-HTML" height="60" width="50" src="https://img.icons8.com/ios/512/student-female.png">
+<div style="display: inline_block"><br> <img align="center" alt="Jeanne-HTML" height="80" width="70" src="https://img.icons8.com/ios/512/student-female.png">
 </div>
 
 ## Ecologia/Ecology 
