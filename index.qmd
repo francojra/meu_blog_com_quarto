@@ -1,13 +1,14 @@
 ---
-title: "Programação em R e Python"
-listing:
-  contents: posts
-  sort: "date desc"
-  type: default
-  categories: true
-  sort-ui: false
-  filter-ui: false
-page-layout: full
-title-block-banner: true
+title: "Post With Code"
+author: "Harlow Malloc"
+date: "2023-01-09"
+categories: [Códigos, Análises]
+image: "image.jpg"
 lang: pt
 ---
+
+This is a post with executable code.
+
+```{r}
+1 + 1
+```
