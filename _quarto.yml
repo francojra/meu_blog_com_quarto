@@ -2,11 +2,12 @@ project:
   type: website
 
 website:
-  title: "Página Inicial"
+  title: "Jeanne Franco"
   navbar:
     right:
+      - index.qmd
       - about.qmd
-      - curriculo.qmd
+      - formacao.qmd
       - icon: github
         href: https://github.com/francojra
       - icon: instagram

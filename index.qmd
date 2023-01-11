@@ -1,5 +1,5 @@
 ---
-title: "Publicações"
+title: "Postagens"
 listing:
   contents: posts
   sort: "date desc"
