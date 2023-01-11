@@ -21,7 +21,7 @@ about:
 
 <body>
 
-<div style="text-align:center">
+<div style="text-align:left">
 
 <p>
 
@@ -39,6 +39,8 @@ Ecologia: <img src="https://img.icons8.com/parakeet/512/forest.png" alt="Jeanne-
 
 </html>
 
+<div style="text-align:left">
+
 [Currículo lattes](curriculo_lattes_Jeanne_Franco.pdf)
 
 [Currículo vitae](curriculum_vitae_jeanne_franco_pt.pdf)
@@ -47,11 +49,13 @@ Ecologia: <img src="https://img.icons8.com/parakeet/512/forest.png" alt="Jeanne-
 
 [Paper Jounal Restoration Ecology](paper_Jeanne_Gustavo_Gislene.pdf)
 
+</div>
+
 <html>
 
 <body>
 
-<div style="text-align:center">
+<div style="text-align:left">
 
 <p>
 
@@ -69,6 +73,10 @@ Programação e Estatística: <img src="https://img.icons8.com/color/512/code.pn
 
 </html>
 
+<div style="text-align:left">
+
 [Currículo vitae](resume_jeanne_franco_pt.pdf)
 
 [Resume](resume_jeanne_franco_en.pdf)
+
+</div>
