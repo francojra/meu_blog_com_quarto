@@ -1,7 +1,7 @@
 ---
-title: "Programação em R e Python"
+title: "Divulgação Científica"
 listing:
-  contents: posts
+  contents: posts1
   sort: "date desc"
   type: default
   categories: true
