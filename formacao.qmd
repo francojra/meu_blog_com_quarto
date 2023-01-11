@@ -18,14 +18,25 @@ about:
 ---
 
 <html>
+
 <body>
+
 <div style="text-align:center">
-<p> <h4> Ecologia: 
-<img src="https://img.icons8.com/parakeet/512/forest.png" alt="Jeanne-HTML" align="center" height="50" width="50"/>
+
+<p>
+
+<h4>
+
+Ecologia: <img src="https://img.icons8.com/parakeet/512/forest.png" alt="Jeanne-HTML" align="center" height="50" width="50"/>
+
 </p>
+
 </h4>
+
 </div>
+
 </body>
+
 </html>
 
 [Currículo lattes](curriculo_lattes_Jeanne_Franco.pdf)
@@ -37,14 +48,25 @@ about:
 [Paper Jounal Restoration Ecology](paper_Jeanne_Gustavo_Gislene.pdf)
 
 <html>
+
 <body>
+
 <div style="text-align:center">
-<p> <h4> Programação e Estatística: 
-<img src="https://img.icons8.com/color/512/code.png" alt="Jeanne-HTML" align="center" height="50" width="50"/>
+
+<p>
+
+<h4>
+
+Programação e Estatística: <img src="https://img.icons8.com/color/512/code.png" alt="Jeanne-HTML" align="center" height="50" width="50"/>
+
 </p>
+
 </h4>
+
 </div>
+
 </body>
+
 </html>
 
 [Currículo vitae](resume_jeanne_franco_pt.pdf)

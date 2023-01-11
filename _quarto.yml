@@ -4,7 +4,7 @@ project:
 website:
   google-analytics: "G-2J79YYG9CZ"
   page-footer:
-    left: "Blog feito com 💛 e [Quarto](https://quarto.org/), por Jeanne Franco."
+    left: "Blog feito com 🖤 e [Quarto](https://quarto.org/), por Jeanne Franco."
         
   page-navigation: true
   title: "Jeanne Franco"
@@ -12,8 +12,8 @@ website:
     right:
       - text: Postagens
         menu: 
-          - index1.qmd
           - index.qmd
+          - index1.qmd
       - text: Atividades
         menu:
           - beta_analitica.qmd
