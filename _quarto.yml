@@ -20,7 +20,8 @@ website:
           - rladies.qmd
           - servicos.qmd
       - about.qmd
-      - formacao.qmd
+      - text: Formação
+        href: formacao.qmd
       - icon: github
         href: https://github.com/francojra
       - icon: instagram
