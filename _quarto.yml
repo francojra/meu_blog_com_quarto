@@ -10,7 +10,15 @@ website:
   title: "Jeanne Franco"
   navbar:
     right:
-      - index.qmd
+      - text: Postagens
+        menu: 
+          - index1.qmd
+          - index.qmd
+      - text: Atividades
+        menu:
+          - beta_analitica.qmd
+          - rladies.qmd
+          - servicos.qmd
       - about.qmd
       - formacao.qmd
       - icon: github

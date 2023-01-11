@@ -20,7 +20,7 @@ about:
 <html>
 <body>
 <div style="text-align:center">
-<p> <h4> Ecologia/Ecology: 
+<p> <h4> Ecologia: 
 <img src="https://img.icons8.com/parakeet/512/forest.png" alt="Jeanne-HTML" align="center" height="50" width="50"/>
 </p>
 </h4>
@@ -39,7 +39,7 @@ about:
 <html>
 <body>
 <div style="text-align:center">
-<p> <h4> Programação/Programmation: 
+<p> <h4> Programação e Estatística: 
 <img src="https://img.icons8.com/color/512/code.png" alt="Jeanne-HTML" align="center" height="50" width="50"/>
 </p>
 </h4>
