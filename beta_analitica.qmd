@@ -1,0 +1,7 @@
+---
+title: "Empresa Beta Analítica"
+page-layout: full
+title-block-banner: true
+---
+
+Texto...

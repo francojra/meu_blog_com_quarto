@@ -1,0 +1,8 @@
+---
+title: "R-Ladies Natal"
+page-layout: full
+title-block-banner: true
+---
+
+Texto...
+
