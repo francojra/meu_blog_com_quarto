@@ -17,11 +17,16 @@ about:
         href: https://www.youtube.com/channel/UCValiiCyO82tJmG0BXnQuow
 ---
 
-::: {style="display: inline_block"}
-<p> <br> Ecologia/Ecology: 
-<img src="https://img.icons8.com/parakeet/512/forest.png" alt="Jeanne-HTML" align="center" height="40" width="50"/>
+<html>
+<body>
+<div style="text-align:center">
+<p> <h4> Ecologia/Ecology: 
+<img src="https://img.icons8.com/parakeet/512/forest.png" alt="Jeanne-HTML" align="center" height="50" width="50"/>
 </p>
-:::
+</h4>
+</div>
+</body>
+</html>
 
 [Currículo lattes](curriculo_lattes_Jeanne_Franco.pdf)
 
@@ -31,23 +36,17 @@ about:
 
 [Paper Jounal Restoration Ecology](paper_Jeanne_Gustavo_Gislene.pdf)
 
-::: {style="display: inline_block"}
-<p> <br> Programação/Programmation:
-<img src="https://img.icons8.com/fluency/512/programming.png" alt="Jeanne-HTML" align="center" height="40" width="50"/> 
+<html>
+<body>
+<div style="text-align:center">
+<p> <h4> Programação/Programmation: 
+<img src="https://img.icons8.com/color/512/code.png" alt="Jeanne-HTML" align="center" height="50" width="50"/>
 </p>
-:::
+</h4>
+</div>
+</body>
+</html>
 
 [Currículo vitae](resume_jeanne_franco_pt.pdf)
 
 [Resume](resume_jeanne_franco_en.pdf)
-
-<html>
-<body>
-<div style="background-color:#d5ff9c;text-align:center;border:2px">
-<p> <br> Ecologia/Ecology: 
-<img src="https://img.icons8.com/parakeet/512/forest.png" alt="Jeanne-HTML" align="center" height="40" width="50"/>
-</p>
-</div>
-
-</body>
-</html>
