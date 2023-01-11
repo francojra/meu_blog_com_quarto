@@ -4,9 +4,11 @@ project:
 website:
   google-analytics: "G-2J79YYG9CZ"
   page-footer:
-    left: "Blog made with [Quarto](https://quarto.org/), by Jeanne Franco.
-    title: "Jeanne Franco"
-    navbar:
+    left: "Blog feito com 💛 e [Quarto](https://quarto.org/), por Jeanne Franco."
+        
+  page-navigation: true
+  title: "Jeanne Franco"
+  navbar:
     right:
       - index.qmd
       - about.qmd
@@ -23,6 +25,7 @@ website:
         href: https://www.linkedin.com/in/francojra/
       - icon: envelope
         href: mailto:jeanne.raquel02@hotmail.com
+
 format:
   html:
     theme: sketchy
