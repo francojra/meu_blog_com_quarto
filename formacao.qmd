@@ -25,13 +25,13 @@ about:
 
 <p>
 
-<h4>
+<h3>
 
 Ecologia: <img src="https://img.icons8.com/parakeet/512/forest.png" alt="Jeanne-HTML" align="center" height="50" width="50"/>
 
 </p>
 
-</h4>
+</h3>
 
 </div>
 
@@ -59,13 +59,13 @@ Ecologia: <img src="https://img.icons8.com/parakeet/512/forest.png" alt="Jeanne-
 
 <p>
 
-<h4>
+<h3>
 
-Programação e Estatística: <img src="https://img.icons8.com/color/512/code.png" alt="Jeanne-HTML" align="center" height="50" width="50"/>
+Programação e Estatística: <img src="https://img.icons8.com/color/512/programming--v1.png" alt="Jeanne-HTML" align="center" height="50" width="50"/>
 
 </p>
 
-</h4>
+</h3>
 
 </div>
 
