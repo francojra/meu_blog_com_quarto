@@ -4,5 +4,14 @@ page-layout: full
 title-block-banner: true
 ---
 
-Texto...
+<html>
 
+<body>
+
+<img src="ggplot2_dplyr_rladies.png" style="float:left" width="300"/>
+
+<p>Palestra R-Ladies Ribeirão preto.</p>
+
+</body>
+
+</html>
