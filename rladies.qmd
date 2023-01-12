@@ -6,7 +6,7 @@ title-block-banner: true
 
 [R-Ladies Global](https://rladies.org/) é uma **organização mundial** que tem a missão de promover a diversidade de gêneros na comunidade do R. A **diversidade de gêneros** inclui mulheres cis e trans, homens trans, não-binários e sem gênero. A organização **promove eventos e palestras sobre a linguagem R** em muitos países do mundo para permitir a troca de informações, novos conhecimentos e desenvolvimento de potenciais entusiastas em programação.
 
-A comunidade [R-Ladies Natal](https://www.instagram.com/rladiesnatal/?next=%2F) foi notícia no portal da Universidade Federal do Rio Grande do Norte por apresentar uma palestra sobre a organização na *Semana da Estatística*, evento promovido pelo Departamento de Estatística (DEST). Você pode acessar a matéria [aqui](https://www.ufrn.br/imprensa/noticias/44260/grupo-r-ladies-natal-oferece-palestra-sobre-comunidade-local).
+A comunidade [R-Ladies Natal](https://www.instagram.com/rladiesnatal/?next=%2F) foi notícia no portal da Universidade Federal do Rio Grande do Norte por apresentar uma palestra na *Semana da Estatística*, evento promovido pelo Departamento de Estatística (DEST). Você pode acessar a matéria [aqui](https://www.ufrn.br/imprensa/noticias/44260/grupo-r-ladies-natal-oferece-palestra-sobre-comunidade-local).
 
 Abaixo estão listadas algumas palestras das quais fui mentora na comunidade R-Ladies.
 
