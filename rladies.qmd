@@ -8,7 +8,7 @@ title-block-banner: true
 
 A comunidade [R-Ladies Natal](https://www.instagram.com/rladiesnatal/?next=%2F) foi notícia no portal da Universidade Federal do Rio Grande do Norte por apresentar uma palestra sobre a organização na *Semana da Estatística*, evento promovido pelo Departamento de Estatística (DEST). Você pode acessar a matéria [aqui](https://www.ufrn.br/imprensa/noticias/44260/grupo-r-ladies-natal-oferece-palestra-sobre-comunidade-local).
 
-Abaixo estão listadas algumas palestras das quais fui mentora na comunidade do R.
+Abaixo estão listadas algumas palestras das quais fui mentora na comunidade R-Ladies.
 
 <p><img src="images/ggplot2_dplyr_rladies-01.png" width="250"/> <b>Palestra sobre os pacotes *ggplot2* e *dplyr* na [R-Ladies Ribeirão Preto](https://www.instagram.com/rladiesrp/?next=%2F).</p>
 
