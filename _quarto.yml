@@ -4,7 +4,20 @@ project:
 website:
   google-analytics: "G-2J79YYG9CZ"
   page-footer:
-    left: "Blog feito no [R Studio](https://www.r-studio.com/) com 🖤 e sistema [Quarto](https://quarto.org/), por Jeanne Franco."
+    left: "Blog feito com 🖤 e sistema [Quarto](https://quarto.org/) no [R Studio](https://www.r-studio.com/), por Jeanne Franco."
+    right: 
+      - icon: github
+        href: https://github.com/francojra
+      - icon: instagram
+        href: https://www.instagram.com/jeanneefranco/
+      - icon: twitter
+        href: https://twitter.com/JeanneF06042346
+      - icon: youtube
+        href: https://www.youtube.com/channel/UCValiiCyO82tJmG0BXnQuow
+      - icon: linkedin
+        href: https://www.linkedin.com/in/francojra/
+      - icon: envelope
+        href: mailto:jeanne.raquel02@hotmail.com
         
   page-navigation: true
   title: "Jeanne Franco"
