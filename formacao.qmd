@@ -1,7 +1,6 @@
 ---
 title: "Currículos Acadêmicos e Profissionais"
 image: profile.jpg
-toc: true
 about:
   template: jolla
   links:
