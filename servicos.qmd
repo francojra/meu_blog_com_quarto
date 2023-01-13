@@ -4,9 +4,19 @@ page-layout: full
 title-block-banner: true
 ---
 
-### Consultorias
+### Consultorias em meio ambiente
 
-◾Produção de gráficos: barras, histogramas, boxplot, linhas, gráficos animados, gráficos 3D e wordcloud;
+◾Restauração ecológica de áreas degradadas;
+
+◾Identificação de espécies herbáceas;
+
+◾Auxílio na leitura e redação de textos em inglês;
+
+◾Produção de textos para divulgação científica.
+
+### Consultorias em programação
+
+◾Produção de gráficos científicos: barras, histogramas, boxplot, linhas, gráficos animados, gráficos 3D e wordcloud;
 
 ◾Produção de mapas com pacotes do R;
 
@@ -14,10 +24,11 @@ title-block-banner: true
 
 ◾Análises estatísticas;
 
-◾Desenvolvimento web: criação de sites, blogs e aplicativos.
+◾Desenvolvimento web: criação de sites, blogs e aplicativos;
 
-### Linguagens de programação 
+### Linguagens utilizadas
 
+```{=html}
 <div style="display: inline_block"; "text-align:left"><br>
   <img align="center" alt="Jeanne-HTML" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg">
   <img align="center" alt="Jeanne-CSS" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg">
@@ -27,3 +38,5 @@ title-block-banner: true
   <img align="center" alt="Jeanne-R" height="50" width="60" src="https://www.svgrepo.com/show/373827/markdown.svg"> 
   
 </div>
+```
+
