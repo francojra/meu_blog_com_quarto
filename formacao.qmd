@@ -1,5 +1,6 @@
 ---
 title: "Formação Acadêmica e Profissional"
+page-layout: full
 about:
   template: jolla
   links:
@@ -39,8 +40,7 @@ Ecologia: <img src="https://img.icons8.com/parakeet/512/forest.png" alt="Jeanne-
 
 </html>
 
-<div style="text-align:left">
-
+::: {style="text-align:left"}
 ◾️[Currículo lattes](curriculo_lattes_Jeanne_Franco.pdf)
 
 ◾️[Currículo vitae](curriculum_vitae_jeanne_franco_pt.pdf)
@@ -48,8 +48,7 @@ Ecologia: <img src="https://img.icons8.com/parakeet/512/forest.png" alt="Jeanne-
 ◾️[Resume](curriculum_vitae_jeanne_franco_en.pdf)
 
 ◾️[Paper Jounal Restoration Ecology](paper_Jeanne_Gustavo_Gislene.pdf)
-
-</div>
+:::
 
 <html>
 
@@ -73,10 +72,8 @@ Programação e Estatística: <img src="https://img.icons8.com/color/512/program
 
 </html>
 
-<div style="text-align:left">
-
+::: {style="text-align:left"}
 ◾️[Currículo vitae](resume_jeanne_franco_pt.pdf)
 
 ◾️[Resume](resume_jeanne_franco_en.pdf)
-
-</div>
+:::

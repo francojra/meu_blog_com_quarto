@@ -1,6 +1,7 @@
 ---
 title: "Sobre mim"
 image: profile.jpg
+page-layout: full
 about:
   template: jolla
   links:

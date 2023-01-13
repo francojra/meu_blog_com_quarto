@@ -4,7 +4,7 @@ project:
 website:
   google-analytics: "G-2J79YYG9CZ"
   page-footer:
-    left: "Blog feito com 🖤 e [Quarto](https://quarto.org/), por Jeanne Franco."
+    left: "Blog feito no R Studio com 🖤 e sistema [Quarto](https://quarto.org/), por Jeanne Franco."
         
   page-navigation: true
   title: "Jeanne Franco"
