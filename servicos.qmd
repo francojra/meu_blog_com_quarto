@@ -26,6 +26,8 @@ title-block-banner: true
 
 ◾Desenvolvimento web: criação de sites, blogs e aplicativos;
 
+◾Organização de currículos em documentos elegantes e com alta qualidade usando o pacote *pagedown* do R. Veja esse exemplo de [currículo](https://pagedown.rbind.io/html-resume).
+
 ### Linguagens utilizadas
 
 ```{=html}
