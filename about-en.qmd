@@ -30,4 +30,4 @@ Hello, my name is Jeanne Franco! I am graduated in Ecology, Master in Forest Sci
 
 I am a collaborator at [Beta Analítica](https://betaanalitica.com.br/), a company with experts in data processing, statistical analysis and R programming, helping university students, individuals and corporate public. I am also a co-organizer of [R-Ladies de Natal](https://rladies.org/), an organization with the mission of promoting gender diversity through meetings to disseminate knowledge of the R language.
 
-I am interested in restoration ecology, plant ecology, invasive exotic species, recovery of degraded areas, data science with R Software, and scientific outreach.
+I am interested in restoration ecology, plant ecology, invasive exotic species, recovery of degraded areas, data science with R Software, scientific outreach and artwork of painting and drawing.

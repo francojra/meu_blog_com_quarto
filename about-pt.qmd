@@ -30,4 +30,4 @@ Olá, me chamo Jeanne Franco! Sou graduada em Ecologia, mestra em Ciências Flor
 
 Sou colaboradora da [Beta Analítica](https://betaanalitica.com.br/), uma empresa que conta com especialistas em processamento de dados, análises estatísticas e programação em R, auxiliando estudantes universitários, pessoas físicas e público empresarial. Também sou coorganizadora da [R-Ladies de Natal](https://rladies.org/), uma organização com a missão de promover a diversidade de gêneros através de encontros para disseminação do conhecimento da linguagem R.
 
-Tenho interesse em ecologia da restauração, ecologia vegetal, invasão de espécies exóticas, recuperação de áreas degradadas, ciências de dados com o Software R e divulgação científica.
+Tenho interesse em ecologia da restauração, ecologia vegetal, invasão de espécies exóticas, recuperação de áreas degradadas, ciências de dados com o Software R, divulgação científica e trabalhos artísticos de pinturas e desenhos.

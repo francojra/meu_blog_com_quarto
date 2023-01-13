@@ -28,7 +28,7 @@ about:
 
 <h3>
 
-Ecologia: <img src="https://img.icons8.com/parakeet/512/forest.png" alt="Jeanne-HTML" align="center" height="50" width="50"/>
+Ecologia: <img src="https://img.icons8.com/sf-regular/512/forest.png" alt="Jeanne-HTML" align="center" height="54" width="54"/>
 
 </p>
 
@@ -41,8 +41,6 @@ Ecologia: <img src="https://img.icons8.com/parakeet/512/forest.png" alt="Jeanne-
 </html>
 
 ::: {style="text-align:left"}
-◾️[Currículo lattes](http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4354736H7&tokenCaptchar=03AD1IbLAgLqHZa93ESpzQiAcU6HKy8efrio2hG-a4YK4rRcWnv6-Ua6PojAImdqkJzRV9hlUwNUb-cCKRD4ijgBnLtsayfoUPqvB5Bs1y7BIN7HdDtHSJGBKygdvK2haVvVOfEbY7TRsN8lcthMn4BFpIZzaV0jfgW0YrjTduQjXM9_re6H9tPr5aG840HbKDW6gDkWtncvjI9waZVIEl-7XPVnenmg2HmcUqCkxA_9zwm7dpgwWH9dbQIBu2m8Qs5tAz6KjP8JeIOMWsZTt_WZETDut50jOIcouwiQq8bZZsDk7xmbbUt05Kkxj1-tUS4RpEbstfhApHf7xWUA5k3jsnljQrOBMks3paWEzQW5vv4Nx7YoedCZ7gV3hdasU3HEcL6_HrkKJa1SXyK0PRVqlGcwV_1CPZbRG4p8dYmKXeWX6y1vtA-iBQ4iQZ2bfN2nHZo3LjIB9nTv9OV-7JuxvxJk6ixRegg0JPswCNPkdgkPuoNX6d3dRZ9XHfxYBushb2Z3BhhI8hhpz21dISFciPRMuCRiCdZw)
-
 ◾️[Currículo vitae](curriculum_vitae_jeanne_franco_pt.pdf)
 
 ◾️[Resume](curriculum_vitae_jeanne_franco_en.pdf)
@@ -60,7 +58,7 @@ Ecologia: <img src="https://img.icons8.com/parakeet/512/forest.png" alt="Jeanne-
 
 <h3>
 
-Programação e Estatística: <img src="https://img.icons8.com/color/512/programming--v1.png" alt="Jeanne-HTML" align="center" height="50" width="50"/>
+Programação e Estatística: <img src="https://img.icons8.com/material-two-tone/512/programming.png" alt="Jeanne-HTML" align="center" height="50" width="50"/>
 
 </p>
 
@@ -76,4 +74,30 @@ Programação e Estatística: <img src="https://img.icons8.com/color/512/program
 ◾️[Currículo vitae](resume_jeanne_franco_pt.pdf)
 
 ◾️[Resume](resume_jeanne_franco_en.pdf)
+:::
+
+<html>
+
+<body>
+
+<div style="text-align:left">
+
+<p>
+
+<h3>
+
+Currículo Lattes: <img src="https://img.icons8.com/ios-filled/512/student-female.png" alt="Jeanne-HTML" align="center" height="50" width="50"/>
+
+</p>
+
+</h3>
+
+</div>
+
+</body>
+
+</html>
+
+::: {style="text-align:left"}
+◾️[Currículo lattes](http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4354736H7&tokenCaptchar=03AD1IbLAgLqHZa93ESpzQiAcU6HKy8efrio2hG-a4YK4rRcWnv6-Ua6PojAImdqkJzRV9hlUwNUb-cCKRD4ijgBnLtsayfoUPqvB5Bs1y7BIN7HdDtHSJGBKygdvK2haVvVOfEbY7TRsN8lcthMn4BFpIZzaV0jfgW0YrjTduQjXM9_re6H9tPr5aG840HbKDW6gDkWtncvjI9waZVIEl-7XPVnenmg2HmcUqCkxA_9zwm7dpgwWH9dbQIBu2m8Qs5tAz6KjP8JeIOMWsZTt_WZETDut50jOIcouwiQq8bZZsDk7xmbbUt05Kkxj1-tUS4RpEbstfhApHf7xWUA5k3jsnljQrOBMks3paWEzQW5vv4Nx7YoedCZ7gV3hdasU3HEcL6_HrkKJa1SXyK0PRVqlGcwV_1CPZbRG4p8dYmKXeWX6y1vtA-iBQ4iQZ2bfN2nHZo3LjIB9nTv9OV-7JuxvxJk6ixRegg0JPswCNPkdgkPuoNX6d3dRZ9XHfxYBushb2Z3BhhI8hhpz21dISFciPRMuCRiCdZw)
 :::
