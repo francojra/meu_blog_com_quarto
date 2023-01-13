@@ -15,13 +15,11 @@ Abaixo estão listadas algumas palestras das quais fui mentora na comunidade R-L
 
 ------------------------------------------------------------------------
 
-<p><img src="images/rmarkdown_rladies.png" width="250"/> <b>Palestra Introdução ao R Markdown ministrada na [R-Ladies Natal](https://www.instagram.com/rladiesnatal/?next=%2F). 
-Assita essa palestra clicando [aqui](https://www.youtube.com/watch?v=EGPc1XJ-6-Y).</p>
+<p><img src="images/rmarkdown_rladies.png" width="250"/> <b>Palestra Introdução ao R Markdown ministrada na [R-Ladies Natal](https://www.instagram.com/rladiesnatal/?next=%2F). Assita essa palestra clicando [aqui](https://www.youtube.com/watch?v=EGPc1XJ-6-Y).</p>
 
 ------------------------------------------------------------------------
 
-<p>![](images/r_do_zero_rladies.png){width="250"} <b>Palestra R do zero para iniciantes ministrada na [R-Ladies Natal](https://www.instagram.com/rladiesnatal/?next=%2F). 
-Assista essa palestra clicando [aqui](https://www.youtube.com/watch?v=uGF5XowBJUA).</p>
+<p>![](images/r_do_zero_rladies.png){width="250"} <b>Palestra R do zero para iniciantes ministrada na [R-Ladies Natal](https://www.instagram.com/rladiesnatal/?next=%2F). Assista essa palestra clicando [aqui](https://www.youtube.com/watch?v=uGF5XowBJUA).</p>
 
 ------------------------------------------------------------------------
 
