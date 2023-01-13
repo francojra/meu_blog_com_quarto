@@ -14,7 +14,7 @@ title-block-banner: true
 
 ◾Produção de textos para divulgação científica.
 
-### Consultorias em programação
+### Consultorias em programação e estatística
 
 ◾Produção de gráficos científicos: barras, histogramas, boxplot, linhas, gráficos animados, gráficos 3D e wordcloud;
 
@@ -39,4 +39,3 @@ title-block-banner: true
   
 </div>
 ```
-
