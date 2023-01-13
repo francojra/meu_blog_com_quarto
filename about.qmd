@@ -26,8 +26,8 @@ about:
 
 </center>
 
-Olá, me chamo Jeanne Franco! Sou graduada em Ecologia, mestra em Ciências Florestais e doutora em Ecologia pela [Universidade Federal do Rio Grande do Norte](https://www.ufrn.br/). Durante a graduação e doutorado adquiri experiência avaliando o efeito da diversidade de espécies nativas arbóreas e herbáceas na restauração ecológica de ambientes semiáridos degradados. Durante o mestrado realizei investigações de campo para avaliar a regeneração natural de espécies arbóreas em uma área de manguezal.
+Olá, me chamo Jeanne Franco! Sou graduada em Ecologia, mestra em Ciências Florestais e doutora em Ecologia pela [Universidade Federal do Rio Grande do Norte](https://www.ufrn.br/). Durante a graduação e doutorado adquiri experiência avaliando o efeito da diversidade de espécies nativas arbóreas e efeito de espécies herbáceas na restauração ecológica de ambientes semiáridos degradados. Durante o mestrado realizei investigações de campo para avaliar a regeneração natural de espécies arbóreas em uma área de manguezal.
 
-Sou colaboradora da [Beta Analítica](https://betaanalitica.com.br/), uma empresa que conta com especialistas em processamento de dados, análises estatísticas e programação em R, auxiliando o estudantes universitários, pessoas físicas e o público empresarial. Também sou coorganizadora da [R-Ladies de Natal](https://rladies.org/), uma organização com a missão de promover a diversidade de gêneros através de encontros para disseminação do conhecimento da linguagem R.
+Sou colaboradora da [Beta Analítica](https://betaanalitica.com.br/), uma empresa que conta com especialistas em processamento de dados, análises estatísticas e programação em R, auxiliando estudantes universitários, pessoas físicas e público empresarial. Também sou coorganizadora da [R-Ladies de Natal](https://rladies.org/), uma organização com a missão de promover a diversidade de gêneros através de encontros para disseminação do conhecimento da linguagem R.
 
 Tenho interesse em ecologia da restauração, ecologia vegetal, invasão de espécies exóticas, recuperação de áreas degradadas, ciências de dados com o Software R e divulgação científica.
