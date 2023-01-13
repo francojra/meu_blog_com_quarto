@@ -58,7 +58,7 @@ Ecologia: <img src="https://img.icons8.com/sf-regular/512/forest.png" alt="Jeann
 
 <h3>
 
-Programação e Estatística: <img src="https://img.icons8.com/material-two-tone/512/programming.png" alt="Jeanne-HTML" align="center" height="50" width="50"/>
+Programação e Estatística: <img src="https://img.icons8.com/material-two-tone/512/programming.png" alt="Jeanne-HTML" align="center" height="45" width="45"/>
 
 </p>
 
@@ -86,7 +86,7 @@ Programação e Estatística: <img src="https://img.icons8.com/material-two-tone
 
 <h3>
 
-Currículo Lattes: <img src="https://img.icons8.com/ios-filled/512/student-female.png" alt="Jeanne-HTML" align="center" height="50" width="50"/>
+Currículo Lattes: <img src="https://img.icons8.com/ios-filled/512/student-female.png" alt="Jeanne-HTML" align="center" height="45" width="45"/>
 
 </p>
 
