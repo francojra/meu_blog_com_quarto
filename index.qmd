@@ -1,13 +1,45 @@
 ---
-title: "Programação em R e Python"
-listing:
-  contents: posts
-  sort: "date desc"
-  type: default
-  categories: true
-  sort-ui: false
-  filter-ui: false
-page-layout: full
-title-block-banner: true
+title: "O simbolismo das causas ambientais na posse do Lula"
+author: "Jeanne Franco"
+date: "01-06-2023"
+categories: [Meio Ambiente]
 lang: pt
 ---
+
+Durante a posse do Lula, realizada no dia 01 de janeiro desse ano, podemos verificar mudanças que simbolizaram a preocupação com as causas ambientais que não foram observadas nas posses anteriores.
+
+![Representantes da população, presidente Lula, vice-presidente Alckmin, Janja e Lu Alckmin sobem a rampa para recebimento da faixa presidencial.](images/rampa_posse.png){width="400"}
+
+O principal simbolismo esteve relacionado a presença da cachorrinha Resistência que subiu a rampa junto a Rosângela Lula da Silva, conhecida como Janja, e o atual presidente Luiz Inácio Lula da Silva. Resistência foi encontrada nos acampamentos próximos onde Lula estava preso na cidade de Curitiba, era uma cadela de rua que recebia comida e carinho dos apoiadores do Partido Trabalhista. A paixão de Janja pelo animal foi imediata e ela decidiu adotá-la sob nome de Resistência, uma referência a força do presidente Lula.^1^
+
+![Cadela Resistência. Fonte: site Extra Globo.^2^](images/res3.jpeg.jpg)
+
+Outras duas importantes questões ambientais representadas, foram a ausência da salva dos 21 tiros de canhão e a anulação dos fogos de artifício, decisões sugeridas pelos apoiadores das causas animais à Janja. Os fogos de artifício causam incômodos à audição dos bichos de estimação e as medidas protetivas durante a posse mostraram a simpatia e preocupação de Janja na questão do bem-estar animal.
+
+Toda a posse do Lula parece ter sido planejada com cuidado para evitar potenciais acidentes com os animais. A presença da cavalaria presidencial foi evitada. Na posse passada de 2018, um dos cavalos ficou estressado e atravessou em frente ao carro de desfile onde estava o Bolsonaro, sua esposa Michele e seu Filho Carlos.
+
+Outro fator a ser considerado foi a inclusão da venda de alimentos veganos para o público que compareceu ao evento. Alimentos de baixo custo foram vendidos, sinalizando que Janja tem sensibilidade pelas causas do veganismo^1^.
+
+Todos esses aspectos foram simbólicos durante a posse, e pode indicar potenciais preocupações do novo governo com as causas ambientais. Considerando que a ministra Marina Silva foi indicada para cuidar dessas questões, podemos ter esperanças que o meio ambiente sofra menos com os impactos que foram causados nos últimos anos do governo Bolsonaro, como o aumento do desmatamento. Vale lembrar da presença do cacique Raoni na posse, um importante representante brasileiro que luta pelos direitos dos povos originários.
+
+![Indígena Raoni Metuktire. Fonte: site BBC News Brasil.^3^](images/raoni.jpg){width="400"}
+
+No Ministério do Meio Ambiente e das Mudanças Climáticas do governo Lula foi incluído o departamento dos direitos animais, sendo assim, espera-se maior sensibilização com os animais que sofrem maus tratos ou estão em situação de rua.
+
+Em adição às pautas incluídas na posse, Janja também usou uma roupa pensada em questões ecológicas, sociais e econômicas. Deixando de lado o luxo das grandes marcas, Janja preferiu usar uma roupa de seda reaproveitada, tingida com caju e ruibarbo, e decorada com palha pelas artesãs bordadeiras da cidade de Timbaúba, no Rio Grande do Norte, mostrando a valorização e reconhecimento do trabalho feito por mulheres no Nordeste do Brasil.^4,5^
+
+![Rosângela Lula da Silva. Fonte: Folha de São Paulo.^6^](images/janja.png){width="270"}
+
+### Referências
+
+^1^ CHAVES, Fabio. Posse de Lula: cachorrinha na rampa e primeiras ações pelos animais. **YouTube**, 2 de jan. de 2023. Disponível em <https://www.youtube.com/watch?v=Z7aNGq4pQHM>. Acesso em: 14 de jan. 2023.
+
+^2^ Resistência, cadela de Lula e Janja resgatada após 580 dias em acampamento, é mascote de campanha e vai morar no Alvorada. **Extra Globo**, 4 de nov. de 2022. Disponível em <https://extra.globo.com/famosos/resistencia-cadela-de-lula-janja-resgatada-apos-580-dias-em-acampamento-mascote-de-campanha-vai-morar-no-alvorada-25603207.html>. Acesso em: 14 de jan. 2023.
+
+^3^ FELLET, João. 'Nossa luta contra Bolsonaro é a mesma que fizemos contra Lula e Dilma', diz cacique Raoni. **BBC News Brasil**, São Paulo, 13 de out. de 2019. Disponível em <https://www.bbc.com/portuguese/brasil-50022818>. Acesso em: 14 de jan. 2023.
+
+^4^ MEDEIROS, Anthony. Bordadeira de Timbaúba (RN) explica produção da roupa de Janja na posse de Lula: 'A gente nunca imaginou bordar palha'. **G1**, Rio Grande do Norte, 2 de jan. de 2023. Disponível em <https://g1.globo.com/rn/rio-grande-do-norte/noticia/2023/01/02/bordadeira-do-rn-explica-processo-de-fabricacao-da-roupa-usada-por-janja-na-posse-de-lula-totalmente-inovadora.ghtml>. Acesso em: 14 de jan. 2023.
+
+^5^ MAZA, Luiz; ESTEVÃO, Ilca Maria. Confira os bastidores da confecção da roupa de Janja para a posse. **Métropoles**, 2 de jan. de 2023. Disponível em <https://www.metropoles.com/colunas/ilca-maria-estevao/confira-os-bastidores-da-confeccao-da-roupa-de-janja-para-a-posse>. Acesso em: 14 de jan. 2023.
+
+^6^ Veja detalhes do terno que Janja usou na posse de Lula. **Folha de S. Paulo**, 1 de jan. de 2023. Disponível em <https://fotografia.folha.uol.com.br/galerias/1753848850028496-veja-detalhes-do-terno-que-janja-usou-na-posse-de-lula>. Acesso em: 14 de jan. 2023.
