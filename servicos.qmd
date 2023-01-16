@@ -28,7 +28,7 @@ title-block-banner: true
 
 ◾Organização de currículos em documentos elegantes usando o pacote *pagedown* do R. Veja esse exemplo de [currículo](https://pagedown.rbind.io/html-resume).
 
-### Linguagens utilizadas
+### Linguagens Utilizadas
 
 ```{=html}
 <div style="display: inline_block"; "text-align:left"><br>
