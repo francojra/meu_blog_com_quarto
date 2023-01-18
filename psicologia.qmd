@@ -8,7 +8,7 @@ lang: pt
 
 ### O experimento de aprisionamento de Stanford
 
-No ano de 1971, o psicólogo ***Philip*** George ***Zimbardo*** (Nova Iorque, 23 de março de 1933) e professor de psicologia na [Universidade de Standford](https://psychology.stanford.edu/people/philip-zimbardo) elaborou um experimento para avaliar as consequências de estar preso ou ser um guarda de um sistema carcerário, para isso foram avaliados os comportamentos em um ambiente prisional simulado tanto fisicamente quanto psicologicamente.
+No ano de 1971, o psicólogo ***Philip*** George ***Zimbardo*** (Nova Iorque, 23 de março de 1933) e professor de psicologia na [Universidade de Standford](https://psychology.stanford.edu/people/philip-zimbardo) elaborou um experimento para avaliar as consequências de estar preso ou ser um guarda de um sistema carcerário, para isso, foram avaliados os comportamentos em um ambiente prisional simulado tanto fisicamente quanto psicologicamente.
 
 [![Psicólogo Philip Zimbardo.](images/zimbardo.png){width="500"}](https://www.newscientist.com/article/mg24031990-200-inside-the-prison-experiment-that-claimed-to-show-the-roots-of-evil/)
 
@@ -38,6 +38,8 @@ Diversas pesquisas, artigos e livros foram publicados após o experimento, entre
 
 [![Livro do autor Philip Zimbardo.](images/51QBZTuIyuL._SX334_BO1,204,203,200_.jpg){fig-align="center"}](https://www.amazon.com.br/efeito-L%C3%BAcifer-Como-pessoas-tornam/dp/8501082198)
 
-As principais conclusões do experimento foram que as pessoas podem rapidamente ser influenciadas pelo ambiente em que estão imersas e assumirem seus papéis de acordo com as ordens que recebem. O Dr. Zimbardo chamou esse comportamento de efeito lucifer e fez a seuinte citação:
+As principais conclusões do experimento foram que as pessoas podem rapidamente ser influenciadas pelo ambiente em que estão imersas e assumirem seus papéis de acordo com as ordens que recebem. O Dr. Zimbardo chamou esse comportamento de efeito lucifer e fez a seguinte citação:
 
 > "Situações que vivenciamos podem ter uma influência mais poderosa sobre nosso comportamento do que tendemos a acreditar." Philip Zimbardo.
+
+### Referências
