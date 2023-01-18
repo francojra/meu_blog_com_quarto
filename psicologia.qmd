@@ -10,4 +10,8 @@ lang: pt
 
 No ano de 1971, o psicólogo ***Philip*** George ***Zimbardo*** (Nova Iorque, 23 de março de 1933) e professor de psicologia na [Universidade de Standford](https://psychology.stanford.edu/people/philip-zimbardo)
 
-![Philip Zimbardo](images/zimbardo.png){width="500"}
+![Psicólogo Philip Zimbardo.](images/zimbardo.png){width="500"}
+
+> "Situações que vivenciamos podem ter uma influência mais poderosa sobre nosso comportamento do que tendemos a acreditar." Philip Zimbardo
+
+![Placa do experimento da Universidade de Standford.](images/plaque.jpg)
