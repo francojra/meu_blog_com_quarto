@@ -8,7 +8,7 @@ lang: pt
 
 ### Detalhes do experimento de aprisionamento de Stanford
 
-No ano de 1971, o psicólogo ***Philip*** George ***Zimbardo*** (Nova Iorque, 23 de março de 1933) e professor de psicologia na [Universidade de Standford](https://psychology.stanford.edu/people/philip-zimbardo)
+No ano de 1971, o psicólogo ***Philip*** George ***Zimbardo*** (Nova Iorque, 23 de março de 1933) e professor de psicologia na [Universidade de Standford](https://psychology.stanford.edu/people/philip-zimbardo) elaborou um experimento para avaliar as consequências de estar preso ou ser um guarda de um sistema carcerário, para isso foram avaliados os comportamentos em um ambiente prisional simulado tanto fisicamente quanto psicologicamente. Para isso, foi utilizado o subsolo do Departamento de Psicologia da Universidade.
 
 ![Psicólogo Philip Zimbardo.](images/zimbardo.png){width="500"}
 
