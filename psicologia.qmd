@@ -8,10 +8,24 @@ lang: pt
 
 ### O experimento de aprisionamento de Stanford
 
-No ano de 1971, o psicólogo ***Philip*** George ***Zimbardo*** (Nova Iorque, 23 de março de 1933) e professor de psicologia na [Universidade de Standford](https://psychology.stanford.edu/people/philip-zimbardo) elaborou um experimento para avaliar as consequências de estar preso ou ser um guarda de um sistema carcerário, para isso foram avaliados os comportamentos em um ambiente prisional simulado tanto fisicamente quanto psicologicamente. Para isso, foi utilizado o subsolo do Departamento de Psicologia da Universidade.
+No ano de 1971, o psicólogo ***Philip*** George ***Zimbardo*** (Nova Iorque, 23 de março de 1933) e professor de psicologia na [Universidade de Standford](https://psychology.stanford.edu/people/philip-zimbardo) elaborou um experimento para avaliar as consequências de estar preso ou ser um guarda de um sistema carcerário, para isso foram avaliados os comportamentos em um ambiente prisional simulado tanto fisicamente quanto psicologicamente.
 
 ![Psicólogo Philip Zimbardo.](images/zimbardo.png){width="500"}
 
+Para isso, foi utilizado o subsolo do Departamento de Psicologia da Universidade onde foi construído uma réplica de presídio. Algumas salas foram convertidas em celas, outras foram usadas para os guardas, os oficiais, um escritório para o supervisor, e um closet foi usado para confinamento de presos quando necessário. Para a montagem do presídio, foram convidados experts que conheciam o sistema carcerário, um deles era um prisioneiro que cumpriu 17 anos de pena.
+
+A chamada de participantes para o experimento ocorreu através de anúncios de jornal espalhados explicando que o estudo se tratava de conhecer os efeitos psicológicos da prisão e que seriam pagos 15 dólares por dia. Cerca de 70 pessoas se candidataram, entretanto, foram escolhidas apenas 24 pessoas que passaram por diversos testes psicológicos. Os selecionados não apresentavam uso de drogas, antecedentes criminais, anormalidades psicológicas e outras incapacidades. Todos os selecionados foram homens estudantes de psicologia, saudáveis, inteligentes e de classe média. Os prisioneiros e guardas foram selecionados aleatoriamente entre os participantes jogando-se uma moeda, para que os papéis de ambos fossem definidos através da sorte.
+
+![Imagens com os participantes do experimento de Standford.](images/_104502748_5-1.jpg){fig-align="center" width="500"}
+
+Um dia antes do experimento foi informado para os guardas que não deveria haver agressão física e privação de comida para os prisioneiros, apenas criar neles sensação de medo, frustração, sensação de não ter controle sobre a própria vida, de pouca privacidade e constante vigilância. A ideia foi criar um ambiente de fraqueza para os presos e de total poder para os guardas.
+
+O experimento iniciou com policiais de verdade chegando em viaturas nas casas dos presos e os abordando na vizinhança e mesmo com esses estando entre familiares e amigos. Os presos foram acusados injustamente, tiveram seus nomes anotados e foram revistados, algemados e levados para o sistema prisional fictício com a justificativa de suspeita de uso de drogas.
+
+Ao chegar no presídio, foram registrados com a digital e vendados. Suas roupas foram tiradas e desinfetadas, receberam remédios para piolhos, roupas semelhantes a tunicas, toucas e sandálias de borracha. Os pés foram amarrados com correntes para simular os presos como bandidos, alguns policiais pediram para ficarem paleados e se olharem no espelho, tudo manipulado para submetê-los a forte humilhação.
+
+O experimento estava previsto inicialmente para durar duas semanas, entretanto, a simulação saiu de controle devido ao ambiente encorajar um comportamento agressivo por parte dos guardas e submisso pelos prisioneiros, sendo necessário ser interrompido em seis dias.
+
 > "Situações que vivenciamos podem ter uma influência mais poderosa sobre nosso comportamento do que tendemos a acreditar." Philip Zimbardo
 
-![Placa do experimento da Universidade de Standford.](images/plaque.jpg)
+![Placa do experimento da Universidade de Standford.](images/plaque.jpg){fig-align="center"}
