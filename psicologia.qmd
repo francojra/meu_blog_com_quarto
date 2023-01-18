@@ -6,4 +6,8 @@ categories: [Psicologia]
 lang: pt
 ---
 
-Texto...psicologia
+### Detalhes do experimento de aprisionamento de Stanford
+
+No ano de 1971, o psicólogo ***Philip*** George ***Zimbardo*** (Nova Iorque, 23 de março de 1933) e professor de psicologia na [Universidade de Standford](https://psychology.stanford.edu/people/philip-zimbardo)
+
+![Philip Zimbardo](images/zimbardo.png){width="500"}
