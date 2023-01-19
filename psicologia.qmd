@@ -1,12 +1,10 @@
 ---
-title: "A origem da maldade humana - Efeito Lúcifer"
+title: "O Aprisionamento de Stanford - Efeito Lúcifer"
 author: "Jeanne Franco"
 date: "01-17-2023"
 categories: [Psicologia]
 lang: pt
 ---
-
-### O experimento de aprisionamento de Stanford
 
 No ano de 1971, o psicólogo e professor da [Universidade de Standford](https://psychology.stanford.edu/people/philip-zimbardo) ***Philip*** George ***Zimbardo***, nascido em Nova Iorque no dia 23 de março de 1933, elaborou um experimento para avaliar as consequências comportamentais e psicológicas de estar preso ou ser um guarda de um sistema carcerário. Para isso, alguns participantes selecionados no experimento foram avaliados dentro de um ambiente prisional fictício.
 
@@ -32,14 +30,18 @@ Os guardas foram orientados a despertarem os presos às duas horas da manhã par
 
 [![Os presos eram submetidos a constantes humilhações pelos guardas.](images/experimento.png){fig-align="center" width="500"}](https://www.newscientist.com/article/mg24031990-200-inside-the-prison-experiment-that-claimed-to-show-the-roots-of-evil/)
 
-O experimento estava previsto inicialmente para durar duas semanas, entretanto, durou apenas seis dias. A simulação saiu de controle devido ao ambiente encorajar um comportamento agressivo por parte dos guardas e forte pressão psicológica sobre os prisioneiros. Um dos prisioneiros chorar e entrou em desespero e pedir um médico, e pediu para sair do experimento. O substituto chegou a negar as condições e fazer greve de fome, entretanto, foi ridicularizado pelos guardas e coleas de prisão. O cientista Philip Zimbardo percebeu a gravidade e a finalização do experimento ocorreu após a psicóloga Christina Maslach, esposa do cientista, aconselhar a interrupção para evitar possíveis tragédias entre os participantes. Mesmo assim, os pesquisadores puderam tirar algumas conclusões mesmo após poucos dias do experimento.
+O experimento estava previsto inicialmente para durar duas semanas, entretanto, durou apenas seis dias. A simulação saiu de controle devido ao ambiente encorajar um comportamento agressivo por parte dos guardas e forte pressão psicológica sobre os prisioneiros. Um dos prisioneiros entrou em desespero, teve crises de choro e pediu um médico, solicitando sua saída do experimento. O prisioneiro substituto ao ver toda situação chegou a negar as condições e fazer greve de fome, entretanto, foi ridicularizado pelos guardas e colegas de prisão.
+
+O cientista Philip Zimbardo percebeu a gravidade do experimento e a finalização ocorreu após a psicóloga Christina Maslach, esposa do cientista, aconselhar a interrupção para evitar possíveis tragédias entre os participantes. Mesmo assim, os pesquisadores puderam tirar algumas conclusões após poucos dias do experimento, imaginando como ocorre a origem da maldade humana.
+
+As principais pontos encontrados no experimento foram que as pessoas podem rapidamente ser influenciadas pelo ambiente em que estão imersas, e assumirem seus papéis de acordo com as ordens que recebem. O Dr. Zimbardo chamou esse comportamento de efeito lucifer e fez a seguinte citação:
+
+> "Situações que vivenciamos podem ter uma influência mais poderosa sobre nosso comportamento do que tendemos a acreditar." Philip Zimbardo.
 
 Diversas pesquisas, artigos e livros foram publicados após o experimento, entre eles está o livro *Efeito Lúcifer: Como boas pessoas se tornam más* que tem como autor o próprio Zimbardo.
 
 [![Livro do autor Philip Zimbardo.](images/51QBZTuIyuL._SX334_BO1,204,203,200_.jpg){fig-align="center"}](https://www.amazon.com.br/efeito-L%C3%BAcifer-Como-pessoas-tornam/dp/8501082198)
 
-As principais conclusões do experimento foram que as pessoas podem rapidamente ser influenciadas pelo ambiente em que estão imersas e assumirem seus papéis de acordo com as ordens que recebem. O Dr. Zimbardo chamou esse comportamento de efeito lucifer e fez a seguinte citação:
-
-> "Situações que vivenciamos podem ter uma influência mais poderosa sobre nosso comportamento do que tendemos a acreditar." Philip Zimbardo.
-
 ### Referências
+
+https://www.youtube.com/watch?v=YXIzAZ6fLTY
