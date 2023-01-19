@@ -6,13 +6,13 @@ categories: [Psicologia]
 lang: pt
 ---
 
-No ano de 1971, o psicólogo e professor da [Universidade de Standford](https://psychology.stanford.edu/people/philip-zimbardo) ***Philip*** George ***Zimbardo***, nascido em Nova Iorque no dia 23 de março de 1933, elaborou um experimento para avaliar as consequências comportamentais e psicológicas de estar preso ou ser um guarda de um sistema carcerário. Para isso, alguns participantes selecionados no experimento foram avaliados dentro de um ambiente prisional fictício.
+No ano de 1971, o psicólogo e professor da [Universidade de Standford](https://psychology.stanford.edu/people/philip-zimbardo) ***Philip*** George ***Zimbardo***, nascido em Nova Iorque no dia 23 de março de 1933, elaborou um experimento para avaliar as consequências comportamentais e psicológicas de estar preso ou ser um guarda de um sistema carcerário. Para isso, alguns participantes selecionados no experimento foram avaliados dentro de um ambiente prisional fictício. Esse experimento veio a se tornar um dos mais famosos da história da psicologia e teve como inspiração um experimento anterior, realizado na universidade de Yale, chamado "Experiência de Milgram" que avaliava o grau de obediência das pessoas ao receberem ordens de autoridades.
 
 [![Psicólogo Philip Zimbardo.](images/zimbardo.png){width="500"}](https://www.newscientist.com/article/mg24031990-200-inside-the-prison-experiment-that-claimed-to-show-the-roots-of-evil/)
 
 O subsolo do Departamento de Psicologia da universidade foi utilizado para construir uma réplica de presídio. Algumas salas foram convertidas em celas, outras foram usadas para os guardas e para os oficiais, e um escritório foi reservado para o orientador do experimento. Para auxiliar na montagem do presídio, convidados experts que conheciam o sistema carcerário foram convidados, um deles era um prisioneiro que cumpriu 17 anos de pena.
 
-[![Placa do experimento da Universidade de Standford.](images/plaque-01.jpg){fig-align="center"}](https://www.bbc.com/portuguese/geral-46417388)
+[![Placa do experimento da Universidade de Standford, uma das melhores universidades dos Estados Unidos.](images/plaque-01.jpg){fig-align="center"}](https://www.bbc.com/portuguese/geral-46417388)
 
 A chamada de participantes para o experimento ocorreu através de anúncios explicando que o estudo se tratava de conhecer os efeitos psicológicos da prisão nos seres humanos, e que cada participante receberia 15 dólares por dia. Cerca de 70 pessoas se candidataram, mas apenas 24 pessoas foram escolhidas após passarem por diversos testes psicológicos. Os selecionados não deveriam apresentar histórico de uso de drogas, antecedentes criminais, anormalidades psicológicas e outras incapacidades. Todos os selecionados foram homens, estudantes de psicologia, saudáveis, inteligentes e de classe média. Os papéis de prisioneiros e guardas foram distribuídos aleatoriamente entre os participantes jogando-se uma moeda, assim sendo, os papéis foram definidos através da sorte.
 
@@ -38,10 +38,11 @@ As principais pontos encontrados no experimento foram que as pessoas podem rapid
 
 > "Situações que vivenciamos podem ter uma influência mais poderosa sobre nosso comportamento do que tendemos a acreditar." Philip Zimbardo.
 
-Diversas pesquisas, artigos e livros foram publicados após o experimento, entre eles está o livro *Efeito Lúcifer: Como boas pessoas se tornam más* que tem como autor o próprio Zimbardo.
-
 [![Livro do autor Philip Zimbardo.](images/51QBZTuIyuL._SX334_BO1,204,203,200_.jpg){fig-align="center"}](https://www.amazon.com.br/efeito-L%C3%BAcifer-Como-pessoas-tornam/dp/8501082198)
 
-### Referências
+Diversas pesquisas, artigos e livros foram publicados após o experimento, entre eles está o livro *Efeito Lúcifer: Como boas pessoas se tornam más* que tem como autor o próprio Zimbardo. Experimentos sociais como esses atualmente sofreriam com as restrições do comitê de ética, entretanto, não podemos deixar de mencionar sua importância para a área da psicologia, além do entendimento de eventos históricos extremos como o ocorrido com o nazismo da Alemanha.
+
+### 
+Referências
 
 https://www.youtube.com/watch?v=YXIzAZ6fLTY
