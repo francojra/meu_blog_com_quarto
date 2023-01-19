@@ -8,11 +8,11 @@ lang: pt
 
 ### O experimento de aprisionamento de Stanford
 
-No ano de 1971, o psicólogo e professor da [Universidade de Standford](https://psychology.stanford.edu/people/philip-zimbardo) ***Philip*** George ***Zimbardo*** (Nova Iorque, 23 de março de 1933) elaborou um experimento para avaliar as consequências comportamentais e psicológicas de estar preso ou ser um guarda de um sistema carcerário. Para isso, alguns participantes selecionados no experimento foram avaliados dentro de um ambiente prisional fictício.
+No ano de 1971, o psicólogo e professor da [Universidade de Standford](https://psychology.stanford.edu/people/philip-zimbardo) ***Philip*** George ***Zimbardo***, nascido em Nova Iorque no dia 23 de março de 1933, elaborou um experimento para avaliar as consequências comportamentais e psicológicas de estar preso ou ser um guarda de um sistema carcerário. Para isso, alguns participantes selecionados no experimento foram avaliados dentro de um ambiente prisional fictício.
 
 [![Psicólogo Philip Zimbardo.](images/zimbardo.png){width="500"}](https://www.newscientist.com/article/mg24031990-200-inside-the-prison-experiment-that-claimed-to-show-the-roots-of-evil/)
 
-Para isso, foi utilizado o subsolo do Departamento de Psicologia da Universidade onde foi construído uma réplica de presídio. Algumas salas foram convertidas em celas, outras foram usadas para os guardas, os oficiais, um escritório para o supervisor, e um closet foi usado para confinamento de presos quando necessário. Para a montagem do presídio, foram convidados experts que conheciam o sistema carcerário, um deles era um prisioneiro que cumpriu 17 anos de pena.
+O subsolo do Departamento de Psicologia da universidade foi utilizado para construir uma réplica de presídio. Algumas salas foram convertidas em celas, outras foram usadas para os guardas e para os oficiais, e um escritório foi reservado para o orientador do experimento. Para auxiliar na montagem do presídio, convidados experts que conheciam o sistema carcerário foram convidados, um deles era um prisioneiro que cumpriu 17 anos de pena.
 
 [![Placa do experimento da Universidade de Standford.](images/plaque-01.jpg){fig-align="center"}](https://www.bbc.com/portuguese/geral-46417388)
 
