@@ -6,7 +6,7 @@ categories: [Psicologia]
 lang: pt
 ---
 
-No ano de 1971, o psicólogo e professor da [Universidade de Standford](https://psychology.stanford.edu/people/philip-zimbardo) ***Philip*** George ***Zimbardo***, nascido em Nova Iorque no dia 23 de março de 1933, elaborou um experimento para avaliar as consequências comportamentais e psicológicas de estar preso ou ser um guarda de um sistema carcerário. Esse experimento veio a se tornar um dos mais famosos da história da psicologia e teve como inspiração um experimento realizado na universidade de [Yale](https://www.yale.edu/), chamado "Experiência de Milgram" que avaliava o grau de obediência das pessoas ao receberem ordens de autoridades.
+No ano de 1971 o psicólogo e professor da [Universidade de Standford](https://psychology.stanford.edu/people/philip-zimbardo) ***Philip*** George ***Zimbardo***, nascido em Nova Iorque, elaborou um experimento para avaliar as consequências comportamentais e psicológicas de estar preso ou de ser um guarda em um sistema carcerário. Esse experimento veio a se tornar um dos mais famosos da história da psicologia e teve como inspiração um estudo chamado *Experiência de Milgram* que avaliava o grau de obediência das pessoas ao receberem ordens.
 
 [![Psicólogo Philip Zimbardo.](images/zimbardo.png){width="500"}](https://www.newscientist.com/article/mg24031990-200-inside-the-prison-experiment-that-claimed-to-show-the-roots-of-evil/)
 
@@ -53,6 +53,3 @@ Inside the prison experiment that claimed to show the roots of evil **NewScienti
 MELO, Marcos. O experimento de aprisionamento de Stanford. **YouTube**, 14 de jul. de 2020. Disponível em <https://www.youtube.com/watch?v=YXIzAZ6fLTY>. Acesso em: 18 de jan. 2023.
 
 O controverso 'Experimento de Aprisionamento de Stanford', interrompido após sair do controle **BBC News Brasil**, 2 de dez. de 2018. Disponível em <https://www.bbc.com/portuguese/geral-46417388>. Acesso em: Acesso em: 18 de jan. 2023.
-
-
-
