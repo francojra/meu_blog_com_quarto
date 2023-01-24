@@ -1,0 +1,96 @@
+---
+title: "Histogramas com ggplot2 - Duas variáveis"
+author: "Jeanne Franco"
+date: "01-22-2023"
+categories: [Códigos, Gráficos, Linguagem R]
+image: hist.png
+lang: pt
+toc: true
+---
+
+## Gráfico de histograma espelhado^1^
+
+Um histograma apresenta a distribuição de uma ou mais variáveis numéricas. Duas variáveis numéricas em apenas um gráfico de histograma pode ser um desafio, mas usando o gráfico de histograma espelhado, podemos comparar de forma eficiente duas variáveis. Observe o código e o gráfico abaixo:
+
+```{r, warning=FALSE, message=FALSE}
+
+# Pacotes
+library(ggplot2) # Produzir gráficos ggplot2
+library(hrbrthemes) # Tema ipsum para o gráfico
+
+# Criação de dados com diferentes distribuições
+data <- data.frame(
+  var1 = rnorm(1000),
+  var2 = rnorm(1000, mean = 2))
+
+# Gráfico
+ggplot(data, aes(x = x)) +
+  geom_histogram(aes(x = var1, y = ..density..), 
+                  fill = "#69b3a2" ) +
+  geom_label(aes(x = 4.5, y = 0.25, label = "variable1"), 
+              color = "#69b3a2") +
+  geom_histogram(aes(x = var2, y = -..density..), 
+                  fill = "#404080") +
+  geom_label(aes(x = 4.5, y = -0.25, label = "variable2"), 
+              color = "#404080") +
+  theme_ipsum() +
+  xlab("value of x")
+```
+
+#### Descrição das funções e argumentos do gráfico
+
+-   ***ggplot***: camada para criar o gráfico onde serão informados o nome do conjunto de dados e nome da variável (*x* = x). O x recebe "x" devido a essa variável ser informada posteriormente nas duas camadas do *geom_histogram*.
+
+-   ***geom_histogram***: camada da geometria do gráfico de histograma com os nomes das variáveis do conjunto de dados (*x* = var1 ou var2 e *y* = ..density.. para indicar a densidade dos valores da frequência). *Fill* corresponde a cor do preenchimento das barras.
+
+-   ***geom_label***: camada dos rótulos das duas variáveis x. Nela é informada o rótulo *label* e a localização dos rótulos de acordo com as coordenadas *x* e *y*.
+
+-   ***theme_ipsum***: camada para tema do gráfico (background).
+
+-   ***xlab***: camada para rótulo do eixo x.
+
+## Gráfico de histograma com transparência^2^
+
+Usando um histograma com transparência nas barras, também podemos comparar a distribuição de diferentes grupos. Esse tipo de gráfico seria como usar vários histogramas em um único eixo. Usando a transparência podemos evitar a ocultação de alguns dos dados. Observe o código e o gráfico abaixo:
+
+```{r, warning=FALSE, message=FALSE}
+
+# Pacotes
+library(ggplot2) # Produzir gráficos ggplot2
+library(hrbrthemes) # Tema ipsum para o gráfico
+library(tibble) # Exibição simplificada da tabela de dados 
+
+# Carregar banco de dados iris
+tibble(datasets::iris)
+
+# Gráfico
+ggplot(iris, aes(x = Petal.Length, fill = Species)) +
+  geom_histogram(color = "#e9ecef",
+                 alpha = 0.6, 
+                 position = 'identity') +
+    scale_fill_manual(values = c("#69b3a2", "#404080", "red"),
+                      labels = c("Setosa", "Versicolor", "Virginica")) +
+    theme_ipsum() +
+    labs(x = "Comprimento de pétalas (cm)",
+         y = "Frequência",
+         fill = "Espécies")
+
+```
+
+#### Descrição das funções e argumentos do gráfico
+
+-   ***ggplot***: camada para criar o gráfico em que serão informados o nome do conjunto de dados *iris*, nome da variável *x* comprimento de pétalas (Petal.Length) e nome do preenchimento *fill* correspondente aos grupos de espécies (Species).
+
+-   ***geom_histogram***: camada da geometria do gráfico de histograma com os argumentos *color* para a cor das barras, *alpha* para a transparência das cores de preenchimento das barras e *position* para a posição das barras lado a lado.
+
+-   ***scale_fill_manual***: camada que define as cores de preenchimento das barras que correspondem a cada grupo de espécies.
+
+-   ***theme_ipsum***: camada para tema do gráfico (background).
+
+-   ***labs***: camada para rótulos do eixo x, y e fill.
+
+## Referências
+
+^1^ [Mirror density chart with ggplot2](https://r-graph-gallery.com/density_mirror_ggplot2.html)
+
+^2^ [Histogram with several groups - ggplot2](https://r-graph-gallery.com/histogram_several_group.html)
