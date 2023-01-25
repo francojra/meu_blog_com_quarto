@@ -26,13 +26,13 @@ about:
 
 <p>
 
-<h3>
+<h4>
 
 Ecologia: <img src="https://img.icons8.com/sf-regular/512/forest.png" alt="Jeanne-HTML" align="center" height="54" width="54"/>
 
 </p>
 
-</h3>
+</h4>
 
 </div>
 
@@ -56,13 +56,13 @@ Ecologia: <img src="https://img.icons8.com/sf-regular/512/forest.png" alt="Jeann
 
 <p>
 
-<h3>
+<h4>
 
 Programação: <img src="https://img.icons8.com/ios-filled/512/monitor.png" alt="Jeanne-HTML" align="center" height="45" width="42"/>
 
 </p>
 
-</h3>
+</h4>
 
 </div>
 
@@ -84,13 +84,13 @@ Programação: <img src="https://img.icons8.com/ios-filled/512/monitor.png" alt=
 
 <p>
 
-<h3>
+<h4>
 
 Currículo Lattes: <img src="https://img.icons8.com/ios-filled/512/student-female.png" alt="Jeanne-HTML" align="center" height="45" width="45"/>
 
 </p>
 
-</h3>
+</h4>
 
 </div>
 
