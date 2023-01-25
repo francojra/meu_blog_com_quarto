@@ -1,0 +1,29 @@
+---
+title: "Contatos"
+title-block-banner: true
+about:
+  template: jolla
+---
+
+<html>
+
+<body>
+
+<div style="text-align:left">
+
+<p>
+
+<h3>
+
+[GitHub](https://github.com/francojra) <img src="https://img.icons8.com/ios-glyphs/512/github.png" alt="Jeanne-HTML" align="center" height="45" width="45"/>
+[Instagram](https://www.instagram.com/jeanneefranco/) <img src="https://img.icons8.com/ios-glyphs/512/instagram-new.png" alt="Jeanne-HTML" align="center" height="45" width="45"/>
+
+</p>
+
+</h3>
+
+</div>
+
+</body>
+
+</html>
