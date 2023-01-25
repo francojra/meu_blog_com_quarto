@@ -28,7 +28,7 @@ title-block-banner: true
 
 ◾Organização de currículos em documentos elegantes usando o pacote *pagedown* do R. Veja esse exemplo de [currículo](https://pagedown.rbind.io/html-resume).
 
-### Linguagens Utilizadas
+### Linguagens e Ferramentas Utilizadas
 
 ```{=html}
 <div style="display: inline_block"; "text-align:left"><br>
@@ -38,6 +38,10 @@ title-block-banner: true
   <img align="center" alt="Jeanne-R" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/r/r-original.svg">
   <img align="center" alt="Jeanne-R" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg">  
   <img align="center" alt="Jeanne-R" height="50" width="60" src="https://www.svgrepo.com/show/373827/markdown.svg"> 
+    <img align="center" alt="Jeanne-R" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg">
+  <img align="center" alt="Jeanne-R" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/rstudio/rstudio-original.svg">
+  <img align="center" alt="Jeanne-R" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/trello/trello-plain.svg">
+  <img align="center" alt="Jeanne-R" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/slack/slack-original.svg">
   
 </div>
 ```
