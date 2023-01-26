@@ -6,8 +6,6 @@ about:
   links:
       - icon: github
         href: https://github.com/francojra
-      - icon: twitter
-        href: https://twitter.com/JeanneF06042346
       - icon: envelope
         href: mailto:jeanne.raquel02@hotmail.com
       - icon: linkedin
