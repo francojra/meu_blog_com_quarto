@@ -22,14 +22,22 @@ O mais importante: o índice de felicidade não cai por causa da desigualdade e 
 
 A riqueza em geral aumentou em muitos países, portanto, não é a riqueza que traz infelicidade e sim a percepção da desigualdade. A desigualdade de renda vem aumentando no Brasil desde 2016.^2^ Há mais de trinta anos, a diferença entre ricos e pobres nos Estados Unidos vem aumentando marcadamente a cada ano.^1^
 
-#### Até que ponto a desigualdade interfere na felicidade?
-
 Segundo um estudo realizado por...nos países desenvolvidos a felicidade reduzia drasticamente com a desigualdade, já na Ásia e na América do Sul, o decréscimo na felicidade foi menor que nos países desenvolvidos, ou seja, não houve um decréscimo tão acentuado na felicidade à medida que aumentava a desigualdade quando comparado aos países desenvolvidos. Nos países da África não existiu correlação. Portanto, de forma geral, esse estudo não mostrou correlação entre desigualdade de renda e felicidade.^2^
 
 Podemos perceber que não é necessariamente o aumento na riqueza que gera a felicidade, por exemplo, uma pesquisa feita com ganhadores da loteria e cadeirantes mostrou que os ganhadores voltaram a ter o mesmo nível de felicidade que tinham antes de ganhar, e os cadeirantes também voltaram a ser felizes como eram antes de perderem os movimentos das pernas.^2^
+
+A desigualdade também pode ser persebida em grupos sociais. A sensação de injustiça social na população ou uma ação violenta da polícia contra grupos de protestantes pode gerar revoltas.^2^
+
+Para analisar esses efeitos, um experimento foi feito com chimpanzés do Senegal. Esse experimento apresentava um líder chimpanzé tirano e agressivo, então esse chimpazé sofreu um impeachment, foi agredido e expulso do bando. Após isso, outro líder foi eleito e passou a governar, cinco anos depois após o antigo líder voltar para o bando, os chimpazés se uniram e mataram ele. O que mais impressionou no estudo é que matar dentro da comunidade é raro entre os chimpazés.^3^ Outro exemplo foi a Revolução Francesa que ocorreu a partir da percepção de desigualdade da população.^2^
+
+Em sociedades menos igualitárias ocorre maior competitividade e menor nível de confiança nos outros. Além disso, em sociedades mais desiguais existe menor honestidade, relações mais distantes e ricos tendem a ser menos solidários.^4^
+
+Países mais desiguais apresentam níveis mais elevados de crimes, uso de drogas e racismo. As pessoas se encaixam menos em atividades comunitárias, ajudam menos os outros e exibem comportamentos mais antissociais. As pessoas apresentam níveis mais baixos de bem estar, satisfação com a vida e são mais desconfiadas com os outros e com as lideranças da sociedade.^4^
 
 ### Referências
 
 ^1^[**Income Inequality**](https://inequality.org/facts/income-inequality/)
 
 ^2^[**Revolta, desigualdade e tristeza (ou felicidade)**](https://www.youtube.com/watch?v=vLBfvenXhyI)
+
+^3^[**In Rare Killing, Chimpanzees Cannibalize Former Leader**](https://www.nationalgeographic.com/animals/article/chimpanzees-murder-cannibalism-senegal)
