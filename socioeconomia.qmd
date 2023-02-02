@@ -6,11 +6,9 @@ categories: [Psicologia, Socioeconomia]
 lang: pt
 ---
 
-Renda se refere ao fluxo de receitas de salários, remunerações, juros sobre conta poupança, dividendos de ações, renda, lucros de vendas, etc. A riqueza se refere aos valores dos bens, como casas, posses e outras propriedades. A desigualdade de renda se refere a extensão em que a renda é distribuída de maneira desigual na população, ou seja, a diferença entre renda e riqueza entre mais pobres e ricos, quanto maior essa diferença maior a desigualdade.^1^
+A renda se refere ao fluxo de receitas de salários, remunerações dos fatores de produção, juros sobre conta poupança, dividendos de ações, aluguéis, lucros de vendas, etc. A riqueza se refere aos valores dos bens, como casas, posses e outras propriedades. A desigualdade de renda se refere a extensão em que a renda é distribuída de maneira desigual na população, ou seja, a diferença da renda e da riqueza entre pobres e ricos, quanto maior essa diferença maior a desigualdade.^1^
 
-Parece fazer sentido pensar que o aumento da riqueza torna a população de um país mais feliz. Entretanto, estudos mostraram que existe um fator que melhor explica a felicidade: o índice de desigualdade social.^2^
-
-Uma pesquisa feita nos Estados Unidos concluiu que, nos últimos 40 anos, não só o índice de felicidade baixava como também o índice de confiança das pessoas umas nas outras era reduzido.^2^
+Quanto as influências psicológicas do dinheiro nas pessoas, parece fazer sentido pensar que o aumento da riqueza torna a população de um país mais feliz. Entretanto, estudos mostram que existe um fator que melhor explica a felicidade: o índice da desigualdade social. Uma pesquisa feita nos Estados Unidos concluiu que, nos últimos 40 anos, não só o índice de felicidade baixava como também o índice de confiança das pessoas umas nas outras era reduzido.^2^
 
 O índice de felicidade de um país não aumenta a medida que ele fica mais rico. A explicação para isso é que mesmo o país ficando mais rico, as desigualdades sempre vão existir com ricos mais ricos e pobre mais pobres, então o pobre se sentirá infeliz e o rico feliz, não alterando para a felicidade generalizada de toda a população daquele país.^2^
 
@@ -42,4 +40,4 @@ Países mais desiguais apresentam níveis mais elevados de crimes, uso de drogas
 
 ^3^[**In Rare Killing, Chimpanzees Cannibalize Former Leader**](https://www.nationalgeographic.com/animals/article/chimpanzees-murder-cannibalism-senegal)
 
-^4^[A PSICOLOGIA DA DESIGUALDADE ECONÔMICA](https://www.youtube.com/watch?v=-FsAAsOVocM)
+^4^[A Psicologia da Desigualdade Econômica](https://www.youtube.com/watch?v=-FsAAsOVocM)
