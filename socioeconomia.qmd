@@ -1,7 +1,7 @@
 ---
 title: "Consequências da desigualdade social"
 author: "Jeanne Franco"
-date: "02-02-2023"
+date: "02-01-2023"
 categories: [Psicologia, Socioeconomia]
 lang: pt
 ---
@@ -25,6 +25,8 @@ A riqueza em geral aumentou em muitos países, portanto, não é a riqueza que t
 #### Até que ponto a desigualdade interfere na felicidade?
 
 Segundo um estudo realizado por...nos países desenvolvidos a felicidade reduzia drasticamente com a desigualdade, já na Ásia e na América do Sul, o decréscimo na felicidade foi menor que nos países desenvolvidos, ou seja, não houve um decréscimo tão acentuado na felicidade à medida que aumentava a desigualdade quando comparado aos países desenvolvidos. Nos países da África não existiu correlação. Portanto, de forma geral, esse estudo não mostrou correlação entre desigualdade de renda e felicidade.^2^
+
+Podemos perceber que não é necessariamente o aumento na riqueza que gera a felicidade, por exemplo, uma pesquisa feita com ganhadores da loteria e cadeirantes mostrou que os ganhadores voltaram a ter o mesmo nível de felicidade que tinham antes de ganhar, e os cadeirantes também voltaram a ser felizes como eram antes de perderem os movimentos das pernas.^2^
 
 ### Referências
 
