@@ -1,0 +1,11 @@
+---
+title: "Consequências da Desigualdade Social"
+author: "Jeanne Franco"
+date: "02-02-2023"
+categories: [Psicologia, Socioeconomia]
+lang: pt
+---
+
+Parece fazer sentido pensar que o aumento da riqueza torna a população de um país mais feliz. Entretanto, estudos mostraram que existe um fator que melhor explica a felicidade: o índice de desigualdade social.^1^
+
+O índice de felicidade de um país não aumenta a medida que ele fica mais rico. A explicação para isso é que mesmo o país ficando mais rico, as desigualdades sempre vão existir com ricos mais ricos e pobre mais pobres, então o pobre se sentirá infeliz e o rico feliz, não alterando para a felicidade generalizada de toda a população daquele país.^1^
