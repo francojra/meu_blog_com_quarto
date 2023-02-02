@@ -1,5 +1,5 @@
 ---
-title: "Consequências da Desigualdade Social"
+title: "Consequências da desigualdade social"
 author: "Jeanne Franco"
 date: "02-02-2023"
 categories: [Psicologia, Socioeconomia]
@@ -12,10 +12,10 @@ Parece fazer sentido pensar que o aumento da riqueza torna a população de um p
 
 O índice de felicidade de um país não aumenta a medida que ele fica mais rico. A explicação para isso é que mesmo o país ficando mais rico, as desigualdades sempre vão existir com ricos mais ricos e pobre mais pobres, então o pobre se sentirá infeliz e o rico feliz, não alterando para a felicidade generalizada de toda a população daquele país.^2^
 
-[![Desigualdade social e consequências psicológicas.](images/des_soc.png){fig-align="center"}](https://super.abril.com.br/coluna/bruno-garattoni/a-palavra-meritocracia-foi-inventada-por-um-escritor-de-esquerda-e-e-uma-distopia/)
+[![Desigualdade social e consequências psicológicas.](images/des_soc.png){fig-align="center" width="500"}](https://super.abril.com.br/coluna/bruno-garattoni/a-palavra-meritocracia-foi-inventada-por-um-escritor-de-esquerda-e-e-uma-distopia/)
 
 A desigualdade só é percebida dentro da região que as pessoas moram, quando a comparação é feita dentro de um mesmo país ou região, a percepção de desigualdade é maior, e as pessoas podem ser mais tristes. Quando a comparação é feito entre países, a percepção da desigualdade reduz, e consequentemente, não traz impactos para a felicidade.^2^
 
 ### Referências
 
-[**Income Inequality**](https://inequality.org/facts/income-inequality/)
+^1^[**Income Inequality**](https://inequality.org/facts/income-inequality/)
