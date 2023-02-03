@@ -20,7 +20,7 @@ Podemos perceber que não é necessariamente o aumento na riqueza que gera a fel
 
 A riqueza em geral aumentou em muitos países e mesmo assim o índice de felicidade não alterou, portanto, não é a riqueza que traz infelicidade e sim a percepção da desigualdade. A desigualdade de renda vem aumentando no Brasil desde 2016.^2^ Já nos Estados Unidos, a diferença entre ricos e pobres vem aumentando marcadamente há mais de trinta anos.^1^
 
-Algumas pesquisas também mostram resultados contrários a essa ideia da desigualdade afetando fatores psicológicos. Segundo um estudo realizado por...nos países desenvolvidos a felicidade reduzia drasticamente com a desigualdade, já na Ásia e na América do Sul, o decréscimo na felicidade foi menor que nos países desenvolvidos, ou seja, não houve um decréscimo tão acentuado na felicidade à medida que aumentava a desigualdade quando comparado aos países desenvolvidos. Nos países da África não existiu correlação. Portanto, de forma geral, esse estudo não mostrou correlação entre desigualdade de renda e felicidade.^2^
+Algumas pesquisas também mostram resultados contrários a essa ideia da desigualdade afetando fatores psicológicos. Segundo um estudo realizado por *Berg and Veenhoven* (2010)^5^ nos países desenvolvidos a felicidade reduzia drasticamente com a desigualdade, já na Ásia e na América do Sul, o decréscimo na felicidade foi menor que nos países desenvolvidos, ou seja, não houve um decréscimo tão acentuado na felicidade à medida que aumentava a desigualdade quando comparado aos países desenvolvidos. Nos países da África não existiu correlação. Portanto, de forma geral, esse estudo não mostrou correlação entre desigualdade de renda e felicidade.^2^
 
 A desigualdade também pode ser persebida em grupos sociais. A sensação de injustiça social na população ou uma ação violenta da polícia contra grupos de protestantes pode gerar revoltas.^2^
 
@@ -39,3 +39,5 @@ Países mais desiguais apresentam níveis mais elevados de crimes, uso de drogas
 ^3^[**In Rare Killing, Chimpanzees Cannibalize Former Leader**](https://www.nationalgeographic.com/animals/article/chimpanzees-murder-cannibalism-senegal)
 
 ^4^[**A Psicologia da Desigualdade Econômica**](https://www.youtube.com/watch?v=-FsAAsOVocM)
+
+^5^[**Income inequality and happiness in 119 nations**](https://personal.eur.nl/veenhoven/Pub2010s/2010b-full.pdf)
