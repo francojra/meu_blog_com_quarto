@@ -91,6 +91,6 @@ ggplot(iris, aes(x = Petal.Length, fill = Species)) +
 
 ## Referências
 
-^1^ [Mirror density chart with ggplot2](https://r-graph-gallery.com/density_mirror_ggplot2.html)
+^1^ [**Mirror density chart with ggplot2**](https://r-graph-gallery.com/density_mirror_ggplot2.html)
 
-^2^ [Histogram with several groups - ggplot2](https://r-graph-gallery.com/histogram_several_group.html)
+^2^ [**Histogram with several groups - ggplot2**](https://r-graph-gallery.com/histogram_several_group.html)
