@@ -36,7 +36,7 @@ Um estudo de revisão realizado por *Buttrick and Oishi* (2016)^7^, concluiu que
 
 Outro problema social relatado por *Du et al*. (2020), foi quanto a redução da honestidade civil associada aos países com maior desigualdade social. Para fazer esse estudo, o autor reanalizou os dados do experimento "*lost wallet*" (carteira perdida) que foi conduzido em 355 cidades de 40 países, e encontrou que pessoas de países com maior desigualdade foram menos prováveis de devolverem a carteira.^8^
 
-Algumas pesquisas mostram que ter vizinhos mais ricos é associado com níveis relativos mais baixos de bem-estar. Um robusto estudo realizado com 1,7 milhões de pessoas de 2425 cidades dos Estados Unidos.
+Algumas pesquisas mostram que ter vizinhos mais ricos é associado com níveis relativos mais baixos de bem-estar. Resultados de um robusto estudo realizado com 1,7 milhões de pessoas de 2425 cidades dos Estados Unidos mostrou que pessoas foram mais influenciadas pela renda dos vizinhos (renda relativa) quando a desigualdade de renda foi maior, causando menor sensação de bem-estar. Ao contrário, uma maior renda absoluta (renda individual) aumenta a sensação de bem-estar.^9^
 
 ### Referências
 
