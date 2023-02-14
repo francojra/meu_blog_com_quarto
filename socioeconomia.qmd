@@ -6,7 +6,9 @@ categories: [Psicologia, Socioeconomia]
 lang: pt
 ---
 
-Para entender a questão da desigualdade social, precisamos primeiro definir alguns termos. A renda se refere ao fluxo de receitas, remunerações dos fatores de produção, juros sobre conta poupança, dividendos de ações, aluguéis, lucros de vendas, etc. A riqueza se refere aos valores dos bens, como casas, posses e outras propriedades. A desigualdade é a extensão em que o dinheiro é distribuído de maneira desigual na população, ou seja, a diferença da renda e da riqueza entre pobres e ricos. Quanto maior essa diferença, maior a desigualdade.^1^
+Para entender a questão da desigualdade social, precisamos primeiro definir alguns termos. A renda se refere ao fluxo de receitas, remunerações dos fatores de produção, juros sobre conta poupança, dividendos de ações, aluguéis, lucros de vendas, etc. A riqueza se refere aos valores dos bens, como casas, posses e propriedades. A desigualdade é a extensão em que o dinheiro é distribuído de maneira desigual na população, ou seja, a diferença da renda e da riqueza entre pobres e ricos. Quanto maior essa diferença, maior a desigualdade.^1^
+
+[![](images/Money_Cash.jpg){fig-align="center" width="500"}](https://en.m.wikipedia.org/wiki/File:Money_Cash.jpg)
 
 Quanto às influências psicológicas do dinheiro nas pessoas, parece fazer sentido pensar que o aumento da riqueza torna a população de um país mais feliz. Entretanto, estudos mostram que existe um fator que melhor explica a felicidade: o índice da desigualdade social. Uma pesquisa feita nos Estados Unidos concluiu que, nos últimos 40 anos, não só o índice de felicidade baixava como também o índice de confiança das pessoas umas nas outras era reduzido.^2^
 
