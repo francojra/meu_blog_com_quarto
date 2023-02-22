@@ -10,11 +10,11 @@ toc: true
 
 ## O que é o *The R Graph*
 
-O site *The R Graph* reune centenas de gráficos feitos com o pacote *ggplot2* do R. Juntamente com as figuras, o site traz os códigos para que você possa executar no R. O site associa funções do pacote *ggplot2* e *tidyverse*. Você pode acompanhar atualizações do site seguindo a página no [Twitter](https://twitter.com/R_Graph_Gallery) ou [GitHub](https://github.com/holtzy/R-graph-gallery).
+O site *The R Graph* reune centenas de gráficos feitos com o pacote *ggplot2* do R. Juntamente com as figuras, o site fornece os códigos para que você possa executar no R. O site associa funções do pacote *ggplot2* e *tidyverse*. Você pode acompanhar as atualizações do site seguindo a página no [Twitter](https://twitter.com/R_Graph_Gallery) ou [GitHub](https://github.com/holtzy/R-graph-gallery).
 
-O site permite visualizar os tipos de gráficos para você usar os mais adequados para as suas análises e adaptar os códigos que são disponibilizados aos seus dados. Além disso, os gráficos são organizados por tipos, o que facilita a navegação no site.
+O site permite visualizar os tipos de gráficos para você que você selecione os mais adequados para as suas análises e adapte os códigos aos seus dados. Além disso, os gráficos são organizados por tipos, o que facilita a navegação no site.
 
-O *The R Graph* disponibiliza cerca de 400 gráficos com explicações dos códigos. Informações teóricas e os tipos de gráficos ideias para cada tipo de variável podem ser encontrados nesse diagrama interativo e bastante completo promovido neste link do [data-to-viz](https://www.data-to-viz.com/).
+O *The R Graph* disponibiliza cerca de 400 gráficos com explicações dos códigos. Informações teóricas e os tipos de gráficos ideiais para cada tipo de variável podem ser encontrados nesse diagrama interativo e bastante completo promovido no link [data-to-viz](https://www.data-to-viz.com/).
 
 ![Parte inicial do diagrama para seleção de variáveis e tipos de gráficos.](data_viz.png){fig-align="center" width="645"}
 
@@ -22,7 +22,7 @@ O *The R Graph* disponibiliza cerca de 400 gráficos com explicações dos códi
 
 ### Tipos de gráficos
 
-Você encontra diversos tipos de gráficos com diferentes tipo de variáveis:
+Você encontra diversos tipos de gráficos com diferentes tipos de variáveis:
 
 1.  Distribuição;
 2.  Correlação;
