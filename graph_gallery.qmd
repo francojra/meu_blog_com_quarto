@@ -18,7 +18,9 @@ O *The R Graph* disponibiliza cerca de 400 gráficos com explicações dos códi
 
 [![Site from Data to Viz.](dataviz.png){fig-align="center" width="500"}](https://www.data-to-viz.com/)
 
-![Diagrama para seleção de variáveis e tipo de gráfico.](data_viz.png){fig-align="center"}
+![Parte inicial do diagrama para seleção de variáveis e tipo de gráfico.](data_viz.png){fig-align="center" width="645"}
+
+![Parte final do diagrama para seleção de variáveis e tipo de gráfico.](dataviz2.png){fig-align="center" width="645"}
 
 ### Tipos de gráficos
 
