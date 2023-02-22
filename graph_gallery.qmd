@@ -16,7 +16,7 @@ O site permite visualizar os tipos de gráficos para você usar os mais adequado
 
 O *The R Graph* disponibiliza cerca de 400 gráficos com explicações dos códigos. Informações teóricas e os tipos de gráficos ideias para cada tipo de variável podem ser encontrados nesse diagrama interativo e bastante completo promovido neste link do [data-to-viz](https://www.data-to-viz.com/).
 
-[![Site from Data to Viz.](dataviz.png){fig-align="center" width="500"}](https://www.data-to-viz.com/)
+[![Site from Data to Viz.](dataviz.png){fig-align="center" width="419"}](https://www.data-to-viz.com/)
 
 ![Parte inicial do diagrama para seleção de variáveis e tipo de gráfico.](data_viz.png){fig-align="center" width="645"}
 
@@ -39,7 +39,7 @@ Visite [essa página](https://r-graph-gallery.com/all-graphs.html) para visualiz
 
 ![Tipos de gráficos com o pacote ggplot2.](inst.png){fig-align="center" width="500"}
 
-Muitas vezes esquecemos os códigos para produzir gráficos com o *ggplot2* e esse site é de grande ajuda, pois funciona como um folheto para consultas rápidas. O site conta com cerca de 800 mil visitantes por mês, o que mostra sua utilidade para o público.
+Muitas vezes esquecemos os códigos para produzir os gráficos com o pacote *ggplot2* e esse site é de grande ajuda, pois funciona como um folheto para consultas rápidas. O site conta com cerca de 800 mil visitantes por mês, o que mostra sua utilidade para o público.
 
 ### Contato do autor do site
 
