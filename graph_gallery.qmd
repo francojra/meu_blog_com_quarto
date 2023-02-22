@@ -39,6 +39,8 @@ Visite [essa página](https://r-graph-gallery.com/all-graphs.html) para visualiz
 
 ![Tipos de gráficos com o pacote ggplot2.](inst.png){fig-align="center" width="500"}
 
+Muitas vezes esquecemos os códigos para produzir gráficos com o *ggplot2* e esse site é de grande ajuda, pois funciona como um folheto para consultas rápidas. O site conta com cerca de 800 mil visitantes por mês, o que mostra sua utilidade para o público.
+
 ### Contato do autor do site
 
 O documento é desenvolvido por [Yan Holtz](https://www.yan-holtz.com/) e qualquer feedback é bem-vindo.
