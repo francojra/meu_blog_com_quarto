@@ -1,0 +1,42 @@
+---
+title: "Conheça o site The R Graph Gallery"
+author: "Jeanne Franco"
+date: "02-22-2023"
+categories: [Gráficos, Linguagem R]
+image: inst.png
+lang: pt
+toc: true
+---
+
+## O que é o *The R Graph*
+
+O site *The R Graph* reune centenas de gráficos feitos com o pacote *ggplot2* do R. Juntamente com as figuras, o site traz os códigos para que você possa executar no R. O site associa funções do pacote *ggplot2* e *tidyverse*. Você pode acompanhar atualizações do site seguindo a página no [Twitter](https://twitter.com/R_Graph_Gallery) ou [GitHub](https://github.com/holtzy/R-graph-gallery).
+
+O site permite visualizar os tipos de gráficos para você usar os mais adequados para as suas análises e adaptar os códigos que são disponibilizados aos seus dados. Além disso, os gráficos são organizados por tipos, o que facilita a navegação no site.
+
+O *The R Graph* disponibiliza cerca de 400 gráficos com explicações dos códigos. Informações teóricas e os tipos de gráficos ideias para cada tipo de variável podem ser encontrados nesse diagrama interativo e bastante completo promovido neste link do [data-to-viz](https://www.data-to-viz.com/).
+
+[![Site from Data to Viz.](dataviz.png){fig-align="center" width="500"}](https://www.data-to-viz.com/)
+
+![Diagrama para seleção de variáveis e tipo de gráfico.](data_viz.png){fig-align="center"}
+
+### Tipos de gráficos
+
+Você encontra diversos tipos de gráficos com diferentes tipo de variáveis:
+
+1.  Distribuição;
+2.  Correlação;
+3.  Ranqueamento;
+4.  Parte de um todo (gráficos de pizza, dendogramas, treemap, etc.);
+5.  Séries temporais (gráficos de linhas e área);
+6.  Mapas;
+7.  Fluxos (gráficos de redes, Sankey, diagramas de arcos, etc.);
+8.  Gráficos animados, interativos e 3D.
+
+Visite [essa página](https://r-graph-gallery.com/all-graphs.html) para visualizar e acessar instataneamento os diversos gráficos.
+
+![Tipos de gráficos com o pacote ggplot2.](inst.png){fig-align="center" width="500"}
+
+### Contato do autor do site
+
+O documento é desenvolvido por [Yan Holtz](https://www.yan-holtz.com/) e qualquer feedback é bem-vindo.
