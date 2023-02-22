@@ -16,11 +16,9 @@ O site permite visualizar os tipos de gráficos para você usar os mais adequado
 
 O *The R Graph* disponibiliza cerca de 400 gráficos com explicações dos códigos. Informações teóricas e os tipos de gráficos ideias para cada tipo de variável podem ser encontrados nesse diagrama interativo e bastante completo promovido neste link do [data-to-viz](https://www.data-to-viz.com/).
 
-[![Site from Data to Viz.](dataviz.png){fig-align="center" width="419"}](https://www.data-to-viz.com/)
+![Parte inicial do diagrama para seleção de variáveis e tipos de gráficos.](data_viz.png){fig-align="center" width="645"}
 
-![Parte inicial do diagrama para seleção de variáveis e tipo de gráfico.](data_viz.png){fig-align="center" width="645"}
-
-![Parte final do diagrama para seleção de variáveis e tipo de gráfico.](dataviz2.png){fig-align="center" width="645"}
+![Parte final do diagrama para seleção de variáveis e tipos de gráficos.](dataviz2.png){fig-align="center" width="645"}
 
 ### Tipos de gráficos
 
