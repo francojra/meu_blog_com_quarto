@@ -10,7 +10,7 @@ toc: true
 
 ## O que é o *The R Graph*
 
-O site *The R Graph* reune centenas de gráficos feitos com o pacote *ggplot2* do R. Juntamente com as figuras, o site fornece os códigos para que você possa executar no R. O site associa funções do pacote *ggplot2* e *tidyverse*. Você pode acompanhar as atualizações do site seguindo a página no [Twitter](https://twitter.com/R_Graph_Gallery) ou [GitHub](https://github.com/holtzy/R-graph-gallery).
+O site *The R Graph* reune centenas de gráficos feitos com o pacote *ggplot2* do R. Juntamente com as figuras, o site fornece os códigos para que você possa executar no R. O site associa funções do pacote *ggplot2* e *tidyverse*.
 
 O site permite visualizar os tipos de gráficos para você que você selecione os mais adequados para as suas análises e adapte os códigos aos seus dados. Além disso, os gráficos são organizados por tipos, o que facilita a navegação no site.
 
@@ -41,4 +41,4 @@ Muitas vezes esquecemos os códigos para produzir os gráficos com o pacote *ggp
 
 ### Contato do autor do site
 
-O documento é desenvolvido por [Yan Holtz](https://www.yan-holtz.com/) e qualquer feedback é bem-vindo.
+O documento é desenvolvido por [Yan Holtz](https://www.yan-holtz.com/) e qualquer feedback é bem-vindo. Você também pode acompanhar as atualizações do site seguindo a página no [Twitter](https://twitter.com/R_Graph_Gallery) ou [GitHub](https://github.com/holtzy/R-graph-gallery).
