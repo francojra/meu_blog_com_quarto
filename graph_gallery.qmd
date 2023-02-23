@@ -37,7 +37,7 @@ Visite [o site The R Graph](https://r-graph-gallery.com/all-graphs.html) para vi
 
 ![Tipos de gráficos com o pacote ggplot2.](inst.png){fig-align="center" width="500"}
 
-Muitas vezes esquecemos os códigos dos gráficos com *ggplot2* e esse site é de grande ajuda, pois funciona como um folheto para consultas rápidas. O site conta com cerca de 800 mil visitantes por mês, o que mostra sua utilidade para o público.
+Muitas vezes esquecemos os códigos dos gráficos com *ggplot2* e esse site funciona como um folheto para consultas rápidas. O site conta com cerca de 800 mil visitantes por mês, o que mostra sua utilidade para o público.
 
 ### Contato do autor do site
 
