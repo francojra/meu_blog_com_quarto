@@ -10,7 +10,7 @@ toc: true
 
 ## O que é o *The R Graph*
 
-O site *The R Graph* reune centenas de gráficos feitos com o pacote *ggplot2* do R. Juntamente com as figuras, o site fornece os códigos para que você possa executá-los no R. O site associa funções do pacote *ggplot2* e *tidyverse*.
+O site *The R Graph* reune centenas de gráficos feitos com o pacote *ggplot2* do R. Juntamente com as figuras, o site fornece os códigos para que você possa executá-los no R. O site associa funções dos pacotes *ggplot2* e *tidyverse*.
 
 O site permite visualizar muitos tipos de gráficos para que você selecione os mais adequados para as suas análises e adapte os códigos aos seus dados. Todos os gráficos são organizados por categorias, o que facilita a navegação no site.
 
@@ -22,7 +22,7 @@ O *The R Graph* disponibiliza cerca de 400 gráficos com explicações dos códi
 
 ### Tipos de gráficos
 
-Você encontra diversos tipos de gráficos com diferentes tipos de variáveis:
+Você encontra diversos tipos de gráficos para diferentes tipos de variáveis, entre eles:
 
 1.  Distribuição;
 2.  Correlação;
