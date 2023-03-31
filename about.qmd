@@ -1,6 +1,6 @@
 ---
 title: "Sobre mim e formação"
-image: profile.jpg
+image: jeanne.jpg
 about:
   template: jolla
   links:
