@@ -5,19 +5,12 @@ title-block-banner: true
 toc: true
 ---
 
-Abaixo estão listadas algumas palestras das quais ministrei.
+Abaixo estão listadas palestras ministradas por mim. Clique na imagem para acessar o link de divulgação.
 
-<p><img src="images/ggplot2_dplyr_rladies-01.png" width="200"/> <b>Visualização de dados com *ggplot2* e *dplyr* ministrada na [R-Ladies Ribeirão Preto](https://www.instagram.com/rladiesrp/?next=%2F). Assita essa palestra clicando [aqui](https://www.youtube.com/watch?v=eYaViNaddEA).</p>
-
-------------------------------------------------------------------------
-
-<p><img src="images/rmarkdown_rladies.png" width="200"/> <b>Introdução ao R Markdown ministrada na [R-Ladies Natal](https://www.instagram.com/rladiesnatal/?next=%2F). Assita essa palestra clicando [aqui](https://www.youtube.com/watch?v=EGPc1XJ-6-Y).</p>
+<p>[![](images/p3.png){width="380"}](https://www.instagram.com/p/CN40RNIlaVI/) Conhecendo a R-Ladies Natal: entre scripts e meet-ups.</p>
 
 ------------------------------------------------------------------------
 
-<p>![](images/r_do_zero_rladies.png){width="200"} <b>Palestra R do zero para iniciantes ministrada na [R-Ladies Natal](https://www.instagram.com/rladiesnatal/?next=%2F). Assista essa palestra clicando [aqui](https://www.youtube.com/watch?v=uGF5XowBJUA).</p>
+<p>[![](images/p1.png){width="380"}](https://www.instagram.com/p/CqWkfBDOP1m/) <b>Importância da R-Ladies para o desenvolvimento científico e social.</p>
 
 ------------------------------------------------------------------------
-
-<p>![](images/introducao_r_rladies.png){width="200"} <b>Introdução ao R: passo a passo para iniciantes na [R-Ladies Natal](https://www.instagram.com/rladiesnatal/?next=%2F).</p>
-
