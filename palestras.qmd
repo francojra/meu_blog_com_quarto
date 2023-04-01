@@ -14,3 +14,5 @@ Abaixo estão listadas palestras ministradas por mim. Clique na imagem para aces
 <p>[![](images/p1.png){width="380"}](https://www.instagram.com/p/CqWkfBDOP1m/) <b>Importância da R-Ladies para o desenvolvimento científico e social.</p>
 
 ------------------------------------------------------------------------
+
+<p>[![](images/p2.png){width="380"}](https://www.instagram.com/p/CKevbNmFadl/)<b>Conhecendo a comunidade R-Ladies Natal.</p>
