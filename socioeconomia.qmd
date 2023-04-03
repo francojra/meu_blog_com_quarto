@@ -8,17 +8,17 @@ lang: pt
 
 Para entender a questão da desigualdade social, precisamos primeiro definir alguns termos. A renda se refere ao fluxo de receitas, remunerações dos fatores de produção, juros sobre conta poupança, dividendos de ações, aluguéis, lucros de vendas, etc. A riqueza se refere aos valores dos bens, como casas, posses e propriedades. A desigualdade é a extensão em que o dinheiro é distribuído de maneira desigual na população, ou seja, a diferença da renda e da riqueza entre pobres e ricos. Quanto maior essa diferença, maior a desigualdade.^1^
 
-[![](images/Money_Cash.jpg){fig-align="center" width="500"}](https://en.m.wikipedia.org/wiki/File:Money_Cash.jpg)
-
 Quanto às influências psicológicas do dinheiro nas pessoas, parece fazer sentido pensar que o aumento da riqueza torna a população de um país mais feliz. Entretanto, estudos mostram que existe um fator que melhor explica a felicidade: a desigualdade social. Uma pesquisa feita nos Estados Unidos concluiu que, nos últimos 40 anos, o aumento da desigualdade social reduziu não só o índice de felicidade como também o índice de confiança das pessoas umas nas outras.^2^
+
+![Desigualdade social e consequências psicológicas.](images/des_soc.png){alt="Desigualdade social e consequências psicológicas." fig-align="center" width="500"}
 
 O índice de felicidade de um país não aumenta a medida que ele fica mais rico. A explicação para isso é que mesmo o país ficando mais rico, as desigualdades sempre vão existir, como ricos mais felizes e pobres mais tristes, não alterando a felicidade de forma generalizada na população.^2^ Não é necessariamente o aumento na riqueza que gera a felicidade. Uma pesquisa feita com ganhadores da loteria e cadeirantes mostrou que os ganhadores voltaram a ter o mesmo nível de felicidade que tinham antes do prêmio, e cadeirantes voltaram a ser felizes como eram antes de perderem os movimentos das pernas.^2^
 
 A riqueza aumentou em muitos países e mesmo assim o índice de felicidade não acompanhou esse aumento, portanto, não é a riqueza que influencia na felicidade e sim a percepção da desigualdade. O risco desse resultado é que a desigualdade de renda vem aumentando no Brasil desde 2016.^2^ Já nos Estados Unidos, a diferença entre ricos e pobres vem aumentando marcadamente há mais de trinta anos.^1^
 
-A desigualdade só é percebida dentro da região onde as pessoas moram. Por exemplo, quando a comparação da renda é feita dentro de um mesmo país, a percepção de desigualdade é maior. Quando a comparação é feita entre países, a percepção da desigualdade reduz, não trazendo impactos psicológicos.^2^ É importante destacar que o índice de felicidade não cai por causa da desigualdade, e sim por causa da percepção dela. Ou seja, o problema ocorre quando você contempla e convive com a desigualdade.^2^
+[![](images/Money_Cash.jpg){fig-align="center" width="500"}](https://en.m.wikipedia.org/wiki/File:Money_Cash.jpg)
 
-[![Desigualdade social e consequências psicológicas.](images/des_soc.png){alt="Desigualdade social e consequências psicológicas." fig-align="center" width="500"}](https://super.abril.com.br/coluna/bruno-garattoni/a-palavra-meritocracia-foi-inventada-por-um-escritor-de-esquerda-e-e-uma-distopia/)
+A desigualdade só é percebida dentro da região onde as pessoas moram. Por exemplo, quando a comparação da renda é feita dentro de um mesmo país, a percepção de desigualdade é maior. Quando a comparação é feita entre países, a percepção da desigualdade reduz, não trazendo impactos psicológicos.^2^ É importante destacar que o índice de felicidade não cai por causa da desigualdade, e sim por causa da percepção dela. Ou seja, o problema ocorre quando você contempla e convive com a desigualdade.^2^
 
 Algumas pesquisas também mostram resultados contrários sobre os efeitos negativos da desigualdade. Segundo um estudo realizado por *Berg and Veenhoven* (2010)^5^, nos países desenvolvidos a felicidade reduziu drasticamente com a desigualdade, entretanto, na Ásia e na América do Sul, o decréscimo na felicidade foi menor que nos países desenvolvidos, ou seja, não houve um decréscimo acentuado na felicidade à medida que aumentava a desigualdade. Além disso, nos países da África a correlação entre desigualdade e felicidade não existiu. De forma geral, esse estudo não mostrou correlação entre desigualdade de renda e felicidade.^2^
 
