@@ -10,7 +10,7 @@ Para entender a questão da desigualdade social, precisamos primeiro definir alg
 
 Parece fazer sentido pensar que o aumento da riqueza torna a população de um país mais feliz. Entretanto, estudos mostram que a desigualdade social é o fator que melhor explica a felicidade. Uma pesquisa feita nos Estados Unidos concluiu que, nos últimos 40 anos, o aumento da desigualdade social reduziu não só o índice de felicidade como também o índice de confiança das pessoas umas nas outras.^2^ O risco disso é que a desigualdade de renda vem aumentando no Brasil desde 2016.^2^ Já nos Estados Unidos, a diferença entre ricos e pobres vem aumentando marcadamente há mais de trinta anos.^1^
 
-![Desigualdade social e consequências psicológicas.](images/des_soc.png){alt="Desigualdade social e consequências psicológicas." fig-align="center" width="500"}
+[![Desigualdade social e consequências psicológicas.](images/des_soc.png){alt="Desigualdade social e consequências psicológicas." fig-align="center" width="500"}](https://inequality.org/facts/income-inequality/)
 
 O índice de felicidade de um país não aumenta a medida que ele fica mais rico. Mesmo um país ficando mais rico, as desigualdades sempre vão existir, como ricos mais felizes e pobres mais tristes, não alterando a felicidade de forma generalizada na população.^2^ Uma pesquisa feita com ganhadores da loteria e cadeirantes mostrou que os ganhadores voltaram a ter o mesmo nível de felicidade que tinham antes do prêmio, e cadeirantes voltaram a ser felizes como eram antes de perderem os movimentos das pernas.^2^ Portanto, não é a riqueza que prediz felicidade e sim a desigualdade social.
 
@@ -20,19 +20,23 @@ A desigualdade só é percebida dentro da região onde as pessoas moram. Por exe
 
 Algumas pesquisas também mostram resultados contrários sobre os efeitos negativos da desigualdade. Segundo um estudo realizado por *Berg and Veenhoven* (2010)^5^, nos países desenvolvidos a felicidade reduziu drasticamente com a desigualdade, entretanto, na Ásia e na América do Sul, o decréscimo na felicidade foi menor que nos países desenvolvidos, ou seja, não houve um decréscimo acentuado na felicidade à medida que aumentava a desigualdade social. Além disso, nos países da África a correlação entre desigualdade e felicidade não existiu. De forma geral, esse estudo não mostrou correlação entre desigualdade de renda e felicidade.^2^
 
+[![](images/csm_desigualdade1_374be25e58-01.jpg){fig-align="center" width="500"}](https://www.brasildefato.com.br/2017/11/06/a-terra-dos-super-ricos-quem-sao-de-onde-vieram-e-para-onde-vao/)
+
 A desigualdade também pode ser persebida em grupos sociais. A sensação de injustiça social na população ou uma ação violenta contra grupos pode gerar revoltas.^2^ Para analisar esses efeitos, um experimento foi feito com chimpanzés do Senegal. Esse experimento se desenvolveu da seguinte forma: quando um líder chimpanzé se apresentou de forma tirana e agressiva diante do bando, os outros chimpanzés se revoltaram. O líder sofreu um impeachment, foi agredido e expulso da comunidade. Após isso, outro líder foi eleito e passou a governar. Cinco anos depois, o antigo líder voltou para o bando, então os chimpazés se uniram e mataram ele. O que mais impressionou no estudo é que matar dentro da comunidade é raro entre os chimpazés.^3^ Outro exemplo foi a Revolução Francesa que ocorreu a partir da percepção de desigualdade da população e das injustiças.^2^
-
-Em sociedades menos igualitárias ocorre maior competitividade e menor nível de confiança nos outros. Além disso, em sociedades mais desiguais existe menor honestidade, relações mais distantes e ricos menos solidários.^4^ Países muito desiguais apresentam níveis elevados de crimes, uso de drogas e racismo. As pessoas se encaixam menos em atividades comunitárias, ajudam menos os outros e exibem comportamentos antissociais. As pessoas apresentam níveis mais baixos de bem estar, satisfação com a vida e com as lideranças.^4^
-
-[![](images/csm_desigualdade1_374be25e58.jpg){fig-align="center" width="500"}](https://www.tnh1.com.br/noticia/nid/desigualdade-social-contribui-para-o-circulo-vicioso-da-corrupcao/)
-
-Desigualdade em nações desenvolvidas é associada a um menor bem-estar da população. As pessoas tem a percepção em um nível individual de que a desigualdade traz problemas envolvendo status e recursos econômicos, que o mundo social é mais competitivo e individualista, e que as pessoas, o sistema político e a democracia em geral são menos confiáveis.^6^
 
 Um estudo de revisão realizado por *Buttrick and Oishi* (2016)^7^, concluiu que pessoas vivendo em regimes altamente desiguais tendem a apresentar maior desconfiança e ansiedade sobre o status social. Outros resultados negativos foram menor felicidade, menor coesão social, moralidade mais fraca, maior mortalidade, pior estado de saúde e governança mais fraca.
 
 Outro problema social relatado por *Du et al*. (2020), foi quanto a redução da honestidade civil associada aos países com maior desigualdade social. Para fazer esse estudo, o autor reanalizou os dados do experimento "*lost wallet*" (carteira perdida) que foi conduzido em 355 cidades de 40 países, e encontrou que pessoas de países com maior desigualdade foram menos prováveis de devolverem a carteira.^8^
 
+[![](images/f6c8d36d5b6225bf9fedb38b05f3de23.jpg){fig-align="center" width="500"}](https://br.pinterest.com/pin/691584086506405114/)
+
 Algumas pesquisas mostram que ter vizinhos mais ricos é associado com níveis relativos mais baixos de bem-estar. Resultados de um robusto estudo realizado com 1,7 milhões de pessoas de 2425 cidades dos Estados Unidos mostrou que pessoas foram mais influenciadas pela renda dos vizinhos (renda relativa) quando a desigualdade de renda foi maior, causando menor sensação de bem-estar. Ao contrário, uma maior renda absoluta (renda individual) aumenta a sensação de bem-estar.^9^
+
+Em sociedades menos igualitárias ocorre maior competitividade e menor nível de confiança nos outros. Além disso, em sociedades mais desiguais existe menor honestidade, relações mais distantes e ricos menos solidários.^4^ Países muito desiguais apresentam níveis elevados de crimes, uso de drogas e racismo. As pessoas se encaixam menos em atividades comunitárias, ajudam menos os outros e exibem comportamentos antissociais. As pessoas apresentam níveis mais baixos de bem estar, satisfação com a vida e com as lideranças.^4^
+
+Desigualdade em nações desenvolvidas é associada a um menor bem-estar da população. As pessoas tem a percepção em um nível individual de que a desigualdade traz problemas envolvendo status e recursos econômicos, que o mundo social é mais competitivo e individualista, e que as pessoas, o sistema político e a democracia em geral são menos confiáveis.^6^
+
+Todos esses estudos trazem um alerta sobre as questões econômicas envolvendo a sociedade e apresenta para a gestão pública um olhar para todos de forma igualitária, de forma a aumentar de forma generalizada a renda e bem-estar da população, não priorizando grupos específicos da sociedade.
 
 ### Referências
 
