@@ -1,0 +1,87 @@
+---
+title: "Introdução ao Quarto"
+author: "Jeanne Franco"
+format: pdf
+editor: visual
+---
+
+## Sobre o Quarto
+
+Quarto é um novo **sistema de publicação científica e técnica de código aberto**. O objetivo é fazer o processo de criação de documentos e colaboração muito melhor.
+
+Quarto capacita o usuário a tecer um **documento com conteúdo de texto e código executável junto**. Para aprender mais sobre o sistema, acesse o site do Quarto em: <https://quarto.org>.
+
+O Quarto tem a vantagem de unificar e estender o ecossistema do R Markdown, portanto, ele serve bem para quem já faz uso diário do R Markdown, mas também serve para não usuários do R Markdown.
+
+O Quarto funciona em diferentes linguagens de programação como o **R, Python, Julia e Observable**.
+
+O Quarto produz diferentes arquivos como **PDF, HTML, Word, sites, livros, apresentações, artigos científicos e blogs**.
+
+[![](quarto_schematic.png){fig-align="center" width="400"}](https://ucsb-meds.github.io/creating-quarto-websites/)
+
+O Quarto pode ser utilizado por **pesquisadores, desenvolvedores e educadores**.
+
+## Vantagens em relação ao R Markdown
+
+O R Markdown conta com diversos pacotes que podem ser baixados no R para executar diveras funções, entre eles, **blogdown, rticles, xaringan, distill, knitr, bookdown, flexdashboard e rsconnect**. A vantagem do Quarto em relação a isso, é que ele unifica a funcionalidade de todos esses pacotes em uma interface de linha de comando sem precisar fazer o download desses pacotes.
+
+O Quarto conta com uma implementação atrativa de output como:
+
+-   Tabsets
+
+-   Code-folding
+
+-   Sintax highlights
+
+-   Padrões mais acessíveis
+
+-   Sintaxe informativa de erros
+
+-   Suporte para outras linguagens
+
+-   Chunks mais organizados
+
+O Quarto permite fazer a **mudança de formatos** (por exemplo, de PDF para HTML) facilmente. No YAML do arquivo, podemos subsituir e trocar o output de interesse sem modificar o conteúdo de nosso documento.
+
+Opções de configuração para todo o documento podem ser definidas no próprio YAML através da função ***execute***. Essa é mais uma vantagem em relação ao R Markdown em que é preciso definir um código mais complexo no início do documento.
+
+## Criação de websites
+
+Com o Quarto você pode criar e publicar sites de forma muito rápida e fácil. Para isso você pode seguir essas etapas:
+
+1.  Clique em **File** na aba de ferramentas do RStudio;
+
+2.  Clique em **New Project** e **New Directory**;
+
+3.  Clique em **Quarto Website**.
+
+Após isso, você indicará o diretório do computador em que irá hospedar o seu projeto. No projeto você encontrará dois arquivos .qmd e um arquivo .yml. Nos arquivos .qmd você adicionará os conteúdos do seu site e no arquivo .yml você encontrará as configurações do seu site como apresentado na figura abaixo:
+
+![Arquivo .yml para Website criado no Quarto.](site_quarto.png){fig-align="center" width="600"}
+
+Nesse arquivo .yml você encontrará essas principais estruturas de configuração:
+
+1.  **Project**: indicação do tipo (***type***) de projeto, no caso, website;
+
+2.  **Website**: Configurações do site, como título (***title***), abas (***navbar***), conteúdo presente em cada aba ***href*** (arquivos .qmd), localização das abas no lado esquerdo (***left***) ou direito, etc;
+
+3.  **Format**: tipo de arquivo (HTML), o tema (***theme***) para estética do site, a indicação do arquivo ***css***, entre outros estilos;
+
+4.  **Lang**: língua do website (português, inglês, espanhol, etc.).
+
+```{mermaid}
+flowchart TB
+  A(File) --> B(New File)
+  B --> C(New Project)
+  C --> D(New Directory)
+  D --> E(Quarto Website)
+  E --> F(Arquivo .yml)
+  F <--> G[Project]
+  F <-->H[Website]
+  F <--> I[Format]
+  E --> J(Arquivos .qmd)
+  J <--> K[index.qmd]
+  J <--> L[hello.qmd]
+```
+
+Os diagramas acima foram feitos com a linguagem ***mermaid*** que está no Quarto e é feito dentro de um chunk.
