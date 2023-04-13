@@ -7,12 +7,12 @@ toc: true
 
 Abaixo estão listadas palestras ministradas por mim. Clique na imagem para acessar o link de divulgação.
 
-<p>[![](images/p3.png){width="380"}](https://www.instagram.com/p/CN40RNIlaVI/) Conhecendo a R-Ladies Natal: entre scripts e meet-ups.</p>
+<p>![](images/p3.png){width="200"} Conhecendo a R-Ladies Natal: entre scripts e meet-ups.</p>
 
 ------------------------------------------------------------------------
 
-<p>[![](images/p1.png){width="380"}](https://www.instagram.com/p/CqWkfBDOP1m/) <b>Importância da R-Ladies para o desenvolvimento científico e social.</p>
+<p>![](images/p1.png){width="200"} <b>Importância da R-Ladies para o desenvolvimento científico e social.</p>
 
 ------------------------------------------------------------------------
 
-<p>[![](images/p2.png){width="380"}](https://www.instagram.com/p/CKevbNmFadl/)<b>Conhecendo a comunidade R-Ladies Natal.</p>
+<p>![](images/p2.png){width="200"}<b>Conhecendo a comunidade R-Ladies Natal.</p>
