@@ -1,0 +1,55 @@
+---
+title: "O Aprisionamento de Stanford - Efeito Lúcifer"
+author: "Jeanne Franco"
+date: "01-17-2023"
+categories: [Psicologia]
+lang: pt
+---
+
+No ano de 1971, o psicólogo e professor da [Universidade de Standford](https://psychology.stanford.edu/people/philip-zimbardo) ***Philip*** George ***Zimbardo***, nascido em Nova Iorque, elaborou um experimento para entender a origem da maldade e avaliar as consequências comportamentais e psicológicas de estar preso ou de ser um guarda em um sistema carcerário. Esse experimento veio a se tornar um dos mais famosos da história da psicologia e teve como inspiração um estudo chamado *Experiência de Milgram* que avaliava o grau de obediência das pessoas ao receberem ordens.
+
+[![Psicólogo Philip Zimbardo.](images/zimbardo.png){width="500"}](https://www.newscientist.com/article/mg24031990-200-inside-the-prison-experiment-that-claimed-to-show-the-roots-of-evil/)
+
+Para desenvolver o experimento, o subsolo do Departamento de Psicologia foi utilizado como uma réplica muito próxima de um presídio. Algumas salas foram convertidas em celas, outras foram usadas para os guardas e para os oficiais, e um escritório foi reservado para o orientador do experimento. Para auxiliar na montagem do presídio, convidados experts que conheciam o sistema carcerário foram convidados, um deles era um prisioneiro que cumpriu 17 anos de pena.
+
+[![Placa do experimento da Universidade de Standford, uma das melhores universidades dos Estados Unidos.](images/plaque-01.jpg){fig-align="center"}](https://www.bbc.com/portuguese/geral-46417388)
+
+A chamada de participantes para o experimento ocorreu através de anúncios explicando que o estudo se tratava de conhecer os efeitos psicológicos da prisão nos seres humanos, e que cada participante receberia 15 dólares por dia. Cerca de 70 pessoas se candidataram, mas apenas 24 pessoas foram escolhidas após passarem por testes psicológicos. Os selecionados não deveriam apresentar histórico de uso de drogas, antecedentes criminais, anormalidades psicológicas e outras incapacidades. Todos os selecionados foram homens, estudantes de psicologia, saudáveis, inteligentes e de classe média. Os papéis de prisioneiros e guardas foram distribuídos aleatoriamente entre os participantes jogando-se uma moeda, assim sendo, os papéis foram definidos através da sorte.
+
+[![Alguns participantes no experimento de Standford.](images/_104502748_5-1.jpg){fig-align="center" width="500"}](https://www.bbc.com/portuguese/geral-46417388)
+
+Um dia antes do experimento, os guardas foram informados que não deveria haver agressão física e privação de comida para os prisioneiros, era necessário apenas criar neles uma sensação de medo, de frustração, de pouco controle sobre a própria vida e de constante vigilância. A ideia geral foi criar um ambiente de fraqueza para os presos e de total poder para os guardas.
+
+O experimento iniciou de forma brutal. Policiais de verdade chegaram em viaturas nas casas dos presos e os abordaram na vizinhança. Os presos foram constrangidos na presença de familiares e amigos, acusados injustamente, revistados, algemados, vendados, e após terem seus nomes anotados, foram levados para o sistema prisional fictício com a justificativa de suspeita de uso de drogas ou de roubo.
+
+[![Abordagem policial na rua aos presos do experimento.](images/presos.png){fig-align="center" width="500"}](https://www.newscientist.com/article/mg24031990-200-inside-the-prison-experiment-that-claimed-to-show-the-roots-of-evil/)
+
+No presídio, os detentos registaram suas digitais, tiveram suas roupas tiradas e desinfetadas, receberam remédios para piolhos, vestiram roupas semelhantes a túnicas, colocaram gorros de náilon feito com meia-calça feminina, calçaram sandálias de borracha e colocaram correntes nos pés. Para submeter os presos a forte humilhação, alguns policiais pediram para que ficassem pelados e se olhassem no espelho. Apesar daquilo ser apenas um trabalho experimental, os prisioneiros se sentiram injustiçados ao serem tratados como verdadeiros criminosos. Os guardas usavam óculos escuros para impedir que suas expressões e emoções fossem percebidas pelos presos, e assim, parecerem menos humanos e mais intimidadores.
+
+Os guardas foram orientados a despertarem os presos às duas horas da manhã para fazerem contagens, e para que os presos decorassem seus números de identificação. As contagens e interrupções do sono eram feitas com frequência pelos guardas para garantir que todos os presos estavam presentes. No começo do experimento, tanto os presos quanto os guardas não conseguiam executar seus papéis com seriedade, muitos dos estudantes se conheciam na universidade e interagiam entre si, entretanto, esse contato amigável entre os participantes foi quebrado nos dias seguintes após os presos se sentirem pressionados e passarem a fazer rebeliões. Os policiais revidaram com punições mais rígidas, e muitas delas eram realizadas arbitrariamente nas madrugadas enquanto o orientador Philip Zimbardo e os pesquisadores do experimento dormiam.
+
+[![Os presos eram submetidos a constantes humilhações pelos guardas.](images/experimento.png){fig-align="center" width="500"}](https://www.newscientist.com/article/mg24031990-200-inside-the-prison-experiment-that-claimed-to-show-the-roots-of-evil/)
+
+Como não era permitido agressão física, os guardas passaram a fazer todo tipo de agressão psicológica. Entre algumas violências executadas pelos guardas estavam: envio à solitária, flexões, dormir no chão, sacos de papel na cabeça e necessidades fisiológicas em baldes. Alguns presos recebiam punições mais severas que outros caso não se comportassem bem, esse episódio acabou causando divisões entre os próprios presos, o que facilitou a ação dos guardas.
+
+O experimento estava previsto inicialmente para durar duas semanas, entretanto, durou apenas seis dias. A simulação saiu de controle devido ao ambiente encorajar um comportamento agressivo por parte dos guardas e forte pressão psicológica sobre os prisioneiros. Um dos prisioneiros, após apresentar pânico e crises de choro, pediu um médico e solicitou sua saída do experimento. O prisioneiro substituto, ao ver toda situação, chegou a negar as condições e fazer greve de fome, entretanto, foi ridicularizado pelos guardas e colegas de prisão.
+
+O cientista Philip Zimbardo percebeu a gravidade do experimento, mas a finalização somente ocorreu após a psicóloga Christina Maslach, esposa do cientista, aconselhar a interrupção para evitar tragédias entre os participantes. Apesar de poucos dias de experimento, os pesquisadores puderam tirar valiosas conclusões sobre a origem da maldade humana. Diversas pesquisas, artigos, filmes (ex. *The Stanford Prison Experiment* de 2015) e livros foram publicados após o experimento. O livro *Efeito Lúcifer: Como boas pessoas se tornam más* é uma das principais publicações de Philip Zimbardo.
+
+Um dos principais pontos encontrados no experimento foi que o ser humano pode rapidamente ser influenciado pelo ambiente em que está imerso, assumindo papel de tirano, de acordo com as ordens que recebe, ou se tornando submisso a torturas. O Dr. Zimbardo chamou a mudança de comportamento de bom para mau de *efeito lucifer* e fez as seguintes citações sobre o experimento:
+
+> "Situações que vivenciamos podem ter uma influência mais poderosa sobre nosso comportamento do que tendemos a acreditar."
+>
+> "O experimento nos mostra que a natureza humana não está totalmente sujeita ao livre arbítrio, como gostamos de pensar, mas que a maioria de nós pode ser seduzida a se comportar de maneira totalmente atípica em relação ao que acreditamos que somos".
+
+[![Livro do autor Philip Zimbardo.](images/51QBZTuIyuL._SX334_BO1,204,203,200_.jpg){fig-align="center"}](https://www.amazon.com.br/efeito-L%C3%BAcifer-Como-pessoas-tornam/dp/8501082198)
+
+Apesar da importância do estudo para a área da psicologia, o experimento de Zimbardo sofreu com críticas de psicólogos sobre os aspectos metodológicos e conclusivos. Muitos desses experimentos sociais, se fossem realizados atualmente, também sofreriam com as restrições do comitê de ética. Entretanto, eventos históricos extremos, como o nazismo na Alemanha, os abusos na prisão iraquiana de Abu Ghraib e os conflitos em sistemas penitenciários, podem ser compreendidos graças a estudos experimentais como esses desenvolvidos nas universidades.
+
+### Referências
+
+[**Inside the prison experiment that claimed to show the roots of evil**](https://www.newscientist.com/article/mg24031990-200-inside-the-prison-experiment-that-claimed-to-show-the-roots-of-evil/)
+
+[**O experimento de aprisionamento de Stanford**](https://www.youtube.com/watch?v=YXIzAZ6fLTY)
+
+[**O controverso 'Experimento de Aprisionamento de Stanford', interrompido após sair do controle**](https://www.bbc.com/portuguese/geral-46417388)
