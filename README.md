@@ -12,3 +12,7 @@
   - Programação em Python e R;
   - Divulgação Científica.
 2. Atividades
+  - Empresa Beta Analítica;
+  - R-Ladies Natal;
+  - Prestação de Serviços;
+  - Palestras.
