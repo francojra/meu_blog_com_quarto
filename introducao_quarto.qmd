@@ -124,11 +124,7 @@ knitr::write_bib(c("car","ggplot2"), "packages.bib")
 
 6.  Para fazer a mudança de chunks do R Markdown para chunks com \|#
 
-    ```{r, echo = TRUE, results = "hide", message = FALSE, warning = FALSE, out.width = "50%", fig.align = 'center', fig.cap = "Um gatinho."}
 
-    knitr::convert_chunk_header(input = "C:/Users/jeann/OneDrive/Área de Trabalho/introducao_quarto_markdown.qmd", type
-    = "multiline")
-    ```
 
 7.  Adicionar ícones ao texto com o Font Awesome Extension.
 
