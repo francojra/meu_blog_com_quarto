@@ -1,0 +1,160 @@
+---
+title: "Introdução ao Quarto"
+author: "Jeanne Franco"
+format: pdf
+editor: visual
+---
+
+## Sobre o Quarto
+
+Quarto é um novo **sistema de publicação científica e técnica de código aberto**. O objetivo é fazer o processo de criação de documentos e colaboração muito melhor.
+
+Quarto capacita o usuário a tecer um **documento com conteúdo de texto e código executável junto**. Para aprender mais sobre o sistema, acesse o site do Quarto em: <https://quarto.org>.
+
+O Quarto tem a vantagem de unificar e estender o ecossistema do R Markdown, portanto, ele serve bem para quem já faz uso diário do R Markdown, mas também serve para não usuários do R Markdown.
+
+O Quarto funciona em diferentes linguagens de programação como o **R, Python, Julia e Observable** e os arquivos podem ser compartilhados por colaboradores que utilizam diferentes linguagens.
+
+O Quarto produz diferentes arquivos como **PDF, HTML, Word, sites, livros, apresentações, artigos científicos e blogs**.
+
+[![](quarto_schematic.png){fig-align="center" width="400"}](https://ucsb-meds.github.io/creating-quarto-websites/)
+
+O Quarto pode ser utilizado por **pesquisadores, desenvolvedores e educadores**.
+
+## Vantagens em relação ao R Markdown
+
+O R Markdown conta com diversos pacotes que podem ser baixados no R para executar diveras funções, entre eles, **blogdown, rticles, xaringan, distill, knitr, bookdown, flexdashboard e rsconnect**. A vantagem do Quarto em relação a isso, é que ele unifica a funcionalidade de todos esses pacotes em uma interface de linha de comando sem precisar fazer o download desses pacotes.
+
+O Quarto conta com uma implementação atrativa de output como:
+
+-   Tabsets
+
+-   Code-folding
+
+-   Sintax highlights
+
+-   Padrões mais acessíveis
+
+-   Sintaxe informativa de erros
+
+-   Suporte para outras linguagens
+
+-   Chunks mais organizados
+
+O Quarto permite fazer a **mudança de formatos** (por exemplo, de PDF para HTML) facilmente. No YAML do arquivo, podemos subsituir e trocar o output de interesse sem modificar o conteúdo de nosso documento.
+
+Opções de configuração para todo o documento podem ser definidas no próprio YAML através da função ***execute***. Essa é mais uma vantagem em relação ao R Markdown em que é preciso definir um código mais complexo no início do documento.
+
+## Criação de websites
+
+Com o Quarto você pode criar e publicar sites de forma muito rápida e fácil. Para isso você pode seguir essas etapas:
+
+1.  Clique em **File** na aba de ferramentas do RStudio;
+
+2.  Clique em **New Project** e **New Directory**;
+
+3.  Clique em **Quarto Website**.
+
+Após isso, você indicará o diretório do computador em que irá hospedar o seu projeto. No projeto você encontrará dois arquivos .qmd e um arquivo .yml. Nos arquivos .qmd você adicionará os conteúdos do seu site e no arquivo .yml você encontrará as configurações do seu site como apresentado na figura abaixo:
+
+![Arquivo .yml para Website criado no Quarto.](site_quarto.png){fig-align="center" width="600"}
+
+Nesse arquivo .yml você encontrará essas principais estruturas de configuração:
+
+1.  **Project**: indicação do tipo (***type***) de projeto, no caso, website;
+
+2.  **Website**: Configurações do site, como título (***title***), abas (***navbar***), conteúdo presente em cada aba ***href*** (arquivos .qmd), localização das abas no lado esquerdo (***left***) ou direito, etc;
+
+3.  **Format**: tipo de arquivo (HTML), o tema (***theme***) para estética do site, a indicação do arquivo ***css***, entre outros estilos;
+
+4.  **Lang**: língua do website (português, inglês, espanhol, etc.).
+
+```{mermaid}
+flowchart LR
+  A(File) --> B(New File)
+  B --> C(New Project)
+  C --> D(New Directory)
+  D --> E{Quarto Website}
+```
+
+```{mermaid}
+flowchart LR
+  E{Quarto Website} --> F(Arquivo .yml)
+  F <--> G[Project]
+  F <--> H[Website]
+  F <--> I[Format]
+```
+
+```{mermaid}
+flowchart LR
+  E{Quarto Website} --> J(Arquivos .qmd)
+  J <--> K[index.qmd]
+  J <--> L[hello.qmd]
+```
+
+Os diagramas acima foram feitos com a linguagem ***mermaid*** que está no Quarto e é feito dentro de um chunk.
+
+## Algumas dicas especiais do Quarto
+
+1.  No cabeçalho YAML é possível adicionar o argumento ***code-link: true***. Esse argumento permite que os leitores tenham acesso a links dos sites com informações sobre os códigos. Por exemplo, no código ***ggplot***, o leitor poderá clicar nele e acessar o site com informações do pacote ***ggplot2***. Essa funcionalidade pode servir como uma importante ferramenta de ensino.
+
+2.  No formato de apresentações ***reaveals.js*** podemos adicionar o argumento ***chalkboard: true*** no cabeçalho YAML e obter ferramentas de ensino como quadro-negro e expansão de partes dos slides durante a apresentação.
+
+3.  Citação de referências de pacotes do R.
+
+```{r, message=FALSE, warning=FALSE}
+library(car)
+library(ggplot2)
+knitr::write_bib(c("car","ggplot2"), "packages.bib")
+
+## Um novo arquivo packages.bib aparecerá na pasta do diretório com as referências.
+```
+
+4.  Encontrar caminhos de pastas com ***here***. Mesmo sem está no diretório da pasta, podemos executar os códigos usando o ***here***.
+
+    ```{r, eval = TRUE}
+    #install.packages("here")
+    here::here()
+    here::here("cat.png")
+    ```
+
+5.  Organização de chunks com \|#, onde cada argumento de configuração fica um abaixo do outro e não ao lado e separado por vírgula como no R Markdown.
+
+    ```{r}
+    #| echo: true                                  
+    #| out.width: "50%"
+    #| fig.align: "center"                        
+    #| fig.cap: "Um gatinho." 
+      
+    # Exemplo:
+
+    # #| echo: true                                  
+    # #| out.width: "50%"
+    # #| fig.align: "center"                        
+    # #| fig.cap: "Um gatinho." 
+
+    knitr::include_graphics("cat.png")
+    ```
+
+6.  Para fazer a mudança de chunks do R Markdown para chunks com \|#
+
+    ```{r, echo = TRUE, results = "hide", message = FALSE, warning = FALSE, out.width = "50%", fig.align = 'center', fig.cap = "Um gatinho."}
+
+    knitr::convert_chunk_header(input = "C:/Users/jeann/OneDrive/Área de Trabalho/introducao_quarto_markdown.qmd", type
+    = "multiline")
+    ```
+
+7.  Adicionar ícones ao texto com o Font Awesome Extension.
+
+--- Instalação no terminal do RStudio: ***quarto install extension quarto-ext/fontawesome***
+
+Visite o [link](https://github.com/quarto-ext/fontawesome) para adicionar exemplos de ícones como esse:
+
+{{< fa brands github size=5x >}}
+
+## Referências
+
+[10 dicas para programar melhor em RMarkdown/Quarto](https://www.youtube.com/watch?v=YMGZQmMK2C8)
+
+[BioC 2022 - Hello, Quarto!](https://www.youtube.com/watch?v=YVa5cdkypbw&list=WL&index=14)
+
