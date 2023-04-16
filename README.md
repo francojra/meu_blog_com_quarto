@@ -8,6 +8,8 @@
 
 ## Conteúdos
 
+### Abas da direita:
+
 1. Postagens
   - Programação em Python e R;
   - Divulgação Científica.
@@ -16,3 +18,11 @@
   - R-Ladies Natal;
   - Prestação de Serviços;
   - Palestras.
+3. Sobre
+  - Sobre Mim e Formação;
+  - Currículos Acadêmicos e Profissionais.
+4. Contatos
+
+### Aba da esquerda:
+
+Jeanne Franco/Página Inicial
