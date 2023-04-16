@@ -57,7 +57,6 @@ Com o Quarto você pode criar e publicar sites de forma muito rápida e fácil. 
 
 Após isso, você indicará o diretório do computador em que irá hospedar o seu projeto. No projeto você encontrará dois arquivos .qmd e um arquivo .yml. Nos arquivos .qmd você adicionará os conteúdos do seu site e no arquivo .yml você encontrará as configurações do seu site como apresentado na figura abaixo:
 
-![Arquivo .yml para Website criado no Quarto.](site_quarto.png){fig-align="center" width="600"}
 
 Nesse arquivo .yml você encontrará essas principais estruturas de configuração:
 
