@@ -120,21 +120,7 @@ knitr::write_bib(c("car","ggplot2"), "packages.bib")
 
 5.  Organização de chunks com \|#, onde cada argumento de configuração fica um abaixo do outro e não ao lado e separado por vírgula como no R Markdown.
 
-    ```{r}
-    #| echo: true                                  
-    #| out.width: "50%"
-    #| fig.align: "center"                        
-    #| fig.cap: "Um gatinho." 
-      
-    # Exemplo:
 
-    # #| echo: true                                  
-    # #| out.width: "50%"
-    # #| fig.align: "center"                        
-    # #| fig.cap: "Um gatinho." 
-
-    knitr::include_graphics("cat.png")
-    ```
 
 6.  Para fazer a mudança de chunks do R Markdown para chunks com \|#
 
