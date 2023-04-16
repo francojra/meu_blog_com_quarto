@@ -5,3 +5,10 @@
 ### Nesse blog eu falo sobre linguagens de programação e divulgação científica em diversos temas como meio ambiente, psicologia, saúde, etc.
 
 ### O blog foi implantado na internet com [Quarto](https://quarto.org/).
+
+## Conteúdos
+
+1. Postagens
+  - Programação em Python e R;
+  - Divulgação Científica.
+2. Atividades
