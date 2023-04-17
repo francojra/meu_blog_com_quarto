@@ -3,7 +3,8 @@ title: "Criando diagramas com Mermaid"
 author: "Jeanne Franco"
 format: html
 editor: visual
-date: 09/04/2013
+date: 09/04/2023
+image: mindmap.png
 categories: [Códigos, Mermaid]
 lang: pt
 toc: true
