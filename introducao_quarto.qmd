@@ -238,7 +238,7 @@ knitr::write_bib(c("car","ggplot2"), "packages.bib")
 
 4.  Encontrar caminhos de pastas com ***`here`***. Mesmo sem está no diretório da pasta, podemos executar os códigos usando o ***`here`***.
 
-    ```{r, eval = TRUE}
+    ```{r, eval = TRUE, results = FALSE, comment=FALSE, message=FALSE, warning=FALSE}
     #install.packages("here")
     here::here()
     here::here("cat.png")
