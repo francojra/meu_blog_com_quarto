@@ -4,6 +4,7 @@ author: "Jeanne Franco"
 format: html
 editor: visual
 date: 09/04/2023
+image: mermaid-logo.svg
 categories: [Códigos, Mermaid]
 lang: pt
 toc: true
@@ -11,13 +12,39 @@ toc: true
 
 ## Sobre o Mermaid
 
-O [Mermaid](https://mermaid.js.org/) permite a você criar diagramas com diferentes níveis de complexidades e visualizações usando texto e código.
+O [Mermaid](https://mermaid.js.org/) é uma ferramente que permite criar diagramas com diferentes níveis de complexidades e visualizações usando textos e códigos. Ou seja, ele funciona através da junção de codificação com o uso de textos que são renderizados em diagramas.
+
+```{mermaid}
+    flowchart LR
+
+      id1(Texto) -.-> id3(Diagrama)
+      id2(Códigos) -.->id3(Diagrama)
+      
+      style id1 fill:#98D8AA,stroke:#333,stroke-width:3px
+      style id2 fill:#F7D060,stroke:#333,stroke-width:3px
+      style id3 fill:#FF6D60,stroke:#333,stroke-width:3px
+```
+
+O diagrama acima é um exemplo de ***flowchart*** utilizando o seguinte código:
+
+::: callout-note
+```         
+{mermaid}
+    
+    flowchart LR
+
+      id1(Texto) -.-> id3(Diagrama)
+      id2(Códigos) -.->id3(Diagrama)
+      
+      style id1 fill:#98D8AA,stroke:#333,stroke-width:3px
+      style id2 fill:#F7D060,stroke:#333,stroke-width:3px
+      style id3 fill:#FF6D60,stroke:#333,stroke-width:3px
+```
+:::
 
 Trata-se de uma ferramenta de diagramação e de gráficos baseada em JavaScript que permite criar e modificar diagramas dinamicamente através de definições de texto inspiradas em Markdown.
 
 O principal objetivo do Mermaid é ajudar a documentação com melhor desenvolvimento.
-
-![](mindmap.png){fig-align="center" width="619"}
 
 A diagramação e documentação leva a um gasto de tempo do desenvolvedor e ficam desatualizadas rapidamente. Entretanto, não ter driagramas em um documento pode prejudicar o aprendizado e a produtividade organizacional.
 
