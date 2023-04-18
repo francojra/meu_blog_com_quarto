@@ -11,13 +11,13 @@ toc: true
 
 ## Sobre o Mermaid
 
-O [Mermaid](https://mermaid.js.org/) é uma ferramente que permite criar diagramas com diferentes níveis de complexidades e visualizações usando textos e códigos. Ou seja, ele funciona através da junção de codificação com o uso de textos que são renderizados em diagramas.
+O [***Mermaid***](https://mermaid.js.org/) é uma ferramenta que permite criar diagramas com diferentes níveis de complexidades e visualizações usando textos e códigos. Ou seja, o ***Mermaid*** funciona através da junção de codificações e textos que são renderizados em diagramas. O principal objetivo do Mermaid é ajudar a documentação com melhor desenvolvimento.
 
 ```{mermaid}
 
     flowchart LR
 
-      id1(Texto) -.-> id3(Diagrama)
+      id1(Textos) -.-> id3(Diagrama)
       id2(Códigos) -.->id3(Diagrama)
       
       style id1 fill:#98D8AA,stroke:#333,stroke-width:3px
@@ -25,7 +25,7 @@ O [Mermaid](https://mermaid.js.org/) é uma ferramente que permite criar diagram
       style id3 fill:#FF6D60,stroke:#333,stroke-width:3px
 ```
 
-O diagrama acima é um exemplo de ***flowchart*** utilizando o seguinte código:
+O diagrama acima feito com ***Mermaid*** é um exemplo de ***flowchart*** utilizando o seguinte código:
 
 ::: callout-note
 ``` r
@@ -42,17 +42,17 @@ O diagrama acima é um exemplo de ***flowchart*** utilizando o seguinte código:
 ```
 :::
 
-Trata-se de uma ferramenta de diagramação e de gráficos baseada em JavaScript que permite criar e modificar diagramas dinamicamente através de definições de texto inspiradas em Markdown.
-
-O principal objetivo do Mermaid é ajudar a documentação com melhor desenvolvimento.
+***Mermaid*** trata-se de uma ferramenta baseada em JavaScript que permite criar e modificar diagramas dinamicamente através da definição de textos inspirados em Markdown.
 
 A diagramação e documentação leva a um gasto de tempo do desenvolvedor e ficam desatualizadas rapidamente. Entretanto, não ter driagramas em um documento pode prejudicar o aprendizado e a produtividade organizacional.
 
 ![Logo Mermaid](https://www.mermaidchart.com/img/icon-logo.svg){fig-align="center" width="200"}
 
-O Mermaid soluciona esse problema por ajudar ao usuário criar e modificar diagramas de forma fácil, e também pode fazer parte da produção de scripts que unem texto e códigos.
+O Mermaid soluciona esse problema por ajudar o usuário a criar e modificar diagramas de forma fácil, fazendo parte da produção de scripts que unem texto e códigos.
 
 Os principais tipos de diagramas são:
+
+-   Flowchart (diagrama de fluxo);
 
 -   
 
