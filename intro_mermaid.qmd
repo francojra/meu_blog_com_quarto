@@ -4,7 +4,6 @@ author: "Jeanne Franco"
 format: html
 editor: visual
 date: 09/04/2023
-image: mermaid-logo.svg
 categories: [Códigos, Mermaid]
 lang: pt
 toc: true
@@ -47,6 +46,8 @@ Trata-se de uma ferramenta de diagramação e de gráficos baseada em JavaScript
 O principal objetivo do Mermaid é ajudar a documentação com melhor desenvolvimento.
 
 A diagramação e documentação leva a um gasto de tempo do desenvolvedor e ficam desatualizadas rapidamente. Entretanto, não ter driagramas em um documento pode prejudicar o aprendizado e a produtividade organizacional.
+
+!\[\](https://www.mermaidchart.com/img/icon-logo.svg)
 
 O Mermaid soluciona esse problema por ajudar ao usuário criar e modificar diagramas de forma fácil, e também pode fazer parte da produção de scripts que unem texto e códigos.
 
