@@ -52,6 +52,10 @@ A diagramação e documentação leva a um gasto de tempo do desenvolvedor e fic
 
 O Mermaid soluciona esse problema por ajudar ao usuário criar e modificar diagramas de forma fácil, e também pode fazer parte da produção de scripts que unem texto e códigos.
 
+Os principais tipos de diagramas são:
+
+-   
+
 ## Mermaid Live Editor
 
 Não-programadores podem usar o Mermaid facilmente criando detalhados diagramas no incrível [Mermaid Live Editor](https://mermaid.live/edit#pako:eNpVjstqw0AMRX9FaNVC_ANeFBq7zSbQQrPzZCFsOTMk80CWCcH2v3ccb1qtxD3nCk3Yxo6xxP4W760lUTjVJkCe96ay4gb1NJyhKN7mAyv4GPgxw_7lEGGwMSUXLq-bv18lqKbjqjGodeG6bKh69r8Cz1A3R0oa0_kvOd3jDB-N-7b5_H9ihXPrs-mp7KloSaAieSq4Q8_iyXX5_WlNDKplzwbLvHYkV4MmLNmjUePPI7RYqoy8wzF1pFw7ugj5LVx-AfLqVWg). O editor fornece diversos tipos de diagramas como de **sequência**, **fluxo**, **pizza**, **diagrama de Gantt**, **mapas mentais**, entre outros. Além disso, ele possibilita que você salve os diagramas formatos PNG e SVG. O editor também disponibiliza documentações e tutoriais do Mermaid.
