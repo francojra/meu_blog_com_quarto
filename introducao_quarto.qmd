@@ -1,5 +1,5 @@
 ---
-title: "Conheça o Quarto, a nova geração do R Markdown"
+title: "Quarto: a nova geração do R Markdown"
 author: "Jeanne Franco"
 format: html 
 # format: pdf
