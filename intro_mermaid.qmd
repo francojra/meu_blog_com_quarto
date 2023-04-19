@@ -46,6 +46,27 @@ O diagrama acima foi feito com ***Mermaid*** e é um exemplo de ***flowchart*** 
 
 No código acima foi colocado o nome da ferramenta entre chaves dentro de um chunk do RStudio, após isso definido o tipo de diagrama (flowchart) e a direção LR (da esquerda left par a direita right). As setas podem ser pontilhadas, tracejadas ou retas e as caixas em formato de quadrado, losango, trapézio e circulo. Informações nas setas podem ser adicionadas após as setas, veja \|render\| no código. O Mermaid usa o style CSS para customizar os diagramas.
 
+Cronogramas feitos em planilhas de Excel são bastante comuns no meio acadêmico e corporativo, entretanto, veja como esse ***diagrama de Gantt*** é organizado e bem apresentável, observe o código intuitivo e a facilidade de edição.
+
+```{mermaid}
+
+gantt
+
+title Writing my thesis
+
+dateFormat  MM-DD
+axisFormat  %m-%d
+
+section Research
+Procrastinate           :a1, 01-01, 59d
+Do it     :after a1  , 10d
+
+section Write-up
+Should I start?     :03-01 , 20d
+Ugh ok      : 6d
+
+```
+
 ***Mermaid*** trata-se de uma ferramenta baseada em JavaScript que permite criar e modificar diagramas dinamicamente através da definição de textos inspirados em Markdown.
 
 A diagramação e documentação leva a um gasto de tempo do desenvolvedor e ficam desatualizadas rapidamente. Entretanto, não ter driagramas em um documento pode prejudicar o aprendizado e a produtividade organizacional.
