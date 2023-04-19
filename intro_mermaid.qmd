@@ -2,7 +2,7 @@
 title: "Criando diagramas com Mermaid"
 author: "Jeanne Franco"
 format: html
-date: 09/04/2023
+date: 04/17/2023
 categories: [Códigos, Mermaid]
 image: mer.jpg
 lang: pt
@@ -13,19 +13,21 @@ toc: true
 
 O [***Mermaid***](https://mermaid.js.org/) é uma ferramenta que permite criar diagramas com diferentes níveis de complexidades e visualizações usando textos e códigos. Ou seja, o ***Mermaid*** funciona através da junção de codificações e textos que são renderizados em diagramas. O principal objetivo do Mermaid é ajudar a documentação com melhor desenvolvimento.
 
+O cérebro humano tem dificuldade de entender processos em textos e palavras, por isso, imagens, gráficos e diagramas costumam chamar nossa atenção e nos ajudam a compreender padrões de forma muito mais fácil. Veja esse simples exemplo:
+
 ```{mermaid}
 
     flowchart LR
 
-      id1(Textos) -.-> id3(Diagrama)
-      id2(Códigos) -.->id3(Diagrama)
+      id1(Textos) -.-> |render| id3(Diagrama)
+      id2(Códigos) -.-> |render| id3(Diagrama)
       
       style id1 fill:#98D8AA,stroke:#333,stroke-width:3px
       style id2 fill:#F7D060,stroke:#333,stroke-width:3px
       style id3 fill:#FF6D60,stroke:#333,stroke-width:3px
 ```
 
-O diagrama acima feito com ***Mermaid*** é um exemplo de ***flowchart*** utilizando o seguinte código:
+O diagrama acima foi feito com ***Mermaid*** e é um exemplo de ***flowchart*** utilizando o seguinte código:
 
 ::: callout-note
 ``` r
@@ -42,13 +44,17 @@ O diagrama acima feito com ***Mermaid*** é um exemplo de ***flowchart*** utiliz
 ```
 :::
 
+No código acima foi colocado o nome da ferramenta entre chaves dentro de um chunk do RStudio, após isso definido o tipo de diagrama (flowchart) e a direção LR (da esquerda left par a direita right). As setas podem ser pontilhadas, tracejadas ou retas e as caixas em formato de quadrado, losango, trapézio e circulo. Informações nas setas podem ser adicionadas após as setas, veja \|render\| no código. O Mermaid usa o style CSS para customizar os diagramas.
+
 ***Mermaid*** trata-se de uma ferramenta baseada em JavaScript que permite criar e modificar diagramas dinamicamente através da definição de textos inspirados em Markdown.
 
 A diagramação e documentação leva a um gasto de tempo do desenvolvedor e ficam desatualizadas rapidamente. Entretanto, não ter driagramas em um documento pode prejudicar o aprendizado e a produtividade organizacional.
 
-![Logo Mermaid](https://www.mermaidchart.com/img/icon-logo.svg){fig-align="center" width="200"}
+Diagramas são esquemas que servem bem para esclarecer processos difíceis que se tornam inviáveis de serem explicados apenas usando palavras. Outras ferramentas auxiliam na criação de diagramas, entretanto, com a necessidade de desenhar caixas e setas, além de arrastar e soltar os boxes para que fiquem alinhados. O Mermaid dispensa todo esse trabalho, e permite que você crie um diagrama complexo rapidamente apenas utilizando simples códigos em uma sintaxe intuitiva. Qualquer erro que houver, você pode ir ao código e corrigir automaticamente, sem a necessidade de ajustar as caixas do diagrama.
 
-O Mermaid soluciona esse problema por ajudar o usuário a criar e modificar diagramas de forma fácil, fazendo parte da produção de scripts que unem texto e códigos.
+![Logo Mermaid](https://www.mermaidchart.com/img/icon-logo.svg){fig-align="center" width="230"}
+
+O Mermaid soluciona problemas por ajudar o usuário a criar e modificar diagramas de forma fácil, fazendo parte da produção de scripts que unem texto e códigos.
 
 Os principais tipos de diagramas são:
 
@@ -76,7 +82,7 @@ Os principais tipos de diagramas são:
 
 ## Mermaid Live Editor
 
-Não-programadores podem usar o Mermaid facilmente criando detalhados diagramas no incrível [Mermaid Live Editor](https://mermaid.live/edit#pako:eNpVjstqw0AMRX9FaNVC_ANeFBq7zSbQQrPzZCFsOTMk80CWCcH2v3ccb1qtxD3nCk3Yxo6xxP4W760lUTjVJkCe96ay4gb1NJyhKN7mAyv4GPgxw_7lEGGwMSUXLq-bv18lqKbjqjGodeG6bKh69r8Cz1A3R0oa0_kvOd3jDB-N-7b5_H9ihXPrs-mp7KloSaAieSq4Q8_iyXX5_WlNDKplzwbLvHYkV4MmLNmjUePPI7RYqoy8wzF1pFw7ugj5LVx-AfLqVWg). O editor fornece diversos tipos de diagramas como de **sequência**, **fluxo**, **pizza**, **diagrama de Gantt**, **mapas mentais**, entre outros. Além disso, ele possibilita que você salve os diagramas formatos PNG e SVG. O editor também disponibiliza documentações e tutoriais do Mermaid.
+Não-programadores podem usar o Mermaid facilmente criando detalhados diagramas no incrível [Mermaid Live Editor](https://mermaid.live/edit#pako:eNpVjstqw0AMRX9FaNVC_ANeFBq7zSbQQrPzZCFsOTMk80CWCcH2v3ccb1qtxD3nCk3Yxo6xxP4W760lUTjVJkCe96ay4gb1NJyhKN7mAyv4GPgxw_7lEGGwMSUXLq-bv18lqKbjqjGodeG6bKh69r8Cz1A3R0oa0_kvOd3jDB-N-7b5_H9ihXPrs-mp7KloSaAieSq4Q8_iyXX5_WlNDKplzwbLvHYkV4MmLNmjUePPI7RYqoy8wzF1pFw7ugj5LVx-AfLqVWg). O editor fornece diversos tipos de diagramas que podem ser editados a seu modo e a qualquer tempo. Além disso, ele possibilita que você salve os diagramas em formatos PNG e SVG e os seus códigos para serem modificados posteriormente sem grandes dores de cabeça, pois se torna desnecessário usar o mouse para desenhar como acontece em outros editores de imagem. O [Mermaid Live Editor](https://mermaid.live/edit#pako:eNpVjstqw0AMRX9FaNVC_ANeFBq7zSbQQrPzZCFsOTMk80CWCcH2v3ccb1qtxD3nCk3Yxo6xxP4W760lUTjVJkCe96ay4gb1NJyhKN7mAyv4GPgxw_7lEGGwMSUXLq-bv18lqKbjqjGodeG6bKh69r8Cz1A3R0oa0_kvOd3jDB-N-7b5_H9ihXPrs-mp7KloSaAieSq4Q8_iyXX5_WlNDKplzwbLvHYkV4MmLNmjUePPI7RYqoy8wzF1pFw7ugj5LVx-AfLqVWg) também disponibiliza documentações e tutoriais do Mermaid.
 
 ![Mermaid Live Editor](mermaid.png){fig-align="center" width="800"}
 
