@@ -54,7 +54,25 @@ Os principais tipos de diagramas são:
 
 -   Flowchart (diagrama de fluxo);
 
--   
+-   Sequence Diagram (diagrama de sequência);
+
+-   Class Diagram (diagrama de classes);
+
+-   State Diagram (diagrama de estados);
+
+-   Entity Relationship Diagrams (diagramas de relação de entidade);
+
+-   User Journey Diagram (diagrama de jornadas);
+
+-   Gantt Diagrams (diagramas de Gantt, barras contínuas que se estendem da esquerda para direita);
+
+-   Pie Chart (diagrama de pizza);
+
+-   Requirement Diagram (diagrama de necessidades);
+
+-   Gitgraph Diagrams (diagramas de representação dos commits e ações de git);
+
+-   Mapas mentais, linha do tempo, entre outros...
 
 ## Mermaid Live Editor
 
