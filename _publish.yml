@@ -1,5 +1,6 @@
 - source: project
   quarto-pub:
     - id: 5665d734-7704-4b6b-b334-70d31be1aca6
+      url: 'https://jeannefrancojra.quarto.pub'
+    - id: 6e9089f7-d057-4c95-b006-74a8ad2e4843
       url: 'https://jeannefrancojra.quarto.pub/jeanne-franco'
-

@@ -2,9 +2,7 @@ project:
   type: website
 
 website:
-  site-url: "https://www.jeannefranco.com"
   favicon: trevo.png
-  google-analytics: "G-2J79YYG9CZ"
   page-footer:
     left: "Blog feito com 🖤 e [Quarto](https://quarto.org/), por Jeanne Franco."
     right: 
@@ -45,6 +43,11 @@ format:
       #light: [pulse,custom.scss] # Tema modo claro
       #dark:  [cyborg,custom.scss] # Tema modo escuro
     css: styles.css
+    link-external-newwindow: true
+    toc: true
 
 editor: visual
 
+comments:
+  giscus:
+    repo: francojra/meu_blog_com_quarto
