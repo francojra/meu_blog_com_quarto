@@ -2,6 +2,7 @@ project:
   type: website
 
 website:
+  site-url: "https://www.jeannefranco.com"
   favicon: trevo.png
   google-analytics: "G-2J79YYG9CZ"
   page-footer:
