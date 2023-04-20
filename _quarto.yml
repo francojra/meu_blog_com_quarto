@@ -2,6 +2,7 @@ project:
   type: website
 
 website:
+  favicon: trevo.png
   google-analytics: "G-2J79YYG9CZ"
   page-footer:
     left: "Blog feito com 🖤 e [Quarto](https://quarto.org/), por Jeanne Franco."
