@@ -26,7 +26,7 @@ website:
       - text: Postagens
         menu: 
           - index.qmd
-          - index1.qmd
+          - divulgacao-cientifica.qmd
       - text: Atividades
         menu:
           - beta_analitica.qmd
