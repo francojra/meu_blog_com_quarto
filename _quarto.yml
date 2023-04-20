@@ -40,6 +40,8 @@ website:
 format:
   html:
     theme: sketchy
+      #light: [pulse,custom.scss] # Tema modo claro
+      #dark:  [cyborg,custom.scss] # Tema modo escuro
     css: styles.css
 
 editor: visual
