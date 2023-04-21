@@ -7,7 +7,7 @@ about:
       - icon: github
         href: https://github.com/francojra
       - icon: envelope
-        href: mailto:jeanne.raquel02@hotmail.com
+        href: mailto:jeanneraquelj1@gmail.com
       - icon: linkedin
         href: https://www.linkedin.com/in/francojra/
       - icon: instagram

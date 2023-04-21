@@ -6,14 +6,14 @@ about:
   links:
       - icon: github
         href: https://github.com/francojra
+      - icon: envelope
+        href: mailto:jeanneraquelj1@gmail.com
+      - icon: linkedin
+        href: https://www.linkedin.com/in/francojra/
       - icon: instagram
         href: https://www.instagram.com/jeanneefranco/
       - icon: youtube
         href: https://www.youtube.com/channel/UCValiiCyO82tJmG0BXnQuow
-      - icon: linkedin
-        href: https://www.linkedin.com/in/francojra/
-      - icon: envelope
-        href: mailto:jeanne.raquel02@hotmail.com
 ---
 
 <center>
