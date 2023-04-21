@@ -57,4 +57,4 @@ comments:
     repo: francojra/meu_blog_com_quarto
     language: pt
     mapping: title
-    theme: light_high_contrast
+    theme: dark_high_contrast
