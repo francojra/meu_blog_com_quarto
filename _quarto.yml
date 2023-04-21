@@ -3,7 +3,8 @@ project:
 
 website:
   site-url: https://jeannefrancojra.quarto.pub
-  google-analytics: "G-DPJZ1QC6J5"
+  google-analytics:
+    tracking-id: "G-DPJZ1QC6J5"
   open-graph: true
   favicon: trevo.png
   page-footer:
