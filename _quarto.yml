@@ -53,9 +53,14 @@ format:
 editor: visual
 
 comments:
-  giscus:
+  utterances:
+    theme: github-dark-orange
     repo: francojra/meu_blog_com_quarto
-    language: pt
-    mapping: title
-    theme: dark_high_contrast
+      
+  
+#giscus:
+ #   repo: francojra/meu_blog_com_quarto
+  #  language: pt
+   # mapping: title
+    #theme: dark_high_contrast
     
