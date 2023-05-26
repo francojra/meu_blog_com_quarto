@@ -8,8 +8,10 @@ lang: pt
 
 Esse texto nos traz uma reflexão sobre a importância de se sentir estúpido durante uma investigação científica para que possamos fazer novas descobertas. Aqui trarei alguns trechos em tradução livre do [artigo do Martin A. Schwartz](https://journals.biologists.com/jcs/article/121/11/1771/30038/The-importance-of-stupidity-in-scientific-research) que foi publicado na revista *Journal of Cell Science* em 2008.
 
-O artigo inicia com Martin contando sobre um encontro com uma amiga que estudou com ele no doutorado, e como ele ficou surpreso ao saber que ela abandanou a pesquisa para seguir carreira na advocacia. Sua amiga contou que mudou de área devido a ela se sentir estúpida todos os dias quando estava na universidade. Após isso, Martin começou a refletir que também se sentia estúpido, mas que isso também poderia ser importante para as investigações científicas.
+O artigo inicia com Martin contando sobre um encontro com uma amiga que estudou com ele no doutorado, e como ele ficou surpreso ao saber que ela, uma brilhante aluna, abandanou a pesquisa para seguir carreira na advocacia. Sua amiga contou que mudou de área devido a ela se sentir estúpida todos os dias quando estava na universidade. Após isso, Martin começou a refletir que também se sentia estúpido, mas que isso também poderia ser importante para as investigações científicas.
 
 [![Martin A Schwartz professor de medicina da Universidade de Yale nos Estados Unidos.](images/schwartz.jpg){width="195"}](https://seas.yale.edu/faculty-research/faculty-directory/martin-a-schwartz)
 
-### 
+Martin percebeu que já estava acostumado a se sentir estúpido e que era isso que o fazia procurar novas oportunidades para continuar se sentindo assim, e dessa forma, obter novos conhecimentos.
+
+> *"Ciência também faz eu me sentir estúpido. É que eu já me acostumei. Então acostumado eu procuro ativamente novas oportunidades para me sentir estúpido. Eu não saberia o que fazer sem esse sentimento. Eu até acho que deveria ser assim. Deixe me explicar."*
