@@ -1,5 +1,5 @@
 ---
-title: "Prestação de Serviços"
+title: "Serviços"
 page-layout: full
 title-block-banner: true
 ---
