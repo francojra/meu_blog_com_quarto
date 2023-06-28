@@ -1,0 +1,32 @@
+---
+title: "Atualizando a versão do R"
+author: "Jeanne Franco"
+format: html 
+# format: pdf
+date: 04/16/23
+categories: [Códigos, R base]
+lang: pt
+toc: true
+---
+
+O R é um importante auxílio para nossas análises estatísticas e produção de gráficos, podendo ser usada em diversas áreas do conhecimento como ciências exatas, ciências da saúde e ciências sociais.
+
+Devido ao R ser um software livre, gratuito e possuir uma comunidade de desenvolvedores ativa, constantes atualizações são feitas e novos pacotes são criados para auxiliar nas análises de dados. Sendo assim, é importante manter o software atualizado em suas versões.
+
+Existem algumas vantagens de ter o R com a versão atualizada. Entre elas:
+
+-   Correções de bugs;
+
+-   Melhorias no desempenho;
+
+-   Novos recursos e funcionalidades;
+
+-   Compatibilidade com pacotes e bibliotecas;
+
+-   Segurança e redução de vulnerabilidades;
+
+-   Suporte da comunidade e compartilhamento de conhecimentos sobre as novas versões.
+
+As atualizações do R contribuem para uma experiência mais suave, eficiente e produtiva ao usar o software R.
+
+Veja o passo a passo para atualizar novas versões do R usando o pacote **`installr`** sem precisar instalar o softawre no seu computador.
