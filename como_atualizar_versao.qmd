@@ -54,3 +54,17 @@ install.packages("installr")
 library(installr)  
 updateR()
 ```
+
+![](images/r-gui.png){width="500"}
+
+Após isso, aparecerá opções para selecionar um servidor (espelho) para fazer o download. Você pode selecionar qualquer cidade do Brasil e clicar em 'ok'. Se não aparecer, então a instalação iniciará automaticamente.
+
+[**Terceiro passo:**]{.underline}
+
+1.  Após executar o comando **`updateR()`**, um assistente de atualização será aberto, fornecendo instruções sobre como proceder com a atualização. Siga as instruções fornecidas.
+
+2.  Durante o processo de atualização, você pode ser solicitado a confirmar algumas opções de configuração ou conceder permissões administrativas. Siga as instruções e aguarde até que a atualização seja concluída com sucesso.
+
+3.  Você verá uma nova janela semelhante a esta abaixo, então basta clicar em concluir.
+
+![](images/img6.png){width="500"}
