@@ -30,3 +30,15 @@ Existem algumas vantagens de ter o R com a versão atualizada. Entre elas:
 As atualizações do R contribuem para uma experiência mais suave, eficiente e produtiva ao usar o software R.
 
 Veja o passo a passo para atualizar novas versões do R usando o pacote **`installr`** sem precisar instalar o softawre no seu computador.
+
+[**Primeiro passo:**]{.underline}
+
+Verifique a versão atual que está utilizando através do seguinte comando no console do R:
+
+``` r
+version
+```
+
+O resultado será semelhante a imagem abaixo com algumas informações sobre a sua versão atual do R.
+
+![](images/img7.png)
