@@ -3,7 +3,7 @@ title: "Atualizando a versão do R"
 author: "Jeanne Franco"
 format: html 
 # format: pdf
-date: 04/16/23
+date: 06/28/23
 categories: [Códigos, R base]
 lang: pt
 toc: true
@@ -12,6 +12,8 @@ toc: true
 O R é um importante auxílio para nossas análises estatísticas e produção de gráficos, podendo ser usada em diversas áreas do conhecimento como ciências exatas, ciências da saúde e ciências sociais.
 
 Devido ao R ser um software livre, gratuito e possuir uma comunidade de desenvolvedores ativa, constantes atualizações são feitas e novos pacotes são criados para auxiliar nas análises de dados. Sendo assim, é importante manter o software atualizado em suas versões.
+
+![](images/monsteRs.jpg){fig-align="center" width="400"}
 
 Existem algumas vantagens de ter o R com a versão atualizada. Entre elas:
 
@@ -41,7 +43,7 @@ version
 
 O resultado será semelhante a imagem abaixo com algumas informações sobre a sua versão atual do R.
 
-![](images/img7.png)
+![](images/img7.png){fig-align="center" width="400"}
 
 [**Segundo passo:**]{.underline}
 
