@@ -9,11 +9,11 @@ lang: pt
 toc: true
 ---
 
-O R é um importante auxílio para nossas análises estatísticas e produção de gráficos, podendo ser usada em diversas áreas do conhecimento como ciências exatas, ciências da saúde e ciências sociais.
+## Benefícios da atualização de versão do R
 
-Devido ao R ser um software livre, gratuito e possuir uma comunidade de desenvolvedores ativa, constantes atualizações são feitas e novos pacotes são criados para auxiliar nas análises de dados. Sendo assim, é importante manter o software atualizado em suas versões.
+O R é um importante auxílio para nossas análises estatísticas e produção de gráficos, podendo ser usada em diversas áreas do conhecimento como ciências exatas, ciências da saúde e ciências sociais. Devido ao R ser um software livre, gratuito e possuir uma comunidade de desenvolvedores ativa, constantes atualizações são feitas e novos pacotes são criados para auxiliar nas análises de dados. Sendo assim, é importante manter o software atualizado em suas versões.
 
-![](images/monsteRs.jpg){fig-align="center" width="400"}
+![](images/monsteRs.jpg){fig-align="center" width="600"}
 
 Existem algumas vantagens de ter o R com a versão atualizada. Entre elas:
 
@@ -31,6 +31,8 @@ Existem algumas vantagens de ter o R com a versão atualizada. Entre elas:
 
 As atualizações do R contribuem para uma experiência mais suave, eficiente e produtiva ao usar o software R.
 
+## Passo a passo para a atualização de versões
+
 Veja o passo a passo para atualizar novas versões do R usando o pacote **`installr`** sem precisar instalar o softawre no seu computador.
 
 [**Primeiro passo:**]{.underline}
@@ -43,7 +45,7 @@ version
 
 O resultado será semelhante a imagem abaixo com algumas informações sobre a sua versão atual do R.
 
-![](images/img7.png){fig-align="center" width="400"}
+![](images/img7.png){fig-align="center" width="500"}
 
 [**Segundo passo:**]{.underline}
 
@@ -55,7 +57,7 @@ library(installr)
 updateR()
 ```
 
-![](images/r-gui.png){width="500"}
+![](images/r-gui.png){fig-align="center" width="500"}
 
 Após isso, aparecerá opções para selecionar um servidor (espelho) para fazer o download. Você pode selecionar qualquer cidade do Brasil e clicar em 'ok'. Se não aparecer, então a instalação iniciará automaticamente.
 
@@ -67,8 +69,12 @@ Após isso, aparecerá opções para selecionar um servidor (espelho) para fazer
 
 3.  Você verá uma nova janela semelhante a esta abaixo, então basta clicar em concluir.
 
-![](images/img6.png){width="500"}
+![](images/img6.png){fig-align="center" width="500"}
 
 [**Quarto passo:**]{.underline}
 
 Após concluir, feche novamente o R, abra o software e digite novamente no console o comando **`version`** para confirmar as informações da nova versão.
+
+## Referências
+
+[Atualizando R](https://rpubs.com/gleidsonmr/947727)
