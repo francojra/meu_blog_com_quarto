@@ -13,7 +13,7 @@ toc: true
 
 O R é um importante auxílio para nossas análises estatísticas e produção de gráficos, podendo ser usada em diversas áreas do conhecimento como ciências exatas, ciências da saúde e ciências sociais. Devido ao R ser um software livre, gratuito e possuir uma comunidade de desenvolvedores ativa, constantes atualizações são feitas e novos pacotes são criados para auxiliar nas análises de dados. Sendo assim, é importante manter o software atualizado em suas versões.
 
-![](images/monsteRs.jpg){fig-align="center" width="600"}
+![](images/monsteRs-01.jpg){fig-align="center"}
 
 Existem algumas vantagens de ter o R com a versão atualizada. Entre elas:
 
