@@ -42,3 +42,13 @@ version
 O resultado será semelhante a imagem abaixo com algumas informações sobre a sua versão atual do R.
 
 ![](images/img7.png)
+
+[**Segundo passo:**]{.underline}
+
+Pesquise o RGui (R nativo) no menu Iniciar do Windows e execute o seguinte comando. O pacote **`installr`** serve para executar a função **`updateR()`** que fará a atualização da versão:
+
+``` r
+install.packages("installr") 
+library(installr)  
+updateR()
+```
