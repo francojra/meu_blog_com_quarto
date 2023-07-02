@@ -11,7 +11,7 @@ toc: true
 
 ## Benefícios da atualização de versão do R
 
-O R é um importante auxílio para nossas análises estatísticas e produção de gráficos, podendo ser usada em diversas áreas do conhecimento como ciências exatas, ciências da saúde e ciências sociais. Devido ao R ser um software livre, gratuito e possuir uma comunidade de desenvolvedores ativa, constantes atualizações são feitas e novos pacotes são criados para auxiliar nas análises de dados. Sendo assim, é importante manter o software atualizado em suas versões.
+O R serve como uma importante ferramenta para realizar nossas análises estatísticas e produção de gráficos, podendo ser usado em diversas áreas do conhecimento como Ciências Exatas e da Terra, Ciências Biológicas, Ciências da Saúde, Ciências Sociais, entre outras. Devido ao R ser um software livre, gratuito e possuir uma comunidade de desenvolvedores ativa, constantes atualizações são feitas e novos pacotes são criados para auxiliar nossas análises de dados. Sendo assim, é importante manter o software atualizado em suas versões.
 
 ![](images/Design%20sem%20nome.png){fig-align="center" width="500"}
 
