@@ -15,7 +15,7 @@ O R serve como uma importante ferramenta para realizar nossas análises estatís
 
 ![](images/Design%20sem%20nome.png){fig-align="center" width="500"}
 
-Existem algumas vantagens de ter o R com a versão atualizada. Entre elas:
+Existem algumas vantagens em manter o R com a versão atualizada. Entre elas:
 
 -   Correções de bugs;
 
@@ -27,13 +27,13 @@ Existem algumas vantagens de ter o R com a versão atualizada. Entre elas:
 
 -   Segurança e redução de vulnerabilidades;
 
--   Suporte da comunidade e compartilhamento de conhecimentos sobre as novas versões.
+-   Suporte da comunidade sobre as novas versões.
 
-As atualizações do R contribuem para uma experiência mais suave, eficiente e produtiva ao usar o software R.
+As atualizações contribuem para uma experiência mais suave, eficiente e produtiva ao usar o software R.
 
 ## Passo a passo para a atualização de versões
 
-Veja o passo a passo para atualizar novas versões do R usando o pacote **`installr`** sem precisar instalar o softawre no seu computador.
+Veja o passo a passo para atualizar as novas versões do R usando o pacote **`installr`** sem precisar instalar o software no seu computador.
 
 [**Primeiro passo:**]{.underline}
 
@@ -43,13 +43,13 @@ Verifique a versão atual que está utilizando através do seguinte comando no c
 version
 ```
 
-O resultado será semelhante a imagem abaixo com algumas informações sobre a sua versão atual do R.
+O resultado será semelhante a imagem abaixo com algumas informações sobre a sua versão atual.
 
 ![](images/img7.png){fig-align="center" width="500"}
 
 [**Segundo passo:**]{.underline}
 
-Pesquise o RGui (R nativo) no menu Iniciar do Windows e execute o seguinte comando. O pacote **`installr`** serve para executar a função **`updateR()`** que fará a atualização da versão:
+Pesquise o RGui (R nativo) no menu Iniciar do Windows e execute os seguintes comandos. O pacote **`installr`** serve para executar a função **`updateR()`** que fará a atualização da versão:
 
 ``` r
 install.packages("installr") 
@@ -59,7 +59,7 @@ updateR()
 
 ![](images/r-gui.png){fig-align="center" width="500"}
 
-Após isso, aparecerá opções para selecionar um servidor (espelho) para fazer o download. Você pode selecionar qualquer cidade do Brasil e clicar em 'ok'. Se não aparecer, então a instalação iniciará automaticamente.
+Após isso, aparecerão opções para selecionar um servidor (espelho). Você pode selecionar qualquer cidade do Brasil e clicar em 'ok'. Se não aparecer o servidor, então a instalação iniciará automaticamente.
 
 [**Terceiro passo:**]{.underline}
 
