@@ -49,7 +49,7 @@ O resultado será semelhante a imagem abaixo com algumas informações sobre a s
 
 [**Segundo passo:**]{.underline}
 
-Pesquise o RGui (R nativo) no menu Iniciar do Windows e execute os seguintes comandos. O pacote **`installr`** serve para executar a função **`updateR()`** que fará a atualização da versão:
+Pesquise o RGui (R nativo) no menu Iniciar do seu computador e execute os seguintes comandos. O pacote **`installr`** serve para executar a função **`updateR()`** que fará a atualização da versão:
 
 ``` r
 install.packages("installr") 
