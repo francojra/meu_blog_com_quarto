@@ -9,7 +9,7 @@ about:
 
 <body>
 
-<div style="text-align:left">
+<div style="text-align:center">
 
 <p>
 
@@ -31,7 +31,7 @@ about:
 
 <body>
 
-<div style="text-align:left">
+<div style="text-align:center">
 
 <p>
 
@@ -53,29 +53,7 @@ about:
 
 <body>
 
-<div style="text-align:left">
-
-<p>
-
-<h4>
-
-[YouTube](https://www.youtube.com/channel/UCValiiCyO82tJmG0BXnQuow) <img src="https://img.icons8.com/ios-glyphs/512/youtube.png" alt="Jeanne-HTML" align="center" height="45" width="45"/>
-
-</p>
-
-</h4>
-
-</div>
-
-</body>
-
-</html>
-
-<html>
-
-<body>
-
-<div style="text-align:left">
+<div style="text-align:center">
 
 <p>
 
@@ -97,13 +75,13 @@ about:
 
 <body>
 
-<div style="text-align:left">
+<div style="text-align:center">
 
 <p>
 
 <h4>
 
-[E-mail](mailto:jeanne.raquel02@hotmail.com) <img src="https://img.icons8.com/ios-filled/512/apple-mail.png" alt="Jeanne-HTML" align="center" height="45" width="45"/>
+[E-mail](mailto:jeanneraquelj1@gmail.com) <img src="https://img.icons8.com/ios-filled/512/apple-mail.png" alt="Jeanne-HTML" align="center" height="45" width="45"/>
 
 </p>
 
