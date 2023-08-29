@@ -22,6 +22,10 @@ No Brasil, um levantamento feito em 2021 verificou que apenas 19,3% dos jovens e
 
 Já uma pesquisa publicada pelo Centro de Informações sobre Saúde e Álcool (Cisa) cosntatou que 46% dos jovens afirma não consumirem álcool, e 20% afirma consumir apenas uma vez por mês ou menos. Comparado a outras idades, adolescentes e jovens adultos apresentam a menor frequência de consumo. Entretanto, o Cisa menciona que ainda não existem dados suficientes para confirmar a tendência na redução do consumo.
 
+Segundo o relatório da Covitel de 2023, os jovens entre 18 e 24 anos que consomem álcool três ou mais vezes por semana, tem reduzido seu consumo desde o período de pré-pandemia até o primeiro trimestre de 2023 como mostra o gráfico abaixo.
+
+![Fonte: Relatório Covitel.](images/brnwa.png){fig-align="center"}
+
 ### Razões
 
 As principais motivações dos jovens atualmente para não consumir bebidas alcoólicas são: reputação e bom desempenho nas atividades rotineiras e no trabalho. Fatores como reuniões familiares, confraternizações com colegas de trabalho e necessidade de dirigir também influenciam em atitudes mais comedidas quanto ao álcool. Preocupação quanto à saúde não apareceu como o principal motivo, apesar da concordância dos jovens quanto aos alertas dos médicos.
