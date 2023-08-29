@@ -26,6 +26,10 @@ Segundo o relatório da Covitel de 2023, os jovens entre 18 e 24 anos que consom
 
 ![Fonte: Relatório Covitel.](images/brnwa.png){fig-align="center"}
 
+O relatório Covitel fez um levantamento com 9 mil pessoas das capitais e cidades do interior de cinco regiões brasileiras e também revelou que, pela primeira vez, os jovens entre 18 e 34 anos apresentaram menor porcentagem de consumo de álcool comparado com as pessoas entre a faixa etária de 45 a 64 anos no primeiro trimestre de 2023.
+
+![Relatório Covitel](images/nmey.png){fig-align="center"}
+
 ### Razões
 
 As principais motivações dos jovens atualmente para não consumir bebidas alcoólicas são: reputação e bom desempenho nas atividades rotineiras e no trabalho. Fatores como reuniões familiares, confraternizações com colegas de trabalho e necessidade de dirigir também influenciam em atitudes mais comedidas quanto ao álcool. Preocupação quanto à saúde não apareceu como o principal motivo, apesar da concordância dos jovens quanto aos alertas dos médicos.
