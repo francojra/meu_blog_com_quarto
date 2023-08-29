@@ -10,15 +10,15 @@ lang: pt
 
 Estudos realizados em vários países do mundo observaram tendências no menor consumo de álcool pela atual geração de jovens.
 
-![Imagem gerada com a Inteligência Artificial BlueWillow.](images/d1db2ed5-b05c-4b75-adcc-927e9735fdc4.jpg){fig-align="center"}
-
 Um levantamento feito em 2020 com jovens entre 12 e 18 anos, idade em que a maioria experimenta álcool pela primeira vez, observou queda no consumo de bebidas alcoólicas em 39 países da América do Norte, Europa e Oceania. Comparado há 20 anos atrás, a redução chega a 50% em países como Noruega, Suécia e Lituânia, e chega a um percentual surpreendente de 80% na Islândia.
+
+[![](images/867519228d1d5325856fc61d710ded0e_XL.jpg){fig-alt="Clique na foto para ver a fonte da imagem." fig-align="center"}](https://www.google.com/url?sa=i&url=https%3A%2F%2Fcisa.org.br%2Fpesquisa%2Fdados-oficiais%2Fartigo%2Fitem%2F32-juventude-e-alcool-cenario-atual&psig=AOvVaw0XoADXQsf2f7SuJui_lDpN&ust=1693432713363000&source=images&cd=vfe&opi=89978449&ved=0CBAQjhxqFwoTCLDazNHugoEDFQAAAAAdAAAAABAD)
 
 A organização britânica Drinkaware relatou que 26% dos jovens entre 16 e 24 anos se consideram abstêmios, ou seja, que não fazem uso de álcool ou consomem muito pouco.
 
-![Imagem gerada com a Inteligência Artificial BlueWillow.](images/2fdf5245-f322-45eb-9eda-ad6e191ffdf8.jpg){fig-align="center"}
-
 No Brasil, um levantamento feito em 2021 verificou que apenas 19,3% dos jovens entre 18 e 24 anos fazem consumo abusivo de álcool com mais de quatro doses. Essa porcentagem foi a mais baixa desde 2015.
+
+[![](images/jc809939.jpg){fig-align="center"}](https://istoe.com.br/jovens-bebem-menos-alcool/)
 
 Já uma pesquisa publicada pelo Centro de Informações sobre Saúde e Álcool (Cisa) cosntatou que 46% dos jovens afirma não consumirem álcool, e 20% afirma consumir apenas uma vez por mês ou menos. Comparado a outras idades, adolescentes e jovens adultos apresentam a menor frequência de consumo. Entretanto, o Cisa menciona que ainda não existem dados suficientes para confirmar a tendência na redução do consumo.
 
