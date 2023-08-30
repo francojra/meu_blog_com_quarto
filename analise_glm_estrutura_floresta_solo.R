@@ -27,29 +27,37 @@ str(solo)
 # Manipulação das tabelas ------------------------------------------------------------------------------------------------------------------
 
 var_floresta <- var_floresta %>% 
-  select(cap_cm, dap_cm, altura_m, diametro_copa_m)
+  select(cap_cm, dap_cm, altura_m, diametro_copa_m, parcelas)
 
 view(var_floresta)
 
-var_amb <- var_amb %>%
-  select(altura_m, distancia) %>%
-  view()
-
-var_amb$altura_m <- as.numeric(var_amb$altura_m)
-var_amb$distancia <- as.numeric(var_amb$distancia)
-
-# Dados faltantes --------------------------------------------------------------------------------------------------------------------------
+# Tratar dados faltantes --------------------------------------------------------------------------------------------------------------------------
 
 ## Visualizar dados faltantes
 
-vis_miss(var_amb, cluster = TRUE) 
+vis_miss(var_floresta, cluster = TRUE) 
 
 ## Removendo dados faltantes
 
-var_amb_semNA <- remove_missing(var_amb, 
-             vars = c("altura_m")) 
+var_floresta <- remove_missing(var_floresta) 
 
 ## Visualizar
 
-vis_miss(var_amb_semNA)
-view(var_amb_semNA)
+vis_miss(var_floresta)
+view(var_floresta)
+
+# Manipulação das tabelas ------------------------------------------------------------------------------------------------------------------
+
+## Calcular médias por parcelas
+
+var_floresta <- var_floresta %>%
+  drop_na() %>%
+  group_by(parcelas) %>%
+  summarise(cap_cm = mean(cap_cm),
+            dap_cm = mean(dap_cm),
+            altura_m = mean(altura_m),
+            diametro_copa_m = mean(diametro_copa_m))
+
+view(var_floresta)
+
+## Unir tabelas de dados de solo com dados de floresta
