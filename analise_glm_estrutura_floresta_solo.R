@@ -70,8 +70,6 @@ view(floresta_solo)
 
 # Verificar se existe relação linear -------------------------------------------------------------------------------------------------------
 
-## CAP
-
 ggplot(floresta_solo, aes(cap_cm, ph)) +
     geom_point(cex = 4,alpha = 0.7) +
     geom_smooth(method = "lm", formula = y~x) +
@@ -79,9 +77,37 @@ ggplot(floresta_solo, aes(cap_cm, ph)) +
          y = "Circunferência a altura do peito (cm)") +
     theme_bw()
 
-ggplot(var_amb_semNA, aes(distancia, cap_cm)) +
+ggplot(floresta_solo, aes(cap_cm, areia)) +
     geom_point(cex = 4,alpha = 0.7) +
-    geom_smooth(formula = y~x) +
+    geom_smooth(method = "lm", formula = y~x) +
+    labs(x = "Distância do rio (m)", 
+         y = "Circunferência a altura do peito (cm)") +
+    theme_bw()
+
+ggplot(floresta_solo, aes(cap_cm, silte)) +
+    geom_point(cex = 4,alpha = 0.7) +
+    geom_smooth(method = "lm", formula = y~x) +
+    labs(x = "Distância do rio (m)", 
+         y = "Circunferência a altura do peito (cm)") +
+    theme_bw()
+
+ggplot(floresta_solo, aes(cap_cm, argila)) +
+    geom_point(cex = 4,alpha = 0.7) +
+    geom_smooth(method = "lm", formula = y~x) +
+    labs(x = "Distância do rio (m)", 
+         y = "Circunferência a altura do peito (cm)") +
+    theme_bw()
+
+ggplot(floresta_solo, aes(cap_cm, soma_bases)) +
+    geom_point(cex = 4,alpha = 0.7) +
+    geom_smooth(method = "lm", formula = y~x) +
+    labs(x = "Distância do rio (m)", 
+         y = "Circunferência a altura do peito (cm)") +
+    theme_bw()
+
+ggplot(floresta_solo, aes(cap_cm, N)) +
+    geom_point(cex = 4,alpha = 0.7) +
+    geom_smooth(method = "lm", formula = y~x) +
     labs(x = "Distância do rio (m)", 
          y = "Circunferência a altura do peito (cm)") +
     theme_bw()
