@@ -21,26 +21,15 @@ solo <- readxl::read_xlsx("dados_solo.xlsx")
 View(var_floresta)
 str(var_floresta)
 
-View(var_solo)
-str(var_solo)
+View(solo)
+str(solo)
 
 # Manipulação das tabelas ------------------------------------------------------------------------------------------------------------------
 
-var_amb <- var_amb %>% 
-  mutate(distancia = case_when(
-    parcelas %in% c(1, 2, 11, 12, 21, 22, 31, 32,
-                    41, 42, 51, 52) ~ 100,
-    parcelas %in% c(3, 4, 13, 14, 23, 24, 33, 34, 
-                    43, 44, 53, 54) ~ 200,
-    parcelas %in% c(5, 6, 15, 16, 25, 26, 35, 36,
-                    45, 46, 55, 56) ~ 300,
-    parcelas %in% c(7, 8, 17, 18, 27, 28, 37, 38,
-                    47, 48, 57, 58) ~ 400,
-    parcelas %in% c(9, 10, 19, 20, 29, 30, 39, 40,
-                    49, 50, 59, 60) ~ 500
-  ))
+var_floresta <- var_floresta %>% 
+  select(cap_cm, dap_cm, altura_m, diametro_copa_m)
 
-view(var_amb)
+view(var_floresta)
 
 var_amb <- var_amb %>%
   select(altura_m, distancia) %>%
