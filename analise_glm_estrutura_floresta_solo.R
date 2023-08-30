@@ -61,3 +61,9 @@ var_floresta <- var_floresta %>%
 view(var_floresta)
 
 ## Unir tabelas de dados de solo com dados de floresta
+
+View(var_floresta)
+View(solo)
+
+floresta_solo <- left_join(var_floresta, solo, by = 'parcelas') 
+view(floresta_solo)
