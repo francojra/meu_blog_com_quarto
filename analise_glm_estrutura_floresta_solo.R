@@ -67,3 +67,21 @@ View(solo)
 
 floresta_solo <- left_join(var_floresta, solo, by = 'parcelas') 
 view(floresta_solo)
+
+# Verificar se existe relação linear -------------------------------------------------------------------------------------------------------
+
+## CAP
+
+ggplot(floresta_solo, aes(cap_cm, ph)) +
+    geom_point(cex = 4,alpha = 0.7) +
+    geom_smooth(method = "lm", formula = y~x) +
+    labs(x = "Distância do rio (m)", 
+         y = "Circunferência a altura do peito (cm)") +
+    theme_bw()
+
+ggplot(var_amb_semNA, aes(distancia, cap_cm)) +
+    geom_point(cex = 4,alpha = 0.7) +
+    geom_smooth(formula = y~x) +
+    labs(x = "Distância do rio (m)", 
+         y = "Circunferência a altura do peito (cm)") +
+    theme_bw()
