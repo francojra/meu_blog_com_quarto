@@ -1,5 +1,5 @@
 ---
-title: "Programação em R e Python"
+title: "Programação em R"
 listing:
   contents: posts
   sort: "date desc"
