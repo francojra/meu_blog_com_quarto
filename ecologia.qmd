@@ -1,7 +1,7 @@
 ---
-title: "Divulgação Científica - Outros temas"
+title: "Divulgação Científica - Ecologia e meio ambiente"
 listing:
-  contents: posts1
+  contents: posts2
   sort: "date desc"
   type: default
   categories: true

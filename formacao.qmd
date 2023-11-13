@@ -4,16 +4,12 @@ image: jeanne.jpg
 about:
   template: jolla
   links:
-      - icon: github
-        href: https://github.com/francojra
       - icon: envelope
-        href: mailto:jeanne.raquel02@hotmail.com
+        href: mailto:jeanneraquelj1@gmail.com
       - icon: linkedin
         href: https://www.linkedin.com/in/francojra/
-      - icon: instagram
-        href: https://www.instagram.com/jeanneefranco/
-      - icon: youtube
-        href: https://www.youtube.com/channel/UCValiiCyO82tJmG0BXnQuow
+      - icon: github
+        href: https://github.com/francojra
 ---
 
 <html>
@@ -56,7 +52,7 @@ Ecologia: <img src="https://img.icons8.com/sf-regular/512/forest.png" alt="Jeann
 
 <h4>
 
-Programação: <img src="https://img.icons8.com/ios-filled/512/monitor.png" alt="Jeanne-HTML" align="center" height="45" width="42"/>
+Programação em R e Python: <img src="https://img.icons8.com/ios-filled/512/monitor.png" alt="Jeanne-HTML" align="center" height="45" width="42"/>
 
 </p>
 

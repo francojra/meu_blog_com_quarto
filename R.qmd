@@ -1,7 +1,7 @@
 ---
-title: "Divulgação Científica - Outros temas"
+title: "Programação em R para pesquisa científica"
 listing:
-  contents: posts1
+  contents: posts
   sort: "date desc"
   type: default
   categories: true
