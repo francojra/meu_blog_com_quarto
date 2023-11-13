@@ -6,8 +6,12 @@ title-block-banner: true
 
 A empresa [Beta Analítica](https://betaanalitica.com.br/) foi criada em 2018 e conta com a colaboração de especialistas que tem a missão de auxiliar empresas, pessoas físicas, pesquisadores e estudantes universitários em análises estatísticas, produção de gráficos, geoprocessamento, gestão de dados, ilustração científica, geoprocessamento, entre outros. A empresa apresenta diversos cursos ministrados ao vivo e videoaulas gravadas para colaborar com o conhecimento do público na utilização de softwares como R, Python e QGIS. Abaixo estão listadas os cursos com os links de acesso. Nesses links você poderá visualizar todos os conteúdos.
 
-<p>[![](images/ggplot2_hotmart.png){width="200"}](https://pay.hotmart.com/H55031467J?checkoutMode=10&bid=1673574451922) <b>Gráficos em R com *ggplot2*. Acesse o curso hospedado na Hotmart clicando na imagem.</p>
+<p>[![](images/Sem%20t%C3%ADtulo-02.png){width="223"}](https://www.udemy.com/course/visualizacao-dados-r/) <b>Visualização de dados com R. Acesse o curso hospedado na Udemy clicando na imagem.</p>
 
 ------------------------------------------------------------------------
 
-<p>[![](images/formacao_analise_dados_hotmart.png){width="200"}](https://pay.hotmart.com/F76952913J?checkoutMode=10&bid=1673574398389) <b>Formação em análise de dados com R. Acesse o curso hospedado na Hotmart clicando na imagem.</p>
+<p>[![](images/ggplot2_hotmart.png){width="185"}](https://hotmart.com/pt-br/marketplace/produtos/graficos-em-r-com-ggplot2/H55031467J) <b>Gráficos em R com *ggplot2*. Acesse o curso hospedado na Hotmart clicando na imagem.</p>
+
+------------------------------------------------------------------------
+
+<p>[![](images/formacao_analise_dados_hotmart.png){width="179"}](https://pay.hotmart.com/F76952913J?checkoutMode=10&bid=1699840532525) <b>Formação em análise de dados com R. Acesse o curso hospedado na Hotmart clicando na imagem.</p>
