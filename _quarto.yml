@@ -18,14 +18,12 @@ website:
         href: https://github.com/francojra
         
   page-navigation: true
-  title: "Jeanne Franco"
+  title: "Guia R"
   navbar:
     right:
       - text: Postagens
         menu: 
           - R.qmd
-          - ecologia.qmd
-          - divulgacao-cientifica.qmd
       - text: Atividades
         menu:
           - beta_analitica.qmd
