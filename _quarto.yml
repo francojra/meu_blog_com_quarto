@@ -16,7 +16,6 @@ website:
         href: https://www.linkedin.com/in/francojra/
       - icon: github
         href: https://github.com/francojra
-        
   page-navigation: true
   title: "Guia R"
   navbar:
@@ -35,7 +34,6 @@ website:
           - about.qmd
           - formacao.qmd
           - contact.qmd
-    left: 
       - icon: envelope
         href: mailto:jeanneraquelj1@gmail.com
       - icon: linkedin
@@ -46,12 +44,15 @@ website:
 
 format:
   html:
+    smooth-scroll: true
     theme: sketchy
       #light: [pulse,custom.scss] # Tema modo claro
       #dark:  [cyborg,custom.scss] # Tema modo escuro
     css: styles.css
     link-external-newwindow: true
     toc: true
+    citations-hover: true
+    footnotes-hover: true
 
 editor: visual
 
