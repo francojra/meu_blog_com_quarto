@@ -1,7 +1,7 @@
 ---
-title: "Programação em R"
+title: "Análises Estatísticas"
 listing:
-  contents: posts-R
+  contents: posts-stats
   sort: "date desc"
   type: default
   categories: true

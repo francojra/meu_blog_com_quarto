@@ -23,6 +23,8 @@ website:
       - text: Postagens
         menu: 
           - R.qmd
+          - graph.qmd
+          - stats.qmd
       - text: Atividades
         menu:
           - beta_analitica.qmd
