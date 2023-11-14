@@ -9,18 +9,57 @@ toc: true
 
 A comunidade [R-Ladies Natal](https://www.instagram.com/rladiesnatal/?next=%2F) foi notícia no portal da Universidade Federal do Rio Grande do Norte por apresentar uma palestra na *Semana da Estatística*, evento promovido pelo Departamento de Estatística. Você pode acessar a matéria clicando no [link](https://www.ufrn.br/imprensa/noticias/44260/grupo-r-ladies-natal-oferece-palestra-sobre-comunidade-local).
 
-Abaixo estão listadas algumas palestras das quais fui mentora na comunidade R-Ladies.
+Abaixo estão listadas algumas palestras e cursos dos quais fui mentora na comunidade R-Ladies.
 
-<p><img src="images/ggplot2_dplyr_rladies-01.png" width="200"/> <b>Visualização de dados com *ggplot2* e *dplyr* ministrada na [R-Ladies Ribeirão Preto](https://www.instagram.com/rladiesrp/?next=%2F). Assita essa palestra clicando [aqui](https://www.youtube.com/watch?v=eYaViNaddEA).</p>
+<center>
 
-------------------------------------------------------------------------
+<div class="box">
 
-<p><img src="images/rmarkdown_rladies.png" width="200"/> <b>Introdução ao R Markdown ministrada na [R-Ladies Natal](https://www.instagram.com/rladiesnatal/?next=%2F). Assita essa palestra clicando [aqui](https://www.youtube.com/watch?v=EGPc1XJ-6-Y).</p>
+<img src="images/ggplot2_dplyr_rladies-01.png" width="150"/> <br> Visualização de dados com *ggplot2* e *dplyr* ministrada na [R-Ladies Ribeirão Preto](https://www.instagram.com/rladiesrp/?next=%2F). <br> Assita essa palestra clicando [aqui](https://www.youtube.com/watch?v=eYaViNaddEA).
 
-------------------------------------------------------------------------
+</div>
 
-<p>![](images/r_do_zero_rladies.png){width="200"} <b>Palestra R do zero para iniciantes ministrada na [R-Ladies Natal](https://www.instagram.com/rladiesnatal/?next=%2F). Assista essa palestra clicando [aqui](https://www.youtube.com/watch?v=uGF5XowBJUA).</p>
+<div class="box">
 
-------------------------------------------------------------------------
+<img src="images/rmarkdown_rladies.png" width="150"/> <br> Introdução ao R Markdown ministrada na [R-Ladies Natal](https://www.instagram.com/rladiesnatal/?next=%2F). <br> Assita essa palestra clicando [aqui](https://www.youtube.com/watch?v=EGPc1XJ-6-Y).
 
-<p>![](images/introducao_r_rladies.png){width="200"} <b>Introdução ao R: passo a passo para iniciantes na [R-Ladies Natal](https://www.instagram.com/rladiesnatal/?next=%2F).</p>
+</div>
+
+<div class="box">
+
+<p>![](images/r_do_zero_rladies.png){width="150"} <br> Palestra R do zero para iniciantes ministrada na [R-Ladies Natal](https://www.instagram.com/rladiesnatal/?next=%2F). <br> Assista essa palestra clicando [aqui](https://www.youtube.com/watch?v=uGF5XowBJUA).</p>
+
+</div>
+
+<div class="box">
+
+<p>![](images/introducao_r_rladies.png){width="150"} <br> Introdução ao R: passo a passo <br> para iniciantes na [R-Ladies Natal](https://www.instagram.com/rladiesnatal/?next=%2F).</p>
+
+</div>
+
+<div class="box">
+
+<p>![](images/p3.png){width="150"} <br> Conhecendo a R-Ladies Natal: entre <br> scripts e meet-ups.</p>
+
+</div>
+
+<div class="box">
+
+<p>![](images/p1.png){width="150"} <br> Importância da R-Ladies para o <br> desenvolvimento científico e social.</p>
+
+</div>
+
+<div class="box">
+
+<p>![](images/p2.png){width="150"} <br> Conhecendo a comunidade <br> R-Ladies Natal.</p>
+
+</div>
+
+</center>
+
+<style>
+div.box {
+	width: 300px;
+	display: inline-block;
+}
+</style>
