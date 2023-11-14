@@ -2,7 +2,7 @@ project:
   type: website
 
 website:
-  site-url: https://guia-r.quarto.pub
+  site-url: https://running-r.quarto.pub
   google-analytics:
     tracking-id: "G-DPJZ1QC6J5"
   open-graph: true
@@ -17,7 +17,7 @@ website:
       - icon: github
         href: https://github.com/francojra
   page-navigation: true
-  title: "Guia R"
+  title: "Running R"
   navbar:
     right:
       - text: Postagens
