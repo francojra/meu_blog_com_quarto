@@ -9,7 +9,7 @@ A empresa [Beta Analítica](https://betaanalitica.com.br/) foi criada em 2018 e 
 <center>
 
 ::: box
-<p>![](images/5579842_60e2.jpg)<br> Visualização de dados com R. Acesse o curso hospedado na Udemy [aqui](https://www.udemy.com/course/visualizacao-dados-r/).</p>
+<p>![](images/5579842_60e2.jpg){width="185"} <br> Visualização de dados com R. Acesse o curso hospedado na Udemy [aqui](https://www.udemy.com/course/visualizacao-dados-r/).</p>
 :::
 
 ::: box
