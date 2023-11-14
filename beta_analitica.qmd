@@ -6,12 +6,27 @@ title-block-banner: true
 
 A empresa [Beta Analítica](https://betaanalitica.com.br/) foi criada em 2018 e conta com a colaboração de especialistas que tem a missão de auxiliar empresas, pessoas físicas, pesquisadores e estudantes universitários em análises estatísticas, produção de gráficos, geoprocessamento, gestão de dados, ilustração científica, geoprocessamento, entre outros. A empresa apresenta diversos cursos ministrados ao vivo e videoaulas gravadas para colaborar com o conhecimento do público na utilização de softwares como R, Python e QGIS. Abaixo estão listadas os cursos com os links de acesso. Nesses links você poderá visualizar todos os conteúdos.
 
-<p>[![](images/Sem%20t%C3%ADtulo-03.png){width="270"}](https://www.udemy.com/course/visualizacao-dados-r/) <b>Visualização de dados com R. Acesse o curso hospedado na Udemy clicando na imagem.</p>
+<center>
 
-------------------------------------------------------------------------
+::: box
+<p>![](images/5579842_60e2.jpg)<br> Visualização de dados com R. Acesse o curso hospedado na Udemy [aqui](https://www.udemy.com/course/visualizacao-dados-r/).</p>
+:::
 
-<p>[![](images/ggplot2_hotmart.png){width="185"}](https://hotmart.com/pt-br/marketplace/produtos/graficos-em-r-com-ggplot2/H55031467J) <b>Gráficos em R com *ggplot2*. Acesse o curso hospedado na Hotmart clicando na imagem.</p>
+::: box
+<p>![](images/ggplot2_hotmart.png){width="185"} <br> Gráficos em R com *ggplot2*. Acesse o curso hospedado na Hotmart clicando [aqui](https://hotmart.com/pt-br/marketplace/produtos/graficos-em-r-com-ggplot2/H55031467J).</p>
+:::
 
-------------------------------------------------------------------------
+::: box
+<p>![](images/formacao_analise_dados_hotmart.png){width="185"} <br> Formação em análise de dados com R. Acesse o curso hospedado na Hotmart [aqui](https://pay.hotmart.com/F76952913J?checkoutMode=10&bid=1699841041995).</p>
+:::
 
-<p>[![](images/formacao_analise_dados_hotmart.png){width="185"}](https://pay.hotmart.com/F76952913J?checkoutMode=10&bid=1699841041995) <b>Formação em análise de dados com R. Acesse o curso hospedado na Hotmart clicando na imagem.</p>
+</center>
+
+```{=html}
+<style>
+div.box {
+    width: 320px;
+    display: inline-block;
+}
+</style>
+```

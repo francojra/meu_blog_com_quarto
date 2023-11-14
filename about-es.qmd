@@ -1,5 +1,5 @@
 ---
-title: "sobre mí"
+title: "Sobre mí"
 image: jeanne.jpg
 about:
   template: jolla
