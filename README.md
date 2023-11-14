@@ -1,6 +1,6 @@
 # Meu blog
 
-### Esse blog foi criado usando o sistema [Quarto](https://quarto.org/) no ambiente do [RStudio](https://www.r-studio.com/). Para formatação do site e produção dos textos eu utilizo as linguagens R, Python, CSS, HTML e Markdown.
+### Esse blog chamado 'Guia R' foi criado usando o sistema [Quarto](https://quarto.org/) no ambiente do [RStudio](https://www.r-studio.com/). Para formatação do site e produção dos textos eu utilizo as linguagens R, Python, CSS, HTML e Markdown.
 
 ### Nesse blog eu falo sobre a linguagem de programação R.
 
@@ -11,18 +11,18 @@
 ### Abas da direita:
 
 1. Postagens
-  - Programação em Python e R;
-  - Divulgação Científica.
+  - Programação em R;
+  - Gráficos;
+  - Análises Estatísticas
 2. Atividades
-  - Empresa Beta Analítica;
+  - Beta Analítica;
   - R-Ladies Natal;
-  - Prestação de Serviços;
-  - Palestras.
+  - Serviços;
 3. Sobre
-  - Sobre Mim e Formação;
-  - Currículos Acadêmicos e Profissionais.
-4. Contatos
+  - Sobre Mim;
+  - Currículos;
+  - Contatos
 
 ### Aba da esquerda:
 
-Jeanne Franco/Página Inicial
+Guia R/Página Inicial
