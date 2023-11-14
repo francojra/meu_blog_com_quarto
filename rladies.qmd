@@ -21,7 +21,7 @@ Abaixo estão listadas algumas palestras e cursos dos quais fui mentora na comun
 
 <div class="box">
 
-<img src="images/rmarkdown_rladies.png" width="150"/> <br> Introdução ao R Markdown ministrada na [R-Ladies Natal](https://www.instagram.com/rladiesnatal/?next=%2F). 
+<img src="images/rmarkdown_rladies.png" width="150"/> <br> Introdução ao R Markdown <br> ministrada na [R-Ladies Natal](https://www.instagram.com/rladiesnatal/?next=%2F). 
 
 </div>
 
