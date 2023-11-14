@@ -15,43 +15,43 @@ Abaixo estão listadas algumas palestras e cursos dos quais fui mentora na comun
 
 <div class="box">
 
-<img src="images/ggplot2_dplyr_rladies-01.png" width="150"/> <br> Visualização de dados com *ggplot2* e *dplyr* ministrada na [R-Ladies Ribeirão Preto](https://www.instagram.com/rladiesrp/?next=%2F). <br> Assita essa palestra clicando [aqui](https://www.youtube.com/watch?v=eYaViNaddEA).
+<img src="images/ggplot2_dplyr_rladies-01.png" width="150"/> <br> Visualização de dados com *ggplot2* e *dplyr* ministrada na [R-Ladies Ribeirão Preto](https://www.instagram.com/rladiesrp/?next=%2F).
 
 </div>
 
 <div class="box">
 
-<img src="images/rmarkdown_rladies.png" width="150"/> <br> Introdução ao R Markdown ministrada na [R-Ladies Natal](https://www.instagram.com/rladiesnatal/?next=%2F). <br> Assita essa palestra clicando [aqui](https://www.youtube.com/watch?v=EGPc1XJ-6-Y).
+<img src="images/rmarkdown_rladies.png" width="150"/> <br> Introdução ao R Markdown ministrada na [R-Ladies Natal](https://www.instagram.com/rladiesnatal/?next=%2F). 
 
 </div>
 
 <div class="box">
 
-<p>![](images/r_do_zero_rladies.png){width="150"} <br> Palestra R do zero para iniciantes ministrada na [R-Ladies Natal](https://www.instagram.com/rladiesnatal/?next=%2F). <br> Assista essa palestra clicando [aqui](https://www.youtube.com/watch?v=uGF5XowBJUA).</p>
+<p>![](images/r_do_zero_rladies.png){width="150"} <br> Palestra R do zero para iniciantes <br> ministrada na [R-Ladies Natal](https://www.instagram.com/rladiesnatal/?next=%2F). 
 
 </div>
 
 <div class="box">
 
-<p>![](images/introducao_r_rladies.png){width="150"} <br> Introdução ao R: passo a passo <br> para iniciantes na [R-Ladies Natal](https://www.instagram.com/rladiesnatal/?next=%2F).</p>
+<p>![](images/introducao_r_rladies.png){width="150"} <br> Introdução ao R: passo a passo <br> para iniciantes ministrada na [R-Ladies Natal](https://www.instagram.com/rladiesnatal/?next=%2F).</p>
 
 </div>
 
 <div class="box">
 
-<p>![](images/p3.png){width="150"} <br> Conhecendo a R-Ladies Natal: entre <br> scripts e meet-ups.</p>
+<p>![](images/p3.png){width="150"} <br> Palestra: Conhecendo a R-Ladies Natal: entre <br> scripts e meet-ups.</p>
 
 </div>
 
 <div class="box">
 
-<p>![](images/p1.png){width="150"} <br> Importância da R-Ladies para o <br> desenvolvimento científico e social.</p>
+<p>![](images/p1.png){width="150"} <br> Palestra: Importância da R-Ladies para o <br> desenvolvimento científico e social.</p>
 
 </div>
 
 <div class="box">
 
-<p>![](images/p2.png){width="150"} <br> Conhecendo a comunidade <br> R-Ladies Natal.</p>
+<p>![](images/p2.png){width="150"} <br> Palestra: Conhecendo a comunidade <br> R-Ladies Natal.</p>
 
 </div>
 
@@ -59,7 +59,7 @@ Abaixo estão listadas algumas palestras e cursos dos quais fui mentora na comun
 
 <style>
 div.box {
-	width: 300px;
+	width: 320px;
 	display: inline-block;
 }
 </style>

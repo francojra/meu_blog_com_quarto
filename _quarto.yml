@@ -30,14 +30,12 @@ website:
           - beta_analitica.qmd
           - rladies.qmd
           - servicos.qmd
-          - palestras.qmd
       - text: Sobre
         menu: 
           - about.qmd
           - formacao.qmd
           - contact.qmd
         
-
 format:
   html:
     smooth-scroll: true
