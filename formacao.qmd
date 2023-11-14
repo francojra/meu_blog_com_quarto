@@ -1,5 +1,5 @@
 ---
-title: "Currículos Acadêmicos e Profissionais"
+title: "Currículos"
 image: jeanne.jpg
 about:
   template: jolla

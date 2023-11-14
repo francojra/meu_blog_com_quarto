@@ -1,5 +1,5 @@
 ---
-title: "sobre mí y la formación"
+title: "sobre mí"
 image: jeanne.jpg
 about:
   template: jolla
