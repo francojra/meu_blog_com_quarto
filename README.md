@@ -11,18 +11,18 @@
 ### Abas da direita:
 
 1. Postagens
-  - Programação em R;
-  - Gráficos;
+  - Programação em R
+  - Gráficos
   - Análises Estatísticas
 2. Atividades
-  - Beta Analítica;
-  - R-Ladies Natal;
-  - Serviços;
+  - Beta Analítica
+  - R-Ladies Natal
+  - Serviços
 3. Sobre
-  - Sobre Mim;
-  - Currículos;
+  - Sobre Mim
+  - Currículos
   - Contatos
 
 ### Aba da esquerda:
 
-Guia R/Página Inicial
+Guia R/Home page
