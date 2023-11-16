@@ -1,6 +1,6 @@
-# Meu blog
+# Meu blog Running R
 
-### Esse blog chamado 'Guia R' foi criado usando o sistema [Quarto](https://quarto.org/) no ambiente do [RStudio](https://www.r-studio.com/). Para formatação do site e produção dos textos eu utilizo as linguagens R, Python, CSS, HTML e Markdown.
+### Esse blog chamado 'Running R' foi criado usando o sistema [Quarto](https://quarto.org/) no ambiente do [RStudio](https://www.r-studio.com/). Para formatação do site e produção dos textos eu utilizo as linguagens R, Python, CSS, HTML e Markdown.
 
 ### Nesse blog eu falo sobre a linguagem de programação R.
 
