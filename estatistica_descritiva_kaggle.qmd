@@ -1,0 +1,10 @@
+---
+title: "Estatística descritiva com base de dados do Kaggle"
+author: "Jeanne Franco"
+format: html 
+# format: pdf
+date: 04/16/23
+categories: [Códigos, Estatística, R]
+lang: pt
+toc: true
+---
