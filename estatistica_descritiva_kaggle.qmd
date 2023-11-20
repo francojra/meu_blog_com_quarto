@@ -13,8 +13,10 @@ A estatística descritiva é um etapa inicial importante para entender nossos da
 
 A estatística descritiva também nos permite fazer um resumo dos nossos dados para avaliar a frequência da distribuição de variáveis numéricas através de histogramas, identificar médias, medianas, valores máximos e mínimos, desvios e erros padrão, e fazer correlações entre variáveis.
 
-Para fazer essas análises de forma rápida, nós podemos usar um eficiente pacote chamado `DataExplorer`, o qual gera um relatório completo em PDF ou HTML da análise exploratória dos dados.
+Para fazer essas análises de forma rápida, nós podemos usar um eficiente pacote chamado `DataExplorer`, o qual gera um relatório completo em PDF ou HTML da análise exploratória dos dados. Em breve será apresentado como utilizar esse pacote.
 
-Para fazer análises exploratórias de dados e praticar a linguagem R, podemos baixar conjuntos de dados de diversas áreas do conhecimento na plataforma *Kaggle* que é a maior comunidade de ciência de dados do mundo.
+Para fazer análises exploratórias de dados e praticar a linguagem R, podemos baixar conjuntos de dados de diversas áreas do conhecimento na plataforma *Kaggle* que é a maior comunidade de ciência de dados do mundo e serve para explorar, analisar e compartilhar dados de qualidade.
 
 [![](kaggle.png){fig-align="center" width="900"}](https://www.endtoend.ai/tutorial/how-to-download-kaggle-datasets-on-ubuntu/)
+
+A base de dados que eu selecionei para fazer a estatística descritiva está disponíel para baixar em .csv nesse [link](https://www.kaggle.com/datasets/rxnach/student-stress-factors-a-comprehensive-analysis) e fala sobre os fatores de estresse em estudantes.
