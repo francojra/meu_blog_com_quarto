@@ -53,3 +53,15 @@ library(DataExplorer) # Análises estatísticas descritivas
 stringi::stri_enc_detect('StressLevelDataset.csv')
 dados <- read.csv('StressLevelDataset.csv') # Para datasets separados por ",".
 ```
+
+### Visualização de dados
+
+```{r}
+#| echo: true
+#| warning: false
+#| message: false
+#| cache: true
+
+tibble(dados[1:5, ])
+glimpse(dados)
+```
