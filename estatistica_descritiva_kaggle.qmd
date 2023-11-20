@@ -8,3 +8,10 @@ categories: [Códigos, Estatística, R]
 lang: pt
 toc: true
 ---
+
+A estatística descritiva é um etapa inicial e importante para você entender os seus dados. Ao utilizar algumas funções e pacotes que ajudam a descrever os dados, nós podemos saber a quantidade de linhas e colunas da tabela, a quantidade de variáveis numéricas discretas (números inteiros) e contínuas (valores quabrados ou infinitos), quantidade de variáveis categóricas, dados faltantes e número total de observações.
+
+A estatística descritiva básica nos permite fazer um resumo dos nossos dados
+
+FALAR ONDE ENCONTRAR A BASE DE DADOS DO KAGGLE E COLOCAR
+O LINK
