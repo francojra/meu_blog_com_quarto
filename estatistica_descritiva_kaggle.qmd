@@ -4,7 +4,7 @@ author: "Jeanne Franco"
 format: html 
 # format: pdf
 date: 04/16/23
-categories: [Códigos, Estatística, R]
+categories: [Códigos, Estatística, Kaggle, R]
 lang: pt
 toc: true
 ---
