@@ -15,4 +15,4 @@ A estatística descritiva básica nos permite fazer um resumo dos nossos dados p
 
 Para fazer essas análises de forma rápida e eficiente, podemos usar o pacote `DataExplorer` disponível para instalar no R, o qual gera um relatório completo em PDF ou HTML da análise exploratória dos seus dados.
 
-FALAR ONDE ENCONTRAR A BASE DE DADOS DO KAGGLE E COLOCAR O LINK
+[![](kaggle.png){fig-align="center"}](https://www.endtoend.ai/tutorial/how-to-download-kaggle-datasets-on-ubuntu/)
