@@ -9,6 +9,8 @@ lang: pt
 toc: true
 ---
 
+### O que é estatística descritiva?
+
 A estatística descritiva é um etapa inicial importante para entender nossos dados. Ao utilizar algumas funções e pacotes que ajudam a descrever os dados, nós podemos saber a quantidade de linhas e colunas da tabela, a quantidade de variáveis numéricas discretas (números inteiros) e contínuas (valores infinitos), quantidade de variáveis categóricas, dados faltantes e número total de observações.
 
 A estatística descritiva também nos permite fazer um resumo dos nossos dados para avaliar a frequência da distribuição de variáveis numéricas através de histogramas, identificar médias, medianas, valores máximos e mínimos, desvios e erros padrão, e fazer correlações entre variáveis.
