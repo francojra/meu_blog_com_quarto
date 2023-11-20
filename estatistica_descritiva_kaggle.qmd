@@ -19,4 +19,6 @@ Para fazer análises exploratórias de dados e praticar a linguagem R, podemos b
 
 [![](kaggle.png){fig-align="center" width="900"}](https://www.endtoend.ai/tutorial/how-to-download-kaggle-datasets-on-ubuntu/)
 
-A base de dados que eu selecionei para fazer a estatística descritiva está disponíel para baixar em .csv nesse [link](https://www.kaggle.com/datasets/rxnach/student-stress-factors-a-comprehensive-analysis) e fala sobre os fatores de estresse em estudantes.
+A base de dados que selecionei para fazer a estatística descritiva está disponíel para baixar em .csv nesse [link](https://www.kaggle.com/datasets/rxnach/student-stress-factors-a-comprehensive-analysis) e fala sobre os fatores de estresse em estudantes.
+
+Acompanhe as etapas abaixo para fazer as análises estatísticas descritivas dessa base selecionada.
