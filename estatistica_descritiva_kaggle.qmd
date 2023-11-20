@@ -23,7 +23,7 @@ A base de dados que selecionei para fazer a estatística descritiva está dispon
 
 Acompanhe as etapas abaixo para fazer as análises estatísticas descritivas dessa base selecionada.
 
-1.  Carregar pacotes
+### Carregar pacotes
 
 ```{r}
 #| echo: true
@@ -31,12 +31,25 @@ Acompanhe as etapas abaixo para fazer as análises estatísticas descritivas des
 #| message: false
 #| cache: true
 
-library(tidyverse)
-library(stringi)
-library(hrbrthemes)
-library(viridis)
-library(psych)
-library(Hmisc)
-library(pastecs)
-library(DataExplorer)
+library(tidyverse) # Manipulação de tabelas e gráficos
+library(stringi) # Detectar encoding da tabela
+library(hrbrthemes) # Tema para gráficos
+library(viridis) # Paleta de cores para gráficos
+library(psych) # Análises estatísticas descritivas
+library(Hmisc) # Análises estatísticas descritivas
+library(pastecs) # Análises estatísticas descritivas
+library(DataExplorer) # Análises estatísticas descritivas
+```
+
+### Carregar dados
+
+```{r}
+#| echo: true
+#| warning: false
+#| message: false
+#| cache: true
+#| results: hide
+
+stringi::stri_enc_detect('StressLevelDataset.csv')
+dados <- read.csv('StressLevelDataset.csv') # Para datasets separados por ",".
 ```
