@@ -15,10 +15,28 @@ A estatística descritiva também nos permite fazer um resumo dos nossos dados p
 
 Para fazer essas análises de forma rápida, nós podemos usar um eficiente pacote chamado `DataExplorer`, o qual gera um relatório completo em PDF ou HTML da análise exploratória dos dados. Em breve será apresentado como utilizar esse pacote.
 
-Para fazer análises exploratórias de dados e praticar a linguagem R, podemos baixar conjuntos de dados de diversas áreas do conhecimento na plataforma *Kaggle* que é a maior comunidade de ciência de dados do mundo e serve para explorar, analisar e compartilhar dados de qualidade.
+Para fazer análises exploratórias de dados e praticar a linguagem R, podemos baixar conjuntos de dados de diversas áreas do conhecimento na plataforma *Kaggle*, que é a maior comunidade de ciência de dados do mundo e serve para explorar, analisar e compartilhar dados de qualidade.
 
 [![](kaggle.png){fig-align="center" width="900"}](https://www.endtoend.ai/tutorial/how-to-download-kaggle-datasets-on-ubuntu/)
 
 A base de dados que selecionei para fazer a estatística descritiva está disponíel para baixar em .csv nesse [link](https://www.kaggle.com/datasets/rxnach/student-stress-factors-a-comprehensive-analysis) e fala sobre os fatores de estresse em estudantes.
 
 Acompanhe as etapas abaixo para fazer as análises estatísticas descritivas dessa base selecionada.
+
+1.  Carregar pacotes
+
+```{r}
+#| echo: true
+#| warning: false
+#| message: false
+#| cache: true
+
+library(tidyverse)
+library(stringi)
+library(hrbrthemes)
+library(viridis)
+library(psych)
+library(Hmisc)
+library(pastecs)
+library(DataExplorer)
+```
