@@ -67,3 +67,28 @@ dados <- read.csv('StressLevelDataset.csv') # Para datasets separados por ",".
 tibble(dados[1:5, ])
 glimpse(dados)
 ```
+
+### Estatística Descritiva
+
+#### Função `summary()`
+
+```{r}
+#| echo: true
+#| warning: false
+#| message: false
+#| cache: true
+
+summary(dados$anxiety_level)
+summary(dados$self_esteem)
+summary(dados$depression)
+summary(dados$sleep_quality)
+summary(dados$noise_level)
+summary(dados$living_conditions)
+summary(dados$basic_needs)
+summary(dados$study_load)
+summary(dados$academic_performance)
+summary(dados$teacher_student_relationship)
+summary(dados$social_support)
+summary(dados$bullying)
+summary(dados$stress_level)
+```
