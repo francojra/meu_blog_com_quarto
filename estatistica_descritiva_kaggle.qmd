@@ -108,7 +108,7 @@ summary(dados$stress_level)
 describe(dados)
 ```
 
-#### Estatística descritiva com o pacoteHmisc
+#### Estatística descritiva com o pacote Hmisc
 
 ```{r}
 #| echo: true
@@ -163,11 +163,11 @@ plot_str(dados)
 plot_intro(dados)
 plot_missing(dados)
 plot_histogram(dados)
-plot_bar(dados) # Para variáveis categóricas x contínuas
+plot_bar(dados) 
 plot_correlation(dados)
 plot_qq(dados)
 plot_prcomp(dados)
 df <- dados[, c("anxiety_level", "study_load", "bullying", "sleep_quality")]
 plot_boxplot(df, by = "anxiety_level")
-plot_scatterplot(df, by = "anxiety_level")
+# plot_scatterplot(df, by = "anxiety_level")
 ```
