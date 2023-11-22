@@ -104,7 +104,7 @@ summary(dados$stress_level)
 describe(dados)
 ```
 
-#### Pacote Hmisc
+#### Estatística descritiva com o pacoteHmisc
 
 ```{r}
 #| echo: true
@@ -115,4 +115,19 @@ describe(dados)
 describe(dados)
 ```
 
-[Gmd:]{.underline} quando não são utilizados pesos, a diferença média de Gini é calculada para variáveis numéricas. Isto é um medida robusta de dispersão que é a diferença média absoluta entre quaisquer pares de observações.\
+[Gmd:]{.underline} quando não são utilizados pesos, a diferença média de Gini é calculada para variáveis numéricas. Isto é um medida robusta de dispersão que é a diferença média absoluta entre quaisquer pares de observações.
+
+#### Estatística descritiva com o pacote pastecs
+
+```{r}
+#| echo: true
+#| warning: false
+#| message: false
+#| cache: true
+
+stat.desc(dados)
+```
+
+### Relatório completo com análises exploratórias
+
+#### Pacote DataExplorer
