@@ -159,7 +159,6 @@ relatorio <- dados %>%
 #| cache: true
 #| results: false
 
-plot_str(dados)
 plot_intro(dados)
 plot_missing(dados)
 plot_histogram(dados)
@@ -167,7 +166,8 @@ plot_bar(dados)
 plot_correlation(dados)
 plot_qq(dados)
 plot_prcomp(dados)
-df <- dados[, c("anxiety_level", "study_load", "bullying", "sleep_quality")]
-plot_boxplot(df, by = "anxiety_level")
+df <- dados[, c("self_esteem", "study_load", "sleep_quality",
+"stress_level", "anxiety_level", "depression", "safety")]
+plot_boxplot(df, by = "stress_level")
 # plot_scatterplot(df, by = "anxiety_level")
 ```
