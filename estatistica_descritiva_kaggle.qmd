@@ -92,3 +92,14 @@ summary(dados$social_support)
 summary(dados$bullying)
 summary(dados$stress_level)
 ```
+
+#### Função `describe()`
+
+```{r}
+#| echo: true
+#| warning: false
+#| message: false
+#| cache: true
+
+describe(dados)
+```
