@@ -131,3 +131,17 @@ stat.desc(dados)
 ### Relatório completo com análises exploratórias
 
 #### Pacote DataExplorer
+
+```{r}
+#| echo: true
+#| warning: false
+#| message: false
+#| cache: true
+#| results: false
+
+relatorio <- dados %>%
+    create_report(
+        output_file = "report.pdf", 
+        output_format = "pdf_document",
+        report_title = "Dataset Kaggle - Estatística Descritiva")
+```
