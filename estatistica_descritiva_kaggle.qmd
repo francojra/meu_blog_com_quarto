@@ -1,5 +1,5 @@
 ---
-title: "Estatística descritiva com base de dados do Kaggle"
+title: "Estatística descritiva com funções e pacotes do R"
 author: "Jeanne Franco"
 format: html 
 # format: pdf
@@ -13,9 +13,13 @@ toc: true
 
 A estatística descritiva é um etapa inicial importante para entender nossos dados. Ao utilizar algumas funções e pacotes que ajudam a descrever os dados, nós podemos saber a quantidade de linhas e colunas da tabela, a quantidade de variáveis numéricas discretas (números inteiros) e contínuas (valores infinitos), quantidade de variáveis categóricas, dados faltantes e número total de observações.
 
+[![](Cover_descriptive-statistics_BlogImage_Final.png){fig-align="center"}](https://www.hackerearth.com/blog/developers/descriptive-statistics-python-numpy/)
+
 A estatística descritiva também nos permite fazer um resumo dos nossos dados para avaliar a frequência da distribuição de variáveis numéricas através de histogramas, identificar médias, medianas, valores máximos e mínimos, desvios e erros padrão, e fazer correlações entre variáveis.
 
 Para fazer essas análises de forma rápida, nós podemos usar um eficiente pacote chamado `DataExplorer`, o qual gera um relatório completo em PDF ou HTML da análise exploratória dos dados. Em breve será apresentado como utilizar esse pacote.
+
+### Base de dados Kaggle
 
 Para fazer análises exploratórias de dados e praticar a linguagem R, podemos baixar conjuntos de dados de diversas áreas do conhecimento na plataforma *Kaggle*, que é a maior comunidade de ciência de dados do mundo e serve para explorar, analisar e compartilhar dados de qualidade.
 
@@ -144,4 +148,26 @@ relatorio <- dados %>%
         output_file = "report.pdf", 
         output_format = "pdf_document",
         report_title = "Dataset Kaggle - Estatística Descritiva")
+```
+
+#### Principais funções do pacote DataExplorer
+
+```{r}
+#| echo: true
+#| warning: false
+#| message: false
+#| cache: true
+#| results: false
+
+plot_str(dados)
+plot_intro(dados)
+plot_missing(dados)
+plot_histogram(dados)
+plot_bar(dados) # Para variáveis categóricas x contínuas
+plot_correlation(dados)
+plot_qq(dados)
+plot_prcomp(dados)
+df <- dados[, c("anxiety_level", "study_load", "bullying", "sleep_quality")]
+plot_boxplot(df, by = "anxiety_level")
+plot_scatterplot(df, by = "anxiety_level")
 ```
