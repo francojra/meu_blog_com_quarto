@@ -16,7 +16,7 @@ title-block-banner: true
 
 ◾Desenvolvimento web: criação de sites, blogs e aplicativos;
 
-◾Produção de diagramas de texto com diferentes níveis de complexidade usando a ferramenta [Mermaid](https://mermaid.js.org/).
+◾Consultorias em produção científica.
 
 ```{=html}
 <div style="display: inline_block"; "text-align:left"><br>
