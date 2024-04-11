@@ -13,53 +13,49 @@ Abaixo estão listadas algumas palestras e cursos dos quais fui mentora na comun
 
 <center>
 
-<div class="box">
-
+::: box
 <img src="images/ggplot2_dplyr_rladies-01.png" width="150"/> <br> Visualização de dados com *ggplot2* e *dplyr* ministrada na [R-Ladies Ribeirão Preto](https://www.instagram.com/rladiesrp/?next=%2F).
+:::
 
-</div>
-
-<div class="box">
-
-<img src="images/rmarkdown_rladies.png" width="150"/> <br> Introdução ao R Markdown <br> ministrada na [R-Ladies Natal](https://www.instagram.com/rladiesnatal/?next=%2F). 
-
-</div>
+::: box
+<img src="images/rmarkdown_rladies.png" width="150"/> <br> Introdução ao R Markdown <br> ministrada na [R-Ladies Natal](https://www.instagram.com/rladiesnatal/?next=%2F).
+:::
 
 <div class="box">
 
-<p>![](images/r_do_zero_rladies.png){width="150"} <br> Palestra R do zero para iniciantes <br> ministrada na [R-Ladies Natal](https://www.instagram.com/rladiesnatal/?next=%2F). 
+<p>
+
+![](images/r_do_zero_rladies.png){width="150"} <br> Palestra R do zero para iniciantes <br> ministrada na [R-Ladies Natal](https://www.instagram.com/rladiesnatal/?next=%2F).
 
 </div>
 
-<div class="box">
-
+::: box
 <p>![](images/introducao_r_rladies.png){width="150"} <br> Introdução ao R: passo a passo <br> para iniciantes ministrada na [R-Ladies Natal](https://www.instagram.com/rladiesnatal/?next=%2F).</p>
+:::
 
-</div>
-
-<div class="box">
-
+::: box
 <p>![](images/p3.png){width="150"} <br> Palestra: Conhecendo a R-Ladies Natal: entre <br> scripts e meet-ups.</p>
+:::
 
-</div>
-
-<div class="box">
-
+::: box
 <p>![](images/p1.png){width="150"} <br> Palestra: Importância da R-Ladies para o <br> desenvolvimento científico e social.</p>
+:::
 
-</div>
+::: box
+<p>![](palestra_tidyverse.png){width="150"} <br> Palestra: Explorando a visuzalização de dados <br> no R com Tidyverse.</p>
+:::
 
-<div class="box">
-
+::: box
 <p>![](images/p2.png){width="150"} <br> Palestra: Conhecendo a comunidade <br> R-Ladies Natal.</p>
-
-</div>
+:::
 
 </center>
 
+```{=html}
 <style>
 div.box {
-	width: 320px;
-	display: inline-block;
+    width: 320px;
+    display: inline-block;
 }
 </style>
+```
