@@ -4,11 +4,13 @@ page-layout: full
 title-block-banner: true
 ---
 
-A empresa [Beta Analítica](https://betaanalitica.com.br/) foi criada em 2018 e conta com a colaboração de especialistas que tem a missão de auxiliar empresas, pessoas físicas, pesquisadores e estudantes universitários em análises estatísticas, produção de gráficos, geoprocessamento, gestão de dados, ilustração científica, geoprocessamento, entre outros. A empresa apresenta diversos cursos ministrados ao vivo e videoaulas gravadas para colaborar com o conhecimento do público na utilização de softwares como R, Python e QGIS. O foco principal da empresa é fornecer treinamentos e criar rotinas analíticas para consultorias. O público é diverso, mas possui um sólido alinhamento com áreas agrárias, biológicas e ambiental. A empresa conta com o diretor e coordenador Écio Souza Diniz e com diversos consultores mestres e doutores altamente qualificados.
+A empresa [Beta Analítica](https://betaanalitica.com.br/) foi criada em 2018 e conta com a colaboração de especialistas de diversas áreas do conhecimento. A Beta Analítica tem a missão de auxiliar corporações, pessoas físicas, pesquisadores e estudantes universitários em análises estatísticas, produção de gráficos, geoprocessamento, gestão de dados, ilustração científica, geoprocessamento, entre outros. \
+\
+A Beta Analítica apresenta diversos cursos ministrados ao vivo e em videoaulas para colaborar com o conhecimento do público na utilização de softwares como R, Python e QGIS. O foco principal da empresa é fornecer treinamentos e criar rotinas analíticas em consultorias. O público é diverso, mas possui um sólido alinhamento com áreas agrárias, biológicas e ambiental. A empresa conta com o diretor e coordenador Écio Souza Diniz e com diversos consultores mestres e doutores altamente qualificados.
 
-![](images/beta-01.png){fig-align="center" width="230"}
+![](images/beta-01.png){fig-align="center" width="200"}
 
-Abaixo estão listados os cursos dos quais sou mentora com os links de acesso. Nesses links você poderá visualizar todos os conteúdos das aulas.
+Abaixo estão listados os cursos dos quais sou mentora e os respectivos links de acesso. Nesses links você poderá visualizar o conteúdo das aulas.
 
 ◾ Visualização de dados com R. Acesse o curso hospedado na Udemy [aqui](https://www.udemy.com/course/visualizacao-dados-r/).
 
