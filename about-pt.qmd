@@ -5,7 +5,7 @@ about:
   template: jolla
   links:
       - icon: envelope
-        href: mailto:jeanneraquelj1@gmail.com
+        href: mailto:jfranco.jraf@gmail.com
       - icon: linkedin
         href: https://www.linkedin.com/in/francojra/
       - icon: github
@@ -20,23 +20,15 @@ about:
 
 </center>
 
-Durante a minha pós-graduação na [Universidade Federal do Rio Grande do Norte](https://www.ufrn.br/), para realizar minha pesquisa científica, precisei coletar, organizar e analisar dados. Isso me levou a desenvolver interesse em análise e visualização de dados usando o software R. Desde então, tenho me dedicado a essa área por meio de cursos e adquirido experiência profissional por meio de consultorias e palestras. Abaixo está o resumo das minhas habilidades:
+Durante a minha pós-graduação na [Universidade Federal do Rio Grande do Norte](https://www.ufrn.br/), para realizar minha pesquisa científica, precisei coletar, organizar e analisar dados. Isso me levou a desenvolver interesse em análise e visualização de dados usando o software R. Desde então, tenho me dedicado a essa área por meio de cursos e adquirido experiência profissional por meio de consultorias e palestras. As minhas experiências profissionais e de voluntariado incluem:
 
-➜ Experiência profissional:
+▪ Consultorias em análise de dados, visualização de dados e produção científica na [Beta Analítica](https://betaanalitica.com.br/).
 
-▪ Consultor de análise de dados, engenharia de dados e visualização de dados na [Beta Analítica](https://betaanalitica.com.br/).
-
-▪ Programação em R: engenharia e visualização de dados (dataviz) com o pacote tidyverse, produção de relatórios com R Markdown, produção de sites e blogs em R utilizando sistema Quarto, linguagens de marcação HTML e CSS e produção de aplicações com o pacote Shiny.
+▪ Programação em R: manipulação e visualização de dados (dataviz) com o pacote *tidyverse*, produção de relatórios com *R Markdown*, produção de sites e blogs em R utilizando *sistema Quarto*, linguagens de marcação *HTML* e *CSS* e produção de aplicações com o pacote *Shiny*.
 
 ▪ Conhecimento em Python e SQL.
 
-▪ Ferramentas de trabalho: Markdown, Overleaf, Notion, RStudio, Jupyter, VS Code, Microsoft Office, Discord, Slack, MS Teams, Zoom e Google Meet.
-
-▪ Ferramentas de IA: Chat GPT, Gemini, Playground Open IA, Perplexity, Elicit, Consensus, ChatPDF, SciSpace e Gamma.
-
-➜ Voluntariado:
-
 ▪ Organizadora e palestrante: comunidade [R-Ladies de Natal](https://rladies.org/). R-Ladies é uma organização global sem fins lucrativos cuja missão é promover a diversidade de gênero e ministrar cursos sobre a linguagem de programação R.
 
-▪ Revisor de livro: Tradução do livro R for Data Science 2ª Edição. Organização: R-Ladies São Paulo.
+▪ Revisora do livro: Tradução do livro R for Data Science 2ª Edição. Organização: R-Ladies São Paulo.
 

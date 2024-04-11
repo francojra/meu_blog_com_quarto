@@ -20,8 +20,14 @@ about:
 
 </center>
 
-Hola, me llamo Jeanne Franco. Soy licenciado en Ecología, Máster en Ciencias Forestales y Doctor en Ecología por la [Universidade Federal do Rio Grande do Norte](https://www.ufrn.br/). Durante la licenciatura y el doctorado adquirí experiencia evaluando el efecto de la diversidad de especies arbóreas autóctonas y el efecto de las especies herbáceas en la restauración ecológica de entornos semiáridos degradados. Durante el máster realicé investigaciones de campo para evaluar la regeneración natural de especies arbóreas en una zona de manglares.
-
-Soy colaborador de [Beta Analítica](https://betaanalitica.com.br/), empresa que cuenta con expertos en tratamiento de datos, análisis estadístico y programación en R, atendiendo a estudiantes universitarios, particulares y público corporativo. También soy coorganizadora de [R-Ladies de Natal](https://rladies.org/), una organización con la misión de promover la diversidad de género a través de reuniones para difundir el conocimiento del lenguaje R.
-
-Me interesa la ecología de la restauración, la ecología vegetal, la invasión de especies exóticas, la recuperación de áreas degradadas, la ciencia de datos con software R, la divulgación científica y obras de arte en pintura y dibujo.
+¡Ey! Mi nombre es Jeanne Franco. Durante mis estudios de posgrado en la [Universidad Federal de Rio Grande do Norte](https://www.ufrn.br/), para realizar mi investigación científica, necesitaba recolectar, organizar y analizar datos. Esto me llevó a desarrollar un interés en el análisis y visualización de datos utilizando el software R. Desde entonces me he dedicado a esta área a través de cursos y he adquirido experiencia profesional a través de consultoría e impartición de conferencias. Mis experiencias profesionales y voluntarias incluyen:\
+\
+▪ Consultoría en análisis de datos, visualización de datos y producción científica en [Beta Analítica](https://betaanalitica.com.br/).\
+\
+▪ Programación en R: manipulación y visualización de datos (dataviz) con el paquete tidyverse, producción de informes con R Markdown, producción de sitios web y blogs en R usando el sistema Quarto, lenguajes de marcado HTML y CSS, y producción de aplicaciones con el paquete Shiny.
+\
+▪ Conocimientos en Python y SQL.\
+\
+▪ Organizador y ponente: comunidad R-Ladies Natal. R-Ladies es una organización global sin fines de lucro cuya misión es promover la diversidad de género y ofrecer cursos sobre el lenguaje de programación R.
+\
+▪ Crítico de libros: Traducción del libro "R for Data Science 2da Edición". Organización: R-Ladies São Paulo.
