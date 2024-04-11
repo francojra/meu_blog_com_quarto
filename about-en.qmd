@@ -28,6 +28,6 @@ Hi! My name is Jeanne Franco. During my postgraduate studies at [Federal Univers
 \
 ▪ Knowledge in Python and SQL.\
 \
-▪ Organizer and speaker: R-Ladies Natal community. R-Ladies is a global non-profit organization whose mission is to promote gender diversity and provide courses on the R programming language.\
+▪ Organizer and speaker: [R-Ladies de Natal](https://rladies.org/) community. R-Ladies is a global non-profit organization whose mission is to promote gender diversity and provide courses on the R programming language.\
 \
 ▪ Book reviewer: Translation of the book "R for Data Science 2nd Edition." Organization: R-Ladies São Paulo.

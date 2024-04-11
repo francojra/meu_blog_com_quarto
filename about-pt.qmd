@@ -20,7 +20,7 @@ about:
 
 </center>
 
-Durante a minha pós-graduação na [Universidade Federal do Rio Grande do Norte](https://www.ufrn.br/), para realizar minha pesquisa científica, precisei coletar, organizar e analisar dados. Isso me levou a desenvolver interesse em análise e visualização de dados usando o software R. Desde então, tenho me dedicado a essa área por meio de cursos e adquirido experiência profissional por meio de consultorias e palestras. As minhas experiências profissionais e de voluntariado incluem:
+Oi! Me chamo Jeanne Franco. Durante a minha pós-graduação na [Universidade Federal do Rio Grande do Norte](https://www.ufrn.br/), para realizar minha pesquisa científica, precisei coletar, organizar e analisar dados. Isso me levou a desenvolver interesse em análise e visualização de dados usando o software R. Desde então, tenho me dedicado a essa área por meio de cursos e adquirido experiência profissional por meio de consultorias e palestras. As minhas experiências profissionais e de voluntariado incluem:
 
 ▪ Consultorias em análise de dados, visualização de dados e produção científica na [Beta Analítica](https://betaanalitica.com.br/).
 
@@ -31,4 +31,3 @@ Durante a minha pós-graduação na [Universidade Federal do Rio Grande do Norte
 ▪ Organizadora e palestrante: comunidade [R-Ladies de Natal](https://rladies.org/). R-Ladies é uma organização global sem fins lucrativos cuja missão é promover a diversidade de gênero e ministrar cursos sobre a linguagem de programação R.
 
 ▪ Revisora do livro: Tradução do livro R for Data Science 2ª Edição. Organização: R-Ladies São Paulo.
-

@@ -28,6 +28,6 @@ about:
 \
 ▪ Conocimientos en Python y SQL.\
 \
-▪ Organizador y ponente: comunidad R-Ladies Natal. R-Ladies es una organización global sin fines de lucro cuya misión es promover la diversidad de género y ofrecer cursos sobre el lenguaje de programación R.
+▪ Organizador y ponente: comunidad [R-Ladies de Natal](https://rladies.org/). R-Ladies es una organización global sin fines de lucro cuya misión es promover la diversidad de género y ofrecer cursos sobre el lenguaje de programación R.
 \
 ▪ Crítico de libros: Traducción del libro "R for Data Science 2da Edición". Organización: R-Ladies São Paulo.
