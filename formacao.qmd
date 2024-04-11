@@ -1,5 +1,5 @@
 ---
-title: "Currículos"
+title: "Currículo"
 image: jeanne.jpg
 about:
   template: jolla
@@ -22,18 +22,6 @@ about:
 
 <h4>
 
-Programação em R e Python: <img src="https://img.icons8.com/ios-filled/512/monitor.png" alt="Jeanne-HTML" align="center" height="45" width="42"/>
-
-</p>
-
-</h4>
-
-</div>
-
-</body>
-
-</html>
-
 ::: {style="text-align:left"}
 ◾️[Currículo vitae](resume_jeanne_franco_pt.pdf)
 
@@ -49,4 +37,3 @@ Programação em R e Python: <img src="https://img.icons8.com/ios-filled/512/mon
 <p>
 
 <h4>
-

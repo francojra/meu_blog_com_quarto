@@ -5,7 +5,7 @@ about:
   template: jolla
   links:
       - icon: envelope
-        href: mailto:jeanneraquelj1@gmail.com
+        href: mailto:jfranco.jraf@gmail.com
       - icon: linkedin
         href: https://www.linkedin.com/in/francojra/
       - icon: github
@@ -20,14 +20,16 @@ about:
 
 </center>
 
-¡Ey! Mi nombre es Jeanne Franco. Durante mis estudios de posgrado en la [Universidad Federal de Rio Grande do Norte](https://www.ufrn.br/), para realizar mi investigación científica, necesitaba recolectar, organizar y analizar datos. Esto me llevó a desarrollar un interés en el análisis y visualización de datos utilizando el software R. Desde entonces me he dedicado a esta área a través de cursos y he adquirido experiencia profesional a través de consultoría e impartición de conferencias. Mis experiencias profesionales y voluntarias incluyen:\
-\
-▪ Consultoría en análisis de datos, visualización de datos y producción científica en [Beta Analítica](https://betaanalitica.com.br/).\
-\
+¡Ey! Mi nombre es Jeanne Franco. Durante mis estudios de posgrado en la [Universidad Federal de Rio Grande do Norte](https://www.ufrn.br/), para realizar mi investigación científica, necesitaba recolectar, organizar y analizar datos. Esto me llevó a desarrollar un interés en el análisis y visualización de datos utilizando el software R. Desde entonces me he dedicado a esta área a través de cursos y he adquirido experiencia profesional a través de consultoría e impartición de conferencias. Mis experiencias profesionales y voluntarias incluyen:
+
+▪ Consultoría en análisis de datos, visualización de datos y producción científica en [Beta Analítica](https://betaanalitica.com.br/).
+
 ▪ Programación en R: manipulación y visualización de datos (dataviz) con el paquete tidyverse, producción de informes con R Markdown, producción de sitios web y blogs en R usando el sistema Quarto, lenguajes de marcado HTML y CSS, y producción de aplicaciones con el paquete Shiny.
-\
-▪ Conocimientos en Python y SQL.\
-\
-▪ Organizador y ponente: comunidad [R-Ladies de Natal](https://rladies.org/). R-Ladies es una organización global sin fines de lucro cuya misión es promover la diversidad de género y ofrecer cursos sobre el lenguaje de programación R.
-\
-▪ Crítico de libros: Traducción del libro "R for Data Science 2da Edición". Organización: R-Ladies São Paulo.
+
+▪ Conocimientos en Python y SQL.
+
+▪ Organización comunitaria [R-Ladies de Natal](https://rladies.org/)[^1].
+
+▪ Traducción de un capítulo del libro R for Data Science 2ª Edición. Comunidad: R-Ladies São Paulo.
+
+[^1]: R-Ladies es una organización global sin fines de lucro cuya misión es promover la diversidad de género e impartir cursos en el lenguaje de programación R.

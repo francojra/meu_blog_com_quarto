@@ -24,10 +24,12 @@ Oi! Me chamo Jeanne Franco. Durante a minha pós-graduação na [Universidade Fe
 
 ▪ Consultorias em análise de dados, visualização de dados e produção científica na [Beta Analítica](https://betaanalitica.com.br/).
 
-▪ Programação em R: manipulação e visualização de dados (dataviz) com o pacote *tidyverse*, produção de relatórios com *R Markdown*, produção de sites e blogs em R utilizando *sistema Quarto*, linguagens de marcação *HTML* e *CSS* e produção de aplicações com o pacote *Shiny*.
+▪ Programação em R: manipulação e visualização de dados (dataviz) com o pacote tidyverse, produção de relatórios com R Markdown, produção de sites e blogs em R utilizando sistema Quarto, linguagens de marcação HTML e CSS e produção de aplicações com o pacote Shiny.
 
-▪ Conhecimento em Python e SQL.
+▪ Conhecimentos em Python e SQL.
 
-▪ Organizadora e palestrante: comunidade [R-Ladies de Natal](https://rladies.org/). R-Ladies é uma organização global sem fins lucrativos cuja missão é promover a diversidade de gênero e ministrar cursos sobre a linguagem de programação R.
+▪ Organização da comunidade [R-Ladies de Natal](https://rladies.org/)[^1].
 
-▪ Revisora do livro: Tradução do livro R for Data Science 2ª Edição. Organização: R-Ladies São Paulo.
+▪ Tradução de capítulo do livro R for Data Science 2ª Edição. Comunidade: R-Ladies São Paulo.
+
+[^1]: R-Ladies é uma organização global sem fins lucrativos cuja missão é promover a diversidade de gênero e ministrar cursos sobre a linguagem de programação R.

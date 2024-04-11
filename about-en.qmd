@@ -5,7 +5,7 @@ about:
   template: jolla
   links:
       - icon: envelope
-        href: mailto:jeanneraquelj1@gmail.com
+        href: mailto:jfranco.jraf@gmail.com
       - icon: linkedin
         href: https://www.linkedin.com/in/francojra/
       - icon: github
@@ -21,13 +21,15 @@ about:
 </center>
 
 Hi! My name is Jeanne Franco. During my postgraduate studies at [Federal University of Rio Grande do Norte](https://www.ufrn.br/), to conduct my scientific research, I needed to collect, organize, and analyze data. This led me to develop an interest in data analysis and visualization using the R software. Since then, I have been dedicated to this area through courses and have gained professional experience through consulting and giving lectures. My professional and volunteer experiences include:\
-\
+
 ▪ Consulting in data analysis, data visualization, and scientific production at [Beta Analítica](https://betaanalitica.com.br/).\
-\
+
 ▪ R programming: data manipulation and visualization (dataviz) with the tidyverse package, report production with R Markdown, website and blog production in R using Quarto system, HTML and CSS markup languages, and application production with the Shiny package.\
-\
+
 ▪ Knowledge in Python and SQL.\
-\
-▪ Organizer and speaker: [R-Ladies de Natal](https://rladies.org/) community. R-Ladies is a global non-profit organization whose mission is to promote gender diversity and provide courses on the R programming language.\
-\
-▪ Book reviewer: Translation of the book "R for Data Science 2nd Edition." Organization: R-Ladies São Paulo.
+
+▪ Community organization [R-Ladies de Natal](https://rladies.org/)[^1]. 
+
+▪ Translation of a chapter from the book R for Data Science 2nd Edition. Community: R-Ladies São Paulo.
+
+[^1]: R-Ladies is a global non-profit organization whose mission is to promote gender diversity and provide courses on the R programming language.

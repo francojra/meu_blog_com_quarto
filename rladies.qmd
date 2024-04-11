@@ -9,7 +9,7 @@ toc: true
 
 A comunidade [R-Ladies Natal](https://www.instagram.com/rladiesnatal/?next=%2F) foi notícia no portal da Universidade Federal do Rio Grande do Norte por apresentar uma palestra na *Semana da Estatística*, evento promovido pelo Departamento de Estatística. Você pode acessar a matéria clicando no [link](https://www.ufrn.br/imprensa/noticias/44260/grupo-r-ladies-natal-oferece-palestra-sobre-comunidade-local).
 
-Abaixo estão listadas algumas palestras e cursos dos quais fui mentora na comunidade R-Ladies.
+Abaixo estão listadas as palestras que ministrei na comunidade R-Ladies.
 
 <center>
 
