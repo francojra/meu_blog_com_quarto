@@ -4,9 +4,9 @@ page-layout: full
 title-block-banner: true
 ---
 
-A empresa [Beta Analítica](https://betaanalitica.com.br/) foi criada em 2018 e conta com a colaboração de especialistas de diversas áreas do conhecimento. A Beta Analítica tem a missão de auxiliar corporações, pessoas físicas, pesquisadores e estudantes universitários em análises estatísticas, produção de gráficos, geoprocessamento, gestão de dados, ilustração científica, geoprocessamento, entre outros. \
-\
-A Beta Analítica apresenta diversos cursos ministrados ao vivo e em videoaulas para colaborar com o conhecimento do público na utilização de softwares como R, Python e QGIS. O foco principal da empresa é fornecer treinamentos e criar rotinas analíticas em consultorias. O público é diverso, mas possui um sólido alinhamento com áreas agrárias, biológicas e ambiental. A empresa conta com o diretor e coordenador Écio Souza Diniz e com diversos consultores mestres e doutores altamente qualificados.
+A empresa de consultoria [Beta Analítica](https://betaanalitica.com.br/) apresenta diversos cursos ministrados ao vivo e em videoaulas gravadas para colaborar com o conhecimento do público na utilização de softwares como R, Python e QGIS. O foco principal da empresa é fornecer treinamentos e criar rotinas analíticas em consultorias. O público é diverso, mas possui um sólido alinhamento com áreas agrárias, biológicas e ambiental. A empresa conta com o diretor e coordenador Écio Souza Diniz e com diversos consultores mestres e doutores altamente qualificados.
+
+A empresa foi criada em 2018 e conta com a colaboração de especialistas de diversas áreas do conhecimento. A Beta Analítica também tem a missão de auxiliar corporações, pessoas físicas, pesquisadores e estudantes universitários em análises estatísticas, produção de gráficos, geoprocessamento, gestão de dados, ilustração científica, geoprocessamento, entre outros.
 
 ![](images/beta-01.png){fig-align="center" width="200"}
 
