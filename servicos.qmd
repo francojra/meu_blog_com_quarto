@@ -6,7 +6,7 @@ title-block-banner: true
 
 ### Consultorias de programação em R e análises estatísticas:
 
-◾Produção de gráficos científicos: barras, histogramas, boxplot, linhas, gráficos animados, gráficos 3D e wordcloud;
+◾Produção de gráficos: barras, histogramas, boxplot, linhas, gráficos animados, gráficos 3D e wordcloud;
 
 ◾Produção de mapas com pacotes do R, Google Earth Engine e QGIS;
 
@@ -36,6 +36,8 @@ title-block-banner: true
   <img align="center" alt="Jeanne-R" height="37" width="37" src="https://cdn.icon-icons.com/icons2/1508/PNG/512/googleearth-engine_104576.png">
   <img align="center" alt="Jeanne-R" height="37" width="37" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jupyter/jupyter-original-wordmark.svg">
   <img align="center" alt="Jeanne-R" height="32" width="32" src="https://upload.wikimedia.org/wikipedia/commons/7/77/Qgis-icon-3.0.png">
+  <img align="center" alt="Jeanne-R" height="32" width="30" src="https://cdn-icons-png.flaticon.com/256/732/732221.png">
+    <img align="center" alt="Jeanne-R" height="32" width="30" src="https://cdn-icons-png.flaticon.com/128/12222/12222589.png">
   
 </div>
 ```
