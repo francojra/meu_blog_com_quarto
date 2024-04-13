@@ -7,7 +7,7 @@ toc: true
 
 [R-Ladies Global](https://rladies.org/) é uma **organização mundial** sem fins lucrativos que tem a missão de promover **capacitações** e **diversidade de gêneros** (mulheres cis e trans, homens trans e pessoas não-binárias) na comunidade do R. A organização **promove eventos e palestras sobre a linguagem R** para permitir a troca de informações, de novos conhecimentos e o desenvolvimento de potenciais entusiastas em programação.
 
-A comunidade [R-Ladies Natal](https://www.instagram.com/rladiesnatal/?next=%2F) foi notícia no portal da Universidade Federal do Rio Grande do Norte por apresentar uma palestra na *Semana da Estatística*, evento promovido pelo Departamento de Estatística. Você pode acessar a matéria clicando no [link](https://www.ufrn.br/imprensa/noticias/44260/grupo-r-ladies-natal-oferece-palestra-sobre-comunidade-local).
+A comunidade [R-Ladies Natal](https://www.instagram.com/rladiesnatal/?next=%2F) foi notícia no portal da Universidade Federal do Rio Grande do Norte por apresentar uma palestra na *Semana da Estatística*. O evento foi promovido pelo Departamento de Estatística. Você pode acessar a matéria clicando no [link](https://www.ufrn.br/imprensa/noticias/44260/grupo-r-ladies-natal-oferece-palestra-sobre-comunidade-local).
 
 Abaixo estão listadas as palestras que ministrei na comunidade R-Ladies.
 
@@ -21,13 +21,9 @@ Abaixo estão listadas as palestras que ministrei na comunidade R-Ladies.
 <img src="images/rmarkdown_rladies.png" width="150"/> <br> Introdução ao R Markdown <br> ministrada na [R-Ladies Natal](https://www.instagram.com/rladiesnatal/?next=%2F).
 :::
 
-<div class="box">
-
-<p>
-
-![](images/r_do_zero_rladies.png){width="150"} <br> Palestra R do zero para iniciantes <br> ministrada na [R-Ladies Natal](https://www.instagram.com/rladiesnatal/?next=%2F).
-
-</div>
+::: box
+<p>![](images/r_do_zero_rladies.png){width="150"} <br> Palestra R do zero para iniciantes <br> ministrada na [R-Ladies Natal](https://www.instagram.com/rladiesnatal/?next=%2F).</p>
+:::
 
 ::: box
 <p>![](images/introducao_r_rladies.png){width="150"} <br> Introdução ao R: passo a passo <br> para iniciantes ministrada na [R-Ladies Natal](https://www.instagram.com/rladiesnatal/?next=%2F).</p>
