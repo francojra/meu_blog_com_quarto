@@ -30,7 +30,7 @@ website:
           - beta_analitica.qmd
           - rladies.qmd
           - servicos.qmd
-      - text: Sobre
+      - text: Sobre 
         menu: 
           - about.qmd
           - contact.qmd

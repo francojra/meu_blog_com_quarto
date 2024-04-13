@@ -1,5 +1,5 @@
 ---
-title: "Sobre mim"
+title: "Sobre a autora"
 image: jeanne.jpg
 about:
   template: jolla
@@ -30,6 +30,6 @@ Oi! Me chamo Jeanne Franco. Durante a minha pós-graduação na [Universidade Fe
 
 ▪ Organização da comunidade [R-Ladies de Natal](https://rladies.org/)[^1].
 
-▪ Tradução de capítulo do livro R for Data Science 2ª Edição. Comunidade: R-Ladies São Paulo.
-
 [^1]: R-Ladies é uma organização global sem fins lucrativos cuja missão é promover a diversidade de gênero e ministrar cursos sobre a linguagem de programação R.
+
+▪ Tradução de capítulo do livro R for Data Science 2ª Edição. Comunidade: R-Ladies São Paulo.

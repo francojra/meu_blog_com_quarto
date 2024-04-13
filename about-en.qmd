@@ -1,5 +1,5 @@
 ---
-title: "About me"
+title: "About the author"
 image: jeanne.jpg
 about:
   template: jolla
@@ -28,8 +28,8 @@ Hi! My name is Jeanne Franco. During my postgraduate studies at [Federal Univers
 
 ▪ Knowledge in Python and SQL.\
 
-▪ Community organization [R-Ladies de Natal](https://rladies.org/)[^1]. 
-
-▪ Translation of a chapter from the book R for Data Science 2nd Edition. Community: R-Ladies São Paulo.
+▪ Community organization [R-Ladies de Natal](https://rladies.org/)[^1].
 
 [^1]: R-Ladies is a global non-profit organization whose mission is to promote gender diversity and provide courses on the R programming language.
+
+▪ Translation of a chapter from the book R for Data Science 2nd Edition. Community: R-Ladies São Paulo.

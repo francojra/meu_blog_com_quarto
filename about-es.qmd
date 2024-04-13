@@ -1,5 +1,5 @@
 ---
-title: "Sobre mí"
+title: "Sobre la autora"
 image: jeanne.jpg
 about:
   template: jolla
@@ -30,6 +30,6 @@ about:
 
 ▪ Organización comunitaria [R-Ladies de Natal](https://rladies.org/)[^1].
 
-▪ Traducción de un capítulo del libro R for Data Science 2ª Edición. Comunidad: R-Ladies São Paulo.
-
 [^1]: R-Ladies es una organización global sin fines de lucro cuya misión es promover la diversidad de género e impartir cursos en el lenguaje de programación R.
+
+▪ Traducción de un capítulo del libro R for Data Science 2ª Edición. Comunidad: R-Ladies São Paulo.
