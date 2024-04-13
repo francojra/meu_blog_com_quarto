@@ -72,3 +72,32 @@ about:
 </body>
 
 </html>
+
+## Currículo
+
+<html>
+
+<body>
+
+<div style="text-align:left">
+
+<p>
+
+<h4>
+
+::: {style="text-align:left"}
+◾️[Currículo vitae](resume_jeanne_franco_pt.pdf)
+
+◾️[Resume](resume_jeanne_franco_en.pdf)
+:::
+
+<html>
+
+<body>
+
+<div style="text-align:left">
+
+<p>
+
+<h4>
+
