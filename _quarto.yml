@@ -11,7 +11,7 @@ website:
     left: "Blog feito com 🖤 e [Quarto](https://quarto.org/), por Jeanne Franco."
     right: 
       - icon: envelope
-        href: mailto:jeanneraquelj1@gmail.com
+        href: mailto:jfranco.jraf@gmail.com
       - icon: linkedin
         href: https://www.linkedin.com/in/francojra/
       - icon: github
@@ -33,7 +33,6 @@ website:
       - text: Sobre
         menu: 
           - about.qmd
-          - formacao.qmd
           - contact.qmd
         
 format:
