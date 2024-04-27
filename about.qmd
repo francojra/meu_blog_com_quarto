@@ -20,16 +20,7 @@ about:
 
 </center>
 
-Oi! Me chamo Jeanne Franco. Durante a minha pós-graduação na [Universidade Federal do Rio Grande do Norte](https://www.ufrn.br/), para realizar minha pesquisa científica, precisei coletar, organizar e analisar dados. Isso me levou a desenvolver interesse em análise e visualização de dados usando o software R. Desde então, tenho me dedicado a essa área por meio de cursos e adquirido experiência profissional por meio de consultorias e palestras. As minhas experiências profissionais e de voluntariado incluem:
-
-▪ Consultorias em análise de dados, visualização de dados e produção científica na [Beta Analítica](https://betaanalitica.com.br/).
-
-▪ Programação em R: manipulação e visualização de dados (dataviz) com o pacote tidyverse, produção de relatórios com R Markdown, produção de sites e blogs em R utilizando sistema Quarto, linguagens de marcação HTML e CSS e produção de aplicações com o pacote Shiny.
-
-▪ Conhecimentos em Python e SQL.
-
-▪ Organização da comunidade [R-Ladies de Natal](https://rladies.org/)[^1].
+Oi! Me chamo Jeanne Franco. Durante a minha pós-graduação na [Universidade Federal do Rio Grande do Norte](https://www.ufrn.br/), para realizar minha pesquisa científica, precisei coletar, organizar e analisar dados. Isso me levou a desenvolver interesse em análise e visualização de dados usando o software R. Desde então, tenho me dedicado a essa área por meio de cursos e adquirido experiência profissional por meio de consultorias e palestras. As minhas experiências profissionais e de voluntariado incluem: 1. Consultorias em análise de dados, visualização de dados e produção científica na [Beta Analítica](https://betaanalitica.com.br/); 2. Programação em R: manipulação e visualização de dados com o pacote tidyverse, produção de relatórios com R Markdown, produção de sites e blogs em R utilizando sistema Quarto, linguagens de marcação HTML e CSS e produção de aplicações com o pacote Shiny; 3. Conhecimentos básicos em Python e SQL, e organização da comunidade [R-Ladies de Natal](https://rladies.org/)[^1].
 
 [^1]: R-Ladies é uma organização global sem fins lucrativos cuja missão é promover a diversidade de gênero e ministrar cursos sobre a linguagem de programação R.
 
-▪ Tradução de capítulo do livro R for Data Science 2ª Edição. Comunidade: R-Ladies São Paulo.
