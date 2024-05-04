@@ -10,3 +10,16 @@ toc: true
 ---
 
 Nesta seção explicarei como produzir mapas no R e quais pacotes são necessários para essa finalidade. Como exemplo, irei elaborar um mapa dos biomas brasileiros, incluindo a legenda, orientação, eixos e escala.
+
+## Pacotes necessários
+
+``` r
+library(sf) # Permite ler arquivos shapefile
+library(ggspatial) # Adicionar símbolo de orientação e escala
+library(tidyverse) # Produzir mapa com ggplot2
+library(cols4all) # Selecionar cores do mapa
+```
+
+## Carregar dados shapefile
+
+Os dados foram retirados do site do [IBGE](https://www.ibge.gov.br/). Para acessar os arquivos, você deve acessar o site, ir na aba de seleção à esquerda e fazer as seguintes seleções:
