@@ -8,3 +8,5 @@ categories: [Códigos, R base, Mapas]
 lang: pt
 toc: true
 ---
+
+Nesta seção explicarei como produzir mapas no R e quais pacotes são necessários para essa finalidade. Como exemplo, irei elaborar um mapa dos biomas brasileiros, incluindo a legenda, orientação, eixos e escala.
