@@ -1,0 +1,10 @@
+---
+title: "Produzindo mapas com R"
+author: "Jeanne Franco"
+format: html 
+# format: pdf
+date: 05/04/24
+categories: [Códigos, R base, Mapas]
+lang: pt
+toc: true
+---
