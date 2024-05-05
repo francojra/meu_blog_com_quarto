@@ -13,7 +13,8 @@ Nesta seção explicarei como produzir mapas no R e quais pacotes são necessár
 
 ## Pacotes necessários
 
-``` r
+```{r echo=TRUE, eval=FALSE, warning=FALSE,message=FALSE, cache=TRUE}
+
 library(sf) # Permite ler arquivos shapefile
 library(ggspatial) # Adicionar símbolo de orientação e escala
 library(tidyverse) # Produzir mapa com ggplot2
