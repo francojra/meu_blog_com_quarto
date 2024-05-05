@@ -43,7 +43,7 @@ Os dados foram retirados do site do [IBGE](https://www.ibge.gov.br/). Para acess
       style id7 fill:#98D8AA,stroke:#333,stroke-width:3px
 ```
 
-Após carregar os arquivos em sua pasta do diretório de trabalho, você também deve baixar os arquivos com dados das regiões do Brasil. Para isso, faça as seguintes seleções:
+Após carregar os arquivos em sua pasta do diretório de trabalho, você também deve baixar os arquivos com os dados das regiões (Norte, Nordeste, Centro-Oeste, Sudeste e Sul) do Brasil. Para isso, faça as seguintes seleções:
 
 ```{mermaid}
     flowchart LR
