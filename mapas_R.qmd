@@ -22,7 +22,7 @@ library(cols4all) # Selecionar cores do mapa
 
 ## Carregar dados shapefile
 
-Os dados foram retirados do site do [IBGE](https://www.ibge.gov.br/). Para acessar os arquivos, você deve acessar o site, ir na aba de seleção à esquerda e fazer as seguintes seleções para baixar os dados dos biomas brasileiros:
+Os dados foram retirados do site do [IBGE](https://www.ibge.gov.br/). Para acessar os arquivos, você deve acessar o site, ir na aba de seleção à esquerda e fazer as seguintes etapas para baixar os dados dos biomas brasileiros:
 
 ```{mermaid}
     flowchart LR
@@ -30,8 +30,8 @@ Os dados foram retirados do site do [IBGE](https://www.ibge.gov.br/). Para acess
       id1(Geociências) --> id2(Cartas e Mapas)
       id2(Cartas e Mapas) --> id3(Brasil: Informações ambientais)
       id3(Brasil: Informações ambientais) --> id4(Vetores)
-      id4(Vetores) --> id5(Downloads (na aba esquerda))
-      id5(Downloads (na aba esquerda)) --> id6(Vetores)
+      id4(Vetores) --> id5(Downloads - na aba esquerda)
+      id5(Downloads - na aba esquerda) --> id6(Vetores)
       id6(Vetores) --> id7(Biomas_250mil)
       
       style id1 fill:#98D8AA,stroke:#333,stroke-width:3px
@@ -43,4 +43,23 @@ Os dados foram retirados do site do [IBGE](https://www.ibge.gov.br/). Para acess
       style id7 fill:#98D8AA,stroke:#333,stroke-width:3px
 ```
 
-Agora, você também deve baixar os arquivos com dados das regiões do Brasil. Para isso, faça as seguintes seleções:
+Após carregar os arquivos em sua pasta do diretório de trabalho, você também deve baixar os arquivos com dados das regiões do Brasil. Para isso, faça as seguintes seleções:
+
+```{mermaid}
+    flowchart LR
+
+      id1(Geociências) --> id2(Organização do território)
+      id2(Organização do território) --> id3(Malhas territoriais)
+      id3(Malhas territoriais) --> id4(Malha Municipal)
+      id4(Malha Municipal) --> id5(Brasil)
+      id5(Brasil) --> id6(Link Unidades da Federação)
+      
+      style id1 fill:#98D8AA,stroke:#333,stroke-width:3px
+      style id2 fill:#98D8AA,stroke:#333,stroke-width:3px
+      style id3 fill:#98D8AA,stroke:#333,stroke-width:3px
+      style id4 fill:#98D8AA,stroke:#333,stroke-width:3px
+      style id5 fill:#98D8AA,stroke:#333,stroke-width:3px
+      style id6 fill:#98D8AA,stroke:#333,stroke-width:3px
+```
+
+Da mesma forma, salve todos os arquivos em uma mesma pasta.
