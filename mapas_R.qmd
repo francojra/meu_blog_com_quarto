@@ -20,7 +20,7 @@ library(tidyverse) # Produzir mapa com ggplot2
 library(cols4all) # Selecionar cores do mapa
 ```
 
-## Carregar dados shapefile
+## Carregar arquivos shapefile em seu computador
 
 Os dados foram retirados do site do [IBGE](https://www.ibge.gov.br/). Para acessar os arquivos, você deve acessar o site, ir na aba de seleção à esquerda e fazer as seguintes etapas para baixar os dados dos biomas brasileiros:
 
@@ -63,3 +63,34 @@ Após carregar os arquivos em sua pasta do diretório de trabalho, você também
 ```
 
 Da mesma forma, salve todos os arquivos em uma mesma pasta.
+
+## Carregar dados no R
+
+Você deve usar a função `read_sf()` para fazer a leitura dos arquivos. Após isso, use a função `view()` para visualizar a tabela com todos os dados.
+
+Você também pode usar a função `st_geometry()` com a função `plot()` para visualizar o mapa inicial.
+
+```{r}
+
+#| echo: true
+#| warning: false
+#| message: false
+#| cache: true
+
+
+## Dados biomas
+
+my_biom <- read_sf("lm_bioma_250.shp") 
+view(my_biom)
+plot(st_geometry(my_biom))
+
+## Dados regiões do Brasil
+
+my_br <- read_sf("BR_UF_2022.shp") 
+view(my_br)
+plot(st_geometry(my_br))
+```
+
+## Produzir mapa
+
+Selecionar cores com o pacote `cols4all`:
