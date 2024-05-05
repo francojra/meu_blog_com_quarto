@@ -94,3 +94,10 @@ plot(st_geometry(my_br))
 ## Produzir mapa
 
 Selecionar cores com o pacote `cols4all`:
+
+``` r
+## Selecionar cores
+
+c4a_table(n = 12, type = "cat") # Seleciona 6 cores do tipo categórica
+c4a_types()
+```
