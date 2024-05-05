@@ -30,28 +30,17 @@ Os dados foram retirados do site do [IBGE](https://www.ibge.gov.br/). Para acess
       id1(Geociências) --> id2(Cartas e Mapas)
       id2(Cartas e Mapas) --> id3(Brasil: Informações ambientais)
       id3(Brasil: Informações ambientais) --> id4(Vetores)
-      id4(Vetores) --> id5(Biomas do Brasil 1:250 000)
+      id4(Vetores) --> id5(Downloads (na aba esquerda))
+      id5(Downloads (na aba esquerda)) --> id6(Vetores)
+      id6(Vetores) --> id7(Biomas_250mil)
       
       style id1 fill:#98D8AA,stroke:#333,stroke-width:3px
-      style id2 fill:#F7D060,stroke:#333,stroke-width:3px
-      style id3 fill:#FF6D60,stroke:#333,stroke-width:3px
-      style id4 fill:#FF6D60,stroke:#333,stroke-width:3px
-      style id5 fill:#FF6D60,stroke:#333,stroke-width:3px
+      style id2 fill:#98D8AA,stroke:#333,stroke-width:3px
+      style id3 fill:#98D8AA,stroke:#333,stroke-width:3px
+      style id4 fill:#98D8AA,stroke:#333,stroke-width:3px
+      style id5 fill:#98D8AA,stroke:#333,stroke-width:3px
+      style id6 fill:#98D8AA,stroke:#333,stroke-width:3px
+      style id7 fill:#98D8AA,stroke:#333,stroke-width:3px
 ```
 
 Agora, você também deve baixar os arquivos com dados das regiões do Brasil. Para isso, faça as seguintes seleções:
-
-```{mermaid}
-    flowchart LR
-
-      id1(Geociências) --> id2(Cartas e Mapas)
-      id2(Cartas e Mapas) --> id3(Brasil: Informações ambientais)
-      id3(Brasil: Informações ambientais) --> id4(Vetores)
-      id4(Vetores) --> id5(Biomas do Brasil 1:250 000)
-      
-      style id1 fill:#98D8AA,stroke:#333,stroke-width:3px
-      style id2 fill:#F7D060,stroke:#333,stroke-width:3px
-      style id3 fill:#FF6D60,stroke:#333,stroke-width:3px
-      style id4 fill:#FF6D60,stroke:#333,stroke-width:3px
-      style id5 fill:#FF6D60,stroke:#333,stroke-width:3px
-```
