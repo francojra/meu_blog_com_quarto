@@ -13,7 +13,11 @@ Nesta seção explicarei como produzir mapas no R e quais pacotes são necessár
 
 ## Pacotes necessários
 
-```{r echo=TRUE, eval=FALSE, warning=FALSE,message=FALSE, cache=TRUE}
+```{r}
+#| echo: true
+#| warning: false
+#| message: false
+#| cache: true
 
 library(sf) # Permite ler arquivos shapefile
 library(ggspatial) # Adicionar símbolo de orientação e escala
@@ -72,12 +76,10 @@ Você deve usar a função `read_sf()` para fazer a leitura dos arquivos. Após 
 Você também pode usar a função `st_geometry()` com a função `plot()` para visualizar o mapa inicial.
 
 ```{r}
-
 #| echo: true
 #| warning: false
 #| message: false
 #| cache: true
-
 
 ## Dados biomas
 
