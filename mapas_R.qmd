@@ -22,4 +22,36 @@ library(cols4all) # Selecionar cores do mapa
 
 ## Carregar dados shapefile
 
-Os dados foram retirados do site do [IBGE](https://www.ibge.gov.br/). Para acessar os arquivos, você deve acessar o site, ir na aba de seleção à esquerda e fazer as seguintes seleções:
+Os dados foram retirados do site do [IBGE](https://www.ibge.gov.br/). Para acessar os arquivos, você deve acessar o site, ir na aba de seleção à esquerda e fazer as seguintes seleções para baixar os dados dos biomas brasileiros:
+
+```{mermaid}
+    flowchart LR
+
+      id1(Geociências) --> id2(Cartas e Mapas)
+      id2(Cartas e Mapas) --> id3(Brasil: Informações ambientais)
+      id3(Brasil: Informações ambientais) --> id4(Vetores)
+      id4(Vetores) --> id5(Biomas do Brasil 1:250 000)
+      
+      style id1 fill:#98D8AA,stroke:#333,stroke-width:3px
+      style id2 fill:#F7D060,stroke:#333,stroke-width:3px
+      style id3 fill:#FF6D60,stroke:#333,stroke-width:3px
+      style id4 fill:#FF6D60,stroke:#333,stroke-width:3px
+      style id5 fill:#FF6D60,stroke:#333,stroke-width:3px
+```
+
+Agora, você também deve baixar os arquivos com dados das regiões do Brasil. Para isso, faça as seguintes seleções:
+
+```{mermaid}
+    flowchart LR
+
+      id1(Geociências) --> id2(Cartas e Mapas)
+      id2(Cartas e Mapas) --> id3(Brasil: Informações ambientais)
+      id3(Brasil: Informações ambientais) --> id4(Vetores)
+      id4(Vetores) --> id5(Biomas do Brasil 1:250 000)
+      
+      style id1 fill:#98D8AA,stroke:#333,stroke-width:3px
+      style id2 fill:#F7D060,stroke:#333,stroke-width:3px
+      style id3 fill:#FF6D60,stroke:#333,stroke-width:3px
+      style id4 fill:#FF6D60,stroke:#333,stroke-width:3px
+      style id5 fill:#FF6D60,stroke:#333,stroke-width:3px
+```
