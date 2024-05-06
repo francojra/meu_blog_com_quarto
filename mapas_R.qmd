@@ -107,4 +107,4 @@ c4a_table(n = 6, type = "cat") # Seleciona 6 cores do tipo categórica
 c4a_types()
 ```
 
-Criar mapa
+Fiz a seleção de cores da palheta `lakota` que apresenta cores amigáveis para daltônicos "colorblind-friendly" (*in portuguese*).
