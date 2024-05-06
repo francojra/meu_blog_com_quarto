@@ -117,3 +117,38 @@ Fiz a seleção das cores abaixo presentes na palheta `lakota` que apresenta cor
 #247D3F
 #20235B
 ```
+
+Agora, vamos criar o mapa usando os pacotes `ggplot2`, `sf` e `ggspatial`.
+
+```{r}
+m <- ggplot() + 
+  geom_sf(data = my_br) +
+  geom_sf(data = my_biom, aes(fill = Bioma), color = "#f7fcb9") +
+  geom_sf_text(data = my_br, aes(label = SIGLA_UF), 
+               size = 2.2, fontface = "bold", color = "#f7fcb9") +
+  scale_fill_manual(values = c("#247D3F", "#F0BE3D", "#DA7901", 
+                               "#04A3BD", "#931E18", "#20235B")) +
+  annotation_north_arrow(style = 
+                north_arrow_nautical(text_size = 7.5,
+                          text_face = "bold"),
+                         width = unit(1, "cm"),
+                         height = unit(1, "cm")) +
+  annotation_scale(location = "br", text_face = "bold",
+                   height = unit(0.15, "cm")) +
+  labs(x = "Longitude", y = "Latitude", fill = "") +
+  ggtitle("Biomas do Brasil") +
+  theme_minimal() +
+  theme(axis.text = element_text(color = "black", 
+                          face = "bold", size = 8.5,
+                          family = "serif"),
+        axis.title = element_text(color = "black", 
+                           face = "bold", size = 10,
+                           family = "serif"),
+        title = element_text(color = "black", 
+                           face = "bold", size = 10,
+                           family = "serif"),
+        legend.position = c(0.88, 0.24),
+        legend.text = element_text(family = "serif",
+                        face = "bold", size = 10))
+m
+```
