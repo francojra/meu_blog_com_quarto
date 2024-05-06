@@ -122,23 +122,23 @@ Agora, vamos criar o mapa usando os pacotes `ggplot2`, `sf` e `ggspatial`.\
 \
 As seguintes camadas são utilizadas para elaborar o mapa:
 
-1.  `ggplot()`:
+1.  `ggplot()`: camada usada para criar mapa com ggplot2;
 
-2.  `geom_sf()`:
+2.  `geom_sf()`: leitura de dados shapefile;
 
-3.  `scale_fill_manual()`:
+3.  `scale_fill_manual()`: definição das cores do mapa para cada bioma;
 
-4.   `annotation_north_arrow()`:
+4.   `annotation_north_arrow()`: adição da orientação do mapa;
 
-5.  `annotation_scale()`:
+5.  `annotation_scale()`: adição da escala no mapa;
 
-6.  `labs()`:
+6.  `labs()`: adição dos títulos dos eixos x e y;
 
-7.  `ggtitle()`:
+7.  `ggtitle()`: adição de um título ao mapa;
 
-8.  `theme_minimal()`:
+8.  `theme_minimal()`: definição do estilo do background do mapa;
 
-9.  `theme()`:
+9.  `theme()`: definição de informações do tamanho, cor e fonte do texto.
 
 ```{r}
 #| echo: true
@@ -180,7 +180,7 @@ fig_mapa <- ggplot() +
 fig_mapa
 ```
 
-Com nosso mapa pronto, podemos salvá-lo em formatos PDF ou PNG na pasta do diretório utilizando o seguinte código com valores de resolução (`dpi`), altura (`height`), largura (`width`) e unidade de medida (`units`) definidos:
+Com nosso mapa pronto, podemos salvá-lo nos formatos PDF ou PNG dentro pasta do diretório. O seguinte código com valores de resolução (`dpi`), altura (`height`), largura (`width`) e unidade de medida (`units`) devem ser definidos:
 
 ``` r
 ggsave("fig_mapa.jpg", dpi = 300,
