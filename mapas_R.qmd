@@ -118,7 +118,27 @@ Fiz a seleção das cores abaixo presentes na palheta `lakota` que apresenta cor
 #20235B
 ```
 
-Agora, vamos criar o mapa usando os pacotes `ggplot2`, `sf` e `ggspatial`.
+Agora, vamos criar o mapa usando os pacotes `ggplot2`, `sf` e `ggspatial`.\
+\
+As seguintes camadas são utilizadas para elaborar o mapa:
+
+1.  ggplot():
+
+2.  geom_sf():
+
+3.  scale_fill_manual():
+
+4.   annotation_north_arrow():
+
+5.  annotation_scale():
+
+6.  labs():
+
+7.  ggtitle():
+
+8.  theme_minimal():
+
+9.  theme():
 
 ```{r}
 #| echo: true
@@ -160,7 +180,7 @@ fig_mapa <- ggplot() +
 fig_mapa
 ```
 
-Com nosso mapa pronto, podemos salvá-lo em formatos PDF ou PNG na pasta do diretório utilizando o seguinte código com valores de resolução (dpi), altura (height), largura (width) e unidade de medida (units) definidos:
+Com nosso mapa pronto, podemos salvá-lo em formatos PDF ou PNG na pasta do diretório utilizando o seguinte código com valores de resolução (`dpi`), altura (`height`), largura (`width`) e unidade de medida (`units`) definidos:
 
 ``` r
 ggsave("fig_mapa.jpg", dpi = 300,
