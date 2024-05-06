@@ -98,7 +98,7 @@ plot(st_geometry(my_br))
 
 ## Produzir mapa
 
-Selecionar cores com o pacote `cols4all`:
+Primeiro, vamos selecionar as cores do mapa com o pacote `cols4all`, o qual permite escolher cores amigáveis para pessoas com daltonismo e
 
 ``` r
 ## Selecionar cores
@@ -106,3 +106,5 @@ Selecionar cores com o pacote `cols4all`:
 c4a_table(n = 12, type = "cat") # Seleciona 6 cores do tipo categórica
 c4a_types()
 ```
+
+Criar mapa
