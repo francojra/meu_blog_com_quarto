@@ -11,7 +11,7 @@ toc: true
 
 Nesta seção explicarei como produzir mapas no R e quais pacotes são necessários para essa finalidade. Como exemplo, irei elaborar um mapa dos biomas brasileiros, incluindo a legenda, orientação, eixos e escala.
 
-[![Pacote sf. Ilustração Alisson Horst.](images/50280460-e35c1880-044c-11e9-9ed7-cc46754e49db.jpg){fig-align="center"}](https://beamilz.com/posts/2020-07-27-criando-mapas-com-os-pacotes-tidyverse-e-geobr/pt/)
+![Pacote sf. Ilustração Alisson Horst.](images/Design%20sem%20nome.png){fig-align="center"}
 
 ## Pacotes necessários
 
