@@ -122,23 +122,23 @@ Agora, vamos criar o mapa usando os pacotes `ggplot2`, `sf` e `ggspatial`.\
 \
 As seguintes camadas são utilizadas para elaborar o mapa:
 
-1.  ggplot():
+1.  `ggplot()`:
 
-2.  geom_sf():
+2.  `geom_sf()`:
 
-3.  scale_fill_manual():
+3.  `scale_fill_manual()`:
 
-4.   annotation_north_arrow():
+4.   `annotation_north_arrow()`:
 
-5.  annotation_scale():
+5.  `annotation_scale()`:
 
-6.  labs():
+6.  `labs()`:
 
-7.  ggtitle():
+7.  `ggtitle()`:
 
-8.  theme_minimal():
+8.  `theme_minimal()`:
 
-9.  theme():
+9.  `theme()`:
 
 ```{r}
 #| echo: true
