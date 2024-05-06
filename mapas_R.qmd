@@ -128,7 +128,7 @@ Agora, vamos criar o mapa usando os pacotes `ggplot2`, `sf` e `ggspatial`.
 #| fig.height: 9
 #| fig.width: 10
 
-m <- ggplot() + 
+fig_mapa <- ggplot() + 
   geom_sf(data = my_br) +
   geom_sf(data = my_biom, aes(fill = Bioma), color = "#f7fcb9") +
   geom_sf_text(data = my_br, aes(label = SIGLA_UF), 
@@ -157,5 +157,17 @@ m <- ggplot() +
         legend.position = c(0.88, 0.24),
         legend.text = element_text(family = "serif",
                         face = "bold", size = 10))
-m
+fig_mapa
+```
+
+Com nosso mapa pronto, podemos salvá-lo em formatos PDF ou PNG na pasta do diretório utilizando o seguinte código com valores de resolução (dpi), altura (height), largura (width) e unidade de medida (units) definidos:
+
+``` r
+ggsave("fig_mapa.jpg", dpi = 300,
+       width = 35, height = 15, 
+       units = "cm", fig_mapa)
+
+ggsave("fig_mapa.pdf", dpi = 300,
+       width = 35, height = 15, 
+       units = "cm", fig_mapa)
 ```
