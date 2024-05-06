@@ -121,9 +121,16 @@ Fiz a seleção das cores abaixo presentes na palheta `lakota` que apresenta cor
 Agora, vamos criar o mapa usando os pacotes `ggplot2`, `sf` e `ggspatial`.
 
 ```{r}
+#| echo: true
+#| warning: false
+#| message: false
+#| cache: true
+#| fig.height: 4
+#| fig.width: 4
+
 m <- ggplot() + 
   geom_sf(data = my_br) +
-  geom_sf(data = my_biom, aes(fill = Bioma), color = "#f7fcb9") +
+  geom_sf(data = my_biom, aes(fill = Bioma, color = "#f7fcb9")) +
   geom_sf_text(data = my_br, aes(label = SIGLA_UF), 
                size = 2.2, fontface = "bold", color = "#f7fcb9") +
   scale_fill_manual(values = c("#247D3F", "#F0BE3D", "#DA7901", 
