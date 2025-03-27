@@ -45,6 +45,10 @@ Abaixo estão listadas as palestras que ministrei na comunidade R-Ladies.
 <p>![](images/p2.png){width="150"} <br> Palestra: Conhecendo a comunidade <br> R-Ladies Natal.</p>
 :::
 
+::: box
+<p>![](semabio.png){width="150"} <br> Palestra: Conhecendo a comunidade <br> R-Ladies Natal.</p>
+:::
+
 </center>
 
 ```{=html}
