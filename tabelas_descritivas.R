@@ -525,7 +525,17 @@ view(dados_sp)
 
 ## Cálculo do número total de espécies
 
+### Modo 1:
 
+dados_sp1 <- dados_sp |>
+  summarise(n_sp = n_distinct(especie))
+
+### Modo 2:
+
+dados_sp1 <- dados_sp |>
+  count(n_distinct(especie))
+
+view(dados_sp1)
 
 ## Gerar tabela de riqueza
 
