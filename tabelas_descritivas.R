@@ -523,12 +523,26 @@ dados_sp <- dados %>%
 
 view(dados_sp)
 
+dados_sp <- dados_sp %>%
+  filter(abundancia > 0)
+
+view(dados_sp)
+
+## Cálculo do número total de indivíduos
+
+dados_sp0 <- dados_sp |>
+  summarise(n_abu = sum(abundancia))
+
+dados_sp0
+
 ## Cálculo do número total de espécies
 
 ### Modo 1:
 
 dados_sp1 <- dados_sp |>
   summarise(n_sp = n_distinct(especie))
+
+dados_sp1
 
 ### Modo 2:
 
@@ -596,7 +610,8 @@ abund_sp$Riqueza <- as.double(abund_sp$Riqueza)
 abund_sp1 <- abund_sp |>
   group_by(modulos) |>
   summarise(n_sp = sum(Riqueza),
-            n_abu = sum(abundancia))
+            n_abu = sum(abundancia)) |>
+  arrange(n_sp)
 
 view(abund_sp1)
 
@@ -604,6 +619,8 @@ view(abund_sp1)
 
 abund_sp2 <- abund_sp1 |>
   summarise(n_abu_total = sum(n_abu))
+
+abund_sp2 
 
 ## Definir estrutura dos dados 
 
