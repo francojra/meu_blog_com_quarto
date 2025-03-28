@@ -523,6 +523,10 @@ dados_sp <- dados %>%
 
 view(dados_sp)
 
+## Cálculo do número total de espécies
+
+
+
 ## Gerar tabela de riqueza
 
 library(vegan) # Uso da função specnumber
@@ -558,7 +562,7 @@ view(abundancia)
 abund_sp <- left_join(abundancia, riqueza, by = 'parcelas') 
 view(abund_sp)
 
-### Adicionar coluande modulos
+### Adicionar coluna de modulos
 
 abund_sp <- abund_sp %>%
   mutate(modulo = 1:60) |>
@@ -575,6 +579,16 @@ abund_sp <- abund_sp %>%
 
 view(abund_sp)
 glimpse(abund_sp)
+
+abund_sp$modulos <- as.factor(abund_sp$modulos)
+abund_sp$Riqueza <- as.double(abund_sp$Riqueza)
+
+abund_sp1 <- abund_sp |>
+  group_by(modulos) |>
+  summarise(n_sp = sum(Riqueza),
+            n_abu = sum(abundancia))
+
+view(abund_sp1)
 
 ## Definir estrutura dos dados 
 
