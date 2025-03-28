@@ -600,6 +600,11 @@ abund_sp1 <- abund_sp |>
 
 view(abund_sp1)
 
+### Número total de indivíduos
+
+abund_sp2 <- abund_sp1 |>
+  summarise(n_abu_total = sum(n_abu))
+
 ## Definir estrutura dos dados 
 
 abund_sp$parcelas <- as.factor(abund_sp$parcelas)
