@@ -544,6 +544,9 @@ dados_sp1 <- dados_sp |>
 
 dados_sp1
 
+tab <- unique(dados_sp$especie)
+view(tab)
+
 ### Modo 2:
 
 dados_sp1 <- dados_sp |>
@@ -553,9 +556,30 @@ view(dados_sp1)
 
 ## Gerar tabela de riqueza
 
+dados_spr <- dados_sp |>
+  group_by(parcelas) |>
+  summarise(n_sp = n_distinct(especie))
+
+view(dados_spr)
+glimpse(dados_spr)
+
+dados_spr$parcelas <- as.numeric(dados_spr$parcelas)
+
+abund_spr <- dados_spr %>%
+  dplyr::mutate(modulos = case_when(
+    parcelas >= 1  & parcelas <= 10  ~ "M1",
+    parcelas >= 11 & parcelas <= 20  ~ "M2",
+    parcelas >= 21 & parcelas <= 30  ~ "M3",
+    parcelas >= 31 & parcelas <= 40  ~ "M4",
+    parcelas >= 41 & parcelas <= 50  ~ "M5",
+    parcelas >= 51 & parcelas <= 60  ~ "M6",
+    TRUE ~ NA_character_))
+
+view(dados_spr)
+
 library(vegan) # Uso da função specnumber
 
-Riqueza <- specnumber(dados)
+Riqueza <- specnumber(dados[-1])
 Riqueza
 view(Riqueza)
 
@@ -608,19 +632,40 @@ abund_sp$modulos <- as.factor(abund_sp$modulos)
 abund_sp$Riqueza <- as.double(abund_sp$Riqueza)
 
 abund_sp1 <- abund_sp |>
-  group_by(modulos) |>
+  group_by(parcelas) |>
   summarise(n_sp = sum(Riqueza),
             n_abu = sum(abundancia)) |>
   arrange(n_sp)
 
 view(abund_sp1)
 
-### Número total de indivíduos
+# Abundancia e riqueza por modulos
 
-abund_sp2 <- abund_sp1 |>
+abund_sp_m <- abund_sp |>
+  group_by(modulos) |>
+  summarise(n_sp = sum(Riqueza),
+            n_abu = sum(abundancia)) |>
+  arrange(n_abu)
+
+view(abund_sp_m)
+
+### Número total de indivíduos e espécies
+
+abund_abu_n <- abund_sp1 |>
+  group_by(parcelas) |>
   summarise(n_abu_total = sum(n_abu))
 
-abund_sp2 
+abund_abu_n1 <- sum(abund_abu_n$n_abu_total)
+
+abund_riq_n <- abund_sp1 |>
+    group_by(parcelas) |>
+  summarise(n_riq_total = sum(n_sp))
+
+abund_riq_n 
+
+abund_riq_n1 <- sum(abund_riq_n$n_riq_total)
+
+abund_riq_n1
 
 ## Definir estrutura dos dados 
 
