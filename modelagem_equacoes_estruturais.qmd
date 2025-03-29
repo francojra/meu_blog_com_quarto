@@ -6,7 +6,7 @@ editor: visual
 date: 09/04/2013
 ---
 
-## Equações Estruturais em R: Conceitos e Aplicações Práticas
+# Equações Estruturais em R: Conceitos e Aplicações Práticas
 
 As Equações Estruturais são uma técnica estatística avançada usada para modelar relações complexas entre variáveis observadas e latentes. Elas combinam aspectos da análise fatorial e da regressão múltipla, permitindo que pesquisadores testem hipóteses sobre relações causais entre variáveis.
 
@@ -14,10 +14,20 @@ Neste post, vamos explorar como implementar modelos de equações estruturais em
 
 ## O que são Equações Estruturais?
 
-Equações estruturais são modelos que permitem analisar relações entre variáveis observadas (medidas diretamente como dados de altura, idade, peso, gênero, etc.) e variáveis latentes (não observadas diretamente, mas inferidas a partir de variáveis observadas como felicidade, ansiedade, depressão que podem ser medidas a partir de informações como níveis de cortisol, interação social, consultas a psicólogos, etc.). Esses modelos são úteis em áreas como psicologia, ciências sociais e marketing, onde muitas vezes trabalhamos com conceitos abstratos (como "satisfação do cliente" ou "inteligência emocional") que não podem ser medidos diretamente.
+Equações estruturais são modelos que permitem analisar relações entre variáveis observadas (medidas diretamente como dados de altura, idade, peso, gênero, etc.) e variáveis latentes (não observadas diretamente, mas inferidas a partir de variáveis observadas como felicidade, ansiedade, depressão que podem ser inferidas a partir de informações como níveis de cortisol, interação social, consultas a psicólogos, etc.). Esses modelos são úteis em áreas como psicologia, ciências sociais e marketing, onde muitas vezes trabalhamos com conceitos abstratos (como "satisfação do cliente" ou "inteligência emocional") que não podem ser medidos diretamente.
 
 Um modelo de equações estruturais é composto por duas partes principais:
 
 1.  **Modelo de Medida**: Relaciona as variáveis observadas às variáveis latentes.
 
 2.  **Modelo Estrutural**: Define as relações entre as variáveis latentes.
+
+## Exemplo Prático: Modelando Satisfação do Cliente
+
+Vamos supor que queremos modelar a **satisfação do cliente** com base em duas variáveis latentes:
+
+1.  **Qualidade do Produto**: Medida por três variáveis observadas (qualidade1, qualidade2, qualidade3).
+
+2.  **Atendimento ao Cliente**: Medida por três variáveis observadas (atendimento1, atendimento2, atendimento3).
+
+A satisfação do cliente será nossa variável latente dependente, que será influenciada pela qualidade do produto e pelo atendimento ao cliente.
