@@ -31,3 +31,31 @@ Vamos supor que queremos modelar a **satisfação do cliente** com base em duas 
 2.  **Atendimento ao Cliente**: Medida por três variáveis observadas (atendimento1, atendimento2, atendimento3).
 
 A satisfação do cliente será nossa variável latente dependente, que será influenciada pela qualidade do produto e pelo atendimento ao cliente.
+
+### Passo 1: Instalar e Carregar o Pacote `lavaan`
+
+Primeiro, instale e carregue o pacote `lavaan`, que é amplamente utilizado para modelagem de equações estruturais em R.
+
+```{r}
+# Instalar o pacote lavaan (se ainda não estiver instalado)
+install.packages("lavaan")
+
+# Carregar o pacote
+library(lavaan)
+```
+
+### Passo 2: Criar o Modelo
+
+Vamos definir o modelo de equações estruturais. No `lavaan`, usamos uma sintaxe específica para especificar as relações entre as variáveis.
+
+```{r}
+# Definir o modelo
+modelo <- '
+  # Modelo de Medida
+  Qualidade =~ qualidade1 + qualidade2 + qualidade3
+  Atendimento =~ atendimento1 + atendimento2 + atendimento3
+
+  # Modelo Estrutural
+  Satisfacao ~ Qualidade + Atendimento
+'
+```
