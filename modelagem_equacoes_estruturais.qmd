@@ -14,7 +14,7 @@ Neste post, vamos explorar como implementar modelos de equações estruturais em
 
 ## O que são Equações Estruturais?
 
-Equações estruturais são modelos que permitem analisar relações entre variáveis observadas (medidas diretamente) e variáveis latentes (não observadas diretamente, mas inferidas a partir de variáveis observadas). Esses modelos são úteis em áreas como psicologia, ciências sociais e marketing, onde muitas vezes trabalhamos com conceitos abstratos (como "satisfação do cliente" ou "inteligência emocional") que não podem ser medidos diretamente.
+Equações estruturais são modelos que permitem analisar relações entre variáveis observadas (medidas diretamente como dados de altura, idade, peso, gênero, etc.) e variáveis latentes (não observadas diretamente, mas inferidas a partir de variáveis observadas como felicidade, ansiedade, depressão que podem ser medidas a partir de informações como níveis de cortisol, interação social, consultas a psicólogos, etc.). Esses modelos são úteis em áreas como psicologia, ciências sociais e marketing, onde muitas vezes trabalhamos com conceitos abstratos (como "satisfação do cliente" ou "inteligência emocional") que não podem ser medidos diretamente.
 
 Um modelo de equações estruturais é composto por duas partes principais:
 
