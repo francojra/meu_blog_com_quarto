@@ -84,12 +84,12 @@ Aqui:
 
 ### Passo 3: Ajustar o Modelo aos Dados
 
-Vamos simular um conjunto de dados para este exemplo e ajustar o modelo.
+Vamos simular um conjunto de dados para este exemplo e ajustar o modelo. A função `cfa()` para ajuste do modelo significa *Confimatory Factor Analysis*.
 
 ```{r message=FALSE, warning=FALSE}
 # Ajustar o modelo
 
-ajuste <- sem(modelo, data = dados)
+ajuste <- cfa(modelo, data = dados)
 
 ```
 
@@ -128,7 +128,7 @@ Aqui estão alguns dos principais resultados que você verá:
 
 ## Gerar gráfico
 
-#### **Passo 1:** instalar pacote `semPlot`
+#### **Passo 1:** instalar pacote `semPlot` para criar o gráfico.
 
 ```{r}
 # Instale o pacote (se necessário)
@@ -145,19 +145,25 @@ library(semPlot)
 semPaths(
   object = ajuste,
   what = "std",           # Mostra coeficientes padronizados
-  edge.label.cex = 0.8,   # Tamanho dos rótulos das setas
   layout = "tree",        # Organização do gráfico
-  style = "lisrel",       # Estilo visual (opcional)
+  style = "lisrel",          # Estilo visual (opcional)
   sizeMan = 8,            # Tamanho dos retângulos (variáveis observadas)
-  sizeLat = 10,           # Tamanho dos círculos (variáveis latentes)
+  sizeLat = 11.5,           # Tamanho dos círculos (variáveis latentes)
   nCharNodes = 0,         # Mostra nomes completos
-  rotation = 2            # Rotação do gráfico (2 = vertical)
+  rotation = 2,           # Rotação do gráfico (2 = vertical),
+    color = list(
+    lat = "goldenrod",  # Cor das latentes
+    man = "tomato"), # Cor das observadas
+    edge.label.cex = 1.2,    # Ajusta tamanho dos rótulos
+    label.cex = 1.2,        # Tamanho dos rótulos dentro dos nós
+    mar = c(4, 4, 4, 4),      # Margens do gráfico (variáveis observadas)
+    edge.width = .7    # Espessura das linhas e setas
 )
 ```
 
 ## Interpretação do gráfico
 
-O gráfico apresenta os nós, onde estão as variáveis e as setas indicam as relações entre elas. As variáveis apresentadas nos círculos (Espacial, Verbal, Velocidade) são as variáveis latentes influenciadas pelas variáveis observadas percepção visual (X1), cubos (X2), losangos (X3), compreensão de texto (X4), conclusão de frases (X5), significado das palavras (X6), soma acelerada (X7), contagem acelerada de pontos (X8), discriminação acelerada de letras maiúsculas retas e curvas (X9) apresentadas nos quadrados. Os valores em vermelho são as estimativas padronizadas de caminhos, indicadas no resumo dos resultados pelos `std.all`. Setas tracejadas indicam relações indiretas e setas sólidas indicam relações diretas entre as variávies.
+O gráfico apresenta os nós, onde estão as variáveis e as setas indicam as relações entre elas. As variáveis apresentadas nos círculos (Espacial, Verbal, Velocidade) são as variáveis latentes influenciadas pelas variáveis observadas percepção visual (X1), cubos (X2), losangos (X3), compreensão de texto (X4), conclusão de frases (X5), significado das palavras (X6), soma acelerada (X7), contagem acelerada de pontos (X8), discriminação acelerada de letras maiúsculas retas e curvas (X9) apresentadas nos quadrados. Os valores em vermelho são as estimativas padronizadas de caminhos, indicadas no resumo dos resultados pelos `std.all`. As setas indicam relações unidirecionais entre as variáveis, quando uma tem influência sobre a outra. Setas tracejadas indicam caminhos não diretos ou residuais e setas sólidas indicam relações diretas entre as variáveis. Setas mais escuras indicam relações mais fortes entre as variáveis, de acordo com a estimativa padronizada, e setas mais claras indicam relações mais fracas.
 
 ## Conclusão
 
