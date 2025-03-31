@@ -152,12 +152,14 @@ semPaths(
   nCharNodes = 0,         # Mostra nomes completos
   rotation = 2,           # Rotação do gráfico (2 = vertical),
     color = list(
-    lat = "goldenrod",  # Cor das latentes
-    man = "tomato"), # Cor das observadas
+    lat = "steelblue",  # Cor das latentes
+    man = "darkorange"), # Cor das observadas
     edge.label.cex = 1.2,    # Ajusta tamanho dos rótulos
     label.cex = 1.2,        # Tamanho dos rótulos dentro dos nós
-    mar = c(4, 4, 4, 4),      # Margens do gráfico (variáveis observadas)
-    edge.width = .7    # Espessura das linhas e setas
+    mar = c(3, 3, 3, 3),      # Margens do gráfico (variáveis observadas)
+    edge.width = .7,    # Espessura das linhas e setas
+    nodeLabels = c("X1", "X2", "X3", "X4", "X5", "X6", "X7", "X8", "X9","Espacial", "Verbal", "Velocidade"),
+    edge.color = "midnightblue",   # Cor das linhas/setas
 )
 ```
 
