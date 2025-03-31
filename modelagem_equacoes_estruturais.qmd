@@ -24,15 +24,19 @@ Um modelo de equações estruturais é composto por duas partes principais:
 
 2.  **Modelo Estrutural**: Define as relações entre as variáveis latentes.
 
-## Exemplo Prático: Modelando Satisfação do Cliente
+## Exemplo Prático: modelando capacidade mental de crianças
 
-Vamos supor que queremos modelar a **satisfação do cliente** com base em duas variáveis latentes:
+O conjunto de dados de Holzinger e Swineford (1939) consiste em pontuações de testes de capacidade mental de crianças da sétima e oitava séries de duas escolas diferentes (Pasteur e Grant-White). No conjunto de dados original, há pontuações para 26 testes. No entanto, um subconjunto menor com 9 variáveis ​​é mais amplamente usado na literatura.
 
-1.  **Qualidade do Produto**: Medida por três variáveis observadas (qualidade1, qualidade2, qualidade3).
+Os dados são compostos por idade, sexo, escola, grade (séries), percepção visual (X1), cubos (X2), losangos (X3), compreensão de texto (X4), conclusão de frases (X5), significado das palavras (X6), soma acelerada (X7), contagem acelerada de pontos (X8), discriminação acelerada de letras maiúsculas retas e curvas (X9).
 
-2.  **Atendimento ao Cliente**: Medida por três variáveis observadas (atendimento1, atendimento2, atendimento3).
+1.  **Inteligência espacial**: Medida por três variáveis observadas (percepção visual, cubos e losangos).
 
-A satisfação do cliente será nossa variável latente dependente, que será influenciada pela qualidade do produto e pelo atendimento ao cliente.
+2.  **Inteligência verbal**: Medida por três variáveis observadas (compreensão de texto, conclusão de frases e significado das palavras).
+
+3.  **Velocidade**: Medida por três variáveis observadas (soma acelerada, contagem acelerada de pontos e discriminação acelerada de letras maiúsculas retas e curvas).
+
+A capacidade mental de crianças será nossa variável latente dependente, que será influenciada pela inteligência espacial, verbal e de velocidade.
 
 ### Passo 1: Instalar e Carregar o Pacote `lavaan`
 
@@ -48,17 +52,24 @@ library(lavaan)
 
 ### Passo 2: Criar o Modelo
 
-Vamos definir o modelo de equações estruturais. No `lavaan`, usamos uma sintaxe específica para especificar as relações entre as variáveis.
+Vamos definir o modelo de equações estruturais usando os dados `HolzingerSwineford1939` do pacote `lavaan`. Para isso, baixamos os dados e usamos uma sintaxe específica para definir as relações entre as variáveis do modelo.
 
 ```{r message=FALSE, warning=FALSE}
-# Definir o modelo
-modelo <- '
-  # Modelo de Medida
-  Qualidade =~ qualidade1 + qualidade2 + qualidade3
-  Atendimento =~ atendimento1 + atendimento2 + atendimento3
+# 1. Carregar dados
 
-  # Modelo Estrutural
-  Satisfacao ~ Qualidade + Atendimento
+data("HolzingerSwineford1939")
+
+dados <- HolzingerSwineford1939
+
+View(dados)
+
+# Criar modelo
+
+modelo <- '
+  # Fatores latentes
+  espacial =~ x1 + x2 + x3
+  verbal =~ x4 + x5 + x6
+  velocidade =~ x7 + x8 + x9
 '
 ```
 
@@ -73,34 +84,8 @@ Aqui:
 Vamos simular um conjunto de dados para este exemplo e ajustar o modelo.
 
 ```{r message=FALSE, warning=FALSE}
-# Simular dados
-set.seed(123)
-dados <- data.frame(
-  # Variáveis observadas para "Qualidade" (3 indicadores)
-  qualidade1 = rnorm(100, mean = 35, sd = 1.5),
-  qualidade2 = rnorm(100, mean = 24, sd = 1.3),
-  qualidade3 = rnorm(100, mean = 87.6, sd = 1.4),
-  
-  # Variáveis observadas para "Atendimento" (3 indicadores)
-  atendimento1 = rnorm(100, mean = 46, sd = 1.2),
-  atendimento2 = rnorm(100, mean = 89.2, sd = 1.1),
-  atendimento3 = rnorm(100, mean = 56, sd = 1.3),
-  
-  # Variável dependente (contínua)
-  Satisfacao = rnorm(100, mean = 6, sd = 1.5)
-)
-
-# Criar modelo
-modelo <- '
-
-  Qualidade =~ qualidade1 + qualidade2 + qualidade3
-  Atendimento =~ atendimento1 + atendimento2 + atendimento3
-
-
- Satisfacao ~ Qualidade + Atendimento
-'
-
 # Ajustar o modelo
+
 ajuste <- sem(
   model = modelo,
   data = dados,
@@ -174,7 +159,6 @@ Regressions:
   Satisfacao ~
     Qualidade        0.567    0.075    7.560    0.000
     Atendimento      0.432    0.073    5.918    0.000
-
 
 ```
 
