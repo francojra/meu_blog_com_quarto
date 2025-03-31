@@ -86,12 +86,7 @@ Vamos simular um conjunto de dados para este exemplo e ajustar o modelo.
 ```{r message=FALSE, warning=FALSE}
 # Ajustar o modelo
 
-ajuste <- sem(
-  model = modelo,
-  data = dados,
-  std.lv = TRUE,  # Padroniza variáveis latentes
-  control = list(iter.max = 1000)  # Aumenta iterações
-)
+ajuste <- cfa(modelo, data = dados)
 ```
 
 ### Passo 4: Interpretar os Resultados
