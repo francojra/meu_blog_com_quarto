@@ -8,15 +8,15 @@ date: 09/04/2013
 
 # Equações Estruturais em R: Conceitos e Aplicações Práticas
 
-As Equações Estruturais são uma técnica estatística avançada usada para modelar relações complexas entre variáveis observadas e latentes. Elas combinam aspectos da análise fatorial e da regressão múltipla, permitindo que pesquisadores testem hipóteses sobre relações causais entre variáveis.
+As Equações Estruturais permitem modelar relações complexas entre variáveis observadas e latentes. Elas combinam aspectos da análise fatorial e da regressão múltipla, permitindo que pesquisadores testem hipóteses sobre relações causais entre variáveis.
 
 Neste post, vamos explorar como implementar modelos de equações estruturais em R usando o pacote `lavaan`. Além disso, vamos interpretar os resultados de um exemplo prático.
 
 ## O que são Equações Estruturais?
 
-Equações estruturais são modelos que permitem analisar relações entre variáveis observadas (medidas diretamente como dados de altura, idade, peso, gênero, etc.) e variáveis latentes (não observadas diretamente, mas inferidas a partir de variáveis observadas como felicidade, ansiedade, depressão que podem ser inferidas a partir de informações como níveis de cortisol, interação social, consultas a psicólogos, etc.). As variáveis latentes são conceitos abstratos que não podem ser medidos diretamente, mas inferidos a partir de variáveis observadas.
+Equações estruturais são modelos que permitem analisar relações entre variáveis observadas medidas diretamente (ex.: altura, idade, peso, gênero, etc.) e variáveis latentes não observadas diretamente, mas inferidas a partir de variáveis observadas. Alguns exemplos de variáveis latentes são: felicidade, ansiedade, personalidade, depressão, etc., as quais podem ser inferidas a partir de informações observadas como níveis de cortisol, interação social, consultas a psicólogos, etc. Portanto, as variáveis latentes são conceitos abstratos que não podem ser medidos diretamente.
 
-Portanto, a análise de equações estruturais é uma técnica que combina a análise de regressão múltipla e a análise fatorial para testar relações entre variáveis observáveis e latentes.
+A análise de equações estruturais é uma técnica que combina a análise de regressão múltipla e a análise fatorial para testar relações entre variáveis observáveis e latentes.
 
 Os modelos são úteis em áreas como psicologia, ciências sociais e marketing, onde muitas vezes trabalhamos com conceitos abstratos (como "satisfação do cliente" ou "inteligência emocional") que não podem ser medidos diretamente.
 
@@ -26,11 +26,11 @@ Um modelo de equações estruturais é composto por duas partes principais:
 
 2.  **Modelo Estrutural**: Define as relações entre as variáveis latentes.
 
-## Exemplo Prático: modelando capacidade mental de crianças
+## Exemplo Prático: modelando a capacidade mental de crianças
 
 O conjunto de dados de Holzinger e Swineford (1939) consiste em pontuações de testes de capacidade mental de crianças da sétima e oitava séries de duas escolas diferentes (Pasteur e Grant-White). No conjunto de dados original, há pontuações para 26 testes. No entanto, um subconjunto menor com 9 variáveis é mais amplamente usado na literatura.
 
-Os dados são compostos por idade, sexo, escola, grade (séries), percepção visual (X1), cubos (X2), losangos (X3), compreensão de texto (X4), conclusão de frases (X5), significado das palavras (X6), soma acelerada (X7), contagem acelerada de pontos (X8), discriminação acelerada de letras maiúsculas retas e curvas (X9).
+Os dados são compostos por idade, sexo, escola, grade (séries), percepção visual (X1), cubos (X2), losangos (X3), compreensão de texto (X4), conclusão de frases (X5), significado das palavras (X6), soma acelerada (X7), contagem acelerada de pontos (X8), discriminação acelerada de letras maiúsculas retas e curvas (X9). As seguintes variáveis latentes podem ser usadas para inferir a capacidade mental das crianças:
 
 1.  **Inteligência espacial**: Medida por três variáveis observadas (percepção visual, cubos e losangos).
 
@@ -38,7 +38,7 @@ Os dados são compostos por idade, sexo, escola, grade (séries), percepção vi
 
 3.  **Velocidade**: Medida por três variáveis observadas (soma acelerada, contagem acelerada de pontos e discriminação acelerada de letras maiúsculas retas e curvas).
 
-A capacidade mental de crianças está representada pelas variáveis latentes inteligência espacial, verbal e de velocidade, que são influenciadas pelas variáveis observadas (X1-X9).
+Portanto, a capacidade mental de crianças está representada pelas variáveis latentes inteligência espacial, verbal e de velocidade, que são influenciadas pelas variáveis observadas (X1-X9). A seguir estão os passos para aplicar as análises do modelo de equações estruturais.
 
 ### Passo 1: Instalar e Carregar o Pacote `lavaan`
 
@@ -165,7 +165,7 @@ semPaths(
 
 ## Interpretação do gráfico
 
-O gráfico apresenta os nós, onde estão as variáveis e as setas indicam as relações entre elas. As variáveis apresentadas nos círculos (Espacial, Verbal, Velocidade) são as variáveis latentes influenciadas pelas variáveis observadas percepção visual (X1), cubos (X2), losangos (X3), compreensão de texto (X4), conclusão de frases (X5), significado das palavras (X6), soma acelerada (X7), contagem acelerada de pontos (X8), discriminação acelerada de letras maiúsculas retas e curvas (X9) apresentadas nos quadrados. Os valores em vermelho são as estimativas padronizadas de caminhos, indicadas no resumo dos resultados pelos `std.all`. As setas indicam relações unidirecionais entre as variáveis, quando uma tem influência sobre a outra. Setas tracejadas indicam caminhos não diretos ou residuais e setas sólidas indicam relações diretas entre as variáveis. Setas mais escuras indicam relações mais fortes entre as variáveis, de acordo com a estimativa padronizada, e setas mais claras indicam relações mais fracas.
+O gráfico apresenta os nós, onde estão as variáveis e as setas indicam as relações entre elas. As variáveis apresentadas nos círculos (Espacial, Verbal, Velocidade) são as variáveis latentes influenciadas pelas variáveis observadas percepção visual (X1), cubos (X2), losangos (X3), compreensão de texto (X4), conclusão de frases (X5), significado das palavras (X6), soma acelerada (X7), contagem acelerada de pontos (X8), discriminação acelerada de letras maiúsculas retas e curvas (X9) apresentadas nos quadrados. Os valores em azul próximos as setas são as estimativas padronizadas de caminhos, indicadas no resumo dos resultados pelos `std.all`. As estimativas sobre as variáveis latentes indicam as covariâncias e as estimativas sobre as variáveis observadas são as suas variâncias, como indicado na tabela. As setas indicam relações unidirecionais entre as variáveis, quando uma tem influência sobre a outra. Setas tracejadas indicam caminhos não diretos ou residuais e setas sólidas indicam relações diretas entre as variáveis. Setas mais escuras indicam relações mais fortes entre as variáveis, de acordo com a estimativa padronizada, e setas mais claras indicam relações mais fracas.
 
 ## Conclusão
 
