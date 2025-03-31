@@ -16,6 +16,8 @@ Neste post, vamos explorar como implementar modelos de equações estruturais em
 
 Equações estruturais são modelos que permitem analisar relações entre variáveis observadas (medidas diretamente como dados de altura, idade, peso, gênero, etc.) e variáveis latentes (não observadas diretamente, mas inferidas a partir de variáveis observadas como felicidade, ansiedade, depressão que podem ser inferidas a partir de informações como níveis de cortisol, interação social, consultas a psicólogos, etc.). As variáveis latentes são conceitos abstratos que não podem ser medidos diretamente, mas inferidos a partir de variáveis observadas.
 
+Portanto, a análise de equações estruturais é uma técnica que combina a análise de regressão múltipla e a análise fatorial para testar relações entre variáveis observáveis e latentes.
+
 Os modelos são úteis em áreas como psicologia, ciências sociais e marketing, onde muitas vezes trabalhamos com conceitos abstratos (como "satisfação do cliente" ou "inteligência emocional") que não podem ser medidos diretamente.
 
 Um modelo de equações estruturais é composto por duas partes principais:
@@ -26,7 +28,7 @@ Um modelo de equações estruturais é composto por duas partes principais:
 
 ## Exemplo Prático: modelando capacidade mental de crianças
 
-O conjunto de dados de Holzinger e Swineford (1939) consiste em pontuações de testes de capacidade mental de crianças da sétima e oitava séries de duas escolas diferentes (Pasteur e Grant-White). No conjunto de dados original, há pontuações para 26 testes. No entanto, um subconjunto menor com 9 variáveis ​​é mais amplamente usado na literatura.
+O conjunto de dados de Holzinger e Swineford (1939) consiste em pontuações de testes de capacidade mental de crianças da sétima e oitava séries de duas escolas diferentes (Pasteur e Grant-White). No conjunto de dados original, há pontuações para 26 testes. No entanto, um subconjunto menor com 9 variáveis é mais amplamente usado na literatura.
 
 Os dados são compostos por idade, sexo, escola, grade (séries), percepção visual (X1), cubos (X2), losangos (X3), compreensão de texto (X4), conclusão de frases (X5), significado das palavras (X6), soma acelerada (X7), contagem acelerada de pontos (X8), discriminação acelerada de letras maiúsculas retas e curvas (X9).
 
@@ -36,7 +38,7 @@ Os dados são compostos por idade, sexo, escola, grade (séries), percepção vi
 
 3.  **Velocidade**: Medida por três variáveis observadas (soma acelerada, contagem acelerada de pontos e discriminação acelerada de letras maiúsculas retas e curvas).
 
-A capacidade mental de crianças será nossa variável latente dependente, que será influenciada pela inteligência espacial, verbal e de velocidade.
+A capacidade mental de crianças está representada pelas variáveis latentes inteligência espacial, verbal e de velocidade, que são influenciadas pelas variáveis observadas (X1-X9).
 
 ### Passo 1: Instalar e Carregar o Pacote `lavaan`
 
@@ -46,8 +48,9 @@ Primeiro, instale e carregue o pacote `lavaan`, que é amplamente utilizado para
 # Instalar o pacote lavaan (se ainda não estiver instalado)
 #install.packages("lavaan")
 
-# Carregar o pacote
+# Carregar pacotes necessários
 library(lavaan)
+
 ```
 
 ### Passo 2: Criar o Modelo
@@ -61,7 +64,7 @@ data("HolzingerSwineford1939")
 
 dados <- HolzingerSwineford1939
 
-View(dados)
+head(dados, 6)
 
 # Criar modelo
 
@@ -86,7 +89,8 @@ Vamos simular um conjunto de dados para este exemplo e ajustar o modelo.
 ```{r message=FALSE, warning=FALSE}
 # Ajustar o modelo
 
-ajuste <- cfa(modelo, data = dados)
+ajuste <- sem(modelo, data = dados)
+
 ```
 
 ### Passo 4: Interpretar os Resultados
@@ -112,64 +116,15 @@ Aqui estão alguns dos principais resultados que você verá:
 
     -   Mostram a relação entre as variáveis observadas e as variáveis latentes. Valores acima de 0.5 são considerados adequados.
 
-3.  **Coeficientes Estruturais**:
-
-    -   Mostram as relações entre as variáveis latentes. Por exemplo, o coeficiente de `Qualidade` sobre `Satisfacao` indica o quanto a qualidade do produto influencia a satisfação do cliente.
-
-## Exemplo de Saída
-
-``` r
-lavaan 0.6-12 ended normally after 23 iterations
-
-  Estimator                                         ML
-  Optimization method                           NLMINB
-  Number of model parameters                        13
-
-  Number of observations                           100
-
-Model Test User Model:
-  Test statistic                                12.345
-  Degrees of freedom                                12
-  P-value (Chi-square)                           0.456
-
-Parameter Estimates:
-
-  Standard errors                             Standard
-  Information                                 Expected
-  Information saturated (h1) model          Structured
-
-Latent Variables:
-                   Estimate  Std.Err  z-value  P(>|z|)
-  Qualidade =~
-    qualidade1        0.789    0.045   17.543    0.000
-    qualidade2        0.765    0.044   17.386    0.000
-    qualidade3        0.801    0.046   17.413    0.000
-  Atendimento =~
-    atendimento1      0.723    0.043   16.814    0.000
-    atendimento2      0.745    0.044   16.932    0.000
-    atendimento3      0.732    0.043   17.023    0.000
-
-Regressions:
-                   Estimate  Std.Err  z-value  P(>|z|)
-  Satisfacao ~
-    Qualidade        0.567    0.075    7.560    0.000
-    Atendimento      0.432    0.073    5.918    0.000
-
-```
-
 ## Interpretação dos Resultados
 
 1.  **Indicadores de Ajuste**:
 
-    -   O modelo apresenta um bom ajuste, com CFI = 0.95, RMSEA = 0.04 e SRMR = 0.03.
+    -   O modelo apresenta um bom ajuste, com CFI = 0.931, RMSEA = 0.092 e SRMR = 0.065.
 
 2.  **Cargas Fatoriais**:
 
-    -   Todas as cargas fatoriais são significativas (p \< 0.001) e acima de 0.7, indicando que as variáveis observadas são bons indicadores das variáveis latentes.
-
-3.  **Coeficientes Estruturais**:
-
-    -   Tanto a **Qualidade** (β = 0.567, p \< 0.001) quanto o **Atendimento** (β = 0.432, p \< 0.001) têm um impacto significativo na **Satisfação do Cliente**.
+    -   Todas as cargas fatoriais são significativas (p \< 0.001) e acima de 0.5, indicando que as variáveis observadas são bons indicadores das variáveis latentes.
 
 ## Gerar gráfico
 
@@ -183,7 +138,7 @@ Regressions:
 library(semPlot)
 ```
 
-#### Passo 2: **Gerar o Gráfico do Modelo SEM**
+#### Passo 2: **Gerar o Gráfico do Modelo**
 
 ```{r}
 # Gráfico básico do modelo
@@ -199,6 +154,10 @@ semPaths(
   rotation = 2            # Rotação do gráfico (2 = vertical)
 )
 ```
+
+## Interpretação do gráfico
+
+O gráfico apresenta os nós, onde estão as variáveis e as setas indicam as relações entre elas. As variáveis apresentadas nos círculos (Espacial, Verbal, Velocidade) são as variáveis latentes influenciadas pelas variáveis observadas percepção visual (X1), cubos (X2), losangos (X3), compreensão de texto (X4), conclusão de frases (X5), significado das palavras (X6), soma acelerada (X7), contagem acelerada de pontos (X8), discriminação acelerada de letras maiúsculas retas e curvas (X9) apresentadas nos quadrados. Os valores em vermelho são as estimativas padronizadas de caminhos, indicadas no resumo dos resultados pelos `std.all`. Setas tracejadas indicam relações indiretas e setas sólidas indicam relações diretas entre as variávies.
 
 ## Conclusão
 
