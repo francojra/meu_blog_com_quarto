@@ -46,7 +46,7 @@ Abaixo estão listadas as palestras que ministrei na comunidade R-Ladies.
 :::
 
 ::: box
-<p>![](semabio.png){width="150"} <br> Palestra: Conhecendo a comunidade <br> R-Ladies Natal.</p>
+<p>![](semabio.png){width="150"} <br> Palestra: Transformando Dados em Gráficos no R <br> R-Ladies Natal.</p>
 :::
 
 </center>
