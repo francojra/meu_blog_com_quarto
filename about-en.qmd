@@ -20,6 +20,16 @@ about:
 
 </center>
 
-Hi, my name is Jeanne Franco. During my postgraduate studies at the [Federal University of Rio Grande do Norte](https://www.ufrn.br/), in order to carry out my scientific research, I needed to collect, organize and analyze data. This led me to develop an interest in data analysis and visualization using R software. Since then, I have dedicated myself to this area through courses and gained professional experience through consultancies and lectures. My professional and volunteer experiences include: 1. Consulting in data analysis, data visualization and scientific production at [Beta Analítica](https://betaanalitica.com.br/); 2. Programming in R: manipulating and visualizing data with the tidyverse package, producing reports with R Markdown, producing websites and blogs in R using the Quarto system, HTML and CSS markup languages and producing applications with the Shiny package; 3. Basic knowledge of Python and SQL, and organizing the [R-Ladies de Natal](https://rladies.org/) community[^1].
+Hi! My name is Jeanne Franco. During my undergraduate and graduate studies at the [Universidade Federal do Rio Grande do Norte](https://www.ufrn.br/) Federal University of Rio Grande do Norte, I needed to collect, organize, and analyze data to conduct my scientific research. This led me to develop an interest in statistical analyses and data visualization using R software. Since then, I have been dedicating myself to this field through courses and gaining professional experience. My professional and volunteer experiences at Beta Analítica and the [R-Ladies de Natal](https://rladies.org/)[^1] community include:
 
-[^1]: R-Ladies is a global non-profit organization whose mission is to promote gender diversity and teach courses on the R programming language.
+[^1]:R-Ladies is a global nonprofit organization whose mission is to promote gender diversity and provide courses on the R programming language.
+
+\- Consulting, lectures, and online courses on data visualization in R.
+
+\- R programming: data analysis with the tidyverse, report and dashboard production with R Markdown, website and blog creation using the Quarto system, HTML and CSS markup languages, application development with the Shiny package, storytelling, and creating flexible and elegant tables with the gtsummary package.
+
+\- Data analysis skills: importing, extracting, transforming, and visualizing data (bar charts, histograms, boxplots, scatter plots, line charts, maps, word clouds, and multivariate analysis graphs).
+
+\- Statistical knowledge: descriptive statistics (mean, median, variance, standard deviation, and standard error calculations), generalized linear models (GLM, GLMM, GAM, GAMM), structural equation modeling, simple and multiple linear regression, analysis of variance, and multivariate analyses (NMDS, RDA, PCA, CCA).
+
+\- Basic knowledge of Machine Learning, Python, SQL, Excel, and Power BI.
