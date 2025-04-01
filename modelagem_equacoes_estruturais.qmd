@@ -148,18 +148,19 @@ semPaths(
   layout = "tree",        # Organização do gráfico
   style = "lisrel",          # Estilo visual (opcional)
   sizeMan = 8,            # Tamanho dos retângulos (variáveis observadas)
-  sizeLat = 11.5,           # Tamanho dos círculos (variáveis latentes)
+  sizeLat = 9,           # Tamanho dos círculos (variáveis latentes)
   nCharNodes = 0,         # Mostra nomes completos
   rotation = 2,           # Rotação do gráfico (2 = vertical),
     color = list(
-    lat = "steelblue",  # Cor das latentes
-    man = "darkorange"), # Cor das observadas
-    edge.label.cex = 1.2,    # Ajusta tamanho dos rótulos
-    label.cex = 1.2,        # Tamanho dos rótulos dentro dos nós
-    mar = c(3, 3, 3, 3),      # Margens do gráfico (variáveis observadas)
+    lat = "#003C30",  # Cor das latentes
+    man = "#543005"), # Cor das observadas
+    edge.label.cex = 1,    # Ajusta tamanho dos rótulos
+    label.cex = 0.8,        # Tamanho dos rótulos dentro dos nós
+  label.color = "white",
+    mar = c(4, 4, 4, 4),      # Margens do gráfico (variáveis observadas)
     edge.width = .7,    # Espessura das linhas e setas
     nodeLabels = c("X1", "X2", "X3", "X4", "X5", "X6", "X7", "X8", "X9","Espacial", "Verbal", "Velocidade"),
-    edge.color = "midnightblue",   # Cor das linhas/setas
+    edge.color = "gray8",   # Cor das linhas/setas
 )
 ```
 
