@@ -14,6 +14,7 @@
   - Programação em R
   - Gráficos
   - Análises Estatísticas
+  - Mapas
 2. Atividades
   - Beta Analítica
   - R-Ladies Natal
