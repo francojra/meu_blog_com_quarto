@@ -20,6 +20,16 @@ about:
 
 </center>
 
-Hola, me llamo Jeanne Franco. Durante mis estudios de posgrado en la [Universidad Federal de Rio Grande do Norte](https://www.ufrn.br/), para llevar a cabo mi investigación científica, necesité recopilar, organizar y analizar datos. Esto me llevó a interesarme por el análisis y la visualización de datos mediante el software R. Desde entonces, me he dedicado a esta área a través de cursos y he adquirido experiencia profesional mediante consultorías y conferencias. Mi experiencia profesional y voluntaria incluye: 1. Consultoría en análisis de datos, visualización de datos y producción científica en [Beta Analítica](https://betaanalitica.com.br/); 2. Programación en R: manipulación y visualización de datos con el paquete tidyverse, producción de informes con R Markdown, producción de sitios web y blogs en R utilizando el sistema Quarto, lenguajes de marcado HTML y CSS y producción de aplicaciones con el paquete Shiny; 3. Conocimientos básicos de Python y SQL, y organización de la comunidad [R-Ladies de Natal](https://rladies.org/)[^1].
+¡Hola! Me llamo Jeanne Franco. Durante mi licenciatura y posgrado en la [Universidade Federal do Rio Grande do Norte](https://www.ufrn.br/), necesité recopilar, organizar y analizar datos para llevar a cabo mi investigación científica. Esto me llevó a desarrollar un interés por el análisis estadístico y la visualización de datos utilizando el software R. Desde entonces, me he dedicado a esta área a través de cursos y he adquirido experiencia profesional. Mis experiencias profesionales y voluntarias en la [Beta Analítica](https://betaanalitica.com.br/) y en la comunidad [R-Ladies de Natal](https://rladies.org/)[^1] incluyen:
 
-[^1]: R-Ladies es una organización mundial sin ánimo de lucro cuya misión es promover la diversidad de género e impartir cursos sobre el lenguaje de programación R.
+[^1]:R-Ladies es una organización global sin fines de lucro cuya misión es promover la diversidad de género y ofrecer cursos sobre el lenguaje de programación R.
+
+\- Consultorías, conferencias y cursos en línea sobre visualización de datos en R.
+
+\- Programación en R: análisis de datos con tidyverse, producción de informes y paneles con R Markdown, creación de sitios web y blogs con el sistema Quarto, lenguajes de marcado HTML y CSS, desarrollo de aplicaciones con el paquete Shiny, storytelling y creación de tablas flexibles y elegantes con el paquete gtsummary.
+
+\- Conocimientos en análisis de datos: importación, extracción, transformación y visualización de datos (gráficos de barras, histogramas, boxplots, dispersión, líneas, mapas, nube de palabras y gráficos de análisis multivariado).
+
+\- Conocimientos en estadística: estadística descriptiva (cálculo de media, mediana, varianza, desviación estándar y error estándar), modelos lineales generalizados (GLM, GLMM, GAM, GAMM), modelado de ecuaciones estructurales, regresión lineal simple y múltiple, análisis de varianza y análisis multivariado (NMDS, RDA, PCA, CCA).
+
+\- Conocimientos básicos en Machine Learning, Python, SQL, Excel y Power BI.
