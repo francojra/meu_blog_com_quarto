@@ -20,8 +20,7 @@
   - R-Ladies Natal
   - Serviços
 3. Sobre
-  - Sobre Mim
-  - Currículos
+  - Sobre a autora
   - Contatos
 
 ### Aba da esquerda:
