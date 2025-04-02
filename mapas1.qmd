@@ -33,8 +33,7 @@ Mapas de distribuição de espécies são representações geográficas que most
 
 -   Estudo dos impactos das mudanças climáticas e invasão de espécies exóticas.
 
-## 
-**Fontes de dados e ferramentas para construção**
+## **Fontes de dados e ferramentas para construção**
 
 -   **Bancos de dados globais**: GBIF, iNaturalist, SpeciesLink.
 
@@ -44,6 +43,101 @@ Mapas de distribuição de espécies são representações geográficas que most
 
 -   **R para análise espacial**: Pacotes como `sf`, `raster`, `terra` e `dismo`.
 
-## 
-Exemplo de um mapa feito no R da distribuição de espécies vegetais 
+## Exemplo de um mapa da distribuição de espécies vegetais feito no R
 
+### Passo 1: carregar pacotes necessários:
+
+```{r message=FALSE, warning=FALSE}
+
+# Caso não tenha os pacotes, baixe em seu computador utilizando a função install.packages("nome_pacote")
+
+library(rgbif)
+library(dplyr)
+library(sf)
+library(ggplot2)
+library(rnaturalearth)
+library(rnaturalearthdata)
+library(cols4all)
+```
+
+### Passo 2: carregar dados
+
+- Definir lista de espécies para busca dos dados de ocorrência no GBIF
+
+```{r message=FALSE, warning=FALSE}
+
+species_list <- c("Paubrasilia echinata", "Setaria parviflora", 
+                  "Achyrocline satureioides", "Bertholletia excelsa", 
+                  "Myracrodruon urundeuva")
+
+```
+
+- Função para buscar dados de uma espécie
+
+```{r message=FALSE, warning=FALSE}
+
+get_occ_data <- function(species_name) {
+  occ_search(scientificName = species_name, limit = 500)$data %>%
+    filter(!is.na(decimalLongitude) & !is.na(decimalLatitude)) %>%
+    select(decimalLongitude, decimalLatitude) %>%
+    mutate(species = species_name)
+}
+```
+
+- Buscar dados para todas as espécies
+
+```{r message=FALSE, warning=FALSE}
+
+all_occ_data <- bind_rows(lapply(species_list, get_occ_data))
+
+```
+
+- Converter para objeto sf
+
+```{r message=FALSE, warning=FALSE}
+
+coords_sf_all <- st_as_sf(all_occ_data, coords = c("decimalLongitude", "decimalLatitude"), crs = 4326)
+
+```
+
+- Obter dados das fronteiras dos países
+
+```{r message=FALSE, warning=FALSE}
+
+world <- ne_countries(scale = "medium", returnclass = "sf")
+
+```
+
+- Filtrar para um país específico (por exemplo, Brasil)
+
+```{r message=FALSE, warning=FALSE}
+
+brazil <- world %>% filter(name == "Brazil") 
+
+```
+
+- Filtrar ocorrências para aquelas dentro do Brasil
+
+```{r message=FALSE, warning=FALSE}
+
+coords_sf_brazil <- st_intersection(coords_sf_all, brazil)
+
+```
+
+- Dados biomas
+
+```{r message=FALSE, warning=FALSE}
+
+my_biom <- read_sf("lm_bioma_250.shp") 
+head(my_biom, 18)
+
+```
+
+- Ajustar os limites do mapa para focar na América do Sul
+
+```{r message=FALSE, warning=FALSE}
+
+xlim <- c(-81, -36)
+ylim <- c(-37, 6.7)   
+
+```
