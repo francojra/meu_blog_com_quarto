@@ -14,39 +14,39 @@ Abaixo estão listadas as palestras que ministrei por meio da comunidade R-Ladie
 <center>
 
 ::: box
-<img src="images/ggplot2_dplyr_rladies-01.png" width="150"/> <br> Visualização de dados com *ggplot2* e *dplyr* ministrada na [R-Ladies Ribeirão Preto](https://www.instagram.com/rladiesrp/?next=%2F).
+<img src="images/ggplot2_dplyr_rladies-01.png" width="150"/> <br> Visualização de dados com *ggplot2* e *dply*r <br>
 :::
 
 ::: box
-<img src="images/rmarkdown_rladies.png" width="150"/> <br> Introdução ao R Markdown <br> ministrada na [R-Ladies Natal](https://www.instagram.com/rladiesnatal/?next=%2F).
+<img src="images/rmarkdown_rladies.png" width="150"/> <br> Introdução ao R Markdown <br>
 :::
 
 ::: box
-<p>![](images/r_do_zero_rladies.png){width="150"} <br> Palestra R do zero para iniciantes <br> ministrada na [R-Ladies Natal](https://www.instagram.com/rladiesnatal/?next=%2F).</p>
+![](images/r_do_zero_rladies.png){width="150"} <br> R do zero para iniciantes <br>
 :::
 
 ::: box
-<p>![](images/introducao_r_rladies.png){width="150"} <br> Introdução ao R: passo a passo <br> para iniciantes ministrada na [R-Ladies Natal](https://www.instagram.com/rladiesnatal/?next=%2F).</p>
+![](images/introducao_r_rladies.png){width="150"} <br> Introdução ao R: passo a passo para iniciantes <br>
 :::
 
 ::: box
-<p>![](images/p3.png){width="150"} <br> Palestra: Conhecendo a R-Ladies Natal: entre <br> scripts e meet-ups.</p>
+![](images/p3.png){width="150"} <br> Conhecendo a R-Ladies Natal: entre scripts e meet-ups <br>
 :::
 
 ::: box
-<p>![](images/p1.png){width="150"} <br> Palestra: Importância da R-Ladies para o <br> desenvolvimento científico e social.</p>
+![](images/p1.png){width="150"} <br> Importância da R-Ladies para o desenvolvimento científico e social <br>
 :::
 
 ::: box
-<p>![](palestra_tidyverse.png){width="150"} <br> Palestra: Explorando a visuzalização de dados <br> no R com Tidyverse.</p>
+![](palestra_tidyverse.png){width="150"} <br> Explorando a visuzalização de dados no R com Tidyverse <br>
 :::
 
 ::: box
-<p>![](images/p2.png){width="150"} <br> Palestra: Conhecendo a comunidade <br> R-Ladies Natal.</p>
+![](images/p2.png){width="150"} <br> Conhecendo a comunidade R-Ladies Natal <br>
 :::
 
 ::: box
-<p>![](semabio.png){width="150"} <br> Palestra: Transformando Dados em Gráficos no R <br> R-Ladies Natal.</p>
+![](semabio.png){width="150"} <br> Transformando Dados em Gráficos no R <br>
 :::
 
 </center>
