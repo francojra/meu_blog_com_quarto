@@ -51,18 +51,19 @@ Mapas de distribuição de espécies são representações geográficas que most
 
 # Caso não tenha os pacotes, baixe em seu computador utilizando a função install.packages("nome_pacote")
 
-library(rgbif)
-library(dplyr)
-library(sf)
-library(ggplot2)
+library(rgbif) # Extrair dados de espécies
+library(dplyr) # Manipulação de dados
+library(sf) # Definir geometrias de mapas
+library(ggplot2) # Produzir mapas e gráficos
 library(rnaturalearth)
 library(rnaturalearthdata)
-library(cols4all)
+library(cols4all) # Seleção de cores
+library(kableExtra) # Visualizar tabelas
 ```
 
 ### Passo 2: carregar dados
 
-- Definir lista de espécies para busca dos dados de ocorrência no GBIF
+#### Definir lista de espécies para busca dos dados de ocorrência no GBIF
 
 ```{r message=FALSE, warning=FALSE}
 
@@ -72,7 +73,7 @@ species_list <- c("Paubrasilia echinata", "Setaria parviflora",
 
 ```
 
-- Função para buscar dados de uma espécie
+#### Função para buscar dados de uma espécie
 
 ```{r message=FALSE, warning=FALSE}
 
@@ -84,7 +85,7 @@ get_occ_data <- function(species_name) {
 }
 ```
 
-- Buscar dados para todas as espécies
+#### Buscar dados para todas as espécies
 
 ```{r message=FALSE, warning=FALSE}
 
@@ -92,7 +93,7 @@ all_occ_data <- bind_rows(lapply(species_list, get_occ_data))
 
 ```
 
-- Converter para objeto sf
+#### Converter para objeto sf
 
 ```{r message=FALSE, warning=FALSE}
 
@@ -100,7 +101,7 @@ coords_sf_all <- st_as_sf(all_occ_data, coords = c("decimalLongitude", "decimalL
 
 ```
 
-- Obter dados das fronteiras dos países
+#### Obter dados das fronteiras dos países
 
 ```{r message=FALSE, warning=FALSE}
 
@@ -108,7 +109,7 @@ world <- ne_countries(scale = "medium", returnclass = "sf")
 
 ```
 
-- Filtrar para um país específico (por exemplo, Brasil)
+#### Filtrar para um país específico (por exemplo, Brasil)
 
 ```{r message=FALSE, warning=FALSE}
 
@@ -116,7 +117,7 @@ brazil <- world %>% filter(name == "Brazil")
 
 ```
 
-- Filtrar ocorrências para aquelas dentro do Brasil
+#### Filtrar ocorrências para aquelas dentro do Brasil
 
 ```{r message=FALSE, warning=FALSE}
 
@@ -124,7 +125,7 @@ coords_sf_brazil <- st_intersection(coords_sf_all, brazil)
 
 ```
 
-- Dados biomas
+#### Dados biomas
 
 ```{r message=FALSE, warning=FALSE}
 
@@ -133,11 +134,93 @@ head(my_biom, 18)
 
 ```
 
-- Ajustar os limites do mapa para focar na América do Sul
+#### Ajustar os limites do mapa para focar na América do Sul
 
 ```{r message=FALSE, warning=FALSE}
 
 xlim <- c(-81, -36)
 ylim <- c(-37, 6.7)   
+
+```
+
+## Visualizar mapa
+
+#### Definir cores
+
+```{r message=FALSE, warning=FALSE}
+
+cols4all::c4a_table(type = "cat", n = 5) # Seleção de 5 cores do tipo categórica "cat"
+
+#c4a_gui() # Abre planilha com paletas de cores
+   
+```
+
+#### Criar mapa com ggplot2
+
+```{r message=FALSE, warning=FALSE}
+
+map_sp_vegetation <- ggplot() +
+  geom_sf(data = my_biom, color = "gray55", 
+        fill = "gray3", show.legend = F) +
+geom_sf(data = coords_sf_brazil, 
+        aes(color = species), 
+        size = 2, shape = 18) +  
+  scale_color_manual(
+    values = c(
+      "Paubrasilia echinata" = "#CC6677",
+      "Setaria parviflora" = "#88CCEE", 
+      "Achyrocline satureioides" = "#DDCC77",
+      "Bertholletia excelsa" = "#117733",
+      "Myracrodruon urundeuva" = "#cab2d6"),
+    labels = c(
+      "Paubrasilia echinata" = expression(italic("Paubrasilia echinata")),
+      "Setaria parviflora" = expression(italic("Setaria parviflora")),
+      "Achyrocline satureioides" = expression(italic("Achyrocline satureioides")),
+      "Bertholletia excelsa" = expression(italic("Bertholletia excelsa")),
+      "Myracrodruon urundeuva" = expression(italic("Myracrodruon urundeuva")))) +
+  coord_sf(xlim = xlim, ylim = ylim) +
+  labs(title = "Distribuição de Espécies Vegetais no Brasil - Dados GBIF*",
+       x = "Longitude",
+       y = "Latitude",
+       colour = "",
+       caption = "*GBIF – Global Biodiversity Information Facility – é uma rede internacional e uma infra-estrutura de dados financiada\n pelos governos de todo o mundo e que visa fornecer a qualquer pessoa, em qualquer lugar, acesso aberto\n a dados sobre todos os tipos de vida na Terra.") +
+  theme_minimal() +
+  theme(legend.position = c(0.26, 0.35),
+        axis.text = element_text(color = "black",size = 8),
+        axis.title = element_text(size = 8, hjust = 1),
+        legend.text = element_text(size = 10),
+        legend.key = element_rect(fill = "gray3", size = 1.58),
+        plot.title = element_text(hjust = 0.1, size = 11),
+        plot.caption = element_text(size = 7),
+        legend.text.align = 0) 
+
+map_sp_vegetation # Visualizar objeto do mapa
+   
+```
+
+#### Funções do ggplot2 usadas para o mapa
+
+1. ggplot(): elaborar gráficos e mapas;
+2. geom_sf(): definir as coordenadas geográficas no mapa do Brasil e das distribuições das espécies selecionadas;
+3. scale_color_manual(): definir cores e nomes para cada espécie selecionada;
+4. coord_sf(): delimitar escalas de coordenadas;
+5. labs(): denifir título, nome das coordenadas x e y, e legendas;
+6. theme(): definir background do mapa e alinhamentos, cores e tamanhos de fontes.
+
+#### Salvar mapa
+
+```{r message=FALSE, warning=FALSE}
+
+# Salvar em formato jpg
+
+ggsave("map_sp_vegetation.jpg", dpi = 300,
+       width = 35, height = 15, 
+       units = "cm", map_sp_vegetation)
+
+# Salvar em formato PDF
+
+ggsave("map_sp_vegetation.pdf", dpi = 300,
+       width = 35, height = 15, 
+       units = "cm", map_sp_vegetation)   
 
 ```
