@@ -13,7 +13,7 @@ toc: true
 
 Mapas de distribuição de espécies são representações geográficas que mostram onde uma determinada espécie ocorre no espaço. Eles são amplamente utilizados em estudos ecológicos, biológicos, biogeográficos, e para conservação de espécies e planejamento ambiental. Esses mapas podem ser construídos de diferentes formas, dependendo da disponibilidade de dados e da escala da análise.
 
-### **Tipos de mapas de distribuição**
+## **Tipos de mapas de distribuição**
 
 1.  **Mapas de ocorrência**: Baseiam-se em registros pontuais da espécie, geralmente obtidos de bancos de dados como GBIF (Global Biodiversity Information Facility) ou de levantamentos de campo.
 
@@ -23,7 +23,18 @@ Mapas de distribuição de espécies são representações geográficas que most
 
 4.  **Mapas de distribuição futura**: Baseiam-se em projeções de mudanças climáticas para prever possíveis deslocamentos na distribuição da espécie ao longo do tempo.
 
-### **Fontes de dados e ferramentas para construção**
+## **Importância dos mapas de distribuição**
+
+-   Identificação de áreas prioritárias para conservação.
+
+-   Monitoramento de espécies ameaçadas.
+
+-   Planejamento de unidades de conservação.
+
+-   Estudo dos impactos das mudanças climáticas e invasão de espécies exóticas.
+
+## 
+**Fontes de dados e ferramentas para construção**
 
 -   **Bancos de dados globais**: GBIF, iNaturalist, SpeciesLink.
 
@@ -32,3 +43,7 @@ Mapas de distribuição de espécies são representações geográficas que most
 -   **Modelagem de distribuição de espécies**: MaxEnt, Biomod2, ENMTools.
 
 -   **R para análise espacial**: Pacotes como `sf`, `raster`, `terra` e `dismo`.
+
+## 
+Exemplo de um mapa feito no R da distribuição de espécies vegetais 
+
