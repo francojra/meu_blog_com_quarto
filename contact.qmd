@@ -1,6 +1,6 @@
 ---
 title: "Contatos"
-image: jeanne.jpg
+image: jeanne1.png
 about:
   template: jolla
 ---
@@ -72,5 +72,3 @@ about:
 </body>
 
 </html>
-
-

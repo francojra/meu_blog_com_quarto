@@ -1,6 +1,6 @@
 ---
 title: "Sobre la autora"
-image: jeanne.jpg
+image: jeanne1.png
 about:
   template: jolla
   links:
@@ -22,7 +22,7 @@ about:
 
 ¡Hola! Me llamo Jeanne Franco. Durante mi licenciatura y posgrado en la [Universidade Federal do Rio Grande do Norte](https://www.ufrn.br/), necesité recopilar, organizar y analizar datos para llevar a cabo mi investigación científica. Esto me llevó a desarrollar un interés por el análisis estadístico y la visualización de datos utilizando el software R. Desde entonces, me he dedicado a esta área a través de cursos y he adquirido experiencia profesional. Mis experiencias profesionales y voluntarias en la [Beta Analítica](https://betaanalitica.com.br/) y en la comunidad [R-Ladies de Natal](https://rladies.org/)[^1] incluyen:
 
-[^1]:R-Ladies es una organización global sin fines de lucro cuya misión es promover la diversidad de género y ofrecer cursos sobre el lenguaje de programación R.
+[^1]: R-Ladies es una organización global sin fines de lucro cuya misión es promover la diversidad de género y ofrecer cursos sobre el lenguaje de programación R.
 
 \- Consultorías, conferencias y cursos en línea sobre visualización de datos en R.
 
