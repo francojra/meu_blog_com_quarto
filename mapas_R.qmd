@@ -11,7 +11,7 @@ toc: true
 
 Nesta seção explicarei como produzir mapas no R e quais pacotes são necessários para essa finalidade. Como exemplo, irei elaborar um mapa dos biomas brasileiros, incluindo a legenda, orientação, eixos e escala.
 
-![Pacote sf. Ilustração Alisson Horst.](images/Design%20sem%20nome.png){fig-align="center"}
+![](images/image_sf.png){fig-align="center"}
 
 ## Pacotes necessários
 
@@ -128,7 +128,7 @@ As seguintes camadas são utilizadas para elaborar o mapa:
 
 3.  `scale_fill_manual()`: definição das cores do mapa para cada bioma;
 
-4.   `annotation_north_arrow()`: adição da orientação do mapa;
+4.  `annotation_north_arrow()`: adição da orientação do mapa;
 
 5.  `annotation_scale()`: adição da escala no mapa;
 
