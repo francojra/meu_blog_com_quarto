@@ -5,6 +5,7 @@ format: html
 # format: pdf
 date: 02/04/25
 categories: [Códigos, Mapas, GBIF]
+image: map_sp_vegetation.png 
 lang: pt
 toc: true
 ---
@@ -203,12 +204,12 @@ map_sp_vegetation # Visualizar objeto do mapa
 
 #### Funções do ggplot2 usadas para o mapa
 
-1. ggplot(): elaborar gráficos e mapas;
-2. geom_sf(): definir as coordenadas geográficas no mapa do Brasil e das distribuições das espécies selecionadas;
-3. scale_color_manual(): definir cores e nomes para cada espécie selecionada;
-4. coord_sf(): delimitar escalas de coordenadas;
-5. labs(): denifir título, nome das coordenadas x e y, e legendas;
-6. theme(): definir background do mapa e alinhamentos, cores e tamanhos de fontes.
+1.  ggplot(): elaborar gráficos e mapas;
+2.  geom_sf(): definir as coordenadas geográficas no mapa do Brasil e das distribuições das espécies selecionadas;
+3.  scale_color_manual(): definir cores e nomes para cada espécie selecionada;
+4.  coord_sf(): delimitar escalas de coordenadas;
+5.  labs(): denifir título, nome das coordenadas x e y, e legendas;
+6.  theme(): definir background do mapa e alinhamentos, cores e tamanhos de fontes.
 
 #### Salvar mapa
 
