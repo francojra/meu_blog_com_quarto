@@ -494,6 +494,15 @@ var_familia$familia <- as.factor(var_familia$familia)
 var_familia <- var_familia |>
   select(modulo, parcelas, familia)
 
+head(var_familia)
+
+## Número total de famílias 
+
+n_familia <- var_familia |>
+  summarise(n_familias = n_distinct(familia)) 
+
+view(n_familia)
+
 ## Número de famílias por módulos
 
 var_familia1 <- var_familia |>
@@ -511,7 +520,7 @@ ind_por_familia <- var_familia %>%
 
 view(ind_por_familia)
 
-## Número de espécies
+## Número de indivíduos 
 
 dados <- readxl::read_xlsx("tab_pres_aus_sp.xlsx")
 view(dados)
@@ -589,7 +598,13 @@ view(riqueza)
 riqueza <- riqueza %>%
   mutate(parcela = 1:60) %>%
   rename(parcelas = parcela)
+
 view(riqueza)
+
+# Número total de espécies únicas
+
+
+
 
 # riqueza <- riqueza %>%
 #   filter(parcelas != 59) %>% # Parcela sem dados
@@ -639,33 +654,22 @@ abund_sp1 <- abund_sp |>
 
 view(abund_sp1)
 
-# Abundancia e riqueza por modulos
+# Abundancia por modulos
 
 abund_sp_m <- abund_sp |>
   group_by(modulos) |>
-  summarise(n_sp = sum(Riqueza),
-            n_abu = sum(abundancia)) |>
+  summarise(n_abu = sum(abundancia)) |>
   arrange(n_abu)
 
-view(abund_sp_m)
+view(abund_m)
 
-### Número total de indivíduos e espécies
+### Número total de indivíduos 
 
 abund_abu_n <- abund_sp1 |>
   group_by(parcelas) |>
   summarise(n_abu_total = sum(n_abu))
 
 abund_abu_n1 <- sum(abund_abu_n$n_abu_total)
-
-abund_riq_n <- abund_sp1 |>
-    group_by(parcelas) |>
-  summarise(n_riq_total = sum(n_sp))
-
-abund_riq_n 
-
-abund_riq_n1 <- sum(abund_riq_n$n_riq_total)
-
-abund_riq_n1
 
 ## Definir estrutura dos dados 
 
