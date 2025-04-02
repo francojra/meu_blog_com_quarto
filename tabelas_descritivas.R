@@ -603,8 +603,29 @@ view(riqueza)
 
 # Número total de espécies únicas
 
+dados_riq <- readxl::read_xlsx("sp.xlsx")
+view(dados_riq)
+glimpse(dados_riq)
 
+dados_sp_riq <- dados_riq |>
+  drop_na() |>
+  summarise(n_sp = n_distinct(especies))
 
+dados_sp_riq
+
+dados_riq$parcelas <- as.numeric(dados_riq$parcelas)
+dados_riq$especies <- as.factor(dados_riq$especies)
+
+dados_riq <- dados_riq %>%
+  dplyr::mutate(modulos = case_when(
+    parcelas >= 1  & parcelas <= 10  ~ "M1",
+    parcelas >= 11 & parcelas <= 20  ~ "M2",
+    parcelas >= 21 & parcelas <= 30  ~ "M3",
+    parcelas >= 31 & parcelas <= 40  ~ "M4",
+    parcelas >= 41 & parcelas <= 50  ~ "M5",
+    parcelas >= 51 & parcelas <= 60  ~ "M6"))
+
+view(dados_riq)
 
 # riqueza <- riqueza %>%
 #   filter(parcelas != 59) %>% # Parcela sem dados
