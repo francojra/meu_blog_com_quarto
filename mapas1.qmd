@@ -1,0 +1,10 @@
+---
+title: "Distribuição de Espécies Vegetais no Brasil - Dados GBIF"
+author: "Jeanne Franco"
+format: html 
+# format: pdf
+date: 02/04/25
+categories: [Códigos, Mapas, GBIF]
+lang: pt
+toc: true
+---
