@@ -3,7 +3,7 @@ title: "Modelagem de Equações Estruturais"
 author: "Jeanne Franco"
 format: html
 editor: visual
-date: 09/04/2013
+date: 30/03/2025
 categories: [Códigos, Modelos de Equações Estruturais, MEE, SEM]
 lang: pt
 toc: true
