@@ -148,10 +148,13 @@ ylim <- c(-37, 6.7)
 #### Definir cores
 
 ```{r message=FALSE, warning=FALSE}
+# Seleção de 5 cores do tipo categórica "cat"
 
-cols4all::c4a_table(type = "cat", n = 5) # Seleção de 5 cores do tipo categórica "cat"
+## cols4all::c4a_table(type = "cat", n = 5) 
 
-#c4a_gui() # Abre planilha com paletas de cores
+# Abre planilha com paletas de cores
+
+## c4a_gui() 
    
 ```
 
