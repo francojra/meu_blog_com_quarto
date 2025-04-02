@@ -627,6 +627,12 @@ dados_riq <- dados_riq %>%
 
 view(dados_riq)
 
+riq_modulo <- dados_riq %>%
+  group_by(modulos) %>%
+  summarise(riq_mod = n_distinct(especies)) 
+
+view(riq_modulo)
+
 # riqueza <- riqueza %>%
 #   filter(parcelas != 59) %>% # Parcela sem dados
 #   view()
