@@ -563,45 +563,7 @@ dados_sp1 <- dados_sp |>
 
 view(dados_sp1)
 
-## Gerar tabela de riqueza
-
-dados_spr <- dados_sp |>
-  group_by(parcelas) |>
-  summarise(n_sp = n_distinct(especie))
-
-view(dados_spr)
-glimpse(dados_spr)
-
-dados_spr$parcelas <- as.numeric(dados_spr$parcelas)
-
-abund_spr <- dados_spr %>%
-  dplyr::mutate(modulos = case_when(
-    parcelas >= 1  & parcelas <= 10  ~ "M1",
-    parcelas >= 11 & parcelas <= 20  ~ "M2",
-    parcelas >= 21 & parcelas <= 30  ~ "M3",
-    parcelas >= 31 & parcelas <= 40  ~ "M4",
-    parcelas >= 41 & parcelas <= 50  ~ "M5",
-    parcelas >= 51 & parcelas <= 60  ~ "M6",
-    TRUE ~ NA_character_))
-
-view(dados_spr)
-
-library(vegan) # Uso da função specnumber
-
-Riqueza <- specnumber(dados[-1])
-Riqueza
-view(Riqueza)
-
-riqueza <- as.data.frame(Riqueza)
-view(riqueza)
-
-riqueza <- riqueza %>%
-  mutate(parcela = 1:60) %>%
-  rename(parcelas = parcela)
-
-view(riqueza)
-
-# Número total de espécies únicas
+# Tabela da riqueza e número total de espécies únicas
 
 dados_riq <- readxl::read_xlsx("sp.xlsx")
 view(dados_riq)
@@ -611,12 +573,19 @@ dados_sp_riq <- dados_riq |>
   drop_na() |>
   summarise(n_sp = n_distinct(especies))
 
-dados_sp_riq
+view(dados_sp_riq)
 
-dados_riq$parcelas <- as.numeric(dados_riq$parcelas)
-dados_riq$especies <- as.factor(dados_riq$especies)
+dados_riq1 <- dados_riq |>
+  drop_na() |>
+  group_by(parcelas) |>
+  summarise(n_sp = n_distinct(especies))
+  
+view(dados_riq1)
 
-dados_riq <- dados_riq %>%
+dados_riq1$parcelas <- as.numeric(dados_riq1$parcelas)
+dados_riq1$n_sp <- as.factor(dados_riq1$n_sp)
+
+dados_riq2 <- dados_riq1 %>%
   dplyr::mutate(modulos = case_when(
     parcelas >= 1  & parcelas <= 10  ~ "M1",
     parcelas >= 11 & parcelas <= 20  ~ "M2",
@@ -625,19 +594,49 @@ dados_riq <- dados_riq %>%
     parcelas >= 41 & parcelas <= 50  ~ "M5",
     parcelas >= 51 & parcelas <= 60  ~ "M6"))
 
-view(dados_riq)
+view(dados_riq2)
+glimpse(dados_riq2)
 
-riq_modulo <- dados_riq %>%
+dados_riq2$modulos <- as.factor(dados_riq2$modulos)
+dados_riq2$parcelas <- as.factor(dados_riq2$parcelas)
+dados_riq2$n_sp <- as.numeric(dados_riq2$n_sp)
+
+## Riqueza por módulo
+
+riq_modulo <- dados_riq2 %>%
+  mutate(as.factor(modulos)) %>%
   group_by(modulos) %>%
-  summarise(riq_mod = n_distinct(especies)) 
+  summarise(riq_mod = sum(n_sp)) 
 
 view(riq_modulo)
 
-# riqueza <- riqueza %>%
-#   filter(parcelas != 59) %>% # Parcela sem dados
-#   view()
+## Riqueza por parcela
+
+riq_parcela <- dados_riq2 %>%
+  group_by(parcelas) %>%
+  summarise(riq_parc = sum(n_sp)) 
+
+view(riq_parcela)
+
+## Médias da riqueza por módulos
+
+med_dados_riq <- dados_riq2 %>%
+  group_by(modulos) %>%
+  summarise(med_riq_mod = mean(n_sp)) 
+
+view(med_dados_riq)
 
 ## Gerar tabela de abundância
+
+dados <- readxl::read_xlsx("tab_pres_aus_sp.xlsx")
+view(dados)
+
+dados_sp <- dados %>%
+  pivot_longer(cols = contains((" ")),
+               names_to = "especie",       
+               values_to = "abundancia")
+
+view(dados_sp)
 
 abundancia <- dados_sp %>%
   group_by(parcelas) %>%
