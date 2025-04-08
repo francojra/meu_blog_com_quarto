@@ -61,7 +61,7 @@ updateR()
 
 Após isso, aparecerão opções para selecionar um servidor (espelho). Você pode selecionar qualquer cidade do Brasil e clicar em 'ok'. Se não aparecer o servidor, então a instalação iniciará automaticamente.
 
-[**Terceiro passo:**]{.underline}
+[**3º passo:**]{.underline}
 
 1.  Após executar o comando **`updateR()`**, um assistente de atualização será aberto, fornecendo instruções sobre como proceder com a atualização. Siga as instruções fornecidas.
 
