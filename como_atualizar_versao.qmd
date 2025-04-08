@@ -35,7 +35,7 @@ As atualizações contribuem para uma experiência mais suave, eficiente e produ
 
 Veja o passo a passo para atualizar as novas versões do R usando o pacote **`installr`** sem precisar instalar o software no seu computador.
 
-[**Primeiro passo:**]{.underline}
+[**1º passo:**]{.underline}
 
 Verifique a versão atual que está utilizando através do seguinte comando no console do R:
 
