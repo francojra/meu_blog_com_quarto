@@ -71,7 +71,7 @@ Após isso, aparecerão opções para selecionar um servidor (espelho). Você po
 
 ![](images/img6.png){fig-align="center" width="500"}
 
-[**Quarto passo:**]{.underline}
+[**4º passo:**]{.underline}
 
 Após concluir, feche novamente o R, abra o software e digite novamente no console o comando **`version`** para confirmar as informações da nova versão.
 
