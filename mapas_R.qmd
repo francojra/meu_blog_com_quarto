@@ -11,7 +11,7 @@ toc: true
 
 Nesta seção explicarei como produzir mapas no R e quais pacotes são necessários para essa finalidade. Como exemplo, irei elaborar um mapa dos biomas brasileiros, incluindo a legenda, orientação, eixos e escala.
 
-![](images/image_sf.png){fig-align="center"}
+![](images/image_sf-Photoroom.jpg){fig-align="center"}
 
 ## Pacotes necessários
 
