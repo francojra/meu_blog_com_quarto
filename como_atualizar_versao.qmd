@@ -47,7 +47,7 @@ O resultado será semelhante a imagem abaixo com algumas informações sobre a s
 
 ![](images/img7.png){fig-align="center" width="500"}
 
-[**Segundo passo:**]{.underline}
+[**2º passo:**]{.underline}
 
 Pesquise o RGui (R nativo) no menu Iniciar do seu computador e execute os seguintes comandos. O pacote **`installr`** serve para executar a função **`updateR()`** que fará a atualização da versão:
 
