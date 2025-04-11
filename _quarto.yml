@@ -21,7 +21,6 @@ website:
   navbar:
     right:
       - text: Página Inicial
-        menu: 
           - pagina-inicial.qmd
       - text: Postagens
         menu: 
