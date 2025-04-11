@@ -15,8 +15,6 @@ A empresa foi criada em 2018 e conta com a colaboração de especialistas de div
 
 ### Cursos
 
-Abaixo estão listados os cursos dos quais sou mentora e os respectivos links de acesso. Nesses links você poderá visualizar o conteúdo das aulas.
-
 ◾ Visualização de dados com R. Acesse o curso hospedado na Udemy [aqui](https://www.udemy.com/course/visualizacao-dados-r/).
 
 ◾ Gráficos em R com *ggplot2*. Acesse o curso hospedado na Hotmart [aqui](https://hotmart.com/pt-br/marketplace/produtos/graficos-em-r-com-ggplot2/H55031467J).
