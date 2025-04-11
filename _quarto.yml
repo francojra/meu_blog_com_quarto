@@ -17,7 +17,7 @@ website:
       - icon: github
         href: https://github.com/francojra
   page-navigation: true
-  title: "Blog Running R"
+  title: "Running R"
   navbar:
    right:
       - text: "Página Inicial"

@@ -2,9 +2,10 @@
 title: "Serviços"
 page-layout: full
 title-block-banner: true
+lang: pt
 ---
 
-### Consultorias de programação em R e análises estatísticas:
+◾Consultorias de programação em R e análises estatísticas:
 
 ◾Produção de gráficos: barras, histogramas, boxplot, linhas, gráficos animados, gráficos 3D e wordcloud;
 
