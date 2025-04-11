@@ -2,15 +2,16 @@
 title: "Página Inicial"
 page-layout: full
 title-block-banner: true
+lang: pt
 ---
 
-**Bem-vindo(a) ao Blog *Running R*!**
+### **Bem-vindo(a) ao Blog *Running R*!**
 
 Este blog é um espaço dedicado à **programação em R**, com foco em análises estatísticas e visualização de dados. Aqui você encontrará tutoriais, dicas práticas e reflexões baseadas em minha experiência com o R --- desde os primeiros scripts até projetos mais complexos envolvendo ciência de dados, mapas, gráficos interativos, e análises de dados básicas e avançadas.
 
 O nome *Running R* surgiu da ideia de manter o R sempre em movimento --- aprendendo, praticando, testando e compartilhando. A linguagem R é uma ferramenta poderosa e versátil, e meu objetivo com este blog é torná-la mais acessível para quem está começando, além de oferecer recursos úteis para quem já tem alguma experiência.
 
-Neste blog você irá encontrar:
+#### Neste blog você irá encontrar:
 
 -   Tutoriais passo a passo para te ajudar a aprender R na prática.
 -   Visualizações de dados com *ggplot2*, *plotly*, *leaflet*, entre outros.
@@ -19,7 +20,7 @@ Neste blog você irá encontrar:
 -   Dicas sobre boas práticas em programação e reprodutibilidade.
 -   Expriências de colaboração com a comunidade [R-Ladies Natal](https://rladies.org/) e a empresa [Beta Analítica](https://www.instagram.com/beta.analitica/).
 
-Este blog serve para:
+#### Este blog serve para:
 
 -   Estudantes e pesquisadores(as) que estão começando no R;
 -   Pessoas que desejam aplicar estatística de forma prática e clara;
