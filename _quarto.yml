@@ -17,7 +17,7 @@ website:
       - icon: github
         href: https://github.com/francojra
   page-navigation: true
-  title: "Running R"
+  title: "Blog Running R"
   navbar:
     right:
       - text: Postagens
@@ -25,6 +25,7 @@ website:
           - R.qmd
           - graph.qmd
           - stats.qmd
+          - maps.qmd
       - text: Atividades
         menu:
           - beta_analitica.qmd
