@@ -20,6 +20,9 @@ website:
   title: "Blog Running R"
   navbar:
     right:
+      - text: Página Inicial
+        menu: 
+          - pagina-inicial.qmd
       - text: Postagens
         menu: 
           - R.qmd
