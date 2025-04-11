@@ -1,7 +1,7 @@
 ---
-title: "Página Inicial"
+title: "Produção de mapas no R"
 listing:
-  contents: pagina-inicial
+  contents: posts-map
   sort: "date desc"
   type: default
   categories: true

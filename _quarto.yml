@@ -19,16 +19,16 @@ website:
   page-navigation: true
   title: "Blog Running R"
   navbar:
-    right:
-      - text: Página Inicial
-          - pagina-inicial.qmd
+   right:
+      - text: "Página Inicial"
+        href: pagina-inicial.qmd
       - text: Postagens
         menu: 
           - R.qmd
           - graph.qmd
           - stats.qmd
           - maps.qmd
-      - text: Atividades
+      - text: Colaborações
         menu:
           - beta_analitica.qmd
           - rladies.qmd
