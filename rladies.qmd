@@ -17,10 +17,10 @@ A comunidade [R-Ladies Natal](https://www.instagram.com/rladiesnatal/?next=%2F) 
 
 Abaixo estão listadas as palestras que ministrei por meio da comunidade R-Ladies.
 
-<center>
+<left>
 
 ::: box
-<img src="images/ggplot2_dplyr_rladies-01.png" width="150"/> <br> Visualização de dados com *ggplot2* e *dply*r <br>
+<img src="images/ggplot2_dplyr_rladies-01.png" width="150"/> <br> Visualização de dados <br>com *ggplot2* e *dplyr* <br>
 :::
 
 ::: box
@@ -32,30 +32,30 @@ Abaixo estão listadas as palestras que ministrei por meio da comunidade R-Ladie
 :::
 
 ::: box
-![](images/introducao_r_rladies.png){width="150"} <br> Introdução ao R: passo a passo para iniciantes <br>
+![](images/introducao_r_rladies.png){width="150"} <br> Introdução ao R: passo a <br>passo para iniciantes <br>
 :::
 
 ::: box
-![](images/p3.png){width="150"} <br> Conhecendo a R-Ladies Natal: entre scripts e meet-ups <br>
+![](images/p3.png){width="150"} <br> Conhecendo a R-Ladies<br> Natal: entre scripts e meet-ups <br>
 :::
 
 ::: box
-![](images/p1.png){width="150"} <br> Importância da R-Ladies para o desenvolvimento científico e social <br>
+![](images/p1.png){width="150"} <br> Importância da R-Ladies para <br>o desenvolvimento científico e social <br>
 :::
 
 ::: box
-![](palestra_tidyverse.png){width="150"} <br> Explorando a visuzalização de dados no R com Tidyverse <br>
+![](palestra_tidyverse.png){width="150"} <br> Explorando a visuzalização de<br> dados no R com Tidyverse <br>
 :::
 
 ::: box
-![](images/p2.png){width="150"} <br> Conhecendo a comunidade R-Ladies Natal <br>
+![](images/p2.png){width="150"} <br> Conhecendo a comunidade<br> R-Ladies Natal <br>
 :::
 
 ::: box
-![](semabio.png){width="150"} <br> Transformando Dados em Gráficos no R <br>
+![](semabio.png){width="150"} <br> Transformando Dados em<br> Gráficos no R <br>
 :::
 
-</center>
+</left>
 
 ```{=html}
 <style>
