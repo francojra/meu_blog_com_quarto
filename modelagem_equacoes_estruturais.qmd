@@ -5,6 +5,7 @@ format: html
 editor: visual
 date: 30/03/2025
 categories: [Códigos, Modelos de Equações Estruturais, MEE, SEM]
+image: grafico_mee.jpg
 lang: pt
 toc: true
 ---
