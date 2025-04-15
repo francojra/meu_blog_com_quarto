@@ -6,7 +6,8 @@ website:
   google-analytics:
     tracking-id: "G-DPJZ1QC6J5"
   open-graph: true
-  favicon: trevo.png
+  twitter-card: true
+  favicon: favicon.png
   page-footer:
     left: "Blog feito com 🖤 e [Quarto](https://quarto.org/), por Jeanne Franco."
     right: 
