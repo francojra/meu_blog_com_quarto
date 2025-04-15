@@ -5,7 +5,7 @@ format: html
 # format: pdf
 date: 02/04/25
 categories: [Códigos, Mapas, GBIF]
-image: map_sp_vegetation2.jpg 
+image: map_sp.jpg 
 lang: pt
 toc: true
 ---
