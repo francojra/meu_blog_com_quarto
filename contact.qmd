@@ -11,13 +11,13 @@ about:
 
 <p>
 
-<h4>
+<h3>
 
 ::: {style="text-align:left"}
 ️[E-mail](mailto:jfranco.jraf@gmail.com) <img src="https://img.icons8.com/ios-filled/512/apple-mail.png" alt="Jeanne-HTML" align="center" height="24" width="24"/>
 :::
 
-</h4>
+</h3>
 
 </p>
 
@@ -33,7 +33,7 @@ about:
 
 <p>
 
-<h4>
+<h3>
 
 ::: {style="text-align:left"}
 [LinkedIn](https://www.linkedin.com/in/francojra/) <img src="https://img.icons8.com/ios-glyphs/512/linkedin-circled.png" alt="Jeanne-HTML" align="center" height="26" width="26"/>
@@ -41,7 +41,7 @@ about:
 
 </p>
 
-</h4>
+</h3>
 
 </div style="text-align:left">
 
@@ -57,7 +57,7 @@ about:
 
 <p>
 
-<h4>
+<h3>
 
 ::: {style="text-align:left"}
 [GitHub](https://github.com/francojra) <img src="https://img.icons8.com/ios-glyphs/512/github.png" alt="Jeanne-HTML" align="center" height="26" width="26"/>
@@ -65,7 +65,7 @@ about:
 
 </p>
 
-</h4>
+</h3>
 
 </div style="text-align:left">
 
