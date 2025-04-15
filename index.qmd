@@ -13,16 +13,24 @@ O nome *Running R* surgiu da ideia de manter o R sempre em movimento --- aprende
 
 #### **Neste blog você irá encontrar:**
 
--   Tutoriais passo a passo para te ajudar a aprender R na prática.
--   Visualizações de dados com *ggplot2*, *plotly*, *leaflet*, entre outros.
--   Análises estatísticas com foco aplicado.
--   Publicações interativas usando Quarto.
--   Dicas sobre boas práticas em programação e reprodutibilidade.
--   Expriências de colaboração com a comunidade [R-Ladies Natal](https://rladies.org/) e a empresa [Beta Analítica](https://www.instagram.com/beta.analitica/).
+◾Tutoriais passo a passo para te ajudar a aprender R na prática.
+
+◾Visualizações de dados com *ggplot2*, *plotly*, *leaflet*, entre outros.
+
+◾Análises estatísticas com foco aplicado.
+
+◾Publicações interativas usando Quarto.
+
+◾Dicas sobre boas práticas em programação e reprodutibilidade.
+
+◾Expriências de colaboração com a comunidade [R-Ladies Natal](https://rladies.org/) e a empresa [Beta Analítica](https://www.instagram.com/beta.analitica/).
 
 #### **Este blog serve para:**
 
--   Estudantes e pesquisadores(as) que estão começando no R;
--   Pessoas que desejam aplicar estatística de forma prática e clara;
--   Curiosos por dados, ciência e programação;
--   Integrantes da comunidade R que buscam novos recursos e inspirações.
+◾Estudantes e pesquisadores(as) que estão começando no R;
+
+◾Pessoas que desejam aplicar estatística de forma prática e clara;
+
+◾Curiosos por dados, ciência e programação;
+
+◾Integrantes da comunidade R que buscam novos recursos e inspirações.
