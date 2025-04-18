@@ -173,8 +173,8 @@ sleepstudy$pred1 <- predict(modelo_glmmTMB, type = "response")
 
 ggplot(sleepstudy, aes(x = Days, y = Reaction, color = Subject)) +
   geom_point(aes(color = Subject), size = 2.2) +
-  geom_line(aes(y = pred1, group = Subject), size = 0.8) +
-  theme_minimal() +
+  geom_line(aes(y = pred1, group = Subject), size = 1) +
+  theme_light() +
   labs(title = "Ajuste do GLMM (Distribuição Gaussiana)",
        x = "Dias", y = "Tempo de Reação") 
 ```
