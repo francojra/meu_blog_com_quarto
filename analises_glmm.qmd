@@ -30,4 +30,6 @@ Como saber o nível de similaridade dentro do grupo:
 
 Use o ICC (Coeficiente de Correlação Intraclasse) do pacote `performance` para medir a similaridade dentro dos grupos. Valores próximos de 1 indicam forte hierarquia.
 
-r Copy performance::icc(modelo_glmm)
+``` r
+performance::icc(modelo_glmm)
+```
