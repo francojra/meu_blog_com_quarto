@@ -9,3 +9,19 @@ image: grafico_mee.jpg
 lang: pt
 toc: true
 ---
+
+GLMM: Modelos Lineares Generalizados Mistos em R
+
+1. O que é GLMM?
+
+GLMM combina duas abordagens poderosas:
+
+- GLM (Modelos Lineares Generalizados): Extensão de modelos lineares para respostas não-normais (binárias, Poisson, etc.). Isso ocorre quando as variáveis resposta não seguem a distribuição normal, muitas vezes essas variáveis podem representar dados de contagem, dados binários, porcentagens, etc., seguindo, portanto, outras distribuições.
+
+- Efeitos aleatórios: Incorpora variação hierárquica ou agrupamento nos dados (ex.: medidas repetidas, dados aninhados).
+
+Quando usar?
+
+- Quando seus dados têm estrutura hierárquica (ex.: alunos em escolas, repetições no tempo).
+
+- Quando a variável resposta não é contínua/normal (ex.: contagens, proporções, binária).
