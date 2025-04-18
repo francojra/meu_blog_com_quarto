@@ -5,12 +5,13 @@ format: html
 editor: visual
 date: 17/04/2025
 categories: [Códigos, Modelos Lineares Generalizados Mistos, GLMM]
-image: grafico_mee.jpg
 lang: pt
 toc: true
 ---
 
-GLMM: Modelos Lineares Generalizados Mistos em R
+## GLMM: Modelos Lineares Generalizados Mistos em R
+
+### Conceitos
 
 1.  O que é GLMM?
 
@@ -20,16 +21,59 @@ GLMM combina duas abordagens poderosas:
 
 -   Efeitos aleatórios: Incorpora variação hierárquica ou agrupamento nos dados (ex.: medidas repetidas, dados aninhados). Esses efeitos aleatórios são incluídos quando os grupos apresentam dependência entre as observações dentre de um mesmo grupo, por exemplo, medidas do crescimento de plantas ao longo do tempo em uma mesma planta, ou quando cada sujeito em um grupo avaliado apresenta diferentes características, por exemplo, alunos de uma escola, parcelas em um experimento de floresta, pacientes de um hospital, etc.
 
-Considerado isso, quando devemos usar a análise GLMM?
+2.  Considerado isso, quando devemos usar a análise GLMM?
 
 -   Quando seus dados têm estrutura hierárquica (ex.: alunos em escolas, repetições no tempo).
 
 -   Quando a variável resposta não é contínua/normal (ex.: contagens, proporções, binária).
 
-Como saber o nível de similaridade dentro do grupo:
+3.  Como saber o nível de similaridade dentro do grupo:
 
-Use o ICC (Coeficiente de Correlação Intraclasse) do pacote `performance` para medir a similaridade dentro dos grupos. Valores próximos de 1 indicam forte hierarquia.
+Use o ICC (Coeficiente de Correlação Intraclasse) do pacote `performance` para medir a similaridade dentro dos grupos. Valores próximos de 1 indicam forte hierarquia. Veja o código abaixo de como fazer isso:
 
 ``` r
 performance::icc(modelo_glmm)
 ```
+
+### Exemplo prático no R
+
+Como exemplo, vamos utilizar o conjunto de dados `sleepstudy` presente em um pacote do R. Esses dados tratam de um teste de cognição, do tempo médio de reação (em milissegundos) para indivíduos em um estudo de privação do sono.
+
+O conjunto de dados `sleepstudy` apresenta 180 observações e as seguintes 3 variáveis:
+
+1.  Reaction: tempo médio de reação (ms);
+
+2.  Days: número de dias de privação de sono;
+
+3.  Subject: número do indivíduo em que as observações foram feitas.
+
+Agora, vamos a prática no R:
+
+#### **Passo 1: Carregar pacote da análise GLMM e conjunto de dados**
+
+```{r, message=FALSE, warning=FALSE}
+# Pacotes
+
+library(lme4)      # Para GLMM
+library(ggplot2)   # Para gráficos
+
+# Dados
+
+data("sleepstudy")
+head(sleepstudy)
+```
+
+#### **Passo 2: análise exploratória dos dados**
+
+```{r, message=FALSE, warning=FALSE}
+ggplot(sleepstudy, aes(x = Days, y = Reaction, color = Subject)) +
+  geom_point() +
+  geom_smooth(method = "lm", se = FALSE) +
+  theme_minimal() +
+  labs(title = "Tempo de Reação por Dia (por Sujeito)",
+       x = "Dias de Privação de Sono", y = "Tempo de Reação (ms)")
+```
+
+**Observação**: Há variação entre indivíduos (*efeito aleatório*), mas um padrão geral de aumento do tempo de reação com mais dias de privação (*efeito fixo*).
+
+#### 
