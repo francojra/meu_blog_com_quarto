@@ -76,7 +76,7 @@ ggplot(sleepstudy, aes(x = Days, y = Reaction, color = Subject)) +
 
 **Observação**: Há variação entre indivíduos (*efeito aleatório*), mas um padrão geral de aumento do tempo de reação com mais dias de privação (*efeito fixo*).
 
-**Passo 3: executar o modelo GLMM**
+**Passo 3: executar ajuste do modelo GLMM**
 
 Suponha que **`Reaction`** siga uma distribuição Gamma (para ilustrar GLMM não-normal). Usaremos:
 
@@ -107,10 +107,78 @@ sleepstudy$pred <- predict(modelo_glmm, type = "response")
 
 ggplot(sleepstudy, aes(x = Days, y = Reaction)) +
   geom_point(aes(color = Subject)) +
-  geom_line(aes(y = pred, group = Subject), size = 1) +
+  geom_line(aes(y = pred, group = Subject), size = 0.8) +
   theme_minimal() +
   labs(title = "Ajuste do GLMM (Distribuição Gamma)",
-       x = "Dias", y = "Tempo de Reação")
+       x = "Dias", y = "Tempo de Reação") 
 ```
 
-#### 
+### **Dicas Extras**
+
+-   **Checagem do Modelo**: Use **`DHARMa`** para diagnósticos de resíduos.
+
+-   **Outros Distribuições**: Troque **`Gamma`** por **`poisson`** ou **`binomial`** conforme seus dados. Dados inteiros como os de contagem costumam apresentar distribuição do tipo poisson e dados binários apresentam distribuição do tipo binomial.
+
+### Diagnósticos do modelo com `DHARMa`
+
+```{r, message=FALSE, warning=FALSE}
+library(DHARMa)
+
+simulacoes <- simulateResiduals(modelo_glmm, n = 1000)  # Simula 1000 conjuntos de dados
+plot(simulacoes)  # Gera 4 gráficos de diagnóstico
+```
+
+Como verificado no diagnóstico, o modelo não se ajustou bem aos dados `sleepstudy`, portanto, devemos adequar o modelo para uma análise mais confiável.\
+\
+Como é possível que o efeito de dias `Days` varie entre indivíduos, então podemos adicionar uma variação aleatória. Também vamos utilizar a função alternativa `glmmTMB`.
+
+O **`glmmTMB`** é um pacote do R que surgiu como uma alternativa mais flexível e robusta ao **`lme4`** para ajustar **GLMMs** (Modelos Lineares Generalizados Mistos).
+
+Enquanto **`lme4`** suporta apenas algumas distribuições (Gaussiana, Binomial, Poisson), o **`glmmTMB`** inclui opções como:
+
+-   **Beta**: Para proporções contínuas (ex.: 0 \< y \< 1).
+
+-   **Tweedie**: Para dados contínuos com excesso de zeros.
+
+-   **Nbinom2** (Binomial Negativa): Para contagens superdispersas.
+
+-   **Gamma**, **Log-Normal**, etc.
+
+```{r, message=FALSE, warning=FALSE}
+
+# Carregar pacote glmmTMB
+
+library(glmmTMB)
+modelo_glmmTMB <- glmmTMB(Reaction ~ Days + (1 + Days | Subject), 
+                        family = gaussian(), 
+                        data = sleepstudy)
+
+# Diagnóstico final
+
+simulacoes_final <- simulateResiduals(modelo_glmmTMB)
+plot(simulacoes_final)
+
+# Resumo do modelo
+
+summary(modelo_glmmTMB)
+```
+
+Agora, verificamos um bom ajuste do modelo, usando dias e indivíduos como variáveis aleatórias.
+
+#### **Visualizando predições com o modelo ajustado**
+
+```{r, message=FALSE, warning=FALSE}
+
+sleepstudy$pred1 <- predict(modelo_glmmTMB, type = "response")
+
+ggplot(sleepstudy, aes(x = Days, y = Reaction, color = Subject)) +
+  geom_point(aes(color = Subject), size = 2.2) +
+  geom_line(aes(y = pred1, group = Subject), size = 0.8) +
+  theme_minimal() +
+  labs(title = "Ajuste do GLMM (Distribuição Gaussiana)",
+       x = "Dias", y = "Tempo de Reação") 
+```
+
+### Conclusão
+
+GLMM é essencial para dados com estrutura complexa e não-normais. No exemplo, modelamos a relação entre privação de sono e tempo de reação, considerando diferenças individuais.
