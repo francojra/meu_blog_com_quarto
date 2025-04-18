@@ -20,7 +20,7 @@ GLMM combina duas abordagens poderosas:
 
 - Efeitos aleatórios: Incorpora variação hierárquica ou agrupamento nos dados (ex.: medidas repetidas, dados aninhados). Esses efeitos aleatórios são incluídos quando os grupos apresentam dependência entre as observações dentre de um mesmo grupo, por exemplo, medidas do crescimento de plantas ao longo do tempo em uma mesma planta, ou quando cada sujeito em um grupo avaliado apresenta diferentes características, por exemplo, alunos de uma escola, parcelas em um experimento de floresta, pacientes de um hospital, etc.
 
-Quando usar?
+Considerado isso, quando devemos usar a análise GLMM?
 
 - Quando seus dados têm estrutura hierárquica (ex.: alunos em escolas, repetições no tempo).
 
