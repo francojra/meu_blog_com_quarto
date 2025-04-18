@@ -76,4 +76,41 @@ ggplot(sleepstudy, aes(x = Days, y = Reaction, color = Subject)) +
 
 **Observação**: Há variação entre indivíduos (*efeito aleatório*), mas um padrão geral de aumento do tempo de reação com mais dias de privação (*efeito fixo*).
 
+**Passo 3: executar o modelo GLMM**
+
+Suponha que **`Reaction`** siga uma distribuição Gamma (para ilustrar GLMM não-normal). Usaremos:
+
+-   **Efeito fixo**: **`Days`** (dias de privação).
+
+-   **Efeito aleatório**: Intercepto por **`Subject`** (variação individual).
+
+```{r, message=FALSE, warning=FALSE}
+modelo_glmm <- glmer(Reaction ~ Days + (1 | Subject),
+                     family = Gamma(link = "log"),
+                     data = sleepstudy)
+
+# Resumo do modelo
+
+summary(modelo_glmm)
+```
+
+**Interpretação da tabela:**
+
+-   **Efeito fixo (`Days`)**: Coeficiente positivo indica aumento no tempo de reação com mais dias (valor de *p* significativo).
+
+-   **Efeito aleatório (`Subject`)**: Variância do intercepto mostra diferenças entre indivíduos.
+
+#### **Passo 4: Visualizar Previsões**
+
+```{r, message=FALSE, warning=FALSE}
+sleepstudy$pred <- predict(modelo_glmm, type = "response")
+
+ggplot(sleepstudy, aes(x = Days, y = Reaction)) +
+  geom_point(aes(color = Subject)) +
+  geom_line(aes(y = pred, group = Subject), size = 1) +
+  theme_minimal() +
+  labs(title = "Ajuste do GLMM (Distribuição Gamma)",
+       x = "Dias", y = "Tempo de Reação")
+```
+
 #### 
