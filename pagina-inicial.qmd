@@ -34,3 +34,15 @@ O nome *Running R* surgiu da ideia de manter o R sempre em movimento --- aprende
 ◾Curiosos por dados, ciência e programação;
 
 ◾Integrantes da comunidade R que buscam novos recursos e inspirações.
+
+::: callout-note
+
+*"Sem dados, você é apenas uma pessoa qualquer com uma opinião."* --- **W. Edwards Deming**
+
+*"Dados são como o novo petróleo, mas só valem quando refinados."* --- **Clive Humby**
+
+*"Torture os dados o suficiente, e eles confessam qualquer coisa."* --- **Ronald Coase**
+
+*"Um bom gráfico é aquele que revela o inesperado."* --- **John Tukey**
+
+:::
