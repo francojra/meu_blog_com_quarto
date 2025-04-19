@@ -70,8 +70,7 @@ ggplot(sleepstudy, aes(x = Days, y = Reaction, color = Subject)) +
   geom_point(size = 2.2) +
   geom_smooth(method = "lm", se = FALSE, size = 1) +
   theme_light() +
-  labs(title = "Tempo de Reação por Dia (por Sujeito)",
-       x = "Dias de Privação de Sono", 
+  labs(x = "Dias de Privação de Sono", 
        y = "Tempo de Reação (ms)",
        color = "Indivíduos") +
   theme(legend.position = "top")
@@ -79,7 +78,7 @@ ggplot(sleepstudy, aes(x = Days, y = Reaction, color = Subject)) +
 
 **Observação**: Há variação entre indivíduos (*efeito aleatório*), mas um padrão geral de aumento do tempo de reação com mais dias de privação (*efeito fixo*).
 
-**Passo 3: executar ajuste do modelo GLMM**
+#### **Passo 3: executar ajuste do modelo GLMM**
 
 Suponha que **`Reaction`** siga uma distribuição Gamma (para ilustrar GLMM não-normal). Usaremos:
 
@@ -112,8 +111,7 @@ ggplot(sleepstudy, aes(x = Days, y = Reaction, color = Subject)) +
   geom_point(aes()) +
   geom_line(aes(y = pred, group = Subject), size = 0.8) +
   theme_light() +
-  labs(title = "Tempo de Reação por Dia (por Sujeito)",
-       x = "Dias de Privação de Sono", 
+  labs(x = "Dias de Privação de Sono", 
        y = "Tempo de Reação (ms)",
        color = "Indivíduos") +
   theme(legend.position = "top")
@@ -136,7 +134,7 @@ plot(simulacoes)  # Gera 4 gráficos de diagnóstico
 
 Como verificado no diagnóstico, o modelo não se ajustou bem aos dados `sleepstudy`, portanto, devemos adequar o modelo para uma análise mais confiável.\
 \
-Como é possível que o efeito de dias `Days` varie entre indivíduos, então podemos adicionar uma variação aleatória. Também vamos utilizar a função alternativa `glmmTMB`.
+Como é possível que o efeito de dias `Days` varie entre indivíduos, então podemos adicionar mais uma variação aleatória de dias. Também vamos utilizar a função alternativa `glmmTMB` para permitir melhor ajuste.
 
 O **`glmmTMB`** é um pacote do R que surgiu como uma alternativa mais flexível e robusta ao **`lme4`** para ajustar **GLMMs** (Modelos Lineares Generalizados Mistos).
 
@@ -188,12 +186,56 @@ ggplot(sleepstudy, aes(x = Days, y = Reaction, color = Subject)) +
   geom_point(aes(color = Subject), size = 2.2) +
   geom_line(aes(y = pred1, group = Subject), size = 1) +
   theme_light() +
-  labs(title = "Tempo de Reação por Dia (por Sujeito)",
-       x = "Dias de Privação de Sono", 
+  labs(x = "Dias de Privação de Sono", 
        y = "Tempo de Reação (ms)",
        color = "Indivíduos") +
   theme(legend.position = "top")
 ```
+
+### Calculando o R² do modelo ajustado
+
+Calcular o **R²** (coeficiente de determinação) para modelos **GLMM** (como os ajustados com **`lme4`** ou **`glmmTMB`**) não é tão direto quanto em modelos lineares tradicionais (LM), pois esses modelos incorporam **efeitos aleatórios** e podem usar **distribuições não-normais**.
+
+#### 1. Tipos de R² para GLMM
+
+Há duas versões principais, conforme propostas por **Nakagawa & Schielzeth (2013)**:
+
+-   **R² marginal (R^2^m):** Explica a variância pelos **efeitos fixos** (ex.: **`Days`** no **`sleepstudy`**).
+
+-   **R² condicional R^~2~^c):** Inclui **efeitos fixos + aleatórios** (ex.: **`Subject`**).
+
+#### **2. Cálculo usando o pacote `performance`**
+
+A maneira mais simples é usar a função **`r2()`** do pacote **`performance`** (que funciona com **`lme4`**, **`glmmTMB`**, **`brms`**, etc.):
+
+```{r, message=FALSE, warning=FALSE}
+# Pacote para calcular o R²
+
+library(performance)
+
+# Calcular R² marginal e condicional
+
+r2 <- r2(modelo_glmmTMB)
+print(r2)
+```
+
+#### **3. Interpretação**
+
+-   R² marginal ​= 0.288: Apenas 28.8% da variância em **`Reaction`** é explicada por **`Days`** (efeito fixo).
+
+-   R² condicional ​=0.793: 79.3% da variância é explicada por **`Days`** + diferenças individuais entre **`Subject`** (efeitos aleatórios).
+
+Quanto maior a diferença entre o R² marginal e o R² condicional, mais importante são os efeitos aleatórios no modelo.
+
+Os **efeitos aleatórios** em modelos mistos (GLMMs) capturam variações não explicadas pelos efeitos fixos, mas que estão associadas a **estruturas hierárquicas ou agrupamentos** nos dados (ex.: indivíduos, parcelas, tempo).
+
+A grande diferença (0.79−0.28=0.51) indica que **os efeitos aleatórios dominam a explicação do modelo**. Ou seja, as características individuais dos sujeitos importam mais que o efeito geral dos dias.
+
+Se os efeitos aleatórios dominam (R² condicional muito maior que R² marginal), isso sugere que:
+
+-   Sua pergunta científica deve focar nos grupos (ex.: "Por que alguns indivíduos são mais afetados?").
+
+-   Você pode precisar de mais covariáveis para explicar as diferenças entre grupos.
 
 ### Conclusão
 
