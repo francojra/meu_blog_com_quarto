@@ -5,7 +5,6 @@ format: html
 editor: visual
 date: 30/03/2025
 categories: [Códigos, Modelos de Equações Estruturais, MEE, SEM]
-image: grafico_mee.jpg
 lang: pt
 toc: true
 ---
@@ -146,7 +145,7 @@ library(semPlot)
 
 ```{r}
 # Gráfico básico do modelo
-semPaths(
+sem_plot <- semPaths(
   object = ajuste,
   what = "std",           # Mostra coeficientes padronizados
   layout = "tree",        # Organização do gráfico
@@ -165,7 +164,10 @@ semPaths(
     edge.width = .7,    # Espessura das linhas e setas
     nodeLabels = c("X1", "X2", "X3", "X4", "X5", "X6", "X7", "X8", "X9","Espacial", "Verbal", "Velocidade"),
     edge.color = "gray8",   # Cor das linhas/setas
+  bg = "gray82",  # Cor de fundo (cinza claro)
 )
+sem_plot
+
 ```
 
 ## Interpretação do gráfico
