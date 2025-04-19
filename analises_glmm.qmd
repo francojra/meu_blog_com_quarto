@@ -196,7 +196,7 @@ ggplot(sleepstudy, aes(x = Days, y = Reaction, color = Subject)) +
 
 Calcular o **R²** (coeficiente de determinação) para modelos **GLMM** (como os ajustados com **`lme4`** ou **`glmmTMB`**) não é tão direto quanto em modelos lineares tradicionais (LM), pois esses modelos incorporam **efeitos aleatórios** e podem usar **distribuições não-normais**.
 
-#### 1. Tipos de R² para GLMM
+#### **1. Tipos de R² para GLMM**
 
 Há duas versões principais, conforme propostas por **Nakagawa & Schielzeth (2013)**:
 
@@ -236,6 +236,24 @@ Se os efeitos aleatórios dominam (R² condicional muito maior que R² marginal)
 -   Sua pergunta científica deve focar nos grupos (ex.: "Por que alguns indivíduos são mais afetados?").
 
 -   Você pode precisar de mais covariáveis para explicar as diferenças entre grupos.
+
+Portanto, se o **R² condicional** do seu modelo GLMM for significativamente maior que o **R² marginal**, isso sugere que **outras variáveis não medidas** --- como hábitos individuais (alimentação, medicamentos, atividade física) ou características intrínsecas (genética, metabolismo) --- podem estar influenciando o tempo de reação.
+
+Isso indica que cerca de 50% da variância restante (0.79−0.28) vem de fatores não controlados, como:
+
+-   Hábitos de vida (caféina, exercícios).
+
+-   Uso de medicamentos (estimulantes, antidepressivos).
+
+-   Condições de saúde (estresse, qualidade do sono basal).
+
+Suponha que:
+
+-   **Alimentação**: Pessoas com dieta rica em ômega-3 têm tempos de reação menores.
+
+-   **Café**: Consumo diário reduz o efeito da privação de sono.
+
+Se essas variáveis **não forem medidas**, seu modelo atribuirá essa variação aos efeitos aleatórios (**`Subject`**), inflando o R² condicional. Considerando isso, é necessário reconhecer as limitações das análises, pois diferenças entre indivíduos não medidas explicam parte dos resultados e sugerir novos estudos com novas coletas de dados sobre hábitos de vida.
 
 ### Conclusão
 
