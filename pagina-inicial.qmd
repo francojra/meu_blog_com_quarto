@@ -3,11 +3,13 @@ title: ""
 lang: pt
 ---
 
+::: {style="text-align: center; margin: 20px 0;"}
 #### **Bem-vindo(a) ao Blog Running R**
 
 Este blog é um espaço dedicado à **programação em R**, com foco em análises estatísticas e visualização de dados. Aqui você encontrará tutoriais, dicas práticas e reflexões baseadas em minha experiência com o R --- desde os primeiros scripts até projetos mais complexos envolvendo ciência de dados, mapas, gráficos interativos, e análises de dados básicas e avançadas.
 
 O nome *Running R* surgiu da ideia de manter o R sempre em movimento --- aprendendo, praticando, testando e compartilhando. A linguagem R é uma ferramenta poderosa e versátil, e meu objetivo com este blog é torná-la mais acessível para quem está começando, além de oferecer recursos úteis para quem já tem alguma experiência.
+:::
 
 ![](logo_blog.png){fig-align="center" width="300"}
 
@@ -35,14 +37,21 @@ O nome *Running R* surgiu da ideia de manter o R sempre em movimento --- aprende
 
 ◾Integrantes da comunidade R que buscam novos recursos e inspirações.
 
+
 ::: callout-note
+::: {style="text-align: center; font-style: italic; margin: 20px 0;"}
+"Sem dados, você é apenas uma pessoa qualquer com uma opinião." --- **W. Edwards Deming**
+:::
 
-*"Sem dados, você é apenas uma pessoa qualquer com uma opinião."* --- **W. Edwards Deming**
+::: {style="text-align: center; font-style: italic; margin: 20px 0;"}
+Dados são como o novo petróleo, mas só valem quando refinados." --- **Clive Humby**
+:::
 
-*"Dados são como o novo petróleo, mas só valem quando refinados."* --- **Clive Humby**
+::: {style="text-align: center; font-style: italic; margin: 20px 0;"}
+"Torture os dados o suficiente, e eles confessam qualquer coisa." --- **Ronald Coase**
+:::
 
-*"Torture os dados o suficiente, e eles confessam qualquer coisa."* --- **Ronald Coase**
-
-*"Um bom gráfico é aquele que revela o inesperado."* --- **John Tukey**
-
+::: {style="text-align: center; font-style: italic; margin: 20px 0;"}
+"Um bom gráfico é aquele que revela o inesperado." --- **John Tukey**
+:::
 :::
