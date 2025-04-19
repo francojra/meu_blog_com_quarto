@@ -56,6 +56,7 @@ Agora, vamos a prática no R:
 
 library(lme4)      # Para GLMM
 library(ggplot2)   # Para gráficos
+library(NatParksPalettes) # Seleção de cores para os gráficos
 
 # Dados
 
@@ -69,6 +70,7 @@ head(sleepstudy)
 ggplot(sleepstudy, aes(x = Days, y = Reaction, color = Subject)) +
   geom_point(size = 2.2) +
   geom_smooth(method = "lm", se = FALSE, size = 1) +
+  scale_color_manual(values = natparks.pals("Triglav", 18)) +
   theme_light() +
   labs(x = "Dias de Privação de Sono", 
        y = "Tempo de Reação (ms)",
@@ -108,8 +110,9 @@ summary(modelo_glmm)
 sleepstudy$pred <- predict(modelo_glmm, type = "response")
 
 ggplot(sleepstudy, aes(x = Days, y = Reaction, color = Subject)) +
-  geom_point(aes()) +
-  geom_line(aes(y = pred, group = Subject), size = 0.8) +
+  geom_point(size = 2.2) +
+  geom_line(aes(y = pred, group = Subject), size = 1) +
+  scale_color_manual(values = natparks.pals("Triglav", 18)) +
   theme_light() +
   labs(x = "Dias de Privação de Sono", 
        y = "Tempo de Reação (ms)",
@@ -185,6 +188,7 @@ sleepstudy$pred1 <- predict(modelo_glmmTMB, type = "response")
 ggplot(sleepstudy, aes(x = Days, y = Reaction, color = Subject)) +
   geom_point(aes(color = Subject), size = 2.2) +
   geom_line(aes(y = pred1, group = Subject), size = 1) +
+  scale_color_manual(values = natparks.pals("Triglav", 18)) +
   theme_light() +
   labs(x = "Dias de Privação de Sono", 
        y = "Tempo de Reação (ms)",
