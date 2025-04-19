@@ -108,12 +108,15 @@ summary(modelo_glmm)
 ```{r, message=FALSE, warning=FALSE}
 sleepstudy$pred <- predict(modelo_glmm, type = "response")
 
-ggplot(sleepstudy, aes(x = Days, y = Reaction)) +
-  geom_point(aes(color = Subject)) +
+ggplot(sleepstudy, aes(x = Days, y = Reaction, color = Subject)) +
+  geom_point(aes()) +
   geom_line(aes(y = pred, group = Subject), size = 0.8) +
-  theme_minimal() +
-  labs(title = "Ajuste do GLMM (Distribuição Gamma)",
-       x = "Dias", y = "Tempo de Reação") 
+  theme_light() +
+  labs(title = "Tempo de Reação por Dia (por Sujeito)",
+       x = "Dias de Privação de Sono", 
+       y = "Tempo de Reação (ms)",
+       color = "Indivíduos") +
+  theme(legend.position = "top")
 ```
 
 ### **Dicas Extras**
@@ -152,9 +155,16 @@ Enquanto **`lme4`** suporta apenas algumas distribuições (Gaussiana, Binomial,
 # Carregar pacote glmmTMB
 
 library(glmmTMB)
+
+# Gerar modelo
+
 modelo_glmmTMB <- glmmTMB(Reaction ~ Days + (1 + Days | Subject), 
                         family = gaussian(), 
                         data = sleepstudy)
+
+# Carregar pacote DHARMa para realizar diagnóstico
+
+library(DHARMa)
 
 # Diagnóstico final
 
@@ -178,8 +188,11 @@ ggplot(sleepstudy, aes(x = Days, y = Reaction, color = Subject)) +
   geom_point(aes(color = Subject), size = 2.2) +
   geom_line(aes(y = pred1, group = Subject), size = 1) +
   theme_light() +
-  labs(title = "Ajuste do GLMM (Distribuição Gaussiana)",
-       x = "Dias", y = "Tempo de Reação") 
+  labs(title = "Tempo de Reação por Dia (por Sujeito)",
+       x = "Dias de Privação de Sono", 
+       y = "Tempo de Reação (ms)",
+       color = "Indivíduos") +
+  theme(legend.position = "top")
 ```
 
 ### Conclusão
