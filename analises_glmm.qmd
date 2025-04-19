@@ -5,6 +5,7 @@ format: html
 editor: visual
 date: 17/04/2025
 categories: [Códigos, Modelos Lineares Generalizados Mistos, GLMM]
+image: plot_glmm.jpg
 lang: pt
 toc: true
 ---
