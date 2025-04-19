@@ -4,7 +4,7 @@ lang: pt
 ---
 
 ::: {style="text-align: center; margin: 20px 0;"}
-#### **Bem-vindo(a) ao Blog Running R**
+#### **Bem-vindo(a) ao Blog Running R!**
 
 Este blog é um espaço dedicado à **programação em R**, com foco em análises estatísticas e visualização de dados. Aqui você encontrará tutoriais, dicas práticas e reflexões baseadas em minha experiência com o R --- desde os primeiros scripts até projetos mais complexos envolvendo ciência de dados, mapas, gráficos interativos, e análises de dados básicas e avançadas.
 
@@ -37,8 +37,7 @@ O nome *Running R* surgiu da ideia de manter o R sempre em movimento --- aprende
 
 ◾Integrantes da comunidade R que buscam novos recursos e inspirações.
 
-
-::: callout-note
+::: {.callout-note appearance="minimal"}
 ::: {style="text-align: center; font-style: italic; margin: 20px 0;"}
 "Sem dados, você é apenas uma pessoa qualquer com uma opinião." --- **W. Edwards Deming**
 :::
