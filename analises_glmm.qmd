@@ -5,7 +5,7 @@ format: html
 editor: visual
 date: 17/04/2025
 categories: [Códigos, Modelos Lineares Generalizados Mistos, GLMM]
-image: plot_glmm.jpg
+image: plot_glmm.png
 lang: pt
 toc: true
 ---
@@ -72,7 +72,9 @@ ggplot(sleepstudy, aes(x = Days, y = Reaction, color = Subject)) +
   geom_point(size = 2.2) +
   geom_smooth(method = "lm", se = FALSE, size = 1) +
   scale_color_manual(values = natparks.pals("Triglav", 18)) +
-  theme_light() +
+  theme(plot.background = element_rect(fill = "gray85"),
+        panel.background = element_rect(fill = "gray85"),
+        legend.background = element_rect(fill = "gray85")) +
   labs(title = "Tempo de Reação por Dia (por Indivíduo)",
        x = "Dias de Privação de Sono", 
        y = "Tempo de Reação (ms)",
@@ -115,7 +117,9 @@ ggplot(sleepstudy, aes(x = Days, y = Reaction, color = Subject)) +
   geom_point(size = 2.2) +
   geom_line(aes(y = pred, group = Subject), size = 1) +
   scale_color_manual(values = natparks.pals("Triglav", 18)) +
-  theme_light() +
+  theme(plot.background = element_rect(fill = "gray85"),
+        panel.background = element_rect(fill = "gray85"),
+        legend.background = element_rect(fill = "gray85")) +
   labs(title = "Tempo de Reação por Dia (por Indivíduo)",
        x = "Dias de Privação de Sono", 
        y = "Tempo de Reação (ms)",
@@ -192,7 +196,9 @@ ggplot(sleepstudy, aes(x = Days, y = Reaction, color = Subject)) +
   geom_point(aes(color = Subject), size = 2.2) +
   geom_line(aes(y = pred1, group = Subject), size = 1) +
   scale_color_manual(values = natparks.pals("Triglav", 18)) +
-  theme_light() +
+  theme(plot.background = element_rect(fill = "gray85"),
+        panel.background = element_rect(fill = "gray85"),
+        legend.background = element_rect(fill = "gray85")) +
   labs(title = "Tempo de Reação por Dia (por Indivíduo)",
        x = "Dias de Privação de Sono", 
        y = "Tempo de Reação (ms)",
