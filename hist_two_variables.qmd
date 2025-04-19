@@ -3,7 +3,6 @@ title: "Histogramas com ggplot2 - Duas variáveis"
 author: "Jeanne Franco"
 date: "01-22-2023"
 categories: [Códigos, Gráficos, Linguagem R]
-image: hist2.jpg
 lang: pt
 toc: true
 ---
@@ -33,7 +32,9 @@ ggplot(data, aes(x = x)) +
                   fill = "#404080") +
   geom_label(aes(x = 4.5, y = -0.25, label = "variable2"), 
               color = "#404080") +
-  theme_ipsum() +
+  theme(plot.background = element_rect(fill = "gray85"),
+        panel.background = element_rect(fill = "gray85"),
+        legend.background = element_rect(fill = "gray85")) +
   xlab("value of x")
 ```
 
