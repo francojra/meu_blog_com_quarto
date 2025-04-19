@@ -75,7 +75,7 @@ ggplot(sleepstudy, aes(x = Days, y = Reaction, color = Subject)) +
   labs(x = "Dias de Privação de Sono", 
        y = "Tempo de Reação (ms)",
        color = "Indivíduos") +
-  theme(legend.position = "top")
+  guides(colour = guide_legend(ncol = 2))
 ```
 
 **Observação**: Há variação entre indivíduos (*efeito aleatório*), mas um padrão geral de aumento do tempo de reação com mais dias de privação (*efeito fixo*).
@@ -117,7 +117,7 @@ ggplot(sleepstudy, aes(x = Days, y = Reaction, color = Subject)) +
   labs(x = "Dias de Privação de Sono", 
        y = "Tempo de Reação (ms)",
        color = "Indivíduos") +
-  theme(legend.position = "top")
+  guides(colour = guide_legend(ncol = 2))
 ```
 
 ### **Dicas Extras**
@@ -193,7 +193,7 @@ ggplot(sleepstudy, aes(x = Days, y = Reaction, color = Subject)) +
   labs(x = "Dias de Privação de Sono", 
        y = "Tempo de Reação (ms)",
        color = "Indivíduos") +
-  theme(legend.position = "top")
+  guides(colour = guide_legend(ncol = 2))
 ```
 
 ### Calculando o R² do modelo ajustado
