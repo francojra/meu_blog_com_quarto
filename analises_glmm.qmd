@@ -72,7 +72,8 @@ ggplot(sleepstudy, aes(x = Days, y = Reaction, color = Subject)) +
   geom_smooth(method = "lm", se = FALSE, size = 1) +
   scale_color_manual(values = natparks.pals("Triglav", 18)) +
   theme_light() +
-  labs(x = "Dias de Privação de Sono", 
+  labs(title = "Tempo de Reação por Dia (por Indivíduo)",
+       x = "Dias de Privação de Sono", 
        y = "Tempo de Reação (ms)",
        color = "Indivíduos") +
   guides(colour = guide_legend(ncol = 2))
@@ -114,7 +115,8 @@ ggplot(sleepstudy, aes(x = Days, y = Reaction, color = Subject)) +
   geom_line(aes(y = pred, group = Subject), size = 1) +
   scale_color_manual(values = natparks.pals("Triglav", 18)) +
   theme_light() +
-  labs(x = "Dias de Privação de Sono", 
+  labs(title = "Tempo de Reação por Dia (por Indivíduo)",
+       x = "Dias de Privação de Sono", 
        y = "Tempo de Reação (ms)",
        color = "Indivíduos") +
   guides(colour = guide_legend(ncol = 2))
@@ -190,7 +192,8 @@ ggplot(sleepstudy, aes(x = Days, y = Reaction, color = Subject)) +
   geom_line(aes(y = pred1, group = Subject), size = 1) +
   scale_color_manual(values = natparks.pals("Triglav", 18)) +
   theme_light() +
-  labs(x = "Dias de Privação de Sono", 
+  labs(title = "Tempo de Reação por Dia (por Indivíduo)",
+       x = "Dias de Privação de Sono", 
        y = "Tempo de Reação (ms)",
        color = "Indivíduos") +
   guides(colour = guide_legend(ncol = 2))
