@@ -71,7 +71,10 @@ ggplot(sleepstudy, aes(x = Days, y = Reaction, color = Subject)) +
   geom_smooth(method = "lm", se = FALSE, size = 1) +
   theme_light() +
   labs(title = "Tempo de Reação por Dia (por Sujeito)",
-       x = "Dias de Privação de Sono", y = "Tempo de Reação (ms)")
+       x = "Dias de Privação de Sono", 
+       y = "Tempo de Reação (ms)",
+       color = "Indivíduos") +
+  theme(legend.position = "top")
 ```
 
 **Observação**: Há variação entre indivíduos (*efeito aleatório*), mas um padrão geral de aumento do tempo de reação com mais dias de privação (*efeito fixo*).
