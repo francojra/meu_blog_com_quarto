@@ -253,7 +253,7 @@ Suponha que:
 
 -   **Café**: Consumo diário reduz o efeito da privação de sono.
 
-Se essas variáveis **não forem medidas**, seu modelo atribuirá essa variação aos efeitos aleatórios (**`Subject`**), inflando o R² condicional. Considerando isso, é necessário reconhecer as limitações das análises, pois diferenças entre indivíduos não medidas explicam parte dos resultados e sugerir novos estudos com novas coletas de dados sobre hábitos de vida.
+Se essas variáveis **não forem medidas**, seu modelo atribuirá essa variação aos efeitos aleatórios (**`Subject`**), inflando o R² condicional. Considerando isso, é necessário reconhecer as limitações das análises, pois diferenças entre indivíduos não medidas explicam parte dos resultados, e sugerir novos estudos adicionando ao modelo dados sobre hábitos de vida.
 
 ### Conclusão
 
