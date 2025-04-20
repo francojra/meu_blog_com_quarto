@@ -4,53 +4,42 @@ lang: pt
 ---
 
 ::: {style="text-align: center; margin: 20px 0;"}
-#### **Bem-vindo(a) ao Blog Running R!**
+#### **Bem-vindo(a) ao meu Blog!**
 
 Este blog é um espaço dedicado à **programação em R**, com foco em análises estatísticas e visualização de dados. Aqui você encontrará tutoriais, dicas práticas e reflexões baseadas em minha experiência com o R --- desde os primeiros scripts até projetos mais complexos envolvendo ciência de dados, mapas, gráficos interativos, e análises de dados básicas e avançadas.
 
-O nome *Running R* surgiu da ideia de manter o R sempre em movimento --- aprendendo, praticando, testando e compartilhando. A linguagem R é uma ferramenta poderosa e versátil, e meu objetivo com este blog é torná-la mais acessível para quem está começando, além de oferecer recursos úteis para quem já tem alguma experiência.
+O blog surgiu da ideia de me manter sempre aprendendo, praticando, testando e compartilhando textos e códigos sobre o R. A linguagem R é uma ferramenta poderosa e versátil, e meu objetivo com este blog é torná-la mais acessível para quem está começando, além de oferecer recursos úteis para quem já tem alguma experiência.
+
+Neste blog você encontrará tutoriais para te ajudar a aprender R na prática, visualização de dados, análises estat´siticas com foco aplicado, publicações interativas usando o sistema *Quarto* e dicas sobre boas práticas em programação e reprodutibilidade.
+
+Este blog serve para estudantes e pesquisadores que estão começando no R, pessoas que desejam aplicar estatística de forma prática e clara, curiosos por dados, ciência e programação e integrantes da comunidade R que buscam novos recursos e inspirações.
 :::
 
-![](logo_blog.png){fig-align="center" width="300"}
-
-#### **Neste blog você irá encontrar:**
-
-◾Tutoriais passo a passo para te ajudar a aprender R na prática.
-
-◾Visualizações de dados com *ggplot2*, *plotly*, *leaflet*, entre outros.
-
-◾Análises estatísticas com foco aplicado.
-
-◾Publicações interativas usando Quarto.
-
-◾Dicas sobre boas práticas em programação e reprodutibilidade.
-
-◾Expriências de colaboração com a comunidade [R-Ladies Natal](https://rladies.org/) e a empresa [Beta Analítica](https://www.instagram.com/beta.analitica/).
-
-#### **Este blog serve para:**
-
-◾Estudantes e pesquisadores(as) que estão começando no R;
-
-◾Pessoas que desejam aplicar estatística de forma prática e clara;
-
-◾Curiosos por dados, ciência e programação;
-
-◾Integrantes da comunidade R que buscam novos recursos e inspirações.
+::: {style="text-align: center; margin: 20px 0;"}
+#### **Algumas frases para inspiração =)**
+:::
 
 ::: {.callout-note appearance="minimal"}
+::: {style="text-align: center; margin: 20px 0;"}
 ::: {style="text-align: center; font-style: italic; margin: 20px 0;"}
-"Sem dados, você é apenas uma pessoa qualquer com uma opinião." --- **W. Edwards Deming**
-:::
-
-::: {style="text-align: center; font-style: italic; margin: 20px 0;"}
-Dados são como o novo petróleo, mas só valem quando refinados." --- **Clive Humby**
-:::
-
-::: {style="text-align: center; font-style: italic; margin: 20px 0;"}
-"Torture os dados o suficiente, e eles confessam qualquer coisa." --- **Ronald Coase**
+"Dados são como o novo petróleo, mas só valem quando refinados." --- **Clive Humby**
 :::
 
 ::: {style="text-align: center; font-style: italic; margin: 20px 0;"}
 "Um bom gráfico é aquele que revela o inesperado." --- **John Tukey**
+:::
+
+::: {style="text-align: center; font-style: italic; margin: 20px 0;"}
+"Dados brutos são como diamantes não lapidados: valiosos, mas inúteis sem trabalho árduo." --- **Hilary Mason**
+:::
+
+::: {style="text-align: center; font-style: italic; margin: 20px 0;"}
+"O dado é o novo solo. É a base sobre a qual construímos nosso conhecimento." --- **David McCandless**
+:::
+
+::: {style="text-align: center; font-style: italic; margin: 20px 0;"}
+"Números têm uma história importante para contar. Eles imploram que você os escute." --- **Sharon Bertsch McGrayne**
+:::
+
 :::
 :::
