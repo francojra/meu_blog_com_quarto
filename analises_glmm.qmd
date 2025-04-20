@@ -3,7 +3,7 @@ title: "Modelos Lineares Generalizados Mistos"
 author: "Jeanne Franco"
 format: html
 editor: visual
-date: 17/04/2025
+date: 04/17/2025
 categories: [Códigos, Modelos Lineares Generalizados Mistos, GLMM]
 image: plot_glmm.png
 lang: pt
