@@ -1,6 +1,8 @@
 ---
 title: ""
 lang: pt
+title-block-banner: true
+toc: true
 ---
 
 ::: {style="text-align: center; margin: 20px 0;"}
@@ -16,7 +18,7 @@ Este blog serve para estudantes e pesquisadores que estão começando no R, pess
 :::
 
 ::: {style="text-align: center; margin: 20px 0;"}
-#### **Algumas frases para inspiração =)**
+#### **Algumas frases para reflexão =)**
 :::
 
 ::: {.callout-note appearance="minimal"}
