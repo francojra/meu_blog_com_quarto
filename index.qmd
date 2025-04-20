@@ -13,7 +13,7 @@ O blog surgiu da ideia de me manter sempre aprendendo, praticando, testando e co
 
 Neste blog, você encontrará tutoriais para te ajudar a aprender R na prática, visualização de dados, análises estatísticas com foco aplicado, publicações interativas usando o sistema *Quarto* e dicas sobre boas práticas em programação e reprodutibilidade.
 
-Este blog serve para estudantes e pesquisadores que estão começando no R, pessoas que desejam aplicar estatística de forma prática e clara, curiosos por dados, ciência e programação e integrantes da comunidade R que buscam novos recursos e inspirações.
+Este blog serve para estudantes e pesquisadores que estão começando no R, pessoas que desejam aplicar estatística de forma prática e clara, curiosos por dados, ciência e programação, e integrantes da comunidade R que buscam novos recursos e inspirações.
 :::
 
 ::: {style="text-align: center; margin: 20px 0;"}
