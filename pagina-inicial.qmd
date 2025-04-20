@@ -1,10 +1,9 @@
 ---
-title: ""
+title: "Página Inicial"
 lang: pt
 title-block-banner: true
 toc: true
 ---
-
 ::: {style="text-align: center; margin: 20px 0;"}
 #### **Bem-vindo(a) ao meu Blog!**
 
@@ -12,7 +11,7 @@ Este blog é um espaço dedicado à **programação em R**, com foco em análise
 
 O blog surgiu da ideia de me manter sempre aprendendo, praticando, testando e compartilhando textos e códigos sobre o R. A linguagem R é uma ferramenta poderosa e versátil, e meu objetivo com este blog é torná-la mais acessível para quem está começando, além de oferecer recursos úteis para quem já tem alguma experiência.
 
-Neste blog você encontrará tutoriais para te ajudar a aprender R na prática, visualização de dados, análises estat´siticas com foco aplicado, publicações interativas usando o sistema *Quarto* e dicas sobre boas práticas em programação e reprodutibilidade.
+Neste blog, você encontrará tutoriais para te ajudar a aprender R na prática, visualização de dados, análises estatísticas com foco aplicado, publicações interativas usando o sistema *Quarto* e dicas sobre boas práticas em programação e reprodutibilidade.
 
 Este blog serve para estudantes e pesquisadores que estão começando no R, pessoas que desejam aplicar estatística de forma prática e clara, curiosos por dados, ciência e programação e integrantes da comunidade R que buscam novos recursos e inspirações.
 :::
@@ -42,7 +41,6 @@ Este blog serve para estudantes e pesquisadores que estão começando no R, pess
 ::: {style="text-align: center; font-style: italic; margin: 20px 0;"}
 "Números têm uma história importante para contar. Eles imploram que você os escute." --- **Sharon Bertsch McGrayne**
 :::
-
 :::
 :::
 
