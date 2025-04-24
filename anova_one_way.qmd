@@ -1,0 +1,10 @@
+---
+title: "ANOVA One-Way"
+author: "Jeanne Franco"
+format: html
+editor: visual
+date: 04/23/2025
+categories: [Códigos, ANOVA, estatística]
+lang: pt
+toc: true
+---
