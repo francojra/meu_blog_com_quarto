@@ -65,7 +65,10 @@ ggplot(PlantGrowth, aes(x = group,
   labs(x = "Grupo de Tratamento",
        y = "Peso (g)",
        title = "Peso das Plantas por Grupo") +
-  theme_minimal()
+  theme_light() +
+  theme(plot.background = element_rect(fill = "gray85"),
+        panel.background = element_rect(fill = "gray85"),
+        legend.background = element_rect(fill = "gray85"))
 
 ```
 
