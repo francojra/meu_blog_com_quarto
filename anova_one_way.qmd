@@ -31,6 +31,8 @@ A ANOVA (Análise de Variância) de uma via é um teste estatístico utilizado p
 
 ## Exemplo prático com o dataset PlantGrowth
 
+**Antes de realizar o teste da ANOVA One-Way, vamos fazer algumas análises descritivas para visualizar o conjunto de dados, os valores das estatísticas de resumo, a estrutura dos dados para entender quais variáveis numéricas e fatoriais e um gráfico para avaliar os grupos de estudo.**
+
 ```{r, message=FALSE, warning=FALSE}
 # Carregar pacotes
 
@@ -72,4 +74,50 @@ ggplot(PlantGrowth, aes(x = group,
 
 ```
 
-### 
+## Verificando pressupostos
+
+1.  Normalidade (teste de Shapiro-Wilk por grupo):
+
+```{r, warning=FALSE, message=FALSE}
+tapply(PlantGrowth$weight, PlantGrowth$group, shapiro.test)
+```
+
+2\. Homogeneidade de Variâncias (teste de Levene):
+
+```{r warning=FALSE, message=FALSE}
+car::leveneTest(weight ~ group, data = PlantGrowth)
+```
+
+Você também pode verificar a homogeneidade das variâncias usando o teste de Bartlett:
+
+```{r warning=FALSE, message=FALSE}
+bartlett.test(weight ~ group, data = PlantGrowth)
+```
+
+## Realizando o teste da ANOVA One-Way
+
+Primeiro, é necessário criar um modelo da anova usando a função `aov()` do teste. Depois, verificar os valores do teste estatístico usando a função `summary()`.
+
+```{r warning=FALSE, message=FALSE}
+# Criando o modelo:
+
+modelo_anova <- aov(weight ~ group, data = PlantGrowth)
+
+# Resumo do teste:
+
+summary(modelo_anova)
+```
+
+#### **Teste Post-Hoc (se a ANOVA for significativa)**
+
+Esse teste é usado para verificar diferenças estatísticas entre os grupos par a par.
+
+```{r warning=FALSE, message=FALSE}
+TukeyHSD(modelo_anova)
+```
+
+Também é possível realizar o teste das diferenças par a par entre os grupos usando o pacote `emmeans`.
+
+```{r warning=FALSE, message=FALSE}
+emmeans::emmeans(modelo_anova, pairwise ~ group)
+```
