@@ -121,3 +121,19 @@ Também é possível realizar o teste das diferenças par a par entre os grupos 
 ```{r warning=FALSE, message=FALSE}
 emmeans::emmeans(modelo_anova, pairwise ~ group)
 ```
+
+## Interpretação dos resultados
+
+Primeiro, nós verificamos que os dados atendem aos pressupostos da ANOVA One-Way, devido à normalidade dos resíduos (*p* \> 0,05) aplicado por meio do teste de Shapiro-Wilk. Também, verificados que ocorre homogeneidade das variâncias (*p* \> 0,05) com o teste de Levene e Bartlett.
+
+Após aplicar o teste da ANOVA, verificamos que o valor de *p* foi maior que 0,05, indicando que existe diferenças entre os grupos tratamento e controle.
+
+Como ocorreu diferenças entre os grupos, foi necessário aplicar o teste Post-Hoc que apresentou diferenças entre os grupos do tratamento 1 e tratamento 2.
+
+O gráfico mostrou que no tratamento 2 as plantas apresentaram maior peso em gramas comparado ao tratamento 1, que apesar dos outliers, não mostrou medianas e médias similares. Além disso, foi verificado que as plantas do controle apresentaram maior peso do que as plantas do tratamento 1.
+
+## Conclusão
+
+A ANOVA one-way é uma ferramenta poderosa para comparar médias entre grupos. Neste exemplo, vimos como aplicá-la no R, verificar seus pressupostos e interpretar os resultados. Lembre-se de que os pressupostos devem ser atendidos para que a análise seja válida!
+
+[**Dica**]{.underline}**:** Para dados não paramétricos e que não atendem aos pressupostos da análise, considere o teste de Kruskal-Wallis (kruskal.test()).
