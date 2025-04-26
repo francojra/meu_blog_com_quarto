@@ -45,7 +45,7 @@ Vamos usar o conjunto de dados **`ToothGrowth`**, que j√° vem com o R. Ele cont√
 
 **Passo 1: Carregar o pacote `tidyverse`, o conjunto de dados e explorar**
 
-```{r}
+```{r, warning=FALSE, message=FALSE}
 # Carregar pacote
 
 library(tidyverse)
