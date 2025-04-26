@@ -37,6 +37,7 @@ A ANOVA (Análise de Variância) de uma via é um teste estatístico utilizado p
 # Carregar pacotes
 
 library(tidyverse) # Manipulação e visualização de dados
+library(viridis) 
 
 # Carregar dados
 
@@ -57,9 +58,8 @@ ggplot(PlantGrowth, aes(x = group,
                         y = weight, 
                         fill = group)) +
   geom_boxplot(width = 0.35) +
-  scale_fill_manual(values = c("lightgreen", 
-                               "salmon", 
-                               "lightblue"),
+  stat_summary(fun.y = mean, geom = "point", shape = 20, size = 6, color = "beige", fill = "beige") +
+  scale_fill_brewer(palette = "Dark2",
                     name = "Grupos",
                     breaks = c("ctrl", "trt1", "trt2"),
                     labels = c("Controle", "Tratamento 1", "Tratamento 2")) +
