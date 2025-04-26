@@ -46,6 +46,10 @@ Vamos usar o conjunto de dados **`ToothGrowth`**, que j√° vem com o R. Ele cont√
 **Passo 1: Carregar o pacote `tidyverse`, o conjunto de dados e explorar**
 
 ```{r}
+# Carregar pacote
+
+library(tidyverse)
+
 # Carregar dados
 
 data("ToothGrowth")
@@ -57,5 +61,5 @@ summary(ToothGrowth)
 
 # Verificar estrutura
 
-str(ToothGrowth)
+glimpse(ToothGrowth)
 ```
