@@ -15,4 +15,24 @@ toc: true
 
 A **ANOVA de dois fatores (two-way ANOVA)** é uma técnica estatística usada para analisar os efeitos de **dois fatores categóricos** (variáveis independentes) sobre uma **variável contínua** (variável dependente). Além disso, ela permite verificar se existe **interação** entre os dois fatores.
 
+#### **Hipóteses da ANOVA Two-Way**
 
+1.  **Efeito do Fator A:**
+
+H₀: Não há diferença entre os grupos do Fator A.
+
+H₁: Pelo menos um grupo do Fator A difere dos outros.
+
+2.  **Efeito do Fator B:**
+
+H₀: Não há diferença entre os grupos do Fator B.
+
+H₁: Pelo menos um grupo do Fator B difere dos outros.
+
+3.  **Interação entre Fator A e Fator B:**
+
+H₀: Não há interação entre os fatores.
+
+H₁: Existe interação entre os fatores.
+
+#### **Exemplo prático no R**
