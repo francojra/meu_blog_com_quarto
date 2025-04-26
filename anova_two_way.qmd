@@ -17,19 +17,19 @@ A **ANOVA de dois fatores (two-way ANOVA)** é uma técnica estatística usada p
 
 #### **Hipóteses da ANOVA Two-Way**
 
-1.  **Efeito do Fator A:**
+1.  [**Efeito do Fator A:**]{.underline}
 
 H₀: Não há diferença entre os grupos do Fator A.
 
 H₁: Pelo menos um grupo do Fator A difere dos outros.
 
-2.  **Efeito do Fator B:**
+2.  [**Efeito do Fator B:**]{.underline}
 
 H₀: Não há diferença entre os grupos do Fator B.
 
 H₁: Pelo menos um grupo do Fator B difere dos outros.
 
-3.  **Interação entre Fator A e Fator B:**
+3.  [**Interação entre Fator A e Fator B:**]{.underline}
 
 H₀: Não há interação entre os fatores.
 
@@ -37,13 +37,15 @@ H₁: Existe interação entre os fatores.
 
 #### **Exemplo prático no R**
 
-Vamos usar o conjunto de dados **`ToothGrowth`**, que já vem com o R. Ele contém informações sobre o crescimento de dentes em porquinhos-da-índia em função de dois fatores:
+Vamos usar o conjunto de dados **`ToothGrowth`**, que já vem com o R. Ele contém informações sobre o crescimento de dentes de 60 porquinhos-da-índia em função de dois fatores:
 
 -   `supp` (suplemento: VC = vitamina C, OJ = suco de laranja).
 
 -   `dose` (dose de vitamina C: 0.5, 1, 2 mg/dia).
 
-**Passo 1: Carregar o pacote de gráficos `ggplot2`, o conjunto de dados e explorar**
+-   `len` (comprimento dos odontoblastos (células responsáveis ​​pelo crescimento dos dentes)
+
+**Passo 1: Carregar o pacote de gráficos `ggplot2`, o conjunto de dados `ToothGrowth` e explorar**
 
 ```{r, warning=FALSE, message=FALSE}
 # Carregar pacote
@@ -68,6 +70,13 @@ glimpse(ToothGrowth)
 
 Vamos usar o **`ggplot2`** para criar um boxplot e ver a distribuição:
 
-
-
-
+```{r warning=FALSE, message=FALSE}
+ggplot(ToothGrowth, aes(x = factor(dose), 
+                        y = len, fill = supp)) +
+  geom_boxplot() +
+  labs(title = "Crescimento dos Dentes por Dose e Suplemento",
+       x = "Dose (mg/dia)", y = "Comprimento do Dente") +
+  scale_fill_manual(values = c("#6E0902", "#2E3F62"),
+                    name = "Suplemento")
+  theme_minimal()
+```
