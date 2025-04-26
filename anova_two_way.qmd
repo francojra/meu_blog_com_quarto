@@ -45,12 +45,13 @@ Vamos usar o conjunto de dados **`ToothGrowth`**, que já vem com o R. Ele cont�
 
 -   `len` (comprimento dos odontoblastos (células responsáveis ​​pelo crescimento dos dentes)
 
-**Passo 1: Carregar o pacote de gráficos `ggplot2`, o conjunto de dados `ToothGrowth` e explorar**
+**Passo 1: Carregar os pacotes, o conjunto de dados `ToothGrowth` e explorar**
 
 ```{r, warning=FALSE, message=FALSE}
 # Carregar pacote
 
-library(ggplot2)
+library(ggplot2) # Gráficos
+library(tidyverse) # Estrutura dos dados
 
 # Carregar dados
 
@@ -75,8 +76,12 @@ ggplot(ToothGrowth, aes(x = factor(dose),
                         y = len, fill = supp)) +
   geom_boxplot() +
   labs(title = "Crescimento dos Dentes por Dose e Suplemento",
-       x = "Dose (mg/dia)", y = "Comprimento do Dente") +
+       x = "Dose (mg/dia)", y = "Comprimento do odontoblastos") +
   scale_fill_manual(values = c("#6E0902", "#2E3F62"),
-                    name = "Suplemento")
-  theme_minimal()
+                    name = "Suplemento",
+                    breaks = c("OJ", "VC"),
+                    labels = c("Suco de laranja", "Vitamina C")) +
+  theme(plot.background = element_rect(fill = "gray85"),
+        panel.background = element_rect(fill = "gray85"),
+        legend.background = element_rect(fill = "gray85"))
 ```
