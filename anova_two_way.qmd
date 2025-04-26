@@ -43,7 +43,7 @@ Vamos usar o conjunto de dados **`ToothGrowth`**, que já vem com o R. Ele cont�
 
 -   `dose` (dose de vitamina C: 0.5, 1, 2 mg/dia).
 
--   `len` (comprimento dos odontoblastos (células responsáveis ​​pelo crescimento dos dentes)
+-   `len` (comprimento dos odontoblastos (células responsáveis pelo crescimento dos dentes)
 
 **Passo 1: Carregar os pacotes, o conjunto de dados `ToothGrowth` e explorar**
 
@@ -84,4 +84,26 @@ ggplot(ToothGrowth, aes(x = factor(dose),
   theme(plot.background = element_rect(fill = "gray85"),
         panel.background = element_rect(fill = "gray85"),
         legend.background = element_rect(fill = "gray85"))
+```
+
+**Passo 3: Realizar a ANOVA Two-Way**
+
+Usaremos a função **`aov()`**:
+
+```{r warning=FALSE, message=FALSE}
+# Ajustar o modelo ANOVA
+
+modelo_anova <- aov(len ~ supp * factor(dose), data = ToothGrowth)
+
+# Ver os resultados
+
+summary(modelo_anova)
+```
+
+**Passo 4: Teste Post-Hoc (se necessário)**
+
+Se a ANOVA for significativa, podemos usar o **Tukey HSD** para comparações múltiplas:
+
+```{r warning=FALSE, message=FALSE}
+TukeyHSD(modelo_anova)
 ```
