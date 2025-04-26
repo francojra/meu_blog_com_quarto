@@ -36,3 +36,9 @@ H₀: Não há interação entre os fatores.
 H₁: Existe interação entre os fatores.
 
 #### **Exemplo prático no R**
+
+Vamos usar o conjunto de dados **`ToothGrowth`**, que já vem com o R. Ele contém informações sobre o crescimento de dentes em porquinhos-da-índia em função de dois fatores:
+
+-   `supp` (suplemento: VC = vitamina C, OJ = suco de laranja).
+
+-   `dose` (dose de vitamina C: 0.5, 1, 2 mg/dia).
