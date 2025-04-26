@@ -74,7 +74,7 @@ Vamos usar o **`ggplot2`** para criar um boxplot e ver a distribuição:
 ```{r warning=FALSE, message=FALSE}
 ggplot(ToothGrowth, aes(x = factor(dose), 
                         y = len, fill = supp)) +
-  geom_boxplot(width = 0.35) +
+  geom_boxplot(width = 0.5) +
   labs(title = "Crescimento dos Dentes por Dose e Suplemento",
        x = "Dose (mg/dia)", y = "Comprimento do odontoblastos") +
   scale_fill_manual(values = c("#6E0902", "#2E3F62"),
@@ -86,7 +86,62 @@ ggplot(ToothGrowth, aes(x = factor(dose),
         legend.background = element_rect(fill = "gray85"))
 ```
 
-**Passo 3: Realizar a ANOVA Two-Way**
+**Passo 3: Pressupostos da ANOVA Two-Way**
+
+Antes de interpretar a ANOVA two-way, **sempre verifique os pressupostos**. No exemplo do **`ToothGrowth`**, se os resíduos forem normais e as variâncias homogêneas, a análise é válida. Caso contrário, considere transformações ou métodos alternativos.
+
+1.  **Normalidade dos resíduos**:
+
+    -   Os resíduos do modelo devem seguir uma distribuição normal.
+
+    -   Verificação: Teste de Shapiro-Wilk ou gráficos Q-Q.
+
+2.  **Homogeneidade das variâncias (homocedasticidade)**:
+
+    -   As variâncias dos grupos devem ser aproximadamente iguais.
+
+    -   Verificação: Teste de Levene ou Bartlett.
+
+3.  **Independência das observações**:
+
+    -   As amostras devem ser independentes (geralmente garantido pelo desenho experimental).
+
+    **Exemplo de Código Completo com Verificação de Pressupostos**
+
+```{r warning=FALSE, message=FALSE}
+# Passo 1: ANOVA Two-Way
+
+modelo_anova <- aov(len ~ supp * factor(dose), data = ToothGrowth)
+
+summary(modelo_anova)
+
+# Passo 2: Verificar normalidade
+
+shapiro.test(residuals(modelo_anova))
+qqnorm(residuals(modelo_anova))
+qqline(residuals(modelo_anova), col = "red")
+
+# Passo 3: Verificar homogeneidade de variâncias
+
+library(car)
+
+leveneTest(len ~ supp * factor(dose), data = ToothGrowth)
+```
+
+**O que fazer se os pressupostos não forem atendidos?**
+
+1.  Se não houver normalidade:
+
+    -   Transformar a variável dependente (log, sqrt).
+
+    -   Usar um teste não paramétrico (ex: Teste de Kruskal-Wallis para dois fatores).
+
+2.  Se não houver homogeneidade de variâncias:
+
+    -   Usar correções como ANOVA com ajuste de Welch (oneway.test()).
+    -   Aplicar transformações nos dados.
+
+**Passo 4: Realizar a ANOVA Two-Way**
 
 Usaremos a função **`aov()`**:
 
@@ -100,10 +155,14 @@ modelo_anova <- aov(len ~ supp * factor(dose), data = ToothGrowth)
 summary(modelo_anova)
 ```
 
-**Passo 4: Teste Post-Hoc (se necessário)**
+**Passo 5: Teste Post-Hoc (se necessário)**
 
 Se a ANOVA for significativa, podemos usar o **Tukey HSD** para comparações múltiplas:
 
 ```{r warning=FALSE, message=FALSE}
 TukeyHSD(modelo_anova)
 ```
+
+**Interpretação dos Resultados**
+
+Como observado nos valores de *p* ANOVA two-way e no gráfico, ocorreu efeito significativo tanto do suplemento **`supp`** como efeito da dose **`dose`** e das suas interações **`supp:factor(dose)`**.
