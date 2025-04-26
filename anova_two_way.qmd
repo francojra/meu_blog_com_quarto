@@ -77,10 +77,13 @@ ggplot(ToothGrowth, aes(x = factor(dose),
   geom_boxplot(width = 0.5) +
   labs(title = "Crescimento dos Dentes por Dose e Suplemento",
        x = "Dose (mg/dia)", y = "Comprimento do odontoblastos") +
+ stat_summary(fun.y = "mean", geom = "point", size = 1.5,
+    position = position_dodge(width = 0.5), color = "beige") +
   scale_fill_manual(values = c("#6E0902", "#2E3F62"),
                     name = "Suplemento",
                     breaks = c("OJ", "VC"),
                     labels = c("Suco de laranja", "Vitamina C")) +
+  scale_color_manual(values = c("#6E0902", "#2E3F62")) +
   theme(plot.background = element_rect(fill = "gray85"),
         panel.background = element_rect(fill = "gray85"),
         legend.background = element_rect(fill = "gray85"))
