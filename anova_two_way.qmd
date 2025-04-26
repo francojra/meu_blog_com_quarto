@@ -43,12 +43,12 @@ Vamos usar o conjunto de dados **`ToothGrowth`**, que já vem com o R. Ele cont�
 
 -   `dose` (dose de vitamina C: 0.5, 1, 2 mg/dia).
 
-**Passo 1: Carregar o pacote `tidyverse`, o conjunto de dados e explorar**
+**Passo 1: Carregar o pacote de gráficos `ggplot2`, o conjunto de dados e explorar**
 
 ```{r, warning=FALSE, message=FALSE}
 # Carregar pacote
 
-library(tidyverse)
+library(ggplot2)
 
 # Carregar dados
 
@@ -63,3 +63,11 @@ summary(ToothGrowth)
 
 glimpse(ToothGrowth)
 ```
+
+**Passo 2: Visualizar os dados**
+
+Vamos usar o **`ggplot2`** para criar um boxplot e ver a distribuição:
+
+
+
+
