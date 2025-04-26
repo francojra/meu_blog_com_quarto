@@ -56,7 +56,7 @@ glimpse(PlantGrowth)
 ggplot(PlantGrowth, aes(x = group, 
                         y = weight, 
                         fill = group)) +
-  geom_boxplot() +
+  geom_boxplot(width = 0.35) +
   scale_fill_manual(values = c("lightgreen", 
                                "salmon", 
                                "lightblue"),

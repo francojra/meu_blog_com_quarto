@@ -74,7 +74,7 @@ Vamos usar o **`ggplot2`** para criar um boxplot e ver a distribuição:
 ```{r warning=FALSE, message=FALSE}
 ggplot(ToothGrowth, aes(x = factor(dose), 
                         y = len, fill = supp)) +
-  geom_boxplot() +
+  geom_boxplot(width = 0.35) +
   labs(title = "Crescimento dos Dentes por Dose e Suplemento",
        x = "Dose (mg/dia)", y = "Comprimento do odontoblastos") +
   scale_fill_manual(values = c("#6E0902", "#2E3F62"),
