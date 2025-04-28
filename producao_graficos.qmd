@@ -45,7 +45,7 @@ library(tidyverse)
 
 Agora vamos visualizar o conjunto de dados de `pinguins` e ver a estrutura desses dados como quais são as variáveis categóricas e numéricas. Você pode utilizar a função `view` para visuzalizar todo os dados em uma janela como a do Excel.
 
-```{r}
+```{r warning=FALSE, message=FALSE}
 head(pinguins)
 glimpse(pinguins)
 
@@ -54,4 +54,32 @@ glimpse(pinguins)
 ## view(pinguins)
 ```
 
-Agora que conhecemos nosso conjunto de dados. Vamos produzir os principais gráficos usando o pacote `ggplot2` presente no metapacote `tidyverse`.\
+Agora que conhecemos nosso conjunto de dados. Vamos produzir os principais gráficos usando o pacote `ggplot2` presente no metapacote `tidyverse`.
+
+### Gráfico de Barras
+
+```{r warning=FALSE, message=FALSE}
+
+# Manipular dados e calcular médias e erros-padrão
+
+pinguins1 <- pinguins |>
+  select(ilha, comprimento_nadadeira) |>
+  drop_na() |>
+  group_by(ilha) |>
+  summarise(media = mean(comprimento_nadadeira),
+            n = n(),
+            sd = sd(comprimento_nadadeira),
+            se = sqrt(sd)/n) 
+
+# Produzir gráfico
+
+ggplot(pinguins1, aes(x = ilha, y = media)) +
+  geom_col(width = 0.6, fill = "#69b3a2", color = "white") +
+  geom_errorbar(aes(ymax = media + sd,
+                    ymin = media - sd),
+                width = 0.1, size = 0.8) +
+  labs(x = "Ilhas", y = "Comprimento de nadadeiras (mm)") +
+  theme_light()
+```
+
+###  
