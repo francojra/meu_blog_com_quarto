@@ -30,3 +30,5 @@ dados::pinguins
 dados::dados_iris
 dados::mtcarros
 ```
+
+Após baixar o pacote `dados`, precisamos baixar o pacote `tidyverse` usado para manipulação e visualização de dados.
