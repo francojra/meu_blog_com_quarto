@@ -13,4 +13,18 @@ Vamos aprender a produzir os principais gráficos usando o pacote `ggplot2` no s
 
 Podemos utilizar o banco de dados de `pinguins`. Esses dados estão disponível no pacote `dados` que foi criado para traduzir os principais conjunto dados utilizados no R, como os dados de plantas `iris`, os dados de carros `mtcarros`, dados `diamante`, entre outros.
 
-Para ter acesso a esses dados traduzidos você pode utilizar a seguinte função para instalar o pacote `dados`, em seguida, você deve carregar o pacote utilizando a função `library` do R. Veja abaixo:
+Para ter acesso a esses dados traduzidos você pode utilizar a seguinte função `install.packages` para instalar o pacote `dados`, em seguida, você deve carregar o pacote utilizando a função `library` do R. Veja abaixo:
+
+```{r}
+# Instalar pacote
+
+## install.packages("dados")
+
+# Carregar pacote
+
+library(dados)
+
+# Visualizar conjunto de dados disponíveis
+
+dados::
+```
