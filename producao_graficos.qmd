@@ -42,3 +42,16 @@ Após baixar o pacote `dados`, precisamos baixar o pacote `tidyverse` usado para
 
 library(tidyverse)
 ```
+
+Agora vamos visualizar o conjunto de dados de `pinguins` e ver a estrutura desses dados como quais são as variáveis categóricas e numéricas. Você pode utilizar a função `view` para visuzalizar todo os dados em uma janela como a do Excel.
+
+```{r}
+head(pinguins)
+glimpse(pinguins)
+
+# Para visualizar todo conjunto de dados, use:
+
+## view(pinguins)
+```
+
+\
