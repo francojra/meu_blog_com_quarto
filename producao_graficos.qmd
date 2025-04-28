@@ -54,4 +54,4 @@ glimpse(pinguins)
 ## view(pinguins)
 ```
 
-\
+Agora que conhecemos nosso conjunto de dados. Vamos produzir os principais gráficos usando o pacote `ggplot2` presente no metapacote `tidyverse`.\
