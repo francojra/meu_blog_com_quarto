@@ -26,5 +26,7 @@ library(dados)
 
 # Visualizar conjunto de dados disponíveis
 
-dados::
+dados::pinguins
+dados::dados_iris
+dados::mtcarros
 ```
