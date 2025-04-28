@@ -15,7 +15,7 @@ Podemos utilizar o banco de dados de `pinguins`. Esses dados estão disponível 
 
 Para ter acesso a esses dados traduzidos você pode utilizar a seguinte função `install.packages` para instalar o pacote `dados`, em seguida, você deve carregar o pacote utilizando a função `library` do R. Veja abaixo:
 
-```{r}
+```{r message=FALSE, warning=FALSE}
 # Instalar pacote
 
 ## install.packages("dados")
@@ -26,9 +26,19 @@ library(dados)
 
 # Visualizar conjunto de dados disponíveis
 
-dados::pinguins
-dados::dados_iris
-dados::mtcarros
+head(dados::pinguins)
+head(dados::dados_iris)
+head(dados::mtcarros)
 ```
 
 Após baixar o pacote `dados`, precisamos baixar o pacote `tidyverse` usado para manipulação e visualização de dados.
+
+```{r warning=FALSE, message=FALSE}
+# Instalar pacote
+
+## install.packages("tidyverse")
+
+# Carregar pacote
+
+library(tidyverse)
+```
