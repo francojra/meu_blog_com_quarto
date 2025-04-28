@@ -1,0 +1,8 @@
+---
+title: "Conheça o site The R Graph Gallery"
+author: "Jeanne Franco"
+date: "04-27-2025"
+categories: [Gráficos, Linguagem R]
+lang: pt
+toc: true
+---
