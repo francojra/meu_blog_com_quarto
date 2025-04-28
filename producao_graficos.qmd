@@ -1,8 +1,12 @@
 ---
-title: "Conheça o site The R Graph Gallery"
+title: "Produzindo Gráficos com ggplot2"
 author: "Jeanne Franco"
 date: "04-27-2025"
 categories: [Gráficos, Linguagem R]
 lang: pt
 toc: true
 ---
+
+## Aprendendo a produzir os principais gráficos com ggplot2
+
+Vamos aprender a produzir os principais gráficos usando o pacote `ggplot2` no software R. Os gráficos mais comuns são: barras, boxplot, histogramas, dispersão e linhas.
