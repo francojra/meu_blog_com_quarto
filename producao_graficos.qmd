@@ -75,49 +75,74 @@ pinguins1 <- pinguins |>
 
 # Produzir gráfico
 
-ggplot(pinguins1, aes(x = ilha, y = media)) +
+g1 <- ggplot(pinguins1, aes(x = ilha, y = media)) +
   geom_col(width = 0.6, fill = "#69b3a2", color = "brown") +
   geom_errorbar(aes(ymax = media + sd,
                     ymin = media - sd),
                 width = 0.1, size = 0.8) +
   labs(x = "Ilhas", y = "Comprimento de nadadeiras (mm)") +
   theme_light()
+
+g1
 ```
 
 ### Gráfico Box-plot
 
 ```{r warning=FALSE, message=FALSE}
-ggplot(pinguins, aes(x = ilha, y = comprimento_nadadeira)) +
+
+g2 <- ggplot(pinguins, aes(x = ilha, y = comprimento_nadadeira)) +
   geom_boxplot(width = 0.6, fill = "#69b3a2",
                color = "brown") +
   geom_jitter(alpha = 0.45) +
   labs(x = "Ilhas", y = "Comprimento de nadadeiras (mm)") +
   theme_light()
 
+g2
+
 ```
 
 ### Gráfico de Histograma
 
 ```{r warning=FALSE, message=FALSE}
-ggplot(pinguins, aes(x = comprimento_nadadeira)) +
+
+g3 <- ggplot(pinguins, aes(x = comprimento_nadadeira)) +
   geom_histogram(bins = 30, binwidth = 2,
-                 color = "#69b3a2",fill = "brown") +
+                 fill = "#69b3a2",color = "brown") +
   labs(x = "Comprimento de nadadeiras (mm)",
        y = "Frequência", ) +
   theme_light()
+
+g3
 ```
 
 ### Gráfico de Dispersão
 
 ```{r warning=FALSE, message=FALSE}
-ggplot(pinguins, aes(x = comprimento_nadadeira, 
+
+g4 <- ggplot(pinguins, aes(x = comprimento_nadadeira, 
                      y = massa_corporal)) +
-  geom_point(size = 2.5, color = "brown") +
-  geom_smooth(se = T, color = "#69b3a2") +
+  geom_point(size = 2.5, color = "#69b3a2") +
+  geom_smooth(se = T, method = "lm", color = "brown") +
   labs(x = "Comprimento de nadadeiras (mm)",
        y = "Massa corporal (g)") +
   theme_light()
+
+g4
 ```
+
+### Unindo os gráficos com o pacote `patchwork`
+
+```{r}
+# Carregar pacote
+
+library(patchwork)
+
+# Unir gráficos
+
+g1 + g2 + g3 + g4 & theme_dark()
+```
+
+### 
 
 ### Descrição das camadas:
 
@@ -139,13 +164,13 @@ ggplot(pinguins, aes(x = comprimento_nadadeira,
 
 -   [Geom_boxplot]{.underline}: função usada para definição do gráfico de box-plot;
 
--   [Geom_jitter]{.underline}:
+-   [Geom_jitter]{.underline}: adiciona uma pequena quantidade de variação aleatória à localização de cada ponto definida pelo `geom_point`.
 
 -   [geom_histogram]{.underline}: função usada para definição do gráfico de histogramas;
 
 -   [Geom_point]{.underline}: função usada para definição do gráfico de dispersão;
 
--   [Geom_smooth]{.underline}:
+-   [Geom_smooth]{.underline}: exibe uma linha de tendência suavizada, usando o argumento `method = "lm"` é adicionada uma linha reta.
 
 -   [Labs]{.underline}: função usada para redefinir os nomes dos eixos X e Y;
 
