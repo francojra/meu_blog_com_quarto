@@ -132,7 +132,7 @@ g4
 
 ### Unindo os gráficos com o pacote `patchwork`
 
-```{r warning=FALSE, message=FALSE}
+```{r warning=FALSE, message=FALSE, fig.height=6}
 # Carregar pacote
 
 library(patchwork)
