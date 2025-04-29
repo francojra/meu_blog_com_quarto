@@ -9,7 +9,7 @@ toc: true
 
 ## Aprendendo a produzir os principais gráficos com ggplot2
 
-Vamos aprender a produzir os principais gráficos usando o pacote `ggplot2` no software R. Os gráficos mais comuns são: barras, boxplot, histogramas, dispersão e linhas.
+Vamos aprender a produzir os principais gráficos usando o pacote `ggplot2` no software R. Os gráficos mais comuns são: barras, boxplot, histogramas e dispersão.
 
 Podemos utilizar o banco de dados de `pinguins`. Esses dados estão disponível no pacote `dados` que foi criado para traduzir os principais conjunto dados utilizados no R, como os dados de plantas `iris`, os dados de carros `mtcarros`, dados `diamante`, entre outros.
 
@@ -96,6 +96,19 @@ ggplot(pinguins, aes(x = ilha, y = comprimento_nadadeira)) +
   labs(x = "Ilhas", y = "Comprimento de nadadeiras (mm)") +
   theme_light()
 
+```
+
+### Gráfico de Histograma
+
+```{r warning=FALSE, message=FALSE}
+# Produzir gráfico
+
+ggplot(pinguins, aes(x = comprimento_nadadeira)) +
+  geom_histogram(bins = 30, binwidth = 2,
+                 fill = "#69b3a2",color = "brown") +
+  labs(x = "Comprimento de nadadeiras (mm)",
+       y = "Frequência", ) +
+  theme_light()
 ```
 
 ### Descrição das camadas:
