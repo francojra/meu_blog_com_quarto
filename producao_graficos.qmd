@@ -54,6 +54,8 @@ glimpse(pinguins)
 ## view(pinguins)
 ```
 
+Os dados acima tratam de medidas de tamanho de pinguins adultos forrageando perto da Estação Palmer, Antártica. Inclui medidas para espécies de pinguins, ilha no Arquipélago Palmer, tamanho (comprimento da nadadeira, massa corporal, dimensões do bico) e sexo.
+
 Agora que conhecemos nosso conjunto de dados. Vamos produzir os principais gráficos usando o pacote `ggplot2` presente no metapacote `tidyverse`.
 
 ### Gráfico de Barras
@@ -82,4 +84,4 @@ ggplot(pinguins1, aes(x = ilha, y = media)) +
   theme_light()
 ```
 
-###  
+### 
