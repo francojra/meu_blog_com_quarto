@@ -76,7 +76,7 @@ pinguins1 <- pinguins |>
 # Produzir gráfico
 
 ggplot(pinguins1, aes(x = ilha, y = media)) +
-  geom_col(width = 0.6, fill = "#69b3a2", color = "white") +
+  geom_col(width = 0.6, fill = "#69b3a2", color = "brown") +
   geom_errorbar(aes(ymax = media + sd,
                     ymin = media - sd),
                 width = 0.1, size = 0.8) +
@@ -84,4 +84,42 @@ ggplot(pinguins1, aes(x = ilha, y = media)) +
   theme_light()
 ```
 
-### 
+### Gráfico Box-plot
+
+```{r warning=FALSE, message=FALSE}
+# Produzir gráfico
+
+ggplot(pinguins, aes(x = ilha, y = comprimento_nadadeira)) +
+  geom_boxplot(width = 0.6, fill = "#69b3a2",
+               color = "brown") +
+  geom_jitter(alpha = 0.45) +
+  labs(x = "Ilhas", y = "Comprimento de nadadeiras (mm)") +
+  theme_light()
+
+```
+
+### Descrição das camadas:
+
+-   [Select]{.underline}: seleção das colunas de dados utilizados no gráfico;
+
+-   [Drop_na]{.underline}: exclusão de dados faltantes;
+
+-   [Group_by]{.underline}: grupo selecionado para calcular as médias, desvios e erros padrão por `ilha`;
+
+-   [Summarise]{.underline}: usado para fazer os cálculos das médias, desvios e erros padrão;
+
+-   [Ggplot]{.underline}: função para produção o gráfico do pacote `ggplot2`;
+
+-   [Aes]{.underline}: função usada para definição das variáveis X e Y;
+
+-   [Geom_col]{.underline}: função usada para definição do tipo de gráfico;
+
+-   [Geom_errobar]{.underline}: função usada para inserir as barras de desvio padrão;
+
+-   [Geom_boxplot]{.underline}:
+
+-   [Geom_jitter]{.underline}:
+
+-   [Labs]{.underline}: função usada para redefinir os nomes dos eixos X e Y;
+
+-   [Theme_light]{.underline}: função usada para definir o tipo de background do gráfico.
