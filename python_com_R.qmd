@@ -56,3 +56,24 @@ print(arr)
 media <- np$mean(arr)
 print(paste("Média:", media))
 ```
+
+### [Exemplo 3]{.underline}: Criando um Gráfico com Matplotlib
+
+Vamos criar um gráfico simples usando **`matplotlib`**:
+
+```{r warning=FALSE, message=FALSE}
+plt <- import("matplotlib.pyplot")
+
+# Dados
+
+x <- c(1, 2, 3, 4, 5)
+y <- c(2, 3, 5, 7, 11)
+
+# Criando o gráfico
+
+plt$plot(x, y)
+plt$xlabel("Eixo X")
+plt$ylabel("Eixo Y")
+plt$title("Gráfico Gerado no Python via R")
+plt$show()
+```
