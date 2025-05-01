@@ -38,3 +38,21 @@ z = x + y
 print(z)
 ")
 ```
+
+### [Exemplo 2]{.underline}: Usando Pacotes Python no R
+
+Você pode importar bibliotecas Python como se fossem pacotes do R, mas ao invés de usar a função `library` do R, você usa a função `import`. Por exemplo, vamos usar a biblioteca **`numpy`**:
+
+```{r warning=FALSE, message=FALSE}
+np <- import("numpy")
+
+# Criando um array numpy
+
+arr <- np$array(c(1, 2, 3, 4, 5))
+print(arr)
+
+# Calculando a média com numpy
+
+media <- np$mean(arr)
+print(paste("Média:", media))
+```
