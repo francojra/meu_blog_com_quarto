@@ -20,12 +20,21 @@ O R apresenta diversas vantagens e é eficiente para análises estatísticas e v
 O primeiro passo é instalar o pacote reticulate no R usando o seguinte código na IDE do RStudio e em um arquivo da linguagem R:
 
 ```{r warning=FALSE, message=FALSE}
-install.packages("reticulate")
+#install.packages("reticulate")
 library(reticulate)
 ```
 
-Você também pode instalar o Python diretamente pelo R:
+### [Exemplo 1]{.underline}: Executando Código Python no R
+
+Usando `py_run_string()`:
 
 ```{r warning=FALSE, message=FALSE}
-py_install("python")  # Instala a versão mais recente do Python
+# Executando um script Python simples
+
+py_run_string("
+x = 10
+y = 20
+z = x + y
+print(z)
+")
 ```
