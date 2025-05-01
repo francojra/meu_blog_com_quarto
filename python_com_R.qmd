@@ -1,0 +1,10 @@
+---
+title: "Integrando Python ao R"
+author: "Jeanne Franco"
+format: html 
+# format: pdf
+date: 04/30/25
+categories: [Python, R, RStudio]
+lang: pt
+toc: true
+---
