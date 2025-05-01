@@ -57,7 +57,7 @@ media <- np$mean(arr)
 print(paste("Média:", media))
 ```
 
-### [Exemplo 3]{.underline}: Criando um Gráfico com Matplotlib
+### [Exemplo 3]{.underline}: Criando Gráficos com Matplotlib
 
 Vamos criar um gráfico simples usando **`matplotlib`**:
 
@@ -77,3 +77,79 @@ plt$ylabel("Eixo Y")
 plt$title("Gráfico Gerado no Python via R")
 plt$show()
 ```
+
+### [Exemplo 4]{.underline}: Unindo dois gráficos em uma mesma janela
+
+```{r}
+# Gráfico 1
+
+# Dados
+
+x <- c(1, 2, 3, 4, 5)
+y <- c(2, 3, 5, 7, 11)
+
+# Criando o gráfico
+
+plt$plot(x, y)
+plt$xlabel("Eixo X")
+plt$ylabel("Eixo Y")
+plt$title("Gráfico Gerado no Python via R")
+plt$show()
+
+# Limpa a figura atual antes do próximo gráfico
+plt$clf()  # Clear figure
+
+# Gráfico 2
+
+tempo_meses <- c("Fevereiro", "Abril", "Junho", "Agosto", "Outubro")
+cresc_planta_cm <- c(3, 5, 7.4, 9.3, 12)
+
+# Criando o gráfico
+
+plt$bar(tempo_meses, cresc_planta_cm)
+plt$xlabel("Tempo (meses)")
+plt$ylabel("Crescimento de uma planta (cm)")
+plt$show()
+
+# Mostrando todas as figuras em uma mesma janela
+
+plt$subplot(1, 2, 1) # 1 linha, duas colunas, grafico 1
+plt$plot(x, y)
+plt$xlabel("Eixo X")
+plt$ylabel("Eixo Y")
+
+plt$subplot(1, 2, 2) # 1 linha, duas colunas, grafico 2
+plt$bar(tempo_meses, cresc_planta_cm)
+plt$xlabel("Tempo (meses)")
+plt$ylabel("Crescimento de uma planta (cm)")
+
+plt$show()  # Mostra os dois gráficos lado a lado
+```
+
+### [Exemplo 5]{.underline}: Usando Pandas para Manipulação de Dados
+
+```{r warning=FALSE, message=FALSE}
+pd <- import("pandas")
+
+# Criando um DataFrame do Python a partir de um data.frame do R
+
+df_r <- data.frame(
+  nome = c("Alice", "Bob", "Carlos"),
+  idade = c(25, 30, 35)
+)
+
+df_python <- pd$DataFrame(df_r)
+print(df_python)
+```
+
+### Conclusão
+
+Integrar Python no R abre um mundo de possibilidades, permitindo que você use bibliotecas como **`numpy`**, **`pandas`**, **`matplotlib`**, **`scikit-learn`** e muitas outras diretamente do R. Experimente esses exemplos e explore ainda mais!\
+
+
+
+
+
+
+
+
