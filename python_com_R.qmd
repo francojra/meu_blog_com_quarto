@@ -15,3 +15,17 @@ toc: true
 
 O R apresenta diversas vantagens e é eficiente para análises estatísticas e visualização de dados. Em contrapartida, o Python é poderoso para programação geral e machine learning. Mas sabia que é possível usar os dois juntos no mesmo projeto? Nesta postagem, vamos explorar como integrar Python no R usando o pacote reticulate.
 
+### Instalando e Configurando o reticulate
+
+O primeiro passo é instalar o pacote reticulate no R usando o seguinte código na IDE do RStudio e em um arquivo da linguagem R:
+
+```{r warning=FALSE, message=FALSE}
+install.packages("reticulate")
+library(reticulate)
+```
+
+Você também pode instalar o Python diretamente pelo R:
+
+```{r warning=FALSE, message=FALSE}
+py_install("python")  # Instala a versão mais recente do Python
+```
