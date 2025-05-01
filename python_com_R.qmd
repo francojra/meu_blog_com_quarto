@@ -8,3 +8,10 @@ categories: [Python, R, RStudio]
 lang: pt
 toc: true
 ---
+
+# Como Utilizar o Python no R?
+
+### Introdução
+
+O R apresenta diversas vantagens e é eficiente para análises estatísticas e visualização de dados. Em contrapartida, o Python é poderoso para programação geral e machine learning. Mas sabia que é possível usar os dois juntos no mesmo projeto? Nesta postagem, vamos explorar como integrar Python no R usando o pacote reticulate.
+
