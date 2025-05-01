@@ -5,6 +5,7 @@ format: html
 # format: pdf
 date: 04/30/25
 categories: [Python, R, RStudio]
+image: Graficos-em-python-1.png
 lang: pt
 toc: true
 ---
