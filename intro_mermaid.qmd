@@ -4,7 +4,7 @@ author: "Jeanne Franco"
 format: html
 date: 04/17/2023
 categories: [Códigos, Mermaid]
-image: icon-logo.svg
+image: logo_merm.png
 lang: pt
 toc: true
 ---
