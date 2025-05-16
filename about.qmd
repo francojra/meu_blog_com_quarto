@@ -38,4 +38,4 @@ Minhas principais experiências acadêmicas, profissionais e voluntárias inclue
 
 - Análises de dados geográficos com QGis, Google Earth Engine e Terra Amazon.
 
-[^1]: R-Ladies é uma organização global sem fins lucrativos cuja missão é promover a diversidade de gênero e ministrar cursos sobre a linguagem de programação R.
+[^1]: R-Ladies é uma organização mundial sem fins lucrativos cuja missão é promover a diversidade de gênero através de cursos presenciais e online sobre a linguagem de programação R.
