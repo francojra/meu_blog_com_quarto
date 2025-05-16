@@ -24,18 +24,18 @@ Oi! Me chamo Jeanne Franco. Durante minha graduação e pós-graduação na áre
 
 Minhas principais experiências acadêmicas, profissionais e voluntárias incluem:
 
-- Programação em R: análises de dados com o tidyverse, produção de relatórios e dashboards com R Markdown, produção de sites e blogs com o sistema Quarto, linguagens de marcação HTML e CSS, produção de aplicativos com o pacote Shiny, storytelling e produção de tabelas flexíveis e elegantes com o pacote gtsummary.
+\- Programação em R: análises de dados com o tidyverse, produção de relatórios e dashboards com R Markdown, produção de sites e blogs com o sistema Quarto, linguagens de marcação HTML e CSS, produção de aplicativos com o pacote Shiny, storytelling e produção de tabelas flexíveis e elegantes com o pacote gtsummary.
 
-- Conhecimentos em análise de dados: importação, extração, transformação e visualização de dados (gráficos de barras, histogramas, boxplot, dispersão, linhas, mapas, nuvem de palavras e gráficos de análises multivariadas).
+\- Conhecimentos em análise de dados: importação, extração, transformação e visualização de dados (gráficos de barras, histogramas, boxplot, dispersão, linhas, mapas, nuvem de palavras e gráficos de análises multivariadas).
 
-- Conhecimentos em estatística: estatística descritiva (cálculos de média, mediana, variância, desvio padrão e erro padrão), modelos lineares generalizados (GLM, GLMM, GAM, GAMM), modelagem de equações estruturais, regressão linear simples e múltipla, análises de variância e análises multivariadas (NMDS, RDA, PCA, CCA).
+\- Conhecimentos em estatística: estatística descritiva (cálculos de média, mediana, variância, desvio padrão e erro padrão), modelos lineares generalizados (GLM, GLMM, GAM, GAMM), modelagem de equações estruturais, regressão linear simples e múltipla, análises de variância e análises multivariadas (NMDS, RDA, PCA, CCA).
 
-- Conhecimentos básicos em Machine Learning, Python, SQL, Excel e Power BI.
+\- Conhecimentos básicos em Machine Learning, Python, SQL, Excel e Power BI.
 
-- Consultorias, palestras e cursos online sobre visualização de dados em R.
+\- Consultorias, palestras e cursos online sobre visualização de dados em R.
 
-- Pesquisas acadêmicas na área de ecologia da restauração, botânica e ecologia de plantas.
+\- Pesquisas acadêmicas na área de ecologia da restauração, botânica e ecologia de plantas.
 
-- Análises de dados geográficos com QGis, Google Earth Engine e Terra Amazon.
+\- Análises de dados geográficos com QGis, Google Earth Engine e Terra Amazon.
 
 [^1]: R-Ladies é uma organização mundial sem fins lucrativos cuja missão é promover a diversidade de gênero através de cursos presenciais e online sobre a linguagem de programação R.
